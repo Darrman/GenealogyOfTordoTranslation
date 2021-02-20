@@ -10,6 +10,10 @@
 *.smc
 Atlasv1.11/src/
 ROM
+abcde
+cpan
+docs
+eg
 #C default stuff considering the normal patch uses C
 # Prerequisites
 *.d
@@ -65,3 +69,4 @@ Mkfile.old
 dkms.conf
 # Random nonsense
 *.bak
+abcde.pl

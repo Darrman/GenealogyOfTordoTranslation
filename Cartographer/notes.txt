@@ -1,0 +1,14 @@
+Because Tordo's addresses don't equal Binary's which probably don't equal vanilla's.
+All offsets headered.
+
+0x38CB3: Class name pointers
+0x38D43: "Command Knight" (cavalier) name
+
+0x39C59: Character name pointers
+0x3A191: Tiltyu's name.
+
+0x3DE12: Item name pointers
+0x3DF26: Iron Sword name
+
+0x9a9dd: great shield desc
+pointer location hasn't changed (9adff), but dumper melts at the dummy 00 pointers. better change them to 00 00 80 or something to hit something valid.

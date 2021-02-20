@@ -1,0 +1,75 @@
+//GAME NAME:		Fire Emblem: Genealogy of Tordo
+
+//BLOCK #020 NAME:		Chapter Names
+
+//POINTER #0 @ $D9DF6 - STRING #0 @ $D9E0E
+
+#W16($D9DF6)
+<$0A>-<$5C>K<$0D>!<$0B>H[X]
+
+
+//POINTER #1 @ $D9DF8 - STRING #1 @ $D9E17
+
+#W16($D9DF8)
+<$0B><$D5><$0D>m<$09>(<$0C>'<$09>(<$0B><$E7><$0A><$7F>[X]
+
+
+//POINTER #2 @ $D9DFA - STRING #2 @ $D9E26
+
+#W16($D9DFA)
+<$09><$84><$8C><$8F><$A1><$A8>(<$0B>3W<$00>[X]
+
+
+//POINTER #3 @ $D9DFC - STRING #3 @ $D9E32
+
+#W16($D9DFC)
+<$0A>-<$0B><$60><$09>(<$9E><$87><$8E><$AC><$9B><$C5>[X]
+
+
+//POINTER #4 @ $D9DFE - STRING #4 @ $D9E3F
+
+#W16($D9DFE)
+<$0D><$7F><$0B><$87>W<$0D>i<$09>[X]
+
+
+//POINTER #5 @ $D9E00 - STRING #5 @ $D9E48
+
+#W16($D9E00)
+<$0A>N<$0B>A<$09>(<$0C><$EE>[X]
+
+
+//POINTER #6 @ $D9E02 - STRING #6 @ $D9E51
+
+#W16($D9E02)
+<$0D><$D8><$0A> <$0B><$18><$0D><$DB>[X]
+
+
+//POINTER #7 @ $D9E04 - STRING #7 @ $D9E5A
+
+#W16($D9E04)
+<$0B><$DE><$DF><$09><$3C><$19><$13><$22>[X]
+
+
+//POINTER #8 @ $D9E06 - STRING #8 @ $D9E63
+
+#W16($D9E06)
+<$0B>y<$0C>Y<$09>(<$9B><$94><$88>[X]
+
+
+//POINTER #9 @ $D9E08 - STRING #9 @ $D9E6D
+
+#W16($D9E08)
+<$09>498<$0C>p<$09><$11>[X]
+
+
+//POINTER #10 @ $D9E0A - STRING #10 @ $D9E76
+
+#W16($D9E0A)
+<$09>a<$8C><$9B><$86>(<$0D><$DF>[X]
+
+
+//POINTER #11 @ $D9E0C - STRING #11 @ $D9E7F
+
+#W16($D9E0C)
+<$0A><$B5><$BC><$09>(<$0A>-d[X]
+
