@@ -1,3 +1,3 @@
-cartographer Tordo.sfc fe4_commands.txt fe4_script -m
+cartographer Tordo.sfc fe4_commands.txt CartographerDump/fe4_script -s
 
 pause

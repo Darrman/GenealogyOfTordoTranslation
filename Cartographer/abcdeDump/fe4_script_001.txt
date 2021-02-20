@@ -1,0 +1,121 @@
+//GAME NAME:		Fire Emblem: Genealogy of Tordo
+
+// Define required TABLE variables and load the corresponding tables
+#VAR(Table_0, TABLE)
+#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/dialogue.tbl", Table_0)
+#VAR(Table_1, TABLE)
+#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/menutext.tbl", Table_1)
+
+//BLOCK #001 NAME:		Skill Menu Names
+#ACTIVETBL(Table_1) // Activate this block's starting TABLE
+
+#JMP($D862, $DA17) // Jump to insertion point
+#HDR($200) // Difference between ROM and RAM addresses for pointer value calculations
+
+//POINTER #0 @ $D729 - STRING #0 @ $D862
+#W16($D729)
+//オラクル   せんとう[X]
+//
+// current address: $D87A
+
+//POINTER #1 @ $D73A - STRING #1 @ $D87A
+#W16($D73A)
+//いかり    せんとう[X]
+//
+// current address: $D892
+
+//POINTER #2 @ $D74B - STRING #2 @ $D892
+#W16($D74B)
+//ついげき   せんとう[X]
+//
+// current address: $D8AA
+
+//POINTER #3 @ $D75C - STRING #3 @ $D8AA
+#W16($D75C)
+//れんぞく   せんとう[X]
+//
+// current address: $D8C2
+
+//POINTER #4 @ $D76D - STRING #4 @ $D8C2
+#W16($D76D)
+//ぬすむ    せんとう[X]
+//
+// current address: $D8DA
+
+//POINTER #5 @ $D77E - STRING #5 @ $D8DA
+#W16($D77E)
+//おどる    いっぱん[X]
+//
+// current address: $D8F2
+
+//POINTER #6 @ $D78F - STRING #6 @ $D8F2
+#W16($D78F)
+//カリスマ   いっぱん[X]
+//
+// current address: $D90A
+
+//POINTER #7 @ $D7A0 - STRING #7 @ $D90A
+#W16($D7A0)
+//みきり    せんとう[X]
+//
+// current address: $D922
+
+//POINTER #8 @ $D7B1 - STRING #8 @ $D922
+#W16($D7B1)
+//いのり    いっぱん[X]
+//
+// current address: $D93A
+
+//POINTER #9 @ $D7C2 - STRING #9 @ $D93A
+#W16($D7C2)
+//ひっさつ   せんとう[X]
+//
+// current address: $D952
+
+//POINTER #10 @ $D7D3 - STRING #10 @ $D952
+#W16($D7D3)
+//まちぶせ   せんとう[X]
+//
+// current address: $D96A
+
+//POINTER #11 @ $D7E4 - STRING #11 @ $D96A
+#W16($D7E4)
+//とつげき   せんとう[X]
+//
+// current address: $D982
+
+//POINTER #12 @ $D7F5 - STRING #12 @ $D982
+#W16($D7F5)
+//りゅうせい剣 とくしゅ剣[X]
+//
+// current address: $D99C
+
+//POINTER #13 @ $D806 - STRING #13 @ $D99C
+#W16($D806)
+//げっこう剣  とくしゅ剣[X]
+//
+// current address: $D9B6
+
+//POINTER #14 @ $D817 - STRING #14 @ $D9B6
+#W16($D817)
+//たいよう剣  とくしゅ剣[X]
+//
+// current address: $D9D0
+
+//POINTER #15 @ $D828 - STRING #15 @ $D9D0
+#W16($D828)
+//ライブ    いっぱん[X]
+//
+// current address: $D9E8
+
+//POINTER #16 @ $D839 - STRING #16 @ $D9E8
+#W16($D839)
+//エリート   いっぱん[X]
+//
+// current address: $DA00
+
+//POINTER #17 @ $D84A - STRING #17 @ $DA00
+#W16($D84A)
+//ねぎり    いっぱん[X]
+//
+// current address: $DA18

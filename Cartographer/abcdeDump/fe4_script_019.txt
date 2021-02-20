@@ -1,0 +1,90 @@
+//GAME NAME:		Fire Emblem: Genealogy of Tordo
+
+// Define required TABLE variables and load the corresponding tables
+#VAR(Table_0, TABLE)
+#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/dialogue.tbl", Table_0)
+#VAR(Table_1, TABLE)
+#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/menutext.tbl", Table_1)
+
+//BLOCK #019 NAME:		Main Menu
+#ACTIVETBL(Table_0) // Activate this block's starting TABLE
+
+#JMP($D9D7B, $D9DF5) // Jump to insertion point
+#HDR($D0200) // Difference between ROM and RAM addresses for pointer value calculations
+
+//POINTER #0 @ $D9D65 - STRING #0 @ $D9D7B
+#W16($D9D65)
+//<$0A><$AC><$0B><$7E><$09><$15>6<$0A><$BB><$09>18<$C5>[X]
+//
+//
+// current address: $D9D89
+
+//POINTER #1 @ $D9D67 - STRING #1 @ $D9D7B
+#W16($D9D67)
+//<$0A><$AC><$0B><$7E><$09><$15>6<$0A><$BB><$09>18<$C5>[X]
+//
+//
+// current address: $D9D89
+
+//POINTER #2 @ $D9D69 - STRING #2 @ $D9D89
+#W16($D9D69)
+//<$09><$C5><$0B><$7F><$80><$09><$3C><$1C>8<$C5><$C5>[X]
+//
+//
+// current address: $D9D95
+
+//POINTER #3 @ $D9D6B - STRING #3 @ $D9D95
+#W16($D9D6B)
+//<$0B><$7F><$80><$09><$15>6<$0A><$BB><$09>18<$C5>[X]
+//
+//
+// current address: $D9DA2
+
+//POINTER #4 @ $D9D6D - STRING #4 @ $D9DA2
+#W16($D9D6D)
+//<$0A><$B5><$0B><$81><$09><$15>6<$0A><$BB><$09>18<$C5>[X]
+//
+//
+// current address: $D9DB0
+
+//POINTER #5 @ $D9D6F - STRING #5 @ $D9DB0
+#W16($D9D6F)
+//<$0B><$7F><$80><$09><$3C><$0B><$82><$09><$1C><$C5><$C5><$C5>[X]
+//
+//
+// current address: $D9DBD
+
+//POINTER #6 @ $D9D71 - STRING #6 @ $D9DBD
+#W16($D9D71)
+//<$0B><$7F><$80><$09><$3C><$0B><$83><$09><$1C><$C5><$C5><$C5>[X]
+//
+//
+// current address: $D9DCA
+
+//POINTER #7 @ $D9D73 - STRING #7 @ $D9DCA
+#W16($D9D73)
+//<$0C>i7<$09><$C5><$C5>[X]
+//
+//
+// current address: $D9DD1
+
+//POINTER #8 @ $D9D75 - STRING #8 @ $D9DD1
+#W16($D9D75)
+//<$0B><$83><$09><$1C><$C5><$C5>[X]
+//
+//
+// current address: $D9DD8
+
+//POINTER #9 @ $D9D77 - STRING #9 @ $D9DD8
+#W16($D9D77)
+//<$09>318<$C5>[X]
+//
+//
+// current address: $D9DDE
+
+//POINTER #10 @ $D9D79 - STRING #10 @ $D9DDE
+#W16($D9D79)
+//<$09><$C5><$C5><$C5><$C5><$C5><$0B><$7F><$80><$09><$3E><$10>7.<$1D><$3D><$C5><$C5><$C5><$C5><$C5><$C5><$C5>[X]
+//
+//
+// current address: $D9DF6

@@ -1,0 +1,445 @@
+//GAME NAME:		Fire Emblem: Genealogy of Tordo
+
+// Define required TABLE variables and load the corresponding tables
+#VAR(Table_0, TABLE)
+#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/dialogue.tbl", Table_0)
+#VAR(Table_1, TABLE)
+#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/menutext.tbl", Table_1)
+
+//BLOCK #005 NAME:		Class Names
+#ACTIVETBL(Table_1) // Activate this block's starting TABLE
+
+#JMP($38D43, $39134) // Jump to insertion point
+#HDR($38CB3) // Difference between ROM and RAM addresses for pointer value calculations
+
+//POINTER #0 @ $38CB3 - STRING #0 @ $38D43
+#W16($38CB3)
+//コマンドナイト[X]
+//
+// current address: $38D53
+
+//POINTER #1 @ $38CB5 - STRING #1 @ $38D53
+#W16($38CB5)
+//ランスナイト[X]
+//
+// current address: $38D61
+
+//POINTER #2 @ $38CB7 - STRING #2 @ $38DD3
+#W16($38CB7)
+//ボウナイト[X]
+//
+// current address: $38DDF
+
+//POINTER #3 @ $38CB9 - STRING #3 @ $38D6F
+#W16($38CB9)
+//アクスナイト[X]
+//
+// current address: $38D7D
+
+//POINTER #4 @ $38CBB - STRING #4 @ $38D7D
+#W16($38CBB)
+//ソードナイト[X]
+//
+// current address: $38D8B
+
+//POINTER #5 @ $38CBD - STRING #5 @ $38D8B
+#W16($38CBD)
+//トルバドール[X]
+//
+// current address: $38D99
+
+//POINTER #6 @ $38CBF - STRING #6 @ $38D99
+#W16($38CBF)
+//ロードナイト[X]
+//
+// current address: $38DA7
+
+//POINTER #7 @ $38CC1 - STRING #7 @ $38E65
+#W16($38CC1)
+//グローリーナイト[X]
+//
+// current address: $38E77
+
+//POINTER #8 @ $38CC3 - STRING #8 @ $38DB7
+#W16($38CC3)
+//マスターナイト[X]
+//
+// current address: $38DC7
+
+//POINTER #9 @ $38CC5 - STRING #9 @ $38DC7
+#W16($38CC5)
+//パラディン[X]
+//
+// current address: $38DD3
+
+//POINTER #10 @ $38CC7 - STRING #10 @ $38F1F
+#W16($38CC7)
+//ヴァルキュリア[X]
+//
+// current address: $38F2F
+
+//POINTER #11 @ $38CC9 - STRING #11 @ $38D61
+#W16($38CC9)
+//アローナイト[X]
+//
+// current address: $38D6F
+
+//POINTER #12 @ $38CCB - STRING #12 @ $38DDF
+#W16($38CCB)
+//フォレストナイト[X]
+//
+// current address: $38DF1
+
+//POINTER #13 @ $38CCD - STRING #13 @ $38DF1
+#W16($38CCD)
+//マージナイト[X]
+//
+// current address: $38DFF
+
+//POINTER #14 @ $38CCF - STRING #14 @ $38DFF
+#W16($38CCF)
+//グランドナイト[X]
+//
+// current address: $38E0F
+
+//POINTER #15 @ $38CD1 - STRING #15 @ $38E0F
+#W16($38CD1)
+//エンプレス[X]
+//
+// current address: $38E1B
+
+//POINTER #16 @ $38CD3 - STRING #16 @ $38E21
+#W16($38CD3)
+//ペガサスナイト[X]
+//
+// current address: $38E31
+
+//POINTER #17 @ $38CD5 - STRING #17 @ $38E31
+#W16($38CD5)
+//エンリルナイト[X]
+//
+// current address: $38E41
+
+//POINTER #18 @ $38CD7 - STRING #18 @ $38E55
+#W16($38CD7)
+//ウィザード[X]
+//
+// current address: $38E61
+
+//POINTER #19 @ $38CD9 - STRING #19 @ $38E43
+#W16($38CD9)
+//ドラゴンマスター[X]
+//
+// current address: $38E55
+
+//POINTER #20 @ $38CDB - STRING #20 @ $38DA7
+#W16($38CDB)
+//リンドブルム[X]
+//
+// current address: $38DB5
+
+//POINTER #21 @ $38CDD - STRING #21 @ $38E77
+#W16($38CDD)
+//ボウファイター[X]
+//
+// current address: $38E87
+
+//POINTER #22 @ $38CDF - STRING #22 @ $39011
+#W16($38CDF)
+//ブレイド[X]
+//
+// current address: $3901B
+
+//POINTER #23 @ $38CE1 - STRING #23 @ $38E99
+#W16($38CE1)
+//ソードマスター[X]
+//
+// current address: $38EA9
+
+//POINTER #24 @ $38CE3 - STRING #24 @ $38EA9
+#W16($38CE3)
+//サジタリー[X]
+//
+// current address: $38EB5
+
+//POINTER #25 @ $38CE5 - STRING #25 @ $38EB5
+#W16($38CE5)
+//バスタード[X]
+//
+// current address: $38EC1
+
+//POINTER #26 @ $38CE7 - STRING #26 @ $38EC3
+#W16($38CE7)
+//ジェネラル[X]
+//
+// current address: $38ECF
+
+//POINTER #27 @ $38CE9 - STRING #27 @ $38ECF
+#W16($38CE9)
+//アヴァロン[X]
+//
+// current address: $38EDB
+
+//POINTER #28 @ $38CEB - STRING #28 @ $3908B
+#W16($38CEB)
+//マーシャル[X]
+//
+// current address: $39097
+
+//POINTER #29 @ $38CED - STRING #29 @ $390CB
+#W16($38CED)
+//マーシナリー[X]
+//
+// current address: $390D9
+
+//POINTER #30 @ $38CEF - STRING #30 @ $38E0F
+#W16($38CEF)
+//エンプレス[X]
+//
+// current address: $38E1B
+
+//POINTER #31 @ $38CF1 - STRING #31 @ $39007
+#W16($38CF1)
+//ウィッチ[X]
+//
+// current address: $39011
+
+//POINTER #32 @ $38CF3 - STRING #32 @ $38F13
+#W16($38CF3)
+//シルメリー[X]
+//
+// current address: $38F1F
+
+//POINTER #33 @ $38CF5 - STRING #33 @ $3907F
+#W16($38CF5)
+//スナイパー[X]
+//
+// current address: $3908B
+
+//POINTER #34 @ $38CF7 - STRING #34 @ $38FBD
+#W16($38CF7)
+//ランスアーマー[X]
+//
+// current address: $38FCD
+
+//POINTER #35 @ $38CF9 - STRING #35 @ $38F3B
+#W16($38CF9)
+//アクスアーマー[X]
+//
+// current address: $38F4B
+
+//POINTER #36 @ $38CFB - STRING #36 @ $38F4B
+#W16($38CFB)
+//ボウアーマー[X]
+//
+// current address: $38F59
+
+//POINTER #37 @ $38CFD - STRING #37 @ $38F59
+#W16($38CFD)
+//ソードアーマー[X]
+//
+// current address: $38F69
+
+//POINTER #38 @ $38CFF - STRING #38 @ $38F69
+#W16($38CFF)
+//バーバリアン[X]
+//
+// current address: $38F77
+
+//POINTER #39 @ $38D01 - STRING #39 @ $38F77
+#W16($38D01)
+//アクスファイター[X]
+//
+// current address: $38F89
+
+//POINTER #40 @ $38D03 - STRING #40 @ $38F89
+#W16($38D03)
+//マウンテンシーフ[X]
+//
+// current address: $38F9B
+
+//POINTER #41 @ $38D05 - STRING #41 @ $38F9B
+#W16($38D05)
+//ウォーリア[X]
+//
+// current address: $38FA7
+
+//POINTER #42 @ $38D07 - STRING #42 @ $38FA7
+#W16($38D07)
+//ハンター[X]
+//
+// current address: $38FB1
+
+//POINTER #43 @ $38D09 - STRING #43 @ $38FB1
+#W16($38D09)
+//パイレーツ[X]
+//
+// current address: $38FBD
+
+//POINTER #44 @ $38D0B - STRING #44 @ $38F31
+#W16($38D0B)
+//ロード[X]
+//
+// current address: $38F39
+
+//POINTER #45 @ $38D0D - STRING #45 @ $38FCD
+#W16($38D0D)
+//アークマージ[X]
+//
+// current address: $38FDB
+
+//POINTER #46 @ $38D0F - STRING #46 @ $38F01
+#W16($38D0F)
+//ヴァンガード[X]
+//
+// current address: $38F0F
+
+//POINTER #47 @ $38D11 - STRING #47 @ $38FE9
+#W16($38D11)
+//アポステル[X]
+//
+// current address: $38FF5
+
+//POINTER #48 @ $38D13 - STRING #48 @ $38FF5
+#W16($38D13)
+//マージプリンセス[X]
+//
+// current address: $39007
+
+//POINTER #49 @ $38D15 - STRING #49 @ $38EDD
+#W16($38D15)
+//ロプトプリンセス[X]
+//
+// current address: $38EEF
+
+//POINTER #50 @ $38D17 - STRING #50 @ $38E87
+#W16($38D17)
+//ソードダンサー[X]
+//
+// current address: $38E97
+
+//POINTER #51 @ $38D19 - STRING #51 @ $3901B
+#W16($38D19)
+//プリースト[X]
+//
+// current address: $39027
+
+//POINTER #52 @ $38D1B - STRING #52 @ $39027
+#W16($38D1B)
+//マージ[X]
+//
+// current address: $3902F
+
+//POINTER #53 @ $38D1D - STRING #53 @ $3902F
+#W16($38D1D)
+//ファイアマージ[X]
+//
+// current address: $3903F
+
+//POINTER #54 @ $38D1F - STRING #54 @ $3903F
+#W16($38D1F)
+//レディマージ[X]
+//
+// current address: $3904D
+
+//POINTER #55 @ $38D21 - STRING #55 @ $3904F
+#W16($38D21)
+//ウインドマージ[X]
+//
+// current address: $3905F
+
+//POINTER #56 @ $38D23 - STRING #56 @ $3905F
+#W16($38D23)
+//セイント[X]
+//
+// current address: $39069
+
+//POINTER #57 @ $38D25 - STRING #57 @ $39069
+#W16($38D25)
+//レディナイト[X]
+//
+// current address: $39077
+
+//POINTER #58 @ $38D27 - STRING #58 @ $39077
+#W16($38D27)
+//セイジ[X]
+//
+// current address: $3907F
+
+//POINTER #59 @ $38D29 - STRING #59 @ $38E55
+#W16($38D29)
+//ウィザード[X]
+//
+// current address: $38E61
+
+//POINTER #60 @ $38D2B - STRING #60 @ $38EEF
+#W16($38D2B)
+//ライトマージ[X]
+//
+// current address: $38EFD
+
+//POINTER #61 @ $38D2D - STRING #61 @ $39097
+#W16($38D2D)
+//ダークマージ[X]
+//
+// current address: $390A5
+
+//POINTER #62 @ $38D2F - STRING #62 @ $390A5
+#W16($38D2F)
+//ダークビショップ[X]
+//
+// current address: $390B7
+
+//POINTER #63 @ $38D31 - STRING #63 @ $390B7
+#W16($38D31)
+//シーフ[X]
+//
+// current address: $390BF
+
+//POINTER #64 @ $38D33 - STRING #64 @ $390BF
+#W16($38D33)
+//エスピオン[X]
+//
+// current address: $390CB
+
+//POINTER #65 @ $38D35 - STRING #65 @ $390DD
+#W16($38D35)
+//シビリアン[X]
+//
+// current address: $390E9
+
+//POINTER #66 @ $38D37 - STRING #66 @ $390DD
+#W16($38D37)
+//シビリアン[X]
+//
+// current address: $390E9
+
+//POINTER #67 @ $38D39 - STRING #67 @ $390E9
+#W16($38D39)
+//マージロード[X]
+//
+// current address: $390F7
+
+//POINTER #68 @ $38D3B - STRING #68 @ $390F7
+#W16($38D3B)
+//グラスランナー[X]
+//
+// current address: $39107
+
+//POINTER #69 @ $38D3D - STRING #69 @ $39107
+#W16($38D3D)
+//テトラアーチ[X]
+//
+// current address: $39115
+
+//POINTER #70 @ $38D3F - STRING #70 @ $39115
+#W16($38D3F)
+//マスターアーチ[X]
+//
+// current address: $39125
+
+//POINTER #71 @ $38D41 - STRING #71 @ $39125
+#W16($38D41)
+//マージプリンス[X]
+//
+// current address: $39135

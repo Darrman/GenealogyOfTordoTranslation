@@ -1,0 +1,841 @@
+//GAME NAME:		Fire Emblem: Genealogy of Tordo
+
+// Define required TABLE variables and load the corresponding tables
+#VAR(Table_0, TABLE)
+#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/dialogue.tbl", Table_0)
+#VAR(Table_1, TABLE)
+#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/menutext.tbl", Table_1)
+
+//BLOCK #009 NAME:		Item Descriptions
+#ACTIVETBL(Table_1) // Activate this block's starting TABLE
+
+#JMP($3E5FC, $4011F) // Jump to insertion point
+#HDR($3E4E8) // Difference between ROM and RAM addresses for pointer value calculations
+
+//POINTER #0 @ $3E4E8 - STRING #0 @ $3E5FC
+#W16($3E4E8)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #1 @ $3E4EA - STRING #1 @ $3E5FC
+#W16($3E4EA)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #2 @ $3E4EC - STRING #2 @ $3E5FC
+#W16($3E4EC)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #3 @ $3E4EE - STRING #3 @ $3E834
+#W16($3E4EE)
+//ラケシスの剣[X]
+//
+// current address: $3E842
+
+//POINTER #4 @ $3E4F0 - STRING #4 @ $3E6C2
+#W16($3E4F0)
+//げっこう剣 [X]
+//
+// current address: $3E6D0
+
+//POINTER #5 @ $3E4F2 - STRING #5 @ $3E8FA
+#W16($3E4F2)
+//はじゃ[X]
+//
+// current address: $3E902
+
+//POINTER #6 @ $3E4F4 - STRING #6 @ $3E6E2
+#W16($3E4F4)
+//エリート[X]
+//
+// current address: $3E6EC
+
+//POINTER #7 @ $3E4F6 - STRING #7 @ $3E612
+#W16($3E4F6)
+//ゴールドをぬすむ[X]
+//
+// current address: $3E624
+
+//POINTER #8 @ $3E4F8 - STRING #8 @ $3E664
+#W16($3E4F8)
+//２回こうげき[X]
+//
+// current address: $3E672
+
+//POINTER #9 @ $3E4FA - STRING #9 @ $3E748
+#W16($3E4FA)
+//ナイト系に特効[X]
+//
+// current address: $3E758
+
+//POINTER #10 @ $3E4FC - STRING #10 @ $3E664
+#W16($3E4FC)
+//２回こうげき[X]
+//
+// current address: $3E672
+
+//POINTER #11 @ $3E4FE - STRING #11 @ $3E5FC
+#W16($3E4FE)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #12 @ $3E500 - STRING #12 @ $3E842
+#W16($3E500)
+//ラインハルトの剣[X]
+//
+// current address: $3E854
+
+//POINTER #13 @ $3E502 - STRING #13 @ $3E902
+#W16($3E502)
+//さまざまな特効[X]
+//
+// current address: $3E912
+
+//POINTER #14 @ $3E504 - STRING #14 @ $3E6D0
+#W16($3E504)
+//らいじんのつるぎ[X]
+//
+// current address: $3E6E2
+
+//POINTER #15 @ $3E506 - STRING #15 @ $3EB24
+#W16($3E506)
+//たいよう剣  [X]
+//
+// current address: $3EB34
+
+//POINTER #16 @ $3E508 - STRING #16 @ $3E6A0
+#W16($3E508)
+//ＨＰをすいとる[X]
+//
+// current address: $3E6B0
+
+//POINTER #17 @ $3E50A - STRING #17 @ $3E6EC
+#W16($3E50A)
+//いのり[X]
+//
+// current address: $3E6F4
+
+//POINTER #18 @ $3E50C - STRING #18 @ $3EAAE
+#W16($3E50C)
+//ついげき[X]
+//
+// current address: $3EAB8
+
+//POINTER #19 @ $3E50E - STRING #19 @ $3E708
+#W16($3E50E)
+//ライブ[X]
+//
+// current address: $3E710
+
+//POINTER #20 @ $3E510 - STRING #20 @ $3E6F6
+#W16($3E510)
+//せんりょくアップ[X]
+//
+// current address: $3E708
+
+//POINTER #21 @ $3E512 - STRING #21 @ $3E6F6
+#W16($3E512)
+//せんりょくアップ[X]
+//
+// current address: $3E708
+
+//POINTER #22 @ $3E514 - STRING #22 @ $3E6F6
+#W16($3E514)
+//せんりょくアップ[X]
+//
+// current address: $3E708
+
+//POINTER #23 @ $3E516 - STRING #23 @ $3E736
+#W16($3E516)
+//アーマー系に特効[X]
+//
+// current address: $3E748
+
+//POINTER #24 @ $3E518 - STRING #24 @ $3E758
+#W16($3E518)
+//ひこう系に特効[X]
+//
+// current address: $3E768
+
+//POINTER #25 @ $3E51A - STRING #25 @ $3EBBE
+#W16($3E51A)
+//せいれいのつるぎ[X]
+//
+// current address: $3EBD0
+
+//POINTER #26 @ $3E51C - STRING #26 @ $3E6F6
+#W16($3E51C)
+//せんりょくアップ[X]
+//
+// current address: $3E708
+
+//POINTER #27 @ $3E51E - STRING #27 @ $40072
+#W16($3E51E)
+//エスリンの剣[X]
+//
+// current address: $40080
+
+//POINTER #28 @ $3E520 - STRING #28 @ $3E5FC
+#W16($3E520)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #29 @ $3E522 - STRING #29 @ $3E5FC
+#W16($3E522)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #30 @ $3E524 - STRING #30 @ $3E5FC
+#W16($3E524)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #31 @ $3E526 - STRING #31 @ $3E5FC
+#W16($3E526)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #32 @ $3E528 - STRING #32 @ $3E748
+#W16($3E528)
+//ナイト系に特効[X]
+//
+// current address: $3E758
+
+//POINTER #33 @ $3E52A - STRING #33 @ $3E664
+#W16($3E52A)
+//２回こうげき[X]
+//
+// current address: $3E672
+
+//POINTER #34 @ $3E52C - STRING #34 @ $3E5FC
+#W16($3E52C)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #35 @ $3E52E - STRING #35 @ $3E6F6
+#W16($3E52E)
+//せんりょくアップ[X]
+//
+// current address: $3E708
+
+//POINTER #36 @ $3E530 - STRING #36 @ $3E6F6
+#W16($3E530)
+//せんりょくアップ[X]
+//
+// current address: $3E708
+
+//POINTER #37 @ $3E532 - STRING #37 @ $3E8FA
+#W16($3E532)
+//はじゃ[X]
+//
+// current address: $3E902
+
+//POINTER #38 @ $3E534 - STRING #38 @ $3E6F6
+#W16($3E534)
+//せんりょくアップ[X]
+//
+// current address: $3E708
+
+//POINTER #39 @ $3E536 - STRING #39 @ $400B0
+#W16($3E536)
+//ミーシャのやり[X]
+//
+// current address: $400C0
+
+//POINTER #40 @ $3E538 - STRING #40 @ $3E5FC
+#W16($3E538)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #41 @ $3E53A - STRING #41 @ $3E5FC
+#W16($3E53A)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #42 @ $3E53C - STRING #42 @ $3E5FC
+#W16($3E53C)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #43 @ $3E53E - STRING #43 @ $3E664
+#W16($3E53E)
+//２回こうげき[X]
+//
+// current address: $3E672
+
+//POINTER #44 @ $3E540 - STRING #44 @ $3E6F6
+#W16($3E540)
+//せんりょくアップ[X]
+//
+// current address: $3E708
+
+//POINTER #45 @ $3E542 - STRING #45 @ $3E5FC
+#W16($3E542)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #46 @ $3E544 - STRING #46 @ $3E5FC
+#W16($3E544)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #47 @ $3E546 - STRING #47 @ $3EA9C
+#W16($3E546)
+//ドズルのたて  [X]
+//
+// current address: $3EAAE
+
+//POINTER #48 @ $3E548 - STRING #48 @ $400D0
+#W16($3E548)
+//オードのせんぷ[X]
+//
+// current address: $400E0
+
+//POINTER #49 @ $3E54A - STRING #49 @ $3E758
+#W16($3E54A)
+//ひこう系に特効[X]
+//
+// current address: $3E768
+
+//POINTER #50 @ $3E54C - STRING #50 @ $3E758
+#W16($3E54C)
+//ひこう系に特効[X]
+//
+// current address: $3E768
+
+//POINTER #51 @ $3E54E - STRING #51 @ $3E758
+#W16($3E54E)
+//ひこう系に特効[X]
+//
+// current address: $3E768
+
+//POINTER #52 @ $3E550 - STRING #52 @ $3E664
+#W16($3E550)
+//２回こうげき[X]
+//
+// current address: $3E672
+
+//POINTER #53 @ $3E552 - STRING #53 @ $3E758
+#W16($3E552)
+//ひこう系に特効[X]
+//
+// current address: $3E768
+
+//POINTER #54 @ $3E554 - STRING #54 @ $3E6F6
+#W16($3E554)
+//せんりょくアップ[X]
+//
+// current address: $3E708
+
+//POINTER #55 @ $3E556 - STRING #55 @ $3E6C2
+#W16($3E556)
+//げっこう剣 [X]
+//
+// current address: $3E6D0
+
+//POINTER #56 @ $3E558 - STRING #56 @ $3E8FA
+#W16($3E558)
+//はじゃ[X]
+//
+// current address: $3E902
+
+//POINTER #57 @ $3E55A - STRING #57 @ $40090
+#W16($3E55A)
+//アルテミスのゆみ[X]
+//
+// current address: $400A2
+
+//POINTER #58 @ $3E55C - STRING #58 @ $3E758
+#W16($3E55C)
+//ひこう系に特効[X]
+//
+// current address: $3E768
+
+//POINTER #59 @ $3E55E - STRING #59 @ $3E758
+#W16($3E55E)
+//ひこう系に特効[X]
+//
+// current address: $3E768
+
+//POINTER #60 @ $3E560 - STRING #60 @ $3E758
+#W16($3E560)
+//ひこう系に特効[X]
+//
+// current address: $3E768
+
+//POINTER #61 @ $3E562 - STRING #61 @ $3E758
+#W16($3E562)
+//ひこう系に特効[X]
+//
+// current address: $3E768
+
+//POINTER #62 @ $3E564 - STRING #62 @ $3E5FC
+#W16($3E564)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #63 @ $3E566 - STRING #63 @ $3EB24
+#W16($3E566)
+//たいよう剣  [X]
+//
+// current address: $3EB34
+
+//POINTER #64 @ $3E568 - STRING #64 @ $3E5FC
+#W16($3E568)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #65 @ $3E56A - STRING #65 @ $3E724
+#W16($3E56A)
+//ロプトウスむこう[X]
+//
+// current address: $3E736
+
+//POINTER #66 @ $3E56C - STRING #66 @ $3E5FC
+#W16($3E56C)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #67 @ $3E56E - STRING #67 @ $3E5FC
+#W16($3E56E)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #68 @ $3E570 - STRING #68 @ $3E664
+#W16($3E570)
+//２回こうげき[X]
+//
+// current address: $3E672
+
+//POINTER #69 @ $3E572 - STRING #69 @ $3E5FC
+#W16($3E572)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #70 @ $3E574 - STRING #70 @ $3E6F6
+#W16($3E574)
+//せんりょくアップ[X]
+//
+// current address: $3E708
+
+//POINTER #71 @ $3E576 - STRING #71 @ $3E5FC
+#W16($3E576)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #72 @ $3E578 - STRING #72 @ $3E5FC
+#W16($3E578)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #73 @ $3E57A - STRING #73 @ $3E5FC
+#W16($3E57A)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #74 @ $3E57C - STRING #74 @ $3E664
+#W16($3E57C)
+//２回こうげき[X]
+//
+// current address: $3E672
+
+//POINTER #75 @ $3E57E - STRING #75 @ $3E6F6
+#W16($3E57E)
+//せんりょくアップ[X]
+//
+// current address: $3E708
+
+//POINTER #76 @ $3E580 - STRING #76 @ $3E5FC
+#W16($3E580)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #77 @ $3E582 - STRING #77 @ $3E664
+#W16($3E582)
+//２回こうげき[X]
+//
+// current address: $3E672
+
+//POINTER #78 @ $3E584 - STRING #78 @ $3E77A
+#W16($3E584)
+//ＨＰをすいとる[X]
+//
+// current address: $3E78A
+
+//POINTER #79 @ $3E586 - STRING #79 @ $3E768
+#W16($3E586)
+//ダーク系に特効 [X]
+//
+// current address: $3E77A
+
+//POINTER #80 @ $3E588 - STRING #80 @ $3E6F6
+#W16($3E588)
+//せんりょくアップ[X]
+//
+// current address: $3E708
+
+//POINTER #81 @ $3E58A - STRING #81 @ $3E5FC
+#W16($3E58A)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #82 @ $3E58C - STRING #82 @ $3E5FC
+#W16($3E58C)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #83 @ $3E58E - STRING #83 @ $3E712
+#W16($3E58E)
+//こうげきはんげん[X]
+//
+// current address: $3E724
+
+//POINTER #84 @ $3E590 - STRING #84 @ $3E712
+#W16($3E590)
+//こうげきはんげん[X]
+//
+// current address: $3E724
+
+//POINTER #85 @ $3E592 - STRING #85 @ $3E748
+#W16($3E592)
+//ナイト系に特効[X]
+//
+// current address: $3E758
+
+//POINTER #86 @ $3E594 - STRING #86 @ $3E736
+#W16($3E594)
+//アーマー系に特効[X]
+//
+// current address: $3E748
+
+//POINTER #87 @ $3E596 - STRING #87 @ $3E758
+#W16($3E596)
+//ひこう系に特効[X]
+//
+// current address: $3E768
+
+//POINTER #88 @ $3E598 - STRING #88 @ $3E78A
+#W16($3E598)
+//ＨＰを回ふくする[X]
+//
+// current address: $3E79C
+
+//POINTER #89 @ $3E59A - STRING #89 @ $3E79C
+#W16($3E59A)
+//ＨＰをおおく  回ふくする[X]
+//
+// current address: $3E7B8
+
+//POINTER #90 @ $3E59C - STRING #90 @ $3E7B8
+#W16($3E59C)
+//ＨＰをかんぜんに回ふくする[X]
+//
+// current address: $3E7D4
+
+//POINTER #91 @ $3E59E - STRING #91 @ $3E7D4
+#W16($3E59E)
+//１０マスないの みかたひとりに ライブをかける[X]
+//
+// current address: $3E804
+
+//POINTER #92 @ $3E5A0 - STRING #92 @ $3E804
+#W16($3E5A0)
+//１０マスないの みかたぜんいんにライブをかける[X]
+//
+// current address: $3E834
+
+//POINTER #93 @ $3E5A2 - STRING #93 @ $3E5FC
+#W16($3E5A2)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #94 @ $3E5A4 - STRING #94 @ $3E854
+#W16($3E5A4)
+//みかたひとりを じぐんのどれかの城にワープさせる[X]
+//
+// current address: $3E886
+
+//POINTER #95 @ $3E5A6 - STRING #95 @ $3E6F6
+#W16($3E5A6)
+//せんりょくアップ[X]
+//
+// current address: $3E708
+
+//POINTER #96 @ $3E5A8 - STRING #96 @ $3E5FC
+#W16($3E5A8)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #97 @ $3E5AA - STRING #97 @ $3E8B8
+#W16($3E5AA)
+//１０マスないの みかたひとりの じょうたいを  せいじょうにする[X]
+//
+// current address: $3E8FA
+
+//POINTER #98 @ $3E5AC - STRING #98 @ $3E712
+#W16($3E5AC)
+//こうげきはんげん[X]
+//
+// current address: $3E724
+
+//POINTER #99 @ $3E5AE - STRING #99 @ $3E93C
+#W16($3E5AE)
+//１０マスないの てきひとりの  まほうをすうターンつかえなくする[X]
+//
+// current address: $3E97E
+
+//POINTER #100 @ $3E5B0 - STRING #100 @ $3E97E
+#W16($3E5B0)
+//１０マスないの てきひとりを  すうターンうごけなくする[X]
+//
+// current address: $3E9B8
+
+//POINTER #101 @ $3E5B2 - STRING #101 @ $40050
+#W16($3E5B2)
+//さばきのいかずち[X]
+//
+// current address: $40062
+
+//POINTER #102 @ $3E5B4 - STRING #102 @ $40034
+#W16($3E5B4)
+//ブラギのひじゅつ[X]
+//
+// current address: $40046
+
+//POINTER #103 @ $3E5B6 - STRING #103 @ $3E5FC
+#W16($3E5B6)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #104 @ $3E5B8 - STRING #104 @ $3E6F6
+#W16($3E5B8)
+//せんりょくアップ[X]
+//
+// current address: $3E708
+
+//POINTER #105 @ $3E5BA - STRING #105 @ $3E5FC
+#W16($3E5BA)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #106 @ $3E5BC - STRING #106 @ $3EA0C
+#W16($3E5BC)
+//まいターンＨＰが回ふくする[X]
+//
+// current address: $3EA28
+
+//POINTER #107 @ $3E5BE - STRING #107 @ $400F0
+#W16($3E5BE)
+//わざ＋５    ＋エリート   ＋リターン  [X]
+//
+// current address: $40120
+
+//POINTER #108 @ $3E5C0 - STRING #108 @ $3E654
+#W16($3E5C0)
+//＋りゅうせい剣[X]
+//
+// current address: $3E664
+
+//POINTER #109 @ $3E5C2 - STRING #109 @ $3E886
+#W16($3E5C2)
+//マイラの    ちからがやどったゆびわ     [X]
+//
+// current address: $3E8B8
+
+//POINTER #110 @ $3E5C4 - STRING #110 @ $3EA8A
+#W16($3E5C4)
+//みきり＋オラクル[X]
+//
+// current address: $3EA9C
+
+//POINTER #111 @ $3E5C6 - STRING #111 @ $3E6C0
+#W16($3E5C6)
+//＋げっこう剣 [X]
+//
+// current address: $3E6D0
+
+//POINTER #112 @ $3E5C8 - STRING #112 @ $3EAD8
+#W16($3E5C8)
+//かいものやしゅうりのねだんがはんぶんになる[X]
+//
+// current address: $3EB04
+
+//POINTER #113 @ $3E5CA - STRING #113 @ $3EB04
+#W16($3E5CA)
+//せんとうごにさいいどうできる[X]
+//
+// current address: $3EB22
+
+//POINTER #114 @ $3E5CC - STRING #114 @ $3EB22
+#W16($3E5CC)
+//＋たいよう剣  [X]
+//
+// current address: $3EB34
+
+//POINTER #115 @ $3E5CE - STRING #115 @ $3EAB8
+#W16($3E5CE)
+//すばやさ＋５  ＋ついげき  [X]
+//
+// current address: $3EAD8
+
+//POINTER #116 @ $3E5D0 - STRING #116 @ $3EB42
+#W16($3E5D0)
+//まりょく＋３[X]
+//
+// current address: $3EB50
+
+//POINTER #117 @ $3E5D2 - STRING #117 @ $3EB50
+#W16($3E5D2)
+//ちから＋３[X]
+//
+// current address: $3EB5C
+
+//POINTER #118 @ $3E5D4 - STRING #118 @ $3EB5C
+#W16($3E5D4)
+//しゅびりょく＋３[X]
+//
+// current address: $3EB6E
+
+//POINTER #119 @ $3E5D6 - STRING #119 @ $3EB6E
+#W16($3E5D6)
+//まほうぼうぎょ ＋３[X]
+//
+// current address: $3EB84
+
+//POINTER #120 @ $3E5D8 - STRING #120 @ $3EB84
+#W16($3E5D8)
+//いどうりょく＋３[X]
+//
+// current address: $3EB96
+
+//POINTER #121 @ $3E5DA - STRING #121 @ $3EB96
+#W16($3E5DA)
+//わざ＋５[X]
+//
+// current address: $3EBA0
+
+//POINTER #122 @ $3E5DC - STRING #122 @ $3E6F6
+#W16($3E5DC)
+//せんりょくアップ[X]
+//
+// current address: $3E708
+
+//POINTER #123 @ $3E5DE - STRING #123 @ $3E6F6
+#W16($3E5DE)
+//せんりょくアップ[X]
+//
+// current address: $3E708
+
+//POINTER #124 @ $3E5E0 - STRING #124 @ $3E6F6
+#W16($3E5E0)
+//せんりょくアップ[X]
+//
+// current address: $3E708
+
+//POINTER #125 @ $3E5E2 - STRING #125 @ $3E5FC
+#W16($3E5E2)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #126 @ $3E5E4 - STRING #126 @ $3E5FC
+#W16($3E5E4)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #127 @ $3E5E6 - STRING #127 @ $3E5FC
+#W16($3E5E6)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #128 @ $3E5E8 - STRING #128 @ $3E5FC
+#W16($3E5E8)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #129 @ $3E5EA - STRING #129 @ $3E5FC
+#W16($3E5EA)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #130 @ $3E5EC - STRING #130 @ $3E5FC
+#W16($3E5EC)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #131 @ $3E5EE - STRING #131 @ $3E5FC
+#W16($3E5EE)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #132 @ $3E5F0 - STRING #132 @ $3E5FC
+#W16($3E5F0)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #133 @ $3E5F2 - STRING #133 @ $3E5FC
+#W16($3E5F2)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #134 @ $3E5F4 - STRING #134 @ $3E5FC
+#W16($3E5F4)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #135 @ $3E5F6 - STRING #135 @ $3E5FC
+#W16($3E5F6)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #136 @ $3E5F8 - STRING #136 @ $3E5FC
+#W16($3E5F8)
+// [X]
+//
+// current address: $3E600
+
+//POINTER #137 @ $3E5FA - STRING #137 @ $3EBA0
+#W16($3E5FA)
+//せいれいの   ブレスレット[X]
+//
+// current address: $3EBBE

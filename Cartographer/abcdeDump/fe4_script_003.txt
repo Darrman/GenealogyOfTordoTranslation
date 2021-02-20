@@ -1,0 +1,169 @@
+//GAME NAME:		Fire Emblem: Genealogy of Tordo
+
+// Define required TABLE variables and load the corresponding tables
+#VAR(Table_0, TABLE)
+#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/dialogue.tbl", Table_0)
+#VAR(Table_1, TABLE)
+#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/menutext.tbl", Table_1)
+
+//BLOCK #003 NAME:		Terrain Names
+#ACTIVETBL(Table_1) // Activate this block's starting TABLE
+
+#JMP($2DB00, $2DB01) // Jump to insertion point
+#HDR($2DB00) // Difference between ROM and RAM addresses for pointer value calculations
+
+//POINTER #0 @ $2DB00 - STRING #0 @ $2DB00
+#W16($2DB00)
+//[X]
+//
+// current address: $2DB02
+
+//POINTER #1 @ $2DB02 - STRING #1 @ $2DB00
+#W16($2DB02)
+//[X]
+//
+// current address: $2DB02
+
+//POINTER #2 @ $2DB04 - STRING #2 @ $2DB00
+#W16($2DB04)
+//[X]
+//
+// current address: $2DB02
+
+//POINTER #3 @ $2DB06 - STRING #3 @ $2DB00
+#W16($2DB06)
+//[X]
+//
+// current address: $2DB02
+
+//POINTER #4 @ $2DB08 - STRING #4 @ $2DB00
+#W16($2DB08)
+//[X]
+//
+// current address: $2DB02
+
+//POINTER #5 @ $2DB0A - STRING #5 @ $2DB00
+#W16($2DB0A)
+//[X]
+//
+// current address: $2DB02
+
+//POINTER #6 @ $2DB0C - STRING #6 @ $2DB00
+#W16($2DB0C)
+//[X]
+//
+// current address: $2DB02
+
+//POINTER #7 @ $2DB0E - STRING #7 @ $2DB00
+#W16($2DB0E)
+//[X]
+//
+// current address: $2DB02
+
+//POINTER #8 @ $2DB10 - STRING #8 @ $2DB00
+#W16($2DB10)
+//[X]
+//
+// current address: $2DB02
+
+//POINTER #9 @ $2DB12 - STRING #9 @ $2DB00
+#W16($2DB12)
+//[X]
+//
+// current address: $2DB02
+
+//POINTER #10 @ $2DB14 - STRING #10 @ $2DB00
+#W16($2DB14)
+//[X]
+//
+// current address: $2DB02
+
+//POINTER #11 @ $2DB16 - STRING #11 @ $2DB00
+#W16($2DB16)
+//[X]
+//
+// current address: $2DB02
+
+//POINTER #12 @ $2DB18 - STRING #12 @ $2DB00
+#W16($2DB18)
+//[X]
+//
+// current address: $2DB02
+
+//POINTER #13 @ $2DB1A - STRING #13 @ $2DB00
+#W16($2DB1A)
+//[X]
+//
+// current address: $2DB02
+
+//POINTER #14 @ $2DB1C - STRING #14 @ $2DB00
+#W16($2DB1C)
+//[X]
+//
+// current address: $2DB02
+
+//POINTER #15 @ $2DB1E - STRING #15 @ $2DB00
+#W16($2DB1E)
+//[X]
+//
+// current address: $2DB02
+
+//POINTER #16 @ $2DB20 - STRING #16 @ $2DB00
+#W16($2DB20)
+//[X]
+//
+// current address: $2DB02
+
+//POINTER #17 @ $2DB22 - STRING #17 @ $2DB00
+#W16($2DB22)
+//[X]
+//
+// current address: $2DB02
+
+//POINTER #18 @ $2DB24 - STRING #18 @ $2DB00
+#W16($2DB24)
+//[X]
+//
+// current address: $2DB02
+
+//POINTER #19 @ $2DB26 - STRING #19 @ $2DB00
+#W16($2DB26)
+//[X]
+//
+// current address: $2DB02
+
+//POINTER #20 @ $2DB28 - STRING #20 @ $2DB00
+#W16($2DB28)
+//[X]
+//
+// current address: $2DB02
+
+//POINTER #21 @ $2DB2A - STRING #21 @ $2DB00
+#W16($2DB2A)
+//[X]
+//
+// current address: $2DB02
+
+//POINTER #22 @ $2DB2C - STRING #22 @ $2DB00
+#W16($2DB2C)
+//[X]
+//
+// current address: $2DB02
+
+//POINTER #23 @ $2DB2E - STRING #23 @ $2DB00
+#W16($2DB2E)
+//[X]
+//
+// current address: $2DB02
+
+//POINTER #24 @ $2DB30 - STRING #24 @ $2DB00
+#W16($2DB30)
+//[X]
+//
+// current address: $2DB02
+
+//POINTER #25 @ $2DB32 - STRING #25 @ $2DB00
+#W16($2DB32)
+//[X]
+//
+// current address: $2DB02

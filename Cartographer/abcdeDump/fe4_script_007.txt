@@ -1,0 +1,343 @@
+//GAME NAME:		Fire Emblem: Genealogy of Tordo
+
+// Define required TABLE variables and load the corresponding tables
+#VAR(Table_0, TABLE)
+#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/dialogue.tbl", Table_0)
+#VAR(Table_1, TABLE)
+#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/menutext.tbl", Table_1)
+
+//BLOCK #007 NAME:		Army Names
+#ACTIVETBL(Table_1) // Activate this block's starting TABLE
+
+#JMP($3DB56, $3DE09) // Jump to insertion point
+#HDR($3DAE8) // Difference between ROM and RAM addresses for pointer value calculations
+
+//POINTER #0 @ $3DAE8 - STRING #0 @ $3DB56
+#W16($3DAE8)
+//マディノ<$8C><$52>[X]
+//
+// current address: $3DB62
+
+//POINTER #1 @ $3DAEA - STRING #1 @ $3DB62
+#W16($3DAEA)
+//シルベール<$8C><$52>[X]
+//
+// current address: $3DB70
+
+//POINTER #2 @ $3DAEC - STRING #2 @ $3DB70
+#W16($3DAEC)
+//アンフォニー<$8C><$52>[X]
+//
+// current address: $3DB80
+
+//POINTER #3 @ $3DAEE - STRING #3 @ $3DC02
+#W16($3DAEE)
+//ユングヴィ<$8C><$52>[X]
+//
+// current address: $3DC10
+
+//POINTER #4 @ $3DAF0 - STRING #4 @ $3DB8E
+#W16($3DAF0)
+//ハイライン<$8C><$52>[X]
+//
+// current address: $3DB9C
+
+//POINTER #5 @ $3DAF2 - STRING #5 @ $3DB9C
+#W16($3DAF2)
+//マッキリー<$8C><$52>[X]
+//
+// current address: $3DBAA
+
+//POINTER #6 @ $3DAF4 - STRING #6 @ $3DBAA
+#W16($3DAF4)
+//アルテミス<$8C><$52>[X]
+//
+// current address: $3DBB8
+
+//POINTER #7 @ $3DAF6 - STRING #7 @ $3DBD4
+#W16($3DAF6)
+//バーハラ<$8C><$52>[X]
+//
+// current address: $3DBE0
+
+//POINTER #8 @ $3DAF8 - STRING #8 @ $3DBEA
+#W16($3DAF8)
+//エッダ<$8C><$52>[X]
+//
+// current address: $3DBF4
+
+//POINTER #9 @ $3DAFA - STRING #9 @ $3DBB8
+#W16($3DAFA)
+//ヴェルトマー<$8C><$52>[X]
+//
+// current address: $3DBC8
+
+//POINTER #10 @ $3DAFC - STRING #10 @ $3DBE0
+#W16($3DAFC)
+//ドズル<$8C><$52>[X]
+//
+// current address: $3DBEA
+
+//POINTER #11 @ $3DAFE - STRING #11 @ $3DBEA
+#W16($3DAFE)
+//エッダ<$8C><$52>[X]
+//
+// current address: $3DBF4
+
+//POINTER #12 @ $3DB00 - STRING #12 @ $3DBF4
+#W16($3DB00)
+//シアルフィ<$8C><$52>[X]
+//
+// current address: $3DC02
+
+//POINTER #13 @ $3DB02 - STRING #13 @ $3DCCC
+#W16($3DB02)
+//イザーク<$8C><$52>[X]
+//
+// current address: $3DCD8
+
+//POINTER #14 @ $3DB04 - STRING #14 @ $3DC86
+#W16($3DB04)
+//シレジア<$8C><$52>[X]
+//
+// current address: $3DC92
+
+//POINTER #15 @ $3DB06 - STRING #15 @ $3DC1E
+#W16($3DB06)
+//コノート<$8C><$52>[X]
+//
+// current address: $3DC2A
+
+//POINTER #16 @ $3DB08 - STRING #16 @ $3DC2A
+#W16($3DB08)
+//マンスター<$8C><$52>[X]
+//
+// current address: $3DC38
+
+//POINTER #17 @ $3DB0A - STRING #17 @ $3DC38
+#W16($3DB0A)
+//メルゲン<$8C><$52>[X]
+//
+// current address: $3DC44
+
+//POINTER #18 @ $3DB0C - STRING #18 @ $3DC44
+#W16($3DB0C)
+//アルスター<$8C><$52>[X]
+//
+// current address: $3DC52
+
+//POINTER #19 @ $3DB0E - STRING #19 @ $3DC52
+#W16($3DB0E)
+//オーガヒル<$8C><$52>[X]
+//
+// current address: $3DC60
+
+//POINTER #20 @ $3DB10 - STRING #20 @ $3DC60
+#W16($3DB10)
+//トーヴェ<$8C><$52>[X]
+//
+// current address: $3DC6C
+
+//POINTER #21 @ $3DB12 - STRING #21 @ $3DC6C
+#W16($3DB12)
+//セイレーン<$8C><$52>[X]
+//
+// current address: $3DC7A
+
+//POINTER #22 @ $3DB14 - STRING #22 @ $3DC7A
+#W16($3DB14)
+//ザクソン<$8C><$52>[X]
+//
+// current address: $3DC86
+
+//POINTER #23 @ $3DB16 - STRING #23 @ $3DB80
+#W16($3DB16)
+//アグスティ<$8C><$52>[X]
+//
+// current address: $3DB8E
+
+//POINTER #24 @ $3DB18 - STRING #24 @ $3DC92
+#W16($3DB18)
+//リューベック<$8C><$52>[X]
+//
+// current address: $3DCA2
+
+//POINTER #25 @ $3DB1A - STRING #25 @ $3DCA2
+#W16($3DB1A)
+//ティルナノグ<$8C><$52>[X]
+//
+// current address: $3DCB2
+
+//POINTER #26 @ $3DB1C - STRING #26 @ $3DCB2
+#W16($3DB1C)
+//ガネーシャ<$8C><$52>[X]
+//
+// current address: $3DCC0
+
+//POINTER #27 @ $3DB1E - STRING #27 @ $3DCC0
+#W16($3DB1E)
+//ソファラ<$8C><$52>[X]
+//
+// current address: $3DCCC
+
+//POINTER #28 @ $3DB20 - STRING #28 @ $3DBF4
+#W16($3DB20)
+//シアルフィ<$8C><$52>[X]
+//
+// current address: $3DC02
+
+//POINTER #29 @ $3DB22 - STRING #29 @ $3DCD8
+#W16($3DB22)
+//リボー<$8C><$52>[X]
+//
+// current address: $3DCE2
+
+//POINTER #30 @ $3DB24 - STRING #30 @ $3DCE2
+#W16($3DB24)
+//フィノーラ<$8C><$52>[X]
+//
+// current address: $3DCF0
+
+//POINTER #31 @ $3DB26 - STRING #31 @ $3DCF0
+#W16($3DB26)
+//イード<$8C><$52>[X]
+//
+// current address: $3DCFA
+
+//POINTER #32 @ $3DB28 - STRING #32 @ $3DCFA
+#W16($3DB28)
+//ダーナ<$8C><$52>[X]
+//
+// current address: $3DD04
+
+//POINTER #33 @ $3DB2A - STRING #33 @ $3DD04
+#W16($3DB2A)
+//ヴェルダン<$8C><$52>[X]
+//
+// current address: $3DD12
+
+//POINTER #34 @ $3DB2C - STRING #34 @ $3DD12
+#W16($3DB2C)
+//エバンス<$8C><$52>[X]
+//
+// current address: $3DD1E
+
+//POINTER #35 @ $3DB2E - STRING #35 @ $3DD1E
+#W16($3DB2E)
+//ジェノア<$8C><$52>[X]
+//
+// current address: $3DD2A
+
+//POINTER #36 @ $3DB30 - STRING #36 @ $3DD2A
+#W16($3DB30)
+//マーファ<$8C><$52>[X]
+//
+// current address: $3DD36
+
+//POINTER #37 @ $3DB32 - STRING #37 @ $3DD36
+#W16($3DB32)
+//ミレトス<$8C><$52>[X]
+//
+// current address: $3DD42
+
+//POINTER #38 @ $3DB34 - STRING #38 @ $3DD42
+#W16($3DB34)
+//ティルテュ<$8C><$52>[X]
+//
+// current address: $3DD50
+
+//POINTER #39 @ $3DB36 - STRING #39 @ $3DD50
+#W16($3DB36)
+//クロノス<$8C><$52>[X]
+//
+// current address: $3DD5C
+
+//POINTER #40 @ $3DB38 - STRING #40 @ $3DD5C
+#W16($3DB38)
+//ラドス<$8C><$52>[X]
+//
+// current address: $3DD66
+
+//POINTER #41 @ $3DB3A - STRING #41 @ $3DD66
+#W16($3DB3A)
+//ミーズ<$8C><$52>[X]
+//
+// current address: $3DD70
+
+//POINTER #42 @ $3DB3C - STRING #42 @ $3DD70
+#W16($3DB3C)
+//カパトギア<$8C><$52>[X]
+//
+// current address: $3DD7E
+
+//POINTER #43 @ $3DB3E - STRING #43 @ $3DD7E
+#W16($3DB3E)
+//ルテキア<$8C><$52>[X]
+//
+// current address: $3DD8A
+
+//POINTER #44 @ $3DB40 - STRING #44 @ $3DDCC
+#W16($3DB40)
+//ドズル<$8C><$52>[X]
+//
+// current address: $3DDD6
+
+//POINTER #45 @ $3DB42 - STRING #45 @ $3DD96
+#W16($3DB42)
+//グルティア<$8C><$52>[X]
+//
+// current address: $3DDA4
+
+//POINTER #46 @ $3DB44 - STRING #46 @ $3DBD4
+#W16($3DB44)
+//バーハラ<$8C><$52>[X]
+//
+// current address: $3DBE0
+
+//POINTER #47 @ $3DB46 - STRING #47 @ $3DDD6
+#W16($3DB46)
+//エッダ<$8C><$52>[X]
+//
+// current address: $3DDE0
+
+//POINTER #48 @ $3DB48 - STRING #48 @ $3DBB8
+#W16($3DB48)
+//ヴェルトマー<$8C><$52>[X]
+//
+// current address: $3DBC8
+
+//POINTER #49 @ $3DB4A - STRING #49 @ $3DD8A
+#W16($3DB4A)
+//トラキア<$8C><$52>[X]
+//
+// current address: $3DD96
+
+//POINTER #50 @ $3DB4C - STRING #50 @ $3DC10
+#W16($3DB4C)
+//レンスター<$8C><$52>[X]
+//
+// current address: $3DC1E
+
+//POINTER #51 @ $3DB4E - STRING #51 @ $3DBD4
+#W16($3DB4E)
+//バーハラ<$8C><$52>[X]
+//
+// current address: $3DBE0
+
+//POINTER #52 @ $3DB50 - STRING #52 @ $3DCCC
+#W16($3DB50)
+//イザーク<$8C><$52>[X]
+//
+// current address: $3DCD8
+
+//POINTER #53 @ $3DB52 - STRING #53 @ $3DD42
+#W16($3DB52)
+//ティルテュ<$8C><$52>[X]
+//
+// current address: $3DD50
+
+//POINTER #54 @ $3DB54 - STRING #54 @ $3DDFC
+#W16($3DB54)
+//イシュタル<$8C><$52>[X]
+//
+// current address: $3DE0A

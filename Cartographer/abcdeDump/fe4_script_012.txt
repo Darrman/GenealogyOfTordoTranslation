@@ -1,0 +1,361 @@
+//GAME NAME:		Fire Emblem: Genealogy of Tordo
+
+// Define required TABLE variables and load the corresponding tables
+#VAR(Table_0, TABLE)
+#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/dialogue.tbl", Table_0)
+#VAR(Table_1, TABLE)
+#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/menutext.tbl", Table_1)
+
+//BLOCK #012 NAME:		Skill Descriptions
+#ACTIVETBL(Table_1) // Activate this block's starting TABLE
+
+#JMP($200, $9ADF2) // Jump to insertion point
+#HDR($-7FFE00) // Difference between ROM and RAM addresses for pointer value calculations
+
+//POINTER #0 @ $9ADFF - STRING #0 @ $9A9DD
+#W24($9ADFF)
+//ダメージを     むこうにする[X]
+//
+// current address: $9A9FF
+
+//POINTER #1 @ $9AE02 - STRING #1 @ $9A9FF
+#W24($9AE02)
+//ピンチになったとき いかりのこうげき[X]
+//
+// current address: $9AA25
+
+//POINTER #2 @ $9AE05 - STRING #2 @ $9AA25
+#W24($9AE05)
+//さいこうげきが   でやすくなる          [X]
+//
+// current address: $9AA5B
+
+//POINTER #3 @ $9AE08 - STRING #3 @ $9AA5B
+#W24($9AE08)
+//すばやさのかくりつでれんぞくこうげき[X]
+//
+// current address: $9AA81
+
+//POINTER #4 @ $9AE0B - STRING #4 @ $9AA81
+#W24($9AE0B)
+//こうげきがあたると あいてのゴールドを うばう[X]
+//
+// current address: $9AAB1
+
+//POINTER #5 @ $9AE0E - STRING #5 @ $200
+#W24($9AE0E)
+//<$E0><$0D>[X]
+//
+// current address: $204
+
+//POINTER #6 @ $9AE11 - STRING #6 @ $9AAB1
+#W24($9AE11)
+//りんせつした    ユニットを     いどうかのうにする[X]
+//
+// current address: $9AAED
+
+//POINTER #7 @ $9AE14 - STRING #7 @ $200
+#W24($9AE14)
+//<$E0><$0D>[X]
+//
+// current address: $204
+
+//POINTER #8 @ $9AE17 - STRING #8 @ $200
+#W24($9AE17)
+//<$E0><$0D>[X]
+//
+// current address: $204
+
+//POINTER #9 @ $9AE1A - STRING #9 @ $200
+#W24($9AE1A)
+//<$E0><$0D>[X]
+//
+// current address: $204
+
+//POINTER #10 @ $9AE1D - STRING #10 @ $9AAED
+#W24($9AE1D)
+//ちかくにいるみかたに１０<$81><$93>のしえんこうか[X]
+//
+// current address: $9AB17
+
+//POINTER #11 @ $9AE20 - STRING #11 @ $200
+#W24($9AE20)
+//<$E0><$0D>[X]
+//
+// current address: $204
+
+//POINTER #12 @ $9AE23 - STRING #12 @ $9AB17
+#W24($9AE23)
+//ひっさつこうげきなどをふうじる[X]
+//
+// current address: $9AB37
+
+//POINTER #13 @ $9AE26 - STRING #13 @ $9AB37
+#W24($9AE26)
+//ピンチになると   かいひりつがあがる[X]
+//
+// current address: $9AB5F
+
+//POINTER #14 @ $9AE29 - STRING #14 @ $9AB5F
+#W24($9AE29)
+//ひっさつのいちげきがでやすくなる    ダメージ３ばい[X]
+//
+// current address: $9AB97
+
+//POINTER #15 @ $9AE2C - STRING #15 @ $9AB97
+#W24($9AE2C)
+//かならず      せんせいこうげきする  [X]
+//
+// current address: $9ABC5
+
+//POINTER #16 @ $9AE2F - STRING #16 @ $9ABC5
+#W24($9AE2F)
+//みがるであれば   ときおり せんとうがけいぞくする[X]
+//
+// current address: $9ABFB
+
+//POINTER #17 @ $9AE32 - STRING #17 @ $9ABFB
+#W24($9AE32)
+//５かいれんぞくで  こうげきする[X]
+//
+// current address: $9AC1D
+
+//POINTER #18 @ $9AE35 - STRING #18 @ $9AC1D
+#W24($9AE35)
+//あいてのしゅびりょくをはんげん  [X]
+//
+// current address: $9AC41
+
+//POINTER #19 @ $9AE38 - STRING #19 @ $9AC41
+#W24($9AE38)
+//あたえたダメージだけＨＰがかいふくする[X]
+//
+// current address: $9AC69
+
+//POINTER #20 @ $9AE3B - STRING #20 @ $9ADB7
+#W24($9AE3B)
+//こうげきりょく   しゅびりょくがあがる[X]
+//
+// current address: $9ADE1
+
+//POINTER #21 @ $9AE3E - STRING #21 @ $9ADB7
+#W24($9AE3E)
+//こうげきりょく   しゅびりょくがあがる[X]
+//
+// current address: $9ADE1
+
+//POINTER #22 @ $9AE41 - STRING #22 @ $9AC69
+#W24($9AE41)
+//まいターン     ＨＰが５から１０  かいふくする[X]
+//
+// current address: $9AC9F
+
+//POINTER #23 @ $9AE44 - STRING #23 @ $9AC9F
+#W24($9AE44)
+//けいけんちを    ２ばいもらえる[X]
+//
+// current address: $9ACC3
+
+//POINTER #24 @ $9AE47 - STRING #24 @ $200
+#W24($9AE47)
+//<$E0><$0D>[X]
+//
+// current address: $204
+
+//POINTER #25 @ $9AE4A - STRING #25 @ $9A9C9
+#W24($9AE4A)
+//かんぜんかいふく [X]
+//
+// current address: $9A9DD
+
+//POINTER #26 @ $9AE4D - STRING #26 @ $9ACC3
+#W24($9AE4D)
+//かいものや     しゅうりが     はんがくでできる[X]
+//
+// current address: $9ACFD
+
+//POINTER #27 @ $9AE50 - STRING #27 @ $200
+#W24($9AE50)
+//<$E0><$0D>[X]
+//
+// current address: $204
+
+//POINTER #28 @ $9AE53 - STRING #28 @ $200
+#W24($9AE53)
+//<$E0><$0D>[X]
+//
+// current address: $204
+
+//POINTER #29 @ $9AE56 - STRING #29 @ $200
+#W24($9AE56)
+//<$E0><$0D>[X]
+//
+// current address: $204
+
+//POINTER #30 @ $9AE59 - STRING #30 @ $200
+#W24($9AE59)
+//<$E0><$0D>[X]
+//
+// current address: $204
+
+//POINTER #31 @ $9AE5C - STRING #31 @ $9ACFD
+#W24($9AE5C)
+//オラクル[X]
+//
+// current address: $9AD07
+
+//POINTER #32 @ $9AE5F - STRING #32 @ $9AD07
+#W24($9AE5F)
+//いかり[X]
+//
+// current address: $9AD0F
+
+//POINTER #33 @ $9AE62 - STRING #33 @ $9AD0F
+#W24($9AE62)
+//ついげき[X]
+//
+// current address: $9AD19
+
+//POINTER #34 @ $9AE65 - STRING #34 @ $9AD19
+#W24($9AE65)
+//れんぞく[X]
+//
+// current address: $9AD23
+
+//POINTER #35 @ $9AE68 - STRING #35 @ $9AD23
+#W24($9AE68)
+//ぬすむ[X]
+//
+// current address: $9AD2B
+
+//POINTER #36 @ $9AE6B - STRING #36 @ $200
+#W24($9AE6B)
+//<$E0><$0D>[X]
+//
+// current address: $204
+
+//POINTER #37 @ $9AE6E - STRING #37 @ $9AD2B
+#W24($9AE6E)
+//おどる[X]
+//
+// current address: $9AD33
+
+//POINTER #38 @ $9AE71 - STRING #38 @ $200
+#W24($9AE71)
+//<$E0><$0D>[X]
+//
+// current address: $204
+
+//POINTER #39 @ $9AE74 - STRING #39 @ $200
+#W24($9AE74)
+//<$E0><$0D>[X]
+//
+// current address: $204
+
+//POINTER #40 @ $9AE77 - STRING #40 @ $200
+#W24($9AE77)
+//<$E0><$0D>[X]
+//
+// current address: $204
+
+//POINTER #41 @ $9AE7A - STRING #41 @ $9AD33
+#W24($9AE7A)
+//カリスマ[X]
+//
+// current address: $9AD3D
+
+//POINTER #42 @ $9AE7D - STRING #42 @ $200
+#W24($9AE7D)
+//<$E0><$0D>[X]
+//
+// current address: $204
+
+//POINTER #43 @ $9AE80 - STRING #43 @ $9AD3D
+#W24($9AE80)
+//みきり[X]
+//
+// current address: $9AD45
+
+//POINTER #44 @ $9AE83 - STRING #44 @ $9AD45
+#W24($9AE83)
+//いのり[X]
+//
+// current address: $9AD4D
+
+//POINTER #45 @ $9AE86 - STRING #45 @ $9AD4D
+#W24($9AE86)
+//ひっさつ[X]
+//
+// current address: $9AD57
+
+//POINTER #46 @ $9AE89 - STRING #46 @ $9AD57
+#W24($9AE89)
+//まちぶせ[X]
+//
+// current address: $9AD61
+
+//POINTER #47 @ $9AE8C - STRING #47 @ $9AD61
+#W24($9AE8C)
+//とつげき[X]
+//
+// current address: $9AD6B
+
+//POINTER #48 @ $9AE8F - STRING #48 @ $9AD6B
+#W24($9AE8F)
+//りゅうせい剣[X]
+//
+// current address: $9AD79
+
+//POINTER #49 @ $9AE92 - STRING #49 @ $9AD79
+#W24($9AE92)
+//げっこう剣[X]
+//
+// current address: $9AD85
+
+//POINTER #50 @ $9AE95 - STRING #50 @ $9AD85
+#W24($9AE95)
+//たいよう剣[X]
+//
+// current address: $9AD91
+
+//POINTER #51 @ $9AE98 - STRING #51 @ $9ADA3
+#W24($9AE98)
+//カムイ  [X]
+//
+// current address: $9ADAF
+
+//POINTER #52 @ $9AE9B - STRING #52 @ $9ADE1
+#W24($9AE9B)
+//はじゃ[X]
+//
+// current address: $9ADE9
+
+//POINTER #53 @ $9AE9E - STRING #53 @ $9AD91
+#W24($9AE9E)
+//ライブ[X]
+//
+// current address: $9AD99
+
+//POINTER #54 @ $9AEA1 - STRING #54 @ $9AD99
+#W24($9AEA1)
+//エリート[X]
+//
+// current address: $9ADA3
+
+//POINTER #55 @ $9AEA4 - STRING #55 @ $200
+#W24($9AEA4)
+//<$E0><$0D>[X]
+//
+// current address: $204
+
+//POINTER #56 @ $9AEA7 - STRING #56 @ $9ADE9
+#W24($9AEA7)
+//リカバー[X]
+//
+// current address: $9ADF3
+
+//POINTER #57 @ $9AEAA - STRING #57 @ $9ADAF
+#W24($9AEAA)
+//ねぎり[X]
+//
+// current address: $9ADB7

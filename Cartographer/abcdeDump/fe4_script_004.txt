@@ -1,0 +1,289 @@
+//GAME NAME:		Fire Emblem: Genealogy of Tordo
+
+// Define required TABLE variables and load the corresponding tables
+#VAR(Table_0, TABLE)
+#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/dialogue.tbl", Table_0)
+#VAR(Table_1, TABLE)
+#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/menutext.tbl", Table_1)
+
+//BLOCK #004 NAME:		Castle Names
+#ACTIVETBL(Table_1) // Activate this block's starting TABLE
+
+#JMP($2DF40, $2DF41) // Jump to insertion point
+#HDR($2DF40) // Difference between ROM and RAM addresses for pointer value calculations
+
+//POINTER #0 @ $2DF40 - STRING #0 @ $2DF40
+#W16($2DF40)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #1 @ $2DF42 - STRING #1 @ $2DF40
+#W16($2DF42)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #2 @ $2DF44 - STRING #2 @ $2DF40
+#W16($2DF44)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #3 @ $2DF46 - STRING #3 @ $2DF40
+#W16($2DF46)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #4 @ $2DF48 - STRING #4 @ $2DF40
+#W16($2DF48)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #5 @ $2DF4A - STRING #5 @ $2DF40
+#W16($2DF4A)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #6 @ $2DF4C - STRING #6 @ $2DF40
+#W16($2DF4C)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #7 @ $2DF4E - STRING #7 @ $2DF40
+#W16($2DF4E)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #8 @ $2DF50 - STRING #8 @ $2DF40
+#W16($2DF50)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #9 @ $2DF52 - STRING #9 @ $2DF40
+#W16($2DF52)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #10 @ $2DF54 - STRING #10 @ $2DF40
+#W16($2DF54)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #11 @ $2DF56 - STRING #11 @ $2DF40
+#W16($2DF56)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #12 @ $2DF58 - STRING #12 @ $2DF40
+#W16($2DF58)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #13 @ $2DF5A - STRING #13 @ $2DF40
+#W16($2DF5A)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #14 @ $2DF5C - STRING #14 @ $2DF40
+#W16($2DF5C)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #15 @ $2DF5E - STRING #15 @ $2DF40
+#W16($2DF5E)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #16 @ $2DF60 - STRING #16 @ $2DF40
+#W16($2DF60)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #17 @ $2DF62 - STRING #17 @ $2DF40
+#W16($2DF62)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #18 @ $2DF64 - STRING #18 @ $2DF40
+#W16($2DF64)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #19 @ $2DF66 - STRING #19 @ $2DF40
+#W16($2DF66)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #20 @ $2DF68 - STRING #20 @ $2DF40
+#W16($2DF68)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #21 @ $2DF6A - STRING #21 @ $2DF40
+#W16($2DF6A)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #22 @ $2DF6C - STRING #22 @ $2DF40
+#W16($2DF6C)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #23 @ $2DF6E - STRING #23 @ $2DF40
+#W16($2DF6E)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #24 @ $2DF70 - STRING #24 @ $2DF40
+#W16($2DF70)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #25 @ $2DF72 - STRING #25 @ $2DF40
+#W16($2DF72)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #26 @ $2DF74 - STRING #26 @ $2DF40
+#W16($2DF74)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #27 @ $2DF76 - STRING #27 @ $2DF40
+#W16($2DF76)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #28 @ $2DF78 - STRING #28 @ $2DF40
+#W16($2DF78)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #29 @ $2DF7A - STRING #29 @ $2DF40
+#W16($2DF7A)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #30 @ $2DF7C - STRING #30 @ $2DF40
+#W16($2DF7C)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #31 @ $2DF7E - STRING #31 @ $2DF40
+#W16($2DF7E)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #32 @ $2DF80 - STRING #32 @ $2DF40
+#W16($2DF80)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #33 @ $2DF82 - STRING #33 @ $2DF40
+#W16($2DF82)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #34 @ $2DF84 - STRING #34 @ $2DF40
+#W16($2DF84)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #35 @ $2DF86 - STRING #35 @ $2DF40
+#W16($2DF86)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #36 @ $2DF88 - STRING #36 @ $2DF40
+#W16($2DF88)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #37 @ $2DF8A - STRING #37 @ $2DF40
+#W16($2DF8A)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #38 @ $2DF8C - STRING #38 @ $2DF40
+#W16($2DF8C)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #39 @ $2DF8E - STRING #39 @ $2DF40
+#W16($2DF8E)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #40 @ $2DF90 - STRING #40 @ $2DF40
+#W16($2DF90)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #41 @ $2DF92 - STRING #41 @ $2DF40
+#W16($2DF92)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #42 @ $2DF94 - STRING #42 @ $2DF40
+#W16($2DF94)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #43 @ $2DF96 - STRING #43 @ $2DF40
+#W16($2DF96)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #44 @ $2DF98 - STRING #44 @ $2DF40
+#W16($2DF98)
+//[X]
+//
+// current address: $2DF42
+
+//POINTER #45 @ $2DF9A - STRING #45 @ $2DF40
+#W16($2DF9A)
+//[X]
+//
+// current address: $2DF42

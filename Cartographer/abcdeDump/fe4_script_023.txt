@@ -1,0 +1,146 @@
+//GAME NAME:		Fire Emblem: Genealogy of Tordo
+
+// Define required TABLE variables and load the corresponding tables
+#VAR(Table_0, TABLE)
+#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/dialogue.tbl", Table_0)
+#VAR(Table_1, TABLE)
+#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/menutext.tbl", Table_1)
+
+//BLOCK #023 NAME:		Intermission Names 2
+#ACTIVETBL(Table_0) // Activate this block's starting TABLE
+
+#JMP($8EE34, $8F03B) // Jump to insertion point
+#HDR($80200) // Difference between ROM and RAM addresses for pointer value calculations
+
+//POINTER #0 @ $8E65D - STRING #0 @ $8EE34
+#W16($8E65D)
+//<$09><$7B><$87><$B0><$93>(<$0A><$5C>K<$09><$BB><$86>a<$8C>y<$88>s[N]<$00><$82>[N][N]<$00>[N][N]<$00><$84>[N][X]
+//
+//
+// current address: $8EE51
+
+//POINTER #1 @ $8E683 - STRING #1 @ $8EE51
+#W16($8E683)
+//<$09><$7B><$87><$B0><$93>(<$0A><$5C>K<$09><$BB>d<$B0><$A1><$AB>[N]<$00><$82>[N][Clear]<$00>[N][N]<$00><$84>[N][X]
+//
+//
+// current address: $8EE6C
+
+//POINTER #2 @ $8E6A9 - STRING #2 @ $8EE6C
+#W16($8E6A9)
+//<$09><$7B><$87><$B0><$93>(<$0B><$CD><$0A><$5C>K<$09><$BB><$80>y<$7E><$9B><$C5>[N]<$00><$82>[N][Scroll]<$00>[N][N]<$00><$84>[N][X]
+//
+//
+// current address: $8EE8A
+
+//POINTER #3 @ $8E6CF - STRING #3 @ $8EE8A
+#W16($8E6CF)
+//<$09><$0A><$3B><$5C>K<$09><$BB><$60><$87>d<$B0><$8C><$C5><$C5>[N]<$00><$82>[N]<$0E><$00>[N][N]<$00><$84>[N][X]
+//
+//
+// current address: $8EEA4
+
+//POINTER #4 @ $8E6F5 - STRING #4 @ $8EEA4
+#W16($8E6F5)
+//<$09><$9C><$B0>y<$86>(<$0A><$9D><$5F><$09><$BB><$7D><$81><$8A>l<$C5>[N]<$00><$82>[N]<$0A><$00>[N][N]<$00><$84>[N][X]
+//
+//
+// current address: $8EEC0
+
+//POINTER #5 @ $8E71B - STRING #5 @ $8EEC0
+#W16($8E71B)
+//<$09><$0A><$5E><$60>iK<$09><$BB>cl<$87><$8C><$C5><$C5>[N]<$00><$82>[N]<$13><$00>[N][N]<$00><$84>[N][X]
+//
+//
+// current address: $8EEDA
+
+//POINTER #6 @ $8E741 - STRING #6 @ $8EEDA
+#W16($8E741)
+//<$09>a<$92><$B0>g(<$0A><$9D><$60><$09><$BB><$89>a<$87><$60><$C5><$C5>[N]<$00><$82>[N]<$17><$00>[N][N]<$00><$84>[N][X]
+//
+//
+// current address: $8EEF7
+
+//POINTER #7 @ $8E767 - STRING #7 @ $8EEF7
+#W16($8E767)
+//<$09>a<$92><$B0>g(<$0A><$8B><$0C>y<$0A><$5C>K<$09><$BB><$7B><$A8><$8C><$C5>[N]<$00><$82>[N][TargetBottom]<$00>[N][N]<$00><$84>[N][X]
+//
+//
+// current address: $8EF16
+
+//POINTER #8 @ $8E78D - STRING #8 @ $8EF16
+#W16($8E78D)
+//<$09><$A1><$AA><$88><$97><$8C>(<$0A><$5E><$5F><$09><$BB><$8A>t<$8C><$C5>[N]<$00><$82>[N]<$0B><$00>[N][N]<$00><$84>[N][X]
+//
+//
+// current address: $8EF32
+
+//POINTER #9 @ $8E7B3 - STRING #9 @ $8EF32
+#W16($8E7B3)
+//<$09><$84><$8C><$8F><$A1><$A8><$0A><$5E><$60><$09><$BB>c<$B0><$9A><$A8><$8C>[N]<$00><$82>[N]<$12><$00>[N][N]<$00><$84>[N][X]
+//
+//
+// current address: $8EF4E
+
+//POINTER #10 @ $8E7D9 - STRING #10 @ $8EF4E
+#W16($8E7D9)
+//<$0B><$60><$0A><$5C>K<$09><$BB>li<$A3>d<$C5><$C5><$C5>[N]<$00><$82>[N]<$0D><$00>[N][N]<$00><$84>[N][X]
+//
+//
+// current address: $8EF68
+
+//POINTER #11 @ $8E7FF - STRING #11 @ $8EF68
+#W16($8E7FF)
+//<$0A><$3E>K<$09><$BB>d<$B0>k<$8C>[N]<$00><$82>[N]<$09><$00>[N][N]<$00><$84>[N][X]
+//
+//
+// current address: $8EF7D
+
+//POINTER #12 @ $8E825 - STRING #12 @ $8EF7D
+#W16($8E825)
+//h<$97><$82>x<$BB><$60><$B0><$97><$8C>[N]<$00><$82>[N]<$0F><$00>[N][N]<$00><$84>[N][X]
+//
+//
+// current address: $8EF92
+
+//POINTER #13 @ $8E84B - STRING #13 @ $8EF92
+#W16($8E84B)
+//<$09><$0A>W<$5C>K<$09><$BB>c<$88>sk<$AD><$8C><$C5><$C5>[N]<$00><$82>[N][A]<$00>[N][N]<$00><$84>[N][X]
+//
+//
+// current address: $8EFAD
+
+//POINTER #14 @ $8E871 - STRING #14 @ $8EFAD
+#W16($8E871)
+//<$09><$60><$8F>ls<$87><$60>(<$0A><$5C>K<$09><$BB><$86>hkl<$C5><$C5>[N]<$00><$82>[N]<$14><$00>[N][N]<$00><$84>[N][X]
+//
+//
+// current address: $8EFCC
+
+//POINTER #15 @ $8E897 - STRING #15 @ $8EFCC
+#W16($8E897)
+//<$0A><$8D><$09>(<$0B><$87><$0C><$25><$0A><$5C>K<$09><$BB><$7F><$B0>k<$AD>[N]<$00><$82>[N]<$16><$00>[N][N]<$00><$84>[N][X]
+//
+//
+// current address: $8EFE9
+
+//POINTER #16 @ $8E8BD - STRING #16 @ $8EFE9
+#W16($8E8BD)
+//<$09><$0A>U<$0B><$5F><$0A><$5C>K<$09><$BB>f<$AE><$60><$8C>[N]<$00><$82>[N]<$0C><$00>[N][N]<$00><$84>[N][X]
+//
+//
+// current address: $8F003
+
+//POINTER #17 @ $8E8E3 - STRING #17 @ $8F003
+#W16($8E8E3)
+//<$09>c<$AC><$97>(<$0A><$9D><$60><$09><$BB>j<$7B><$A8><$C5><$C5><$C5>[N]<$00><$82>[N]<$15><$00>[N][N]<$00><$84>[N][X]
+//
+//
+// current address: $8F01F
+
+//POINTER #18 @ $8E909 - STRING #18 @ $8F01F
+#W16($8E909)
+//<$09>a<$92><$B0>g(<$0A><$9D><$60><$09><$BB><$60>a<$86><$C5><$C5><$C5>[N]<$00><$82>[N]<$18><$00>[N][N]<$00><$84>[N][X]
+//
+//
+// current address: $8F03C

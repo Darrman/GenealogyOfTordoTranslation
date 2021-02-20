@@ -1,0 +1,55 @@
+//GAME NAME:		Fire Emblem: Genealogy of Tordo
+
+// Define required TABLE variables and load the corresponding tables
+#VAR(Table_0, TABLE)
+#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/dialogue.tbl", Table_0)
+#VAR(Table_1, TABLE)
+#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/menutext.tbl", Table_1)
+
+//BLOCK #011 NAME:		System Menu
+#ACTIVETBL(Table_1) // Activate this block's starting TABLE
+
+#JMP($5DF0C, $5DF91) // Jump to insertion point
+#HDR($50200) // Difference between ROM and RAM addresses for pointer value calculations
+
+//POINTER #0 @ $5DF98 - STRING #0 @ $5DF0C
+#W16($5DF98)
+//<$DD><$DB><$85><$01><$01> ユニット[X]
+//
+// current address: $5DF1D
+
+//POINTER #1 @ $5DF9D - STRING #1 @ $5DF1D
+#W16($5DF9D)
+//<$ED><$DB><$85><$01><$01> アイテム[X]
+//
+// current address: $5DF2E
+
+//POINTER #2 @ $5DFA2 - STRING #2 @ $5DF2E
+#W16($5DFA2)
+//<$F6><$DB><$85><$01><$01> データ[X]
+//
+// current address: $5DF3D
+
+//POINTER #3 @ $5DFA7 - STRING #3 @ $5DF3D
+#W16($5DFA7)
+//<$0E><$DC><$85><$01><$01> スキル[X]
+//
+// current address: $5DF4C
+
+//POINTER #4 @ $5DFAC - STRING #4 @ $5DF4C
+#W16($5DFAC)
+//<$CA><$DC><$85><$01><$01> コンフィグ[X]
+//
+// current address: $5DF5F
+
+//POINTER #5 @ $5DFB1 - STRING #5 @ $5DF6E
+#W16($5DFB1)
+//<$AB><$DC><$85><$01><$01> セーブ[X]
+//
+// current address: $5DF7D
+
+//POINTER #6 @ $5DFB6 - STRING #6 @ $5DF7D
+#W16($5DFB6)
+//<$26><$DC><$85><$01><$01> ターンエンド[X]
+//
+// current address: $5DF92
