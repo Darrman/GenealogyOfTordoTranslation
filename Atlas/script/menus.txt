@@ -6,60 +6,77 @@
 
 #W24($DD74)
 //エバンス城のせいあつ[X]
+//Subdue Evans, but clipping down in the interests of space
+To Evans[X]
 
 //POINTER #1 @ $DD77 - STRING #1 @ $DDAE
 
 #W24($DD77)
 //ヴェルダン城のせいあつ[X]
+To Verdane[X]
 
 //POINTER #2 @ $DD7A - STRING #2 @ $DDC6
 
 #W24($DD7A)
 //ユングヴィ城のせいあつ[X]
+//Locations get swapped around, being a Genealogy of X
+//Really Agusty, but let's keep the swaps around
+To Jungby[X]
 
 //POINTER #3 @ $DD7D - STRING #3 @ $DDDE
 
 #W24($DD7D)
 //オーガヒル城のせいあつ[X]
+To Orgahil
 
 //POINTER #4 @ $DD80 - STRING #4 @ $DDF6
 
 #W24($DD80)
 //ザクソン城のせいあつ[X]
+To Zaxon
 
 //POINTER #5 @ $DD83 - STRING #5 @ $DE0C
 
-#W24($DD83)
+#W24($DD83) //Ch5
+#W24($DD95) //Final
 //ヴェルトマーせいあつ[X]
+//Barhara
+To Velthomer[X]
 
 //POINTER #6 @ $DD86 - STRING #6 @ $DE22
 
 #W24($DD86)
 //リボー城のせいあつ[X]
+To Rivough[X]
 
 //POINTER #7 @ $DD89 - STRING #7 @ $DE36
 
 #W24($DD89)
 //アルスター城のせいあつ[X]
+To Alster[X]
 
 //POINTER #8 @ $DD8C - STRING #8 @ $DE4E
 
 #W24($DD8C)
 //ミーズ城のせいあつ[X]
+To Mease[X]
 
 //POINTER #9 @ $DD8F - STRING #9 @ $DE62
 
 #W24($DD8F)
 //ドズル城のせいあつ [X]
+//Thracia
+To Dozel[X]
 
 //POINTER #10 @ $DD92 - STRING #10 @ $DE78
 
 #W24($DD92)
 //フリージ城のせいあつ [X]
+//Chalphy
+To Freege[X]
 
 //POINTER #11 @ $DD95 - STRING #11 @ $DE90
 
-#W24($DD95)
 //ヴェルトマーせいあつ[X]
 
 //BLOCK #001 NAME:		Skill Menu Names
@@ -68,138 +85,170 @@
 
 #W16($D729)
 //オラクル   せんとう[X]
-
+//Great Shield
+Oracle[X]
 //POINTER #1 @ $D73A - STRING #1 @ $D87A
 
 #W16($D73A)
 //いかり    せんとう[X]
+Wrath[X]
 
 //POINTER #2 @ $D74B - STRING #2 @ $D892
 
 #W16($D74B)
 //ついげき   せんとう[X]
+Pursuit[X]
 
 //POINTER #3 @ $D75C - STRING #3 @ $D8AA
 
 #W16($D75C)
 //れんぞく   せんとう[X]
+Continue[X]
 
 //POINTER #4 @ $D76D - STRING #4 @ $D8C2
 
 #W16($D76D)
 //ぬすむ    せんとう[X]
+Steal[X]
 
 //POINTER #5 @ $D77E - STRING #5 @ $D8DA
 
 #W16($D77E)
 //おどる    いっぱん[X]
+Dance[X]
 
 //POINTER #6 @ $D78F - STRING #6 @ $D8F2
 
 #W16($D78F)
 //カリスマ   いっぱん[X]
+Charisma[X]
 
 //POINTER #7 @ $D7A0 - STRING #7 @ $D90A
 
 #W16($D7A0)
 //みきり    せんとう[X]
+Nihil[X]
 
 //POINTER #8 @ $D7B1 - STRING #8 @ $D922
 
 #W16($D7B1)
 //いのり    いっぱん[X]
+Prayer[X]
 
 //POINTER #9 @ $D7C2 - STRING #9 @ $D93A
 
 #W16($D7C2)
 //ひっさつ   せんとう[X]
+Critical[X]
 
 //POINTER #10 @ $D7D3 - STRING #10 @ $D952
 
 #W16($D7D3)
 //まちぶせ   せんとう[X]
+Ambush[X]
 
 //POINTER #11 @ $D7E4 - STRING #11 @ $D96A
 
 #W16($D7E4)
 //とつげき   せんとう[X]
+Charge[X]
 
 //POINTER #12 @ $D7F5 - STRING #12 @ $D982
 
 #W16($D7F5)
 //りゅうせい剣 とくしゅ剣[X]
+Astra[X]
 
 //POINTER #13 @ $D806 - STRING #13 @ $D99C
 
 #W16($D806)
 //げっこう剣  とくしゅ剣[X]
+Luna[X]
 
 //POINTER #14 @ $D817 - STRING #14 @ $D9B6
 
 #W16($D817)
 //たいよう剣  とくしゅ剣[X]
+Sol[X]
 
 //POINTER #15 @ $D828 - STRING #15 @ $D9D0
 
 #W16($D828)
 //ライブ    いっぱん[X]
+Life[X]
 
 //POINTER #16 @ $D839 - STRING #16 @ $D9E8
 
 #W16($D839)
 //エリート   いっぱん[X]
+Elite[X]
 
 //POINTER #17 @ $D84A - STRING #17 @ $DA00
 
 #W16($D84A)
 //ねぎり    いっぱん[X]
+Bargain[X]
 
 //BLOCK #002 NAME:		Options Menu
 
+#VAR(OptionsMenu, CUSTOMPOINTER)
+#CREATEPTR(OptionsMenu, "HIROM", $0, 16)
+
+#JMP($EA4E, $EAEF)
+
 //POINTER #0 @ $E9A7 - STRING #0 @ $EA4E
 
-#W16($E9A7)
-//アニメせってい[X]
+#WRITE(OptionsMenu, $E9A7)
+Animation<X>
+
 
 //POINTER #1 @ $E9B8 - STRING #1 @ $EA5E
 
-#W16($E9B8)
-//ちけいウィンドウ[X]
+#WRITE(OptionsMenu, $E9B8)
+Terrain<X>
+
 
 //POINTER #2 @ $E9C9 - STRING #2 @ $EA70
 
-#W16($E9C9)
-//ユニットウィンドウ[X]
+#WRITE(OptionsMenu, $E9C9)
+UnitWindo<X>
+
 
 //POINTER #3 @ $E9DA - STRING #3 @ $EA84
 
-#W16($E9DA)
-//メッセージスピード[X]
+#WRITE(OptionsMenu, $E9DA)
+TextSpd<X>
+
 
 //POINTER #4 @ $E9EB - STRING #4 @ $EA98
 
-#W16($E9EB)
-//てきいどうスピード[X]
+#WRITE(OptionsMenu, $E9EB)
+MoveSpd<X>
+
 
 //POINTER #5 @ $E9FC - STRING #5 @ $EAAC
 
-#W16($E9FC)
-//サウンドせってい[X]
+#WRITE(OptionsMenu, $E9FC)
+Music<X>
+
 
 //POINTER #6 @ $EA0D - STRING #6 @ $EABE
 
-#W16($EA0D)
-//オートセーブ[X]
+#WRITE(OptionsMenu, $EA0D)
+AutoSave<X>
+
 
 //POINTER #7 @ $EA1E - STRING #7 @ $EACC
 
-#W16($EA1E)
-//オートカーソル[X]
+#WRITE(OptionsMenu, $EA1E)
+AutoCrsr<X>
+
 
 //POINTER #8 @ $EA2F - STRING #8 @ $2A9
 
-#W16($EA2F)
-//<$10><$80><$02><$90><$10><$02><$EE><$FF><$AA><$8C><$02><$80><$08><$90><$10><$02><$E4><$FF><$A4><$8C><$02><$80><$08><$98><$20><$04><$A2><$FF><$AE><$FF><$A8><$9C><$20><$90><$10><$80><$04><$98><$10><$00><$EA><$8C><$3E><$80><$12><$00><$E2><$9C><$20><$80><$2C><$A8><$20><$90><$10><$A0><$60><$88><$40><$88><$02><$A0><$30><$88><$3E><$A8><$20><$88><$10><$A0><$40><$80><$88><$90><$60><$80><$68><$90><$10><$00><$EC><$84><$0E><$00><$AC><$84><$04><$80><$08><$A0><$20><$80><$62><$80><$04><$98><$B0><$88><$20><$88><$02><$98><$20><$88><$80><$80><$30><$A8><$C0><$90><$10><$00><$E8><$94><$10><$02><$4E><$FF><$4A><$8C><$02><$80><$08><$90><$10><$00><$44><$9C><$02><$98><$20><$00><$42><$84><$04><$00><$48><$9C><$20><$90><$10><$88><$04><$90><$10><$98><$3E><$80><$12><$98><$20><$88><$2C><$A0><$20><$90><$10><$A0><$60><$88><$1C><$90><$02><$A0><$80><$B0><$20><$90><$4E><$A0><$90><$90><$60><$80><$04><$90><$10><$00><$4C><$84><$0A><$90><$04><$A0><$20><$80><$62><$80><$04><$98><$B0><$88><$1C><$88><$02><$98><$20><$88><$80><$80><$0C><$A8><$C0><$90><$10><$80><$02><$99><$10><$00><$2A><$85><$5C><$00><$8A><$A5><$70><$00><$24><$84><$04><$00><$84><$A6>[X]
+//#WRITE(OptionsMenu, $EA35)
+//Seems to be gone?
+//Difficult<X>
 
 //BLOCK #003 NAME:		Terrain Names
 
@@ -571,361 +620,507 @@
 
 #W16($38CB3)
 //コマンドナイト[X]
+//Command Knight
+//Social Knight
+//Cavalier
+//Tellius lacks a combined cavalier.
+ComandKn[X]
 
 //POINTER #1 @ $38CB5 - STRING #1 @ $38D53
 
 #W16($38CB5)
 //ランスナイト[X]
-
+//Lance Knight
+LanceKnt[X]
 //POINTER #2 @ $38CB7 - STRING #2 @ $38DD3
 
 #W16($38CB7)
 //ボウナイト[X]
+//Bow Knight
+//Arch Knight
+//Tellius names in use, bow knight is T1
+BowKnt[X]
 
 //POINTER #3 @ $38CB9 - STRING #3 @ $38D6F
 
 #W16($38CB9)
 //アクスナイト[X]
+//Axe Knight
+AxeKnt[X]
 
 //POINTER #4 @ $38CBB - STRING #4 @ $38D7D
 
 #W16($38CBB)
 //ソードナイト[X]
+//Sword Knight
+//Free Knight
+SwordKnt[X]
 
 //POINTER #5 @ $38CBD - STRING #5 @ $38D8B
 
 #W16($38CBD)
 //トルバドール[X]
+//Troubadour
+Trobador[X]
 
 //POINTER #6 @ $38CBF - STRING #6 @ $38D99
 
 #W16($38CBF)
 //ロードナイト[X]
+//Lord Knight
+LordKnt[X]
 
 //POINTER #7 @ $38CC1 - STRING #7 @ $38E65
 
 #W16($38CC1)
 //グローリーナイト[X]
+//Glory Knight
+//Duke Knight
+GloryKnt[X]
 
 //POINTER #8 @ $38CC3 - STRING #8 @ $38DB7
 
 #W16($38CC3)
 //マスターナイト[X]
+//Master Knight
+MasterKn[X]
 
 //POINTER #9 @ $38CC5 - STRING #9 @ $38DC7
 
 #W16($38CC5)
 //パラディン[X]
+Paladin[X]
 
 //POINTER #10 @ $38CC7 - STRING #10 @ $38F1F
 
 #W16($38CC7)
 //ヴァルキュリア[X]
+//Paladin F
+Valkyrie[X]
 
 //POINTER #11 @ $38CC9 - STRING #11 @ $38D61
 
 #W16($38CC9)
 //アローナイト[X]
+//Arrow Knight
+//Bow Knight
+ArrowKnt[X]
 
 //POINTER #12 @ $38CCB - STRING #12 @ $38DDF
 
 #W16($38CCB)
 //フォレストナイト[X]
+//Forrest Knight
+ForestKn[X]
 
 //POINTER #13 @ $38CCD - STRING #13 @ $38DF1
 
 #W16($38CCD)
 //マージナイト[X]
+//Mage Knight
+MageKnt[X]
 
 //POINTER #14 @ $38CCF - STRING #14 @ $38DFF
 
 #W16($38CCF)
 //グランドナイト[X]
+//Grand Knight
+//Great Knight
+GrandKnt[X]
 
 //POINTER #15 @ $38CD1 - STRING #15 @ $38E0F
 
 #W16($38CD1)
+//Evidently some rearranging happened compared to the translated doc and this.
+//It registers spear soldier -> empress, while this is peg rider.
+//Though this version's doc says the same thing. What's going on?
+//There's another copy further down the list. I'm confused...
 //エンプレス[X]
+Empress[X]
 
 //POINTER #16 @ $38CD3 - STRING #16 @ $38E21
 
 #W16($38CD3)
 //ペガサスナイト[X]
+//Pegasus Knight
+PegKnt[X]
 
 //POINTER #17 @ $38CD5 - STRING #17 @ $38E31
 
 #W16($38CD5)
 //エンリルナイト[X]
+//Falcon Knight
+FalconKn[X]
 
 //POINTER #18 @ $38CD7 - STRING #18 @ $38E55
 
 #W16($38CD7)
+//Originally Dragon Rider. Maybe it goes unused and the
+//pointers are off. Oh well...
 //ウィザード[X]
+Wizard[X]
 
 //POINTER #19 @ $38CD9 - STRING #19 @ $38E43
 
 #W16($38CD9)
 //ドラゴンマスター[X]
+//Dragon Master
+//Dragon Knight
+//Militant Edge syndrome at its finest.
+//But I suppose I should be accurate...
+DrgnMstr[X]
 
 //POINTER #20 @ $38CDB - STRING #20 @ $38DA7
 
 #W16($38CDB)
 //リンドブルム[X]
+//Lindwurm
+//Dragon Master
+Lindwurm[X]
 
 //POINTER #21 @ $38CDD - STRING #21 @ $38E77
 
 #W16($38CDD)
 //ボウファイター[X]
+//Bow Fighter
+//Archer
+Archer[X]
 
 //POINTER #22 @ $38CDF - STRING #22 @ $39011
 
 #W16($38CDF)
 //ブレイド[X]
+//Blade
+//Sword Fighter
+//Myrmidon
+Blade[X]
 
 //POINTER #23 @ $38CE1 - STRING #23 @ $38E99
 
 #W16($38CE1)
 //ソードマスター[X]
+//Swordmaster
+Swrdmstr[X]
 
 //POINTER #24 @ $38CE3 - STRING #24 @ $38EA9
 
 #W16($38CE3)
 //サジタリー[X]
+//Sagittary
+//Sniper
+Sagitary[X]
 
 //POINTER #25 @ $38CE5 - STRING #25 @ $38EB5
 
 #W16($38CE5)
 //バスタード[X]
+//Bastard
+//[s]Dastard[/s]
+//Forrest
+//Hero
+Bastard[X]
 
 //POINTER #26 @ $38CE7 - STRING #26 @ $38EC3
 
 #W16($38CE7)
 //ジェネラル[X]
+General[X]
 
 //POINTER #27 @ $38CE9 - STRING #27 @ $38ECF
 
 #W16($38CE9)
 //アヴァロン[X]
+//Emperor
+Avalon[X]
 
 //POINTER #28 @ $38CEB - STRING #28 @ $3908B
 
 #W16($38CEB)
 //マーシャル[X]
+//Marshall
+//Baron
+Marshall[X]
 
 //POINTER #29 @ $38CED - STRING #29 @ $390CB
 
 #W16($38CED)
 //マーシナリー[X]
+//Mercenary
+//Probably FE5 mercs AKA heroes. But I need context.
+Mercenry[X]
 
 //POINTER #30 @ $38CEF - STRING #30 @ $38E0F
 
 #W16($38CEF)
 //エンプレス[X]
+Empress[X]
 
 //POINTER #31 @ $38CF1 - STRING #31 @ $39007
 
 #W16($38CF1)
 //ウィッチ[X]
+Witch[X]
 
 //POINTER #32 @ $38CF3 - STRING #32 @ $38F13
 
 #W16($38CF3)
 //シルメリー[X]
+Silmerie[X]
 
 //POINTER #33 @ $38CF5 - STRING #33 @ $3907F
 
 #W16($38CF5)
 //スナイパー[X]
+//So what the hell is a "sagittary" if snipers are living here?
+Sniper[X]
 
 //POINTER #34 @ $38CF7 - STRING #34 @ $38FBD
 
 #W16($38CF7)
 //ランスアーマー[X]
+//Lance Armour[X]
+LancArmr[X]
 
 //POINTER #35 @ $38CF9 - STRING #35 @ $38F3B
 
 #W16($38CF9)
 //アクスアーマー[X]
+//Axe Armour
+AxeArmor[X]
 
 //POINTER #36 @ $38CFB - STRING #36 @ $38F4B
 
 #W16($38CFB)
 //ボウアーマー[X]
+//Bow Armour
+BowArmor[X]
 
 //POINTER #37 @ $38CFD - STRING #37 @ $38F59
 
 #W16($38CFD)
 //ソードアーマー[X]
+//Sword Armour
+SwrdArmr[X]
 
 //POINTER #38 @ $38CFF - STRING #38 @ $38F69
 
 #W16($38CFF)
 //バーバリアン[X]
+//Barbarian
+Barbaran[X]
 
 //POINTER #39 @ $38D01 - STRING #39 @ $38F77
 
 #W16($38D01)
 //アクスファイター[X]
+//Axe Fighter
+Fighter[X]
 
 //POINTER #40 @ $38D03 - STRING #40 @ $38F89
 
 #W16($38D03)
 //マウンテンシーフ[X]
+//Mountain Thief
+Brigand[X]
 
 //POINTER #41 @ $38D05 - STRING #41 @ $38F9B
 
 #W16($38D05)
 //ウォーリア[X]
+Warrior[X]
 
 //POINTER #42 @ $38D07 - STRING #42 @ $38FA7
 
 #W16($38D07)
 //ハンター[X]
+Hunter[X]
 
 //POINTER #43 @ $38D09 - STRING #43 @ $38FB1
 
 #W16($38D09)
 //パイレーツ[X]
+Pirate[X]
 
 //POINTER #44 @ $38D0B - STRING #44 @ $38F31
 
 #W16($38D0B)
 //ロード[X]
+//Junior Lord, because FE4 doesn't care about consistency
+Lord[X]
 
 //POINTER #45 @ $38D0D - STRING #45 @ $38FCD
 
 #W16($38D0D)
 //アークマージ[X]
+//Mage Fighter
+Archmage[X]
 
 //POINTER #46 @ $38D0F - STRING #46 @ $38F01
 
 #W16($38D0F)
 //ヴァンガード[X]
+Vanguard[X]
 
 //POINTER #47 @ $38D11 - STRING #47 @ $38FE9
 
 #W16($38D11)
 //アポステル[X]
+Apostle[X]
 
 //POINTER #48 @ $38D13 - STRING #48 @ $38FF5
 
 #W16($38D13)
 //マージプリンセス[X]
+//Mage Princess, character limit is too tight for a reasonable abbreviation of "princess"
+MageLady[X]
 
 //POINTER #49 @ $38D15 - STRING #49 @ $38EDD
 
 #W16($38D15)
 //ロプトプリンセス[X]
+//Lopto Princess
+LoptLady[X]
 
 //POINTER #50 @ $38D17 - STRING #50 @ $38E87
 
 #W16($38D17)
 //ソードダンサー[X]
+//Sword Dancer
+//Dancer
+SwdDancr[X]
 
 //POINTER #51 @ $38D19 - STRING #51 @ $3901B
 
 #W16($38D19)
 //プリースト[X]
+Priest[X]
 
 //POINTER #52 @ $38D1B - STRING #52 @ $39027
 
 #W16($38D1B)
 //マージ[X]
+Mage[X]
 
 //POINTER #53 @ $38D1D - STRING #53 @ $3902F
 
 #W16($38D1D)
 //ファイアマージ[X]
+FireMage[X]
 
 //POINTER #54 @ $38D1F - STRING #54 @ $3903F
 
 #W16($38D1F)
 //レディマージ[X]
+//Thunder Mage
+ThunMage[X]
 
 //POINTER #55 @ $38D21 - STRING #55 @ $3904F
 
 #W16($38D21)
 //ウインドマージ[X]
+WindMage[X]
 
 //POINTER #56 @ $38D23 - STRING #56 @ $3905F
 
 #W16($38D23)
 //セイント[X]
+//High Priest
+Saint[X]
 
 //POINTER #57 @ $38D25 - STRING #57 @ $39069
 
 #W16($38D25)
 //レディナイト[X]
+//Lady Knight
+LadyKnt[X]
 
 //POINTER #58 @ $38D27 - STRING #58 @ $39077
 
 #W16($38D27)
 //セイジ[X]
+Sage[X]
 
 //POINTER #59 @ $38D29 - STRING #59 @ $38E55
 
 #W16($38D29)
 //ウィザード[X]
+//Bard
+Wizard[X]
 
 //POINTER #60 @ $38D2B - STRING #60 @ $38EEF
 
 #W16($38D2B)
 //ライトマージ[X]
+//Light Mage
+//Shaman
+LitMage[X]
 
 //POINTER #61 @ $38D2D - STRING #61 @ $39097
 
 #W16($38D2D)
 //ダークマージ[X]
+DarkMage[X]
 
 //POINTER #62 @ $38D2F - STRING #62 @ $390A5
 
 #W16($38D2F)
 //ダークビショップ[X]
+//Dark Bishop
+DkBishop[X]
 
 //POINTER #63 @ $38D31 - STRING #63 @ $390B7
 
 #W16($38D31)
 //シーフ[X]
+Thief[X]
 
 //POINTER #64 @ $38D33 - STRING #64 @ $390BF
 
 #W16($38D33)
 //エスピオン[X]
+//Thief Fighter
+Espion[X]
 
 //POINTER #65 @ $38D35 - STRING #65 @ $390DD
 
 #W16($38D35)
-//シビリアン[X]
-
-//POINTER #66 @ $38D37 - STRING #66 @ $390DD
-
 #W16($38D37)
 //シビリアン[X]
+Civilian
 
 //POINTER #67 @ $38D39 - STRING #67 @ $390E9
 
 #W16($38D39)
 //マージロード[X]
+MageLord[X]
 
 //POINTER #68 @ $38D3B - STRING #68 @ $390F7
 
 #W16($38D3B)
 //グラスランナー[X]
+//Grassrunner
+GrasRunr[X]
 
 //POINTER #69 @ $38D3D - STRING #69 @ $39107
 
 #W16($38D3D)
 //テトラアーチ[X]
+//Tetra Arch
+TetraBal[X]
 
 //POINTER #70 @ $38D3F - STRING #70 @ $39115
 
 #W16($38D3F)
 //マスターアーチ[X]
+//Master Arch
+MstrBall[X]
 
 //POINTER #71 @ $38D41 - STRING #71 @ $39125
 
 #W16($38D41)
 //マージプリンス[X]
+//Mage Prince
+MagePrnc[X]
 
 //BLOCK #006 NAME:		Character Names
 
@@ -933,441 +1128,488 @@
 
 #W16($39C59)
 //ティルテュ[X]
+Tiltyu[X]
 
 //POINTER #1 @ $39C5B - STRING #1 @ $3A255
 
 #W16($39C5B)
 //ラインハルト[X]
+//Reinhardt
+Reinhart[X]
 
 //POINTER #2 @ $39C5D - STRING #2 @ $3A8F3
 
 #W16($39C5D)
 //オーヴォ[X]
+Ovo[X]
 
 //POINTER #3 @ $39C5F - STRING #3 @ $3A8E1
 
 #W16($39C5F)
 //ムハマド[X]
+Muhammed[X]
 
 //POINTER #4 @ $39C61 - STRING #4 @ $3A1D3
 
 #W16($39C61)
 //アスベル[X]
+Asvel[X]
 
 //POINTER #5 @ $39C63 - STRING #5 @ $3A113
 
 #W16($39C63)
 //レヴィン[X]
+Levin[X]
 
 //POINTER #6 @ $39C65 - STRING #6 @ $3A0F5
 
 #W16($39C65)
 //フィン[X]
+Fin[X]
 
 //POINTER #7 @ $39C67 - STRING #7 @ $3A39F
 
 #W16($39C67)
 //エルトシャン[X]
+Eltshan[X}
 
 //POINTER #8 @ $39C69 - STRING #8 @ $3A329
 
 #W16($39C69)
 //オーシン[X]
+Othin[X]
 
 //POINTER #9 @ $39C6B - STRING #9 @ $3A293
 
 #W16($39C6B)
 //ホメロス[X]
+Homer[X]
 
 //POINTER #10 @ $39C6D - STRING #10 @ $3A20F
 
 #W16($39C6D)
 //ロナン[X]
+Ronan[X]
 
 //POINTER #11 @ $39C6F - STRING #11 @ $3A0FD
 
 #W16($39C6F)
 //キュアン[X]
+Cuan[X]
 
 //POINTER #12 @ $39C71 - STRING #12 @ $3AB4B
 
 #W16($39C71)
 //スコピオ[X]
+Scorpio[X]
 
 //POINTER #13 @ $39C73 - STRING #13 @ $3A9DD
 
 #W16($39C73)
 //アリオーン[X]
+Arion[X]
 
 //POINTER #14 @ $39C75 - STRING #14 @ $3A0EB
 
 #W16($39C75)
 //アーダン[X]
+Arden[X]
 
 //POINTER #15 @ $39C77 - STRING #15 @ $3A125
 
 #W16($39C77)
 //アゼル[X]
+Azel[X]
 
 //POINTER #16 @ $39C79 - STRING #16 @ $3A237
 
 #W16($39C79)
 //エスニャ[X]
+Ethnia[X]
 
 //POINTER #17 @ $39C7B - STRING #17 @ $3A1A9
 
 #W16($39C7B)
 //エーディン[X]
+Aideen[X]
 
 //POINTER #18 @ $39C7D - STRING #18 @ $3A16B
 
 #W16($39C7D)
 //エスリン[X]
+Ethlin[X]
 
 //POINTER #19 @ $39C7F - STRING #19 @ $3A175
 
 #W16($39C7F)
 //ラケシス[X]
+Lachesis[X]
 
 //POINTER #20 @ $39C81 - STRING #20 @ $3A24B
 
 #W16($39C81)
 //サフィ[X]
+Safy[X]
 
 //POINTER #21 @ $39C83 - STRING #21 @ $3A1DF
 
 #W16($39C83)
 //ミーシャ[X]
+Misha[X]
 
 //POINTER #22 @ $39C85 - STRING #22 @ $3A289
 
 #W16($39C85)
 //レイリア[X]
+Laylea[X]
 
 //POINTER #23 @ $39C87 - STRING #23 @ $3A17F
 
 #W16($39C87)
 //アイラ[X]
+Aira[X]
 
 //POINTER #24 @ $39C89 - STRING #24 @ $3A907
 
 #W16($39C89)
 //イシュタル[X]
+Ishtar[X]
 
 //POINTER #25 @ $39C8B - STRING #25 @ $3A1C1
 
 #W16($39C8B)
 //セリス[X]
+Celice[X]
 
 //POINTER #26 @ $39C8D - STRING #26 @ $3A1D3
 
 #W16($39C8D)
 //アスベル[X]
+//Roddleban's slot. Subs don't exist so the names are going to be wrong.
 
 //POINTER #27 @ $39C8F - STRING #27 @ $3A1DF
 
 #W16($39C8F)
 //ミーシャ[X]
+//Asaello
 
 //POINTER #28 @ $39C91 - STRING #28 @ $3A2E5
 
 #W16($39C91)
 //アーサー[X]
+Arthur[X]
 
 //POINTER #29 @ $39C93 - STRING #29 @ $3A11D
 
 #W16($39C93)
 //パーン[X]
+Pahn[X]
 
 //POINTER #30 @ $39C95 - STRING #30 @ $3A1F1
 
 #W16($39C95)
 //エクスリッター[X]
+//Sharlow
 
 //POINTER #31 @ $39C97 - STRING #31 @ $3A1F1
 
 #W16($39C97)
 //エクスリッター[X]
+//Hawk
 
 //POINTER #32 @ $39C99 - STRING #32 @ $3A20D
 
 #W16($39C99)
 //[X]
+//Tristan
 
 //POINTER #33 @ $39C9B - STRING #33 @ $3A1D3
 
 #W16($39C9B)
 //アスベル[X]
+Asvel[X]
 
 //POINTER #34 @ $39C9D - STRING #34 @ $3A219
 
 #W16($39C9D)
 //ラーラ[X]
+//Dimna
 
 //POINTER #35 @ $39C9F - STRING #35 @ $3A57B
 
 #W16($39C9F)
 //レイドリック[X]
+Reidrick[X]
 
 //POINTER #36 @ $39CA1 - STRING #36 @ $3A2EF
 
 #W16($39CA1)
 //パティ[X]
+Patty[X]
 
 //POINTER #37 @ $39CA3 - STRING #37 @ $3A237
 
 #W16($39CA3)
 //エスニャ[X]
+//Amid
 
 //POINTER #38 @ $39CA5 - STRING #38 @ $3A241
 
 #W16($39CA5)
 //オルエン[X]
+Olwen[X]
 
 //POINTER #39 @ $39CA7 - STRING #39 @ $3A24B
 
 #W16($39CA7)
 //サフィ[X]
+//Daisy
 
 //POINTER #40 @ $39CA9 - STRING #40 @ $3A255
 
 #W16($39CA9)
 //ラインハルト[X]
+//Radney
 
 //POINTER #41 @ $39CAB - STRING #41 @ $3A255
 
 #W16($39CAB)
 //ラインハルト[X]
+//Mana
 
 //POINTER #42 @ $39CAD - STRING #42 @ $3AA77
 
 #W16($39CAD)
 //ユリウス[X]
+Julius[X]
 
 //POINTER #43 @ $39CAF - STRING #43 @ $3A30F
 
 #W16($39CAF)
 //ティニー[X]
+Tinny[X]
 
 //POINTER #44 @ $39CB1 - STRING #44 @ $3A277
 
 #W16($39CB1)
 //フュリーたい[X]
+//Femina
 
 //POINTER #45 @ $39CB3 - STRING #45 @ $3A277
 
 #W16($39CB3)
 //フュリーたい[X]
+//Linda
 
 //POINTER #46 @ $39CB5 - STRING #46 @ $3A289
 
 #W16($39CB5)
 //レイリア[X]
+//Laylea
 
 //POINTER #47 @ $39CB7 - STRING #47 @ $3A293
 
 #W16($39CB7)
 //ホメロス[X]
+//Janne
 
 //POINTER #48 @ $39CB9 - STRING #48 @ $3A12D
 
 #W16($39CB9)
 //リフィス[X]
+Lifis[X]
 
 //POINTER #49 @ $39CBB - STRING #49 @ $3A1E9
 
 #W16($39CBB)
 //リーフ[X]
+Leaf[X]
 
 //POINTER #50 @ $39CBD - STRING #50 @ $3A2A9
 
 #W16($39CBD)
 //スカサハ[X]
+Skasaha[X]
 
 //POINTER #51 @ $39CBF - STRING #51 @ $3A8B9
 
 #W16($39CBF)
 //カリオン[X]
+Carrion[X]
 
 //POINTER #52 @ $39CC1 - STRING #52 @ $3A22F
 
 #W16($39CC1)
 //アレス[X]
+Aless[X]
 
 //POINTER #53 @ $39CC3 - STRING #53 @ $3A2DB
 
 #W16($39CC3)
 //レスター[X]
+Lester[X]
 
 //POINTER #54 @ $39CC5 - STRING #54 @ $3A223
 
 #W16($39CC5)
 //ブライトン[X]
+Brighton[X]
 
 //POINTER #55 @ $39CC7 - STRING #55 @ $3A2B3
 
 #W16($39CC7)
 //ディーン[X]
+//Arthur -> Dean. The chart forgot this.
+Dean[X]
 
 //POINTER #56 @ $39CC9 - STRING #56 @ $3A2F7
 
 #W16($39CC9)
 //ラクチェ[X]
+Lakche[X]
 
 //POINTER #57 @ $39CCB - STRING #57 @ $3A26D
 
 #W16($39CCB)
 //アルテナ[X]
+Altenna[X]
 
 //POINTER #58 @ $39CCD - STRING #58 @ $3A219
 
 #W16($39CCD)
 //ラーラ[X]
+Lara[X]
 
 //POINTER #59 @ $39CCF - STRING #59 @ $3A321
 
 #W16($39CCF)
 //ナンナ[X]
+Nanna[X]
 
 //POINTER #60 @ $39CD1 - STRING #60 @ $3A0E1
 
 #W16($39CD1)
 //リノアン[X]
+Linoan[X]
 
 //POINTER #61 @ $39CD3 - STRING #61 @ $3A307
 
 #W16($39CD3)
 //カリン[X]
+Karin[X]
 
 //POINTER #62 @ $39CD5 - STRING #62 @ $3A301
 
 #W16($39CD5)
 //ラナ[X]
+Lana[X]
 
 //POINTER #63 @ $39CD7 - STRING #63 @ $3A36F
 
 #W16($39CD7)
 //バクス[X]
+Bucks[X]
 
 //POINTER #64 @ $39CD9 - STRING #64 @ $3A335
 
 #W16($39CD9)
 //ゴメス[X]
+Gomez[X]
 
 //POINTER #65 @ $39CDB - STRING #65 @ $3A33F
 
 #W16($39CDB)
-//ヴェルダン兵[X]
-
-//POINTER #66 @ $39CDD - STRING #66 @ $3A33F
-
 #W16($39CDD)
-//ヴェルダン兵[X]
-
-//POINTER #67 @ $39CDF - STRING #67 @ $3A33F
-
 #W16($39CDF)
-//ヴェルダン兵[X]
-
-//POINTER #68 @ $39CE1 - STRING #68 @ $3A33F
-
 #W16($39CE1)
-//ヴェルダン兵[X]
-
-//POINTER #69 @ $39CE3 - STRING #69 @ $3A33F
-
 #W16($39CE3)
-//ヴェルダン兵[X]
-
-//POINTER #70 @ $39CE5 - STRING #70 @ $3A33F
-
 #W16($39CE5)
+#W16($39CE9)
+#W16($39CEB)
+#W16($39CED)
+#W16($39CEF)
+#W16($39CF5)
+#W16($39CF7)
+#W16($39CF9)
+#W16($39CFD)
+#W16($39CFF)
+#W16($39D03)
 //ヴェルダン兵[X]
+Verdane[X]
 
 //POINTER #71 @ $39CE7 - STRING #71 @ $3A141
 
 #W16($39CE7)
 //ベオウルフ[X]
-
-//POINTER #72 @ $39CE9 - STRING #72 @ $3A33F
-
-#W16($39CE9)
-//ヴェルダン兵[X]
-
-//POINTER #73 @ $39CEB - STRING #73 @ $3A33F
-
-#W16($39CEB)
-//ヴェルダン兵[X]
-
-//POINTER #74 @ $39CED - STRING #74 @ $3A33F
-
-#W16($39CED)
-//ヴェルダン兵[X]
-
-//POINTER #75 @ $39CEF - STRING #75 @ $3A33F
-
-#W16($39CEF)
-//ヴェルダン兵[X]
+Beowulf[X]
 
 //POINTER #76 @ $39CF1 - STRING #76 @ $3A157
 
 #W16($39CF1)
 //デュー[X]
+Dew[X]
 
 //POINTER #77 @ $39CF3 - STRING #77 @ $3A34D
 
 #W16($39CF3)
+#W16($39D01)
+#W16($39D0F)
+#W16($39D2B)
+#W16($39D49)
+#W16($39D53)
+#W16($39D57)
+#W16($39D77)
+#W16($39D7B)
+#W16($39D7F)
+#W16($39D83)
+#W16($39D87)
+#W16($39D8B)
+#W16($39D91)
+#W16($39DCD)
+#W16($39DD5)
+#W16($39E17)
+#W16($39E1F)
+#W16($39E89)
+#W16($39EB3)
+#W16($39ED7)
+#W16($39EDD)
+#W16($39EE9)
+#W16($39EF1)
+#W16($39EF5)
+#W16($39F1F)
+#W16($39F29)
+#W16($39F2D)
+#W16($39F31)
+#W16($39F87)
+#W16($39F8D)
+#W16($39F93)
 //たいちょう[X]
-
-//POINTER #78 @ $39CF5 - STRING #78 @ $3A33F
-
-#W16($39CF5)
-//ヴェルダン兵[X]
-
-//POINTER #79 @ $39CF7 - STRING #79 @ $3A33F
-
-#W16($39CF7)
-//ヴェルダン兵[X]
-
-//POINTER #80 @ $39CF9 - STRING #80 @ $3A33F
-
-#W16($39CF9)
-//ヴェルダン兵[X]
+//If space allows, check if any of these "captains" aren't actually generic and give them their names.
+Captain[X]
 
 //POINTER #81 @ $39CFB - STRING #81 @ $3A379
 
 #W16($39CFB)
 //サンディマ[X]
-
-//POINTER #82 @ $39CFD - STRING #82 @ $3A33F
-
-#W16($39CFD)
-//ヴェルダン兵[X]
-
-//POINTER #83 @ $39CFF - STRING #83 @ $3A33F
-
-#W16($39CFF)
-//ヴェルダン兵[X]
-
-//POINTER #84 @ $39D01 - STRING #84 @ $3A34D
-
-#W16($39D01)
-//たいちょう[X]
-
-//POINTER #85 @ $39D03 - STRING #85 @ $3A33F
-
-#W16($39D03)
-//ヴェルダン兵[X]
+Sandima[X]
 
 //POINTER #86 @ $39D05 - STRING #86 @ $3A359
 
 #W16($39D05)
+#W16($39D2F)
+#W16($39E1D)
+#W16($39E6B)
+#W16($39E8F)
+#W16($39ED5)
+#W16($39F0D)
 //とうぞく[X]
+Bandit[X]
 
 //POINTER #87 @ $39D07 - STRING #87 @ $3A385
 
 #W16($39D07)
 //エリオット[X]
+Elliot[X]
 
 //POINTER #88 @ $39D09 - STRING #88 @ $3A391
 
@@ -1378,6 +1620,7 @@
 
 #W16($39D0B)
 //ブリギッド[X]
+Brigid[X]
 
 //POINTER #90 @ $39D0D - STRING #90 @ $3A63F
 
@@ -1386,8 +1629,6 @@
 
 //POINTER #91 @ $39D0F - STRING #91 @ $3A34D
 
-#W16($39D0F)
-//たいちょう[X]
 
 //POINTER #92 @ $39D11 - STRING #92 @ $3A3BB
 
@@ -1456,8 +1697,6 @@
 
 //POINTER #105 @ $39D2B - STRING #105 @ $3A451
 
-#W16($39D2B)
-//たいちょう[X]
 
 //POINTER #106 @ $39D2D - STRING #106 @ $3A407
 
@@ -1466,8 +1705,6 @@
 
 //POINTER #107 @ $39D2F - STRING #107 @ $3A3EB
 
-#W16($39D2F)
-//とうぞく[X]
 
 //POINTER #108 @ $39D31 - STRING #108 @ $3A437
 
@@ -1531,8 +1768,6 @@
 
 //POINTER #120 @ $39D49 - STRING #120 @ $3A451
 
-#W16($39D49)
-//たいちょう[X]
 
 //POINTER #121 @ $39D4B - STRING #121 @ $3A437
 
@@ -1556,8 +1791,6 @@
 
 //POINTER #125 @ $39D53 - STRING #125 @ $3A451
 
-#W16($39D53)
-//たいちょう[X]
 
 //POINTER #126 @ $39D55 - STRING #126 @ $3A45D
 
@@ -1566,8 +1799,6 @@
 
 //POINTER #127 @ $39D57 - STRING #127 @ $3A451
 
-#W16($39D57)
-//たいちょう[X]
 
 //POINTER #128 @ $39D59 - STRING #128 @ $3A45D
 
@@ -1646,8 +1877,6 @@
 
 //POINTER #143 @ $39D77 - STRING #143 @ $3A4AD
 
-#W16($39D77)
-//たいちょう[X]
 
 //POINTER #144 @ $39D79 - STRING #144 @ $3A4B9
 
@@ -1656,8 +1885,6 @@
 
 //POINTER #145 @ $39D7B - STRING #145 @ $3A4AD
 
-#W16($39D7B)
-//たいちょう[X]
 
 //POINTER #146 @ $39D7D - STRING #146 @ $3A4B9
 
@@ -1666,8 +1893,6 @@
 
 //POINTER #147 @ $39D7F - STRING #147 @ $3A4AD
 
-#W16($39D7F)
-//たいちょう[X]
 
 //POINTER #148 @ $39D81 - STRING #148 @ $3A4B9
 
@@ -1676,8 +1901,6 @@
 
 //POINTER #149 @ $39D83 - STRING #149 @ $3A4AD
 
-#W16($39D83)
-//たいちょう[X]
 
 //POINTER #150 @ $39D85 - STRING #150 @ $3A4B9
 
@@ -1686,8 +1909,6 @@
 
 //POINTER #151 @ $39D87 - STRING #151 @ $3A4AD
 
-#W16($39D87)
-//たいちょう[X]
 
 //POINTER #152 @ $39D89 - STRING #152 @ $3A4B9
 
@@ -1696,8 +1917,6 @@
 
 //POINTER #153 @ $39D8B - STRING #153 @ $3A4AD
 
-#W16($39D8B)
-//たいちょう[X]
 
 //POINTER #154 @ $39D8D - STRING #154 @ $3A4B9
 
@@ -1711,8 +1930,6 @@
 
 //POINTER #156 @ $39D91 - STRING #156 @ $3A4CF
 
-#W16($39D91)
-//たいちょう[X]
 
 //POINTER #157 @ $39D93 - STRING #157 @ $3A503
 
@@ -1861,8 +2078,6 @@
 
 //POINTER #186 @ $39DCD - STRING #186 @ $3A5B3
 
-#W16($39DCD)
-//たいちょう[X]
 
 //POINTER #187 @ $39DCF - STRING #187 @ $3A5BF
 
@@ -1881,8 +2096,6 @@
 
 //POINTER #190 @ $39DD5 - STRING #190 @ $3A5B3
 
-#W16($39DD5)
-//たいちょう[X]
 
 //POINTER #191 @ $39DD7 - STRING #191 @ $3A5BF
 
@@ -2046,8 +2259,6 @@
 
 //POINTER #223 @ $39E17 - STRING #223 @ $3A6D7
 
-#W16($39E17)
-//たいちょう[X]
 
 //POINTER #224 @ $39E19 - STRING #224 @ $3A6F9
 
@@ -2061,13 +2272,9 @@
 
 //POINTER #226 @ $39E1D - STRING #226 @ $3A6E3
 
-#W16($39E1D)
-//とうぞく[X]
 
 //POINTER #227 @ $39E1F - STRING #227 @ $3A6ED
 
-#W16($39E1F)
-//たいちょう[X]
 
 //POINTER #228 @ $39E21 - STRING #228 @ $3A6F9
 
@@ -2256,8 +2463,6 @@
 
 //POINTER #265 @ $39E6B - STRING #265 @ $3A7D5
 
-#W16($39E6B)
-//とうぞく[X]
 
 //POINTER #266 @ $39E6D - STRING #266 @ $3A7EB
 
@@ -2331,8 +2536,6 @@
 
 //POINTER #280 @ $39E89 - STRING #280 @ $3A89F
 
-#W16($39E89)
-//たいちょう[X]
 
 //POINTER #281 @ $39E8B - STRING #281 @ $3A8AB
 
@@ -2346,8 +2549,6 @@
 
 //POINTER #283 @ $39E8F - STRING #283 @ $3A83F
 
-#W16($39E8F)
-//とうぞく[X]
 
 //POINTER #284 @ $39E91 - STRING #284 @ $3A849
 
@@ -2436,8 +2637,6 @@
 
 //POINTER #301 @ $39EB3 - STRING #301 @ $3A89F
 
-#W16($39EB3)
-//たいちょう[X]
 
 //POINTER #302 @ $39EB5 - STRING #302 @ $3A8AB
 
@@ -2521,13 +2720,9 @@
 
 //POINTER #318 @ $39ED5 - STRING #318 @ $3A8FD
 
-#W16($39ED5)
-//とうぞく[X]
 
 //POINTER #319 @ $39ED7 - STRING #319 @ $3A93B
 
-#W16($39ED7)
-//たいちょう[X]
 
 //POINTER #320 @ $39ED9 - STRING #320 @ $3A91D
 
@@ -2541,8 +2736,6 @@
 
 //POINTER #322 @ $39EDD - STRING #322 @ $3A93B
 
-#W16($39EDD)
-//たいちょう[X]
 
 //POINTER #323 @ $39EDF - STRING #323 @ $3A91D
 
@@ -2571,8 +2764,6 @@
 
 //POINTER #328 @ $39EE9 - STRING #328 @ $3A93B
 
-#W16($39EE9)
-//たいちょう[X]
 
 //POINTER #329 @ $39EEB - STRING #329 @ $3AB1F
 
@@ -2591,8 +2782,6 @@
 
 //POINTER #332 @ $39EF1 - STRING #332 @ $3A93B
 
-#W16($39EF1)
-//たいちょう[X]
 
 //POINTER #333 @ $39EF3 - STRING #333 @ $3AB1F
 
@@ -2601,8 +2790,6 @@
 
 //POINTER #334 @ $39EF5 - STRING #334 @ $3A93B
 
-#W16($39EF5)
-//たいちょう[X]
 
 //POINTER #335 @ $39EF7 - STRING #335 @ $3AB1F
 
@@ -2661,8 +2848,6 @@
 
 //POINTER #346 @ $39F0D - STRING #346 @ $3A991
 
-#W16($39F0D)
-//とうぞく[X]
 
 //POINTER #347 @ $39F0F - STRING #347 @ $3A99B
 
@@ -2706,8 +2891,6 @@
 
 //POINTER #355 @ $39F1F - STRING #355 @ $3A9F9
 
-#W16($39F1F)
-//たいちょう[X]
 
 //POINTER #356 @ $39F21 - STRING #356 @ $3A9CF
 
@@ -2731,8 +2914,6 @@
 
 //POINTER #360 @ $39F29 - STRING #360 @ $3A9F9
 
-#W16($39F29)
-//たいちょう[X]
 
 //POINTER #361 @ $39F2B - STRING #361 @ $3AB1F
 
@@ -2741,8 +2922,6 @@
 
 //POINTER #362 @ $39F2D - STRING #362 @ $3A9F9
 
-#W16($39F2D)
-//たいちょう[X]
 
 //POINTER #363 @ $39F2F - STRING #363 @ $3AB1F
 
@@ -2751,8 +2930,6 @@
 
 //POINTER #364 @ $39F31 - STRING #364 @ $3A9F9
 
-#W16($39F31)
-//たいちょう[X]
 
 //POINTER #365 @ $39F33 - STRING #365 @ $3AB1F
 
@@ -2966,8 +3143,6 @@
 
 //POINTER #407 @ $39F87 - STRING #407 @ $3AAAD
 
-#W16($39F87)
-//たいちょう[X]
 
 //POINTER #408 @ $39F89 - STRING #408 @ $3AC2B
 
@@ -2981,8 +3156,6 @@
 
 //POINTER #410 @ $39F8D - STRING #410 @ $3AAAD
 
-#W16($39F8D)
-//たいちょう[X]
 
 //POINTER #411 @ $39F8F - STRING #411 @ $3AC2B
 
@@ -2996,8 +3169,6 @@
 
 //POINTER #413 @ $39F93 - STRING #413 @ $3AAAD
 
-#W16($39F93)
-//たいちょう[X]
 
 //POINTER #414 @ $39F95 - STRING #414 @ $3AC2B
 
