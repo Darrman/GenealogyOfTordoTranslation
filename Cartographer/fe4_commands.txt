@@ -12,7 +12,7 @@
 #BASE POINTER:		$-7FFE00
 //SNES address to ROM address, also featuring header removal! Fun.
 #TABLE:			menutext.tbl
-#COMMENTS:		No
+#COMMENTS:		Yes
 #END BLOCK
 
 #BLOCK NAME: Skill Menu Names
@@ -26,7 +26,7 @@
 #ATLAS PTRS:		Yes
 #BASE POINTER:		$200
 #TABLE:			menutext.tbl
-#COMMENTS:		No
+#COMMENTS:		Yes
 #END BLOCK
 
 #BLOCK NAME: Options Menu
@@ -40,7 +40,7 @@
 #ATLAS PTRS:		Yes
 #BASE POINTER:		$200
 #TABLE:			menutext.tbl
-#COMMENTS:		No
+#COMMENTS:		Yes
 #END BLOCK
 
 #BLOCK NAME: Terrain Names
@@ -54,7 +54,7 @@
 #ATLAS PTRS:		Yes
 #BASE POINTER:		$2DB00
 #TABLE:			menutext.tbl
-#COMMENTS:		No
+#COMMENTS:		Yes
 #END BLOCK
 
 #BLOCK NAME: Castle Names
@@ -68,7 +68,7 @@
 #ATLAS PTRS:		Yes
 #BASE POINTER:		$2DF40
 #TABLE:			menutext.tbl
-#COMMENTS:		No
+#COMMENTS:		Yes
 #END BLOCK
 
 #BLOCK NAME: Class Names
@@ -82,7 +82,7 @@
 #ATLAS PTRS:		Yes
 #BASE POINTER:		$38CB3
 #TABLE:			menutext.tbl
-#COMMENTS:		No
+#COMMENTS:		Yes
 #END BLOCK
 
 #BLOCK NAME: Character Names
@@ -96,21 +96,21 @@
 #ATLAS PTRS:		Yes
 #BASE POINTER:		$39C59
 #TABLE:			menutext.tbl
-#COMMENTS:		No
+#COMMENTS:		Yes
 #END BLOCK
 
 #BLOCK NAME: Army Names
 #TYPE:			NORMAL
 #METHOD:		POINTER_RELATIVE
 #POINTER ENDIAN:	LITTLE
-#POINTER TABLE START:	$3A62F
-#POINTER TABLE STOP:	$3A69C
+#POINTER TABLE START:	$3DAE8
+#POINTER TABLE STOP:	$3DB55
 #POINTER SIZE:		$02
 #POINTER SPACE:		$00
 #ATLAS PTRS:		Yes
-#BASE POINTER:		$3A62F
+#BASE POINTER:		$3DAE8
 #TABLE:			menutext.tbl
-#COMMENTS:		No
+#COMMENTS:		Yes
 #END BLOCK
 
 #BLOCK NAME: Item Names
@@ -124,25 +124,21 @@
 #ATLAS PTRS:		Yes
 #BASE POINTER:		$3DE12
 #TABLE:			menutext.tbl
-#COMMENTS:		No
+#COMMENTS:		Yes
 #END BLOCK
 
 #BLOCK NAME: Item Descriptions
 #TYPE:			NORMAL
-//#STRING LENGTH:	80
-//#STRING END: 		Yes
-//#LINE LENGTH:		16
-//#LINE END:		Yes
 #METHOD:		POINTER_RELATIVE
 #POINTER ENDIAN:	LITTLE
-#POINTER TABLE START:	$3B17F
-#POINTER TABLE STOP:	$3B292
+#POINTER TABLE START:	$3E4E8
+#POINTER TABLE STOP:	$3E5FB
 #POINTER SIZE:		$02
 #POINTER SPACE:		$00
 #ATLAS PTRS:		Yes
-#BASE POINTER:		$3B17F
+#BASE POINTER:		$3E4E8
 #TABLE:			menutext.tbl
-#COMMENTS:		No
+#COMMENTS:		Yes
 #END BLOCK
 
 #BLOCK NAME: Menu Commands
@@ -156,7 +152,7 @@
 #ATLAS PTRS:		Yes
 #BASE POINTER:		$50200
 #TABLE:			menutext.tbl
-#COMMENTS:		No
+#COMMENTS:		Yes
 #END BLOCK
 
 #BLOCK NAME:		System Menu
@@ -170,7 +166,7 @@
 #ATLAS PTRS:		Yes
 #BASE POINTER:		$50200
 #TABLE:			menutext.tbl
-#COMMENTS:		No
+#COMMENTS:		Yes
 #END BLOCK
 
 #BLOCK NAME: Skill Descriptions
@@ -184,7 +180,7 @@
 #ATLAS PTRS:		Yes
 #BASE POINTER:		$-7FFE00
 #TABLE:			menutext.tbl
-#COMMENTS:		No
+#COMMENTS:		Yes
 #END BLOCK
 
 #BLOCK NAME: Option Choices
@@ -199,7 +195,7 @@
 #BASE POINTER:		$-7FFE00
 //SNES address to ROM address, also featuring header removal! Fun.
 #TABLE:			menutext.tbl
-#COMMENTS:		No
+#COMMENTS:		Yes
 #END BLOCK
 
 #BLOCK NAME: Option Descriptions
@@ -214,7 +210,7 @@
 #BASE POINTER:		$-7FFE00
 //SNES address to ROM address, also featuring header removal! Fun.
 #TABLE:			menutext.tbl
-#COMMENTS:		No
+#COMMENTS:		Yes
 #END BLOCK
 
 #BLOCK NAME: Top of Option Choice Panel
@@ -229,7 +225,7 @@
 #BASE POINTER:		$-7FFE00
 //SNES address to ROM address, also featuring header removal! Fun.
 #TABLE:			menutext.tbl
-#COMMENTS:		No
+#COMMENTS:		Yes
 #END BLOCK
 
 //Switching to dialogue table.
@@ -245,7 +241,7 @@
 #ATLAS PTRS:		Yes
 #BASE POINTER:		$D0200
 #TABLE:			dialogue.tbl
-#COMMENTS:		No
+#COMMENTS:		Yes
 #END BLOCK
 
 #BLOCK NAME: Item Names (Dialogue)
@@ -259,7 +255,7 @@
 #ATLAS PTRS:		Yes
 #BASE POINTER:		$D0200
 #TABLE:			dialogue.tbl
-#COMMENTS:		No
+#COMMENTS:		Yes
 #END BLOCK
 
 #BLOCK NAME: Class Names (Dialogue)
@@ -273,7 +269,7 @@
 #ATLAS PTRS:		Yes
 #BASE POINTER:		$D0200
 #TABLE:			dialogue.tbl
-#COMMENTS:		No
+#COMMENTS:		Yes
 #END BLOCK
 
 #BLOCK NAME: Main Menu
@@ -287,7 +283,7 @@
 #ATLAS PTRS:		Yes
 #BASE POINTER:		$D0200
 #TABLE:			dialogue.tbl
-#COMMENTS:		No
+#COMMENTS:		Yes
 #END BLOCK
 
 #BLOCK NAME: Chapter Names
@@ -301,7 +297,7 @@
 #ATLAS PTRS:		Yes
 #BASE POINTER:		$D0200
 #TABLE:			dialogue.tbl
-#COMMENTS:		No
+#COMMENTS:		Yes
 #END BLOCK
 
 #BLOCK NAME: Shop Text
@@ -315,7 +311,7 @@
 #ATLAS PTRS:		Yes
 #BASE POINTER:		$-800000
 #TABLE:			dialogue.tbl
-#COMMENTS:		No
+#COMMENTS:		Yes
 #END BLOCK
 
 #BLOCK NAME: Intermission Names 1
@@ -329,7 +325,7 @@
 #ATLAS PTRS:		Yes
 #BASE POINTER:		$80200
 #TABLE:			dialogue.tbl
-#COMMENTS:		No
+#COMMENTS:		Yes
 #END BLOCK
 
 #BLOCK NAME: Intermission Names 2
@@ -343,5 +339,5 @@
 #ATLAS PTRS:		Yes
 #BASE POINTER:		$80200
 #TABLE:			dialogue.tbl
-#COMMENTS:		No
+#COMMENTS:		Yes
 #END BLOCK

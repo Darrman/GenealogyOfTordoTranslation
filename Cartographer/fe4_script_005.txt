@@ -5,359 +5,359 @@
 //POINTER #0 @ $38CB3 - STRING #0 @ $38D43
 
 #W16($38CB3)
-コマンドナイト[X]
+//コマンドナイト[X]
 
 //POINTER #1 @ $38CB5 - STRING #1 @ $38D53
 
 #W16($38CB5)
-ランスナイト[X]
+//ランスナイト[X]
 
 //POINTER #2 @ $38CB7 - STRING #2 @ $38DD3
 
 #W16($38CB7)
-ボウナイト[X]
+//ボウナイト[X]
 
 //POINTER #3 @ $38CB9 - STRING #3 @ $38D6F
 
 #W16($38CB9)
-アクスナイト[X]
+//アクスナイト[X]
 
 //POINTER #4 @ $38CBB - STRING #4 @ $38D7D
 
 #W16($38CBB)
-ソードナイト[X]
+//ソードナイト[X]
 
 //POINTER #5 @ $38CBD - STRING #5 @ $38D8B
 
 #W16($38CBD)
-トルバドール[X]
+//トルバドール[X]
 
 //POINTER #6 @ $38CBF - STRING #6 @ $38D99
 
 #W16($38CBF)
-ロードナイト[X]
+//ロードナイト[X]
 
 //POINTER #7 @ $38CC1 - STRING #7 @ $38E65
 
 #W16($38CC1)
-グローリーナイト[X]
+//グローリーナイト[X]
 
 //POINTER #8 @ $38CC3 - STRING #8 @ $38DB7
 
 #W16($38CC3)
-マスターナイト[X]
+//マスターナイト[X]
 
 //POINTER #9 @ $38CC5 - STRING #9 @ $38DC7
 
 #W16($38CC5)
-パラディン[X]
+//パラディン[X]
 
 //POINTER #10 @ $38CC7 - STRING #10 @ $38F1F
 
 #W16($38CC7)
-ヴァルキュリア[X]
+//ヴァルキュリア[X]
 
 //POINTER #11 @ $38CC9 - STRING #11 @ $38D61
 
 #W16($38CC9)
-アローナイト[X]
+//アローナイト[X]
 
 //POINTER #12 @ $38CCB - STRING #12 @ $38DDF
 
 #W16($38CCB)
-フォレストナイト[X]
+//フォレストナイト[X]
 
 //POINTER #13 @ $38CCD - STRING #13 @ $38DF1
 
 #W16($38CCD)
-マージナイト[X]
+//マージナイト[X]
 
 //POINTER #14 @ $38CCF - STRING #14 @ $38DFF
 
 #W16($38CCF)
-グランドナイト[X]
+//グランドナイト[X]
 
 //POINTER #15 @ $38CD1 - STRING #15 @ $38E0F
 
 #W16($38CD1)
-エンプレス[X]
+//エンプレス[X]
 
 //POINTER #16 @ $38CD3 - STRING #16 @ $38E21
 
 #W16($38CD3)
-ペガサスナイト[X]
+//ペガサスナイト[X]
 
 //POINTER #17 @ $38CD5 - STRING #17 @ $38E31
 
 #W16($38CD5)
-エンリルナイト[X]
+//エンリルナイト[X]
 
 //POINTER #18 @ $38CD7 - STRING #18 @ $38E55
 
 #W16($38CD7)
-ウィザード[X]
+//ウィザード[X]
 
 //POINTER #19 @ $38CD9 - STRING #19 @ $38E43
 
 #W16($38CD9)
-ドラゴンマスター[X]
+//ドラゴンマスター[X]
 
 //POINTER #20 @ $38CDB - STRING #20 @ $38DA7
 
 #W16($38CDB)
-リンドブルム[X]
+//リンドブルム[X]
 
 //POINTER #21 @ $38CDD - STRING #21 @ $38E77
 
 #W16($38CDD)
-ボウファイター[X]
+//ボウファイター[X]
 
 //POINTER #22 @ $38CDF - STRING #22 @ $39011
 
 #W16($38CDF)
-ブレイド[X]
+//ブレイド[X]
 
 //POINTER #23 @ $38CE1 - STRING #23 @ $38E99
 
 #W16($38CE1)
-ソードマスター[X]
+//ソードマスター[X]
 
 //POINTER #24 @ $38CE3 - STRING #24 @ $38EA9
 
 #W16($38CE3)
-サジタリー[X]
+//サジタリー[X]
 
 //POINTER #25 @ $38CE5 - STRING #25 @ $38EB5
 
 #W16($38CE5)
-バスタード[X]
+//バスタード[X]
 
 //POINTER #26 @ $38CE7 - STRING #26 @ $38EC3
 
 #W16($38CE7)
-ジェネラル[X]
+//ジェネラル[X]
 
 //POINTER #27 @ $38CE9 - STRING #27 @ $38ECF
 
 #W16($38CE9)
-アヴァロン[X]
+//アヴァロン[X]
 
 //POINTER #28 @ $38CEB - STRING #28 @ $3908B
 
 #W16($38CEB)
-マーシャル[X]
+//マーシャル[X]
 
 //POINTER #29 @ $38CED - STRING #29 @ $390CB
 
 #W16($38CED)
-マーシナリー[X]
+//マーシナリー[X]
 
 //POINTER #30 @ $38CEF - STRING #30 @ $38E0F
 
 #W16($38CEF)
-エンプレス[X]
+//エンプレス[X]
 
 //POINTER #31 @ $38CF1 - STRING #31 @ $39007
 
 #W16($38CF1)
-ウィッチ[X]
+//ウィッチ[X]
 
 //POINTER #32 @ $38CF3 - STRING #32 @ $38F13
 
 #W16($38CF3)
-シルメリー[X]
+//シルメリー[X]
 
 //POINTER #33 @ $38CF5 - STRING #33 @ $3907F
 
 #W16($38CF5)
-スナイパー[X]
+//スナイパー[X]
 
 //POINTER #34 @ $38CF7 - STRING #34 @ $38FBD
 
 #W16($38CF7)
-ランスアーマー[X]
+//ランスアーマー[X]
 
 //POINTER #35 @ $38CF9 - STRING #35 @ $38F3B
 
 #W16($38CF9)
-アクスアーマー[X]
+//アクスアーマー[X]
 
 //POINTER #36 @ $38CFB - STRING #36 @ $38F4B
 
 #W16($38CFB)
-ボウアーマー[X]
+//ボウアーマー[X]
 
 //POINTER #37 @ $38CFD - STRING #37 @ $38F59
 
 #W16($38CFD)
-ソードアーマー[X]
+//ソードアーマー[X]
 
 //POINTER #38 @ $38CFF - STRING #38 @ $38F69
 
 #W16($38CFF)
-バーバリアン[X]
+//バーバリアン[X]
 
 //POINTER #39 @ $38D01 - STRING #39 @ $38F77
 
 #W16($38D01)
-アクスファイター[X]
+//アクスファイター[X]
 
 //POINTER #40 @ $38D03 - STRING #40 @ $38F89
 
 #W16($38D03)
-マウンテンシーフ[X]
+//マウンテンシーフ[X]
 
 //POINTER #41 @ $38D05 - STRING #41 @ $38F9B
 
 #W16($38D05)
-ウォーリア[X]
+//ウォーリア[X]
 
 //POINTER #42 @ $38D07 - STRING #42 @ $38FA7
 
 #W16($38D07)
-ハンター[X]
+//ハンター[X]
 
 //POINTER #43 @ $38D09 - STRING #43 @ $38FB1
 
 #W16($38D09)
-パイレーツ[X]
+//パイレーツ[X]
 
 //POINTER #44 @ $38D0B - STRING #44 @ $38F31
 
 #W16($38D0B)
-ロード[X]
+//ロード[X]
 
 //POINTER #45 @ $38D0D - STRING #45 @ $38FCD
 
 #W16($38D0D)
-アークマージ[X]
+//アークマージ[X]
 
 //POINTER #46 @ $38D0F - STRING #46 @ $38F01
 
 #W16($38D0F)
-ヴァンガード[X]
+//ヴァンガード[X]
 
 //POINTER #47 @ $38D11 - STRING #47 @ $38FE9
 
 #W16($38D11)
-アポステル[X]
+//アポステル[X]
 
 //POINTER #48 @ $38D13 - STRING #48 @ $38FF5
 
 #W16($38D13)
-マージプリンセス[X]
+//マージプリンセス[X]
 
 //POINTER #49 @ $38D15 - STRING #49 @ $38EDD
 
 #W16($38D15)
-ロプトプリンセス[X]
+//ロプトプリンセス[X]
 
 //POINTER #50 @ $38D17 - STRING #50 @ $38E87
 
 #W16($38D17)
-ソードダンサー[X]
+//ソードダンサー[X]
 
 //POINTER #51 @ $38D19 - STRING #51 @ $3901B
 
 #W16($38D19)
-プリースト[X]
+//プリースト[X]
 
 //POINTER #52 @ $38D1B - STRING #52 @ $39027
 
 #W16($38D1B)
-マージ[X]
+//マージ[X]
 
 //POINTER #53 @ $38D1D - STRING #53 @ $3902F
 
 #W16($38D1D)
-ファイアマージ[X]
+//ファイアマージ[X]
 
 //POINTER #54 @ $38D1F - STRING #54 @ $3903F
 
 #W16($38D1F)
-レディマージ[X]
+//レディマージ[X]
 
 //POINTER #55 @ $38D21 - STRING #55 @ $3904F
 
 #W16($38D21)
-ウインドマージ[X]
+//ウインドマージ[X]
 
 //POINTER #56 @ $38D23 - STRING #56 @ $3905F
 
 #W16($38D23)
-セイント[X]
+//セイント[X]
 
 //POINTER #57 @ $38D25 - STRING #57 @ $39069
 
 #W16($38D25)
-レディナイト[X]
+//レディナイト[X]
 
 //POINTER #58 @ $38D27 - STRING #58 @ $39077
 
 #W16($38D27)
-セイジ[X]
+//セイジ[X]
 
 //POINTER #59 @ $38D29 - STRING #59 @ $38E55
 
 #W16($38D29)
-ウィザード[X]
+//ウィザード[X]
 
 //POINTER #60 @ $38D2B - STRING #60 @ $38EEF
 
 #W16($38D2B)
-ライトマージ[X]
+//ライトマージ[X]
 
 //POINTER #61 @ $38D2D - STRING #61 @ $39097
 
 #W16($38D2D)
-ダークマージ[X]
+//ダークマージ[X]
 
 //POINTER #62 @ $38D2F - STRING #62 @ $390A5
 
 #W16($38D2F)
-ダークビショップ[X]
+//ダークビショップ[X]
 
 //POINTER #63 @ $38D31 - STRING #63 @ $390B7
 
 #W16($38D31)
-シーフ[X]
+//シーフ[X]
 
 //POINTER #64 @ $38D33 - STRING #64 @ $390BF
 
 #W16($38D33)
-エスピオン[X]
+//エスピオン[X]
 
 //POINTER #65 @ $38D35 - STRING #65 @ $390DD
 
 #W16($38D35)
-シビリアン[X]
+//シビリアン[X]
 
 //POINTER #66 @ $38D37 - STRING #66 @ $390DD
 
 #W16($38D37)
-シビリアン[X]
+//シビリアン[X]
 
 //POINTER #67 @ $38D39 - STRING #67 @ $390E9
 
 #W16($38D39)
-マージロード[X]
+//マージロード[X]
 
 //POINTER #68 @ $38D3B - STRING #68 @ $390F7
 
 #W16($38D3B)
-グラスランナー[X]
+//グラスランナー[X]
 
 //POINTER #69 @ $38D3D - STRING #69 @ $39107
 
 #W16($38D3D)
-テトラアーチ[X]
+//テトラアーチ[X]
 
 //POINTER #70 @ $38D3F - STRING #70 @ $39115
 
 #W16($38D3F)
-マスターアーチ[X]
+//マスターアーチ[X]
 
 //POINTER #71 @ $38D41 - STRING #71 @ $39125
 
 #W16($38D41)
-マージプリンス[X]
+//マージプリンス[X]

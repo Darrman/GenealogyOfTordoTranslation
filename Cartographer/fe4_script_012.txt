@@ -5,289 +5,289 @@
 //POINTER #0 @ $9ADFF - STRING #0 @ $9A9DD
 
 #W24($9ADFF)
-ダメージを     むこうにする[X]
+//ダメージを     むこうにする[X]
 
 //POINTER #1 @ $9AE02 - STRING #1 @ $9A9FF
 
 #W24($9AE02)
-ピンチになったとき いかりのこうげき[X]
+//ピンチになったとき いかりのこうげき[X]
 
 //POINTER #2 @ $9AE05 - STRING #2 @ $9AA25
 
 #W24($9AE05)
-さいこうげきが   でやすくなる          [X]
+//さいこうげきが   でやすくなる          [X]
 
 //POINTER #3 @ $9AE08 - STRING #3 @ $9AA5B
 
 #W24($9AE08)
-すばやさのかくりつでれんぞくこうげき[X]
+//すばやさのかくりつでれんぞくこうげき[X]
 
 //POINTER #4 @ $9AE0B - STRING #4 @ $9AA81
 
 #W24($9AE0B)
-こうげきがあたると あいてのゴールドを うばう[X]
+//こうげきがあたると あいてのゴールドを うばう[X]
 
 //POINTER #5 @ $9AE0E - STRING #5 @ $200
 
 #W24($9AE0E)
-<$E0><$0D>[X]
+//<$E0><$0D>[X]
 
 //POINTER #6 @ $9AE11 - STRING #6 @ $9AAB1
 
 #W24($9AE11)
-りんせつした    ユニットを     いどうかのうにする[X]
+//りんせつした    ユニットを     いどうかのうにする[X]
 
 //POINTER #7 @ $9AE14 - STRING #7 @ $200
 
 #W24($9AE14)
-<$E0><$0D>[X]
+//<$E0><$0D>[X]
 
 //POINTER #8 @ $9AE17 - STRING #8 @ $200
 
 #W24($9AE17)
-<$E0><$0D>[X]
+//<$E0><$0D>[X]
 
 //POINTER #9 @ $9AE1A - STRING #9 @ $200
 
 #W24($9AE1A)
-<$E0><$0D>[X]
+//<$E0><$0D>[X]
 
 //POINTER #10 @ $9AE1D - STRING #10 @ $9AAED
 
 #W24($9AE1D)
-ちかくにいるみかたに１０<$81><$93>のしえんこうか[X]
+//ちかくにいるみかたに１０<$81><$93>のしえんこうか[X]
 
 //POINTER #11 @ $9AE20 - STRING #11 @ $200
 
 #W24($9AE20)
-<$E0><$0D>[X]
+//<$E0><$0D>[X]
 
 //POINTER #12 @ $9AE23 - STRING #12 @ $9AB17
 
 #W24($9AE23)
-ひっさつこうげきなどをふうじる[X]
+//ひっさつこうげきなどをふうじる[X]
 
 //POINTER #13 @ $9AE26 - STRING #13 @ $9AB37
 
 #W24($9AE26)
-ピンチになると   かいひりつがあがる[X]
+//ピンチになると   かいひりつがあがる[X]
 
 //POINTER #14 @ $9AE29 - STRING #14 @ $9AB5F
 
 #W24($9AE29)
-ひっさつのいちげきがでやすくなる    ダメージ３ばい[X]
+//ひっさつのいちげきがでやすくなる    ダメージ３ばい[X]
 
 //POINTER #15 @ $9AE2C - STRING #15 @ $9AB97
 
 #W24($9AE2C)
-かならず      せんせいこうげきする  [X]
+//かならず      せんせいこうげきする  [X]
 
 //POINTER #16 @ $9AE2F - STRING #16 @ $9ABC5
 
 #W24($9AE2F)
-みがるであれば   ときおり せんとうがけいぞくする[X]
+//みがるであれば   ときおり せんとうがけいぞくする[X]
 
 //POINTER #17 @ $9AE32 - STRING #17 @ $9ABFB
 
 #W24($9AE32)
-５かいれんぞくで  こうげきする[X]
+//５かいれんぞくで  こうげきする[X]
 
 //POINTER #18 @ $9AE35 - STRING #18 @ $9AC1D
 
 #W24($9AE35)
-あいてのしゅびりょくをはんげん  [X]
+//あいてのしゅびりょくをはんげん  [X]
 
 //POINTER #19 @ $9AE38 - STRING #19 @ $9AC41
 
 #W24($9AE38)
-あたえたダメージだけＨＰがかいふくする[X]
+//あたえたダメージだけＨＰがかいふくする[X]
 
 //POINTER #20 @ $9AE3B - STRING #20 @ $9ADB7
 
 #W24($9AE3B)
-こうげきりょく   しゅびりょくがあがる[X]
+//こうげきりょく   しゅびりょくがあがる[X]
 
 //POINTER #21 @ $9AE3E - STRING #21 @ $9ADB7
 
 #W24($9AE3E)
-こうげきりょく   しゅびりょくがあがる[X]
+//こうげきりょく   しゅびりょくがあがる[X]
 
 //POINTER #22 @ $9AE41 - STRING #22 @ $9AC69
 
 #W24($9AE41)
-まいターン     ＨＰが５から１０  かいふくする[X]
+//まいターン     ＨＰが５から１０  かいふくする[X]
 
 //POINTER #23 @ $9AE44 - STRING #23 @ $9AC9F
 
 #W24($9AE44)
-けいけんちを    ２ばいもらえる[X]
+//けいけんちを    ２ばいもらえる[X]
 
 //POINTER #24 @ $9AE47 - STRING #24 @ $200
 
 #W24($9AE47)
-<$E0><$0D>[X]
+//<$E0><$0D>[X]
 
 //POINTER #25 @ $9AE4A - STRING #25 @ $9A9C9
 
 #W24($9AE4A)
-かんぜんかいふく [X]
+//かんぜんかいふく [X]
 
 //POINTER #26 @ $9AE4D - STRING #26 @ $9ACC3
 
 #W24($9AE4D)
-かいものや     しゅうりが     はんがくでできる[X]
+//かいものや     しゅうりが     はんがくでできる[X]
 
 //POINTER #27 @ $9AE50 - STRING #27 @ $200
 
 #W24($9AE50)
-<$E0><$0D>[X]
+//<$E0><$0D>[X]
 
 //POINTER #28 @ $9AE53 - STRING #28 @ $200
 
 #W24($9AE53)
-<$E0><$0D>[X]
+//<$E0><$0D>[X]
 
 //POINTER #29 @ $9AE56 - STRING #29 @ $200
 
 #W24($9AE56)
-<$E0><$0D>[X]
+//<$E0><$0D>[X]
 
 //POINTER #30 @ $9AE59 - STRING #30 @ $200
 
 #W24($9AE59)
-<$E0><$0D>[X]
+//<$E0><$0D>[X]
 
 //POINTER #31 @ $9AE5C - STRING #31 @ $9ACFD
 
 #W24($9AE5C)
-オラクル[X]
+//オラクル[X]
 
 //POINTER #32 @ $9AE5F - STRING #32 @ $9AD07
 
 #W24($9AE5F)
-いかり[X]
+//いかり[X]
 
 //POINTER #33 @ $9AE62 - STRING #33 @ $9AD0F
 
 #W24($9AE62)
-ついげき[X]
+//ついげき[X]
 
 //POINTER #34 @ $9AE65 - STRING #34 @ $9AD19
 
 #W24($9AE65)
-れんぞく[X]
+//れんぞく[X]
 
 //POINTER #35 @ $9AE68 - STRING #35 @ $9AD23
 
 #W24($9AE68)
-ぬすむ[X]
+//ぬすむ[X]
 
 //POINTER #36 @ $9AE6B - STRING #36 @ $200
 
 #W24($9AE6B)
-<$E0><$0D>[X]
+//<$E0><$0D>[X]
 
 //POINTER #37 @ $9AE6E - STRING #37 @ $9AD2B
 
 #W24($9AE6E)
-おどる[X]
+//おどる[X]
 
 //POINTER #38 @ $9AE71 - STRING #38 @ $200
 
 #W24($9AE71)
-<$E0><$0D>[X]
+//<$E0><$0D>[X]
 
 //POINTER #39 @ $9AE74 - STRING #39 @ $200
 
 #W24($9AE74)
-<$E0><$0D>[X]
+//<$E0><$0D>[X]
 
 //POINTER #40 @ $9AE77 - STRING #40 @ $200
 
 #W24($9AE77)
-<$E0><$0D>[X]
+//<$E0><$0D>[X]
 
 //POINTER #41 @ $9AE7A - STRING #41 @ $9AD33
 
 #W24($9AE7A)
-カリスマ[X]
+//カリスマ[X]
 
 //POINTER #42 @ $9AE7D - STRING #42 @ $200
 
 #W24($9AE7D)
-<$E0><$0D>[X]
+//<$E0><$0D>[X]
 
 //POINTER #43 @ $9AE80 - STRING #43 @ $9AD3D
 
 #W24($9AE80)
-みきり[X]
+//みきり[X]
 
 //POINTER #44 @ $9AE83 - STRING #44 @ $9AD45
 
 #W24($9AE83)
-いのり[X]
+//いのり[X]
 
 //POINTER #45 @ $9AE86 - STRING #45 @ $9AD4D
 
 #W24($9AE86)
-ひっさつ[X]
+//ひっさつ[X]
 
 //POINTER #46 @ $9AE89 - STRING #46 @ $9AD57
 
 #W24($9AE89)
-まちぶせ[X]
+//まちぶせ[X]
 
 //POINTER #47 @ $9AE8C - STRING #47 @ $9AD61
 
 #W24($9AE8C)
-とつげき[X]
+//とつげき[X]
 
 //POINTER #48 @ $9AE8F - STRING #48 @ $9AD6B
 
 #W24($9AE8F)
-りゅうせい剣[X]
+//りゅうせい剣[X]
 
 //POINTER #49 @ $9AE92 - STRING #49 @ $9AD79
 
 #W24($9AE92)
-げっこう剣[X]
+//げっこう剣[X]
 
 //POINTER #50 @ $9AE95 - STRING #50 @ $9AD85
 
 #W24($9AE95)
-たいよう剣[X]
+//たいよう剣[X]
 
 //POINTER #51 @ $9AE98 - STRING #51 @ $9ADA3
 
 #W24($9AE98)
-カムイ  [X]
+//カムイ  [X]
 
 //POINTER #52 @ $9AE9B - STRING #52 @ $9ADE1
 
 #W24($9AE9B)
-はじゃ[X]
+//はじゃ[X]
 
 //POINTER #53 @ $9AE9E - STRING #53 @ $9AD91
 
 #W24($9AE9E)
-ライブ[X]
+//ライブ[X]
 
 //POINTER #54 @ $9AEA1 - STRING #54 @ $9AD99
 
 #W24($9AEA1)
-エリート[X]
+//エリート[X]
 
 //POINTER #55 @ $9AEA4 - STRING #55 @ $200
 
 #W24($9AEA4)
-<$E0><$0D>[X]
+//<$E0><$0D>[X]
 
 //POINTER #56 @ $9AEA7 - STRING #56 @ $9ADE9
 
 #W24($9AEA7)
-リカバー[X]
+//リカバー[X]
 
 //POINTER #57 @ $9AEAA - STRING #57 @ $9ADAF
 
 #W24($9AEAA)
-ねぎり[X]
+//ねぎり[X]

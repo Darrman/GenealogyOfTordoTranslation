@@ -5,377 +5,377 @@
 //POINTER #0 @ $D940D - STRING #0 @ $D948B
 
 #W16($D940D)
-<$09>r<$A8><$88>r<$AE>[X]
+//<$09>r<$A8><$88>r<$AE>[X]
 
 
 //POINTER #1 @ $D940F - STRING #1 @ $D9492
 
 #W16($D940F)
-<$09><$86>a<$8C>y<$88>s[X]
+//<$09><$86>a<$8C>y<$88>s[X]
 
 
 //POINTER #2 @ $D9411 - STRING #2 @ $D949A
 
 #W16($D9411)
-<$09>d<$B0><$A1><$AB>[X]
+//<$09>d<$B0><$A1><$AB>[X]
 
 
 //POINTER #3 @ $D9413 - STRING #3 @ $D94A0
 
 #W16($D9413)
-<$09><$80>y<$7E><$9B>[X]
+//<$09><$80>y<$7E><$9B>[X]
 
 
 //POINTER #4 @ $D9415 - STRING #4 @ $D94A6
 
 #W16($D9415)
-<$09><$60>l<$9F><$88>[X]
+//<$09><$60>l<$9F><$88>[X]
 
 
 //POINTER #5 @ $D9417 - STRING #5 @ $D94AC
 
 #W16($D9417)
-<$09><$89><$A1><$A8><$8C>[X]
+//<$09><$89><$A1><$A8><$8C>[X]
 
 
 //POINTER #6 @ $D9419 - STRING #6 @ $D94B2
 
 #W16($D9419)
-<$09><$7B><$A8><$8C>[X]
+//<$09><$7B><$A8><$8C>[X]
 
 
 //POINTER #7 @ $D941B - STRING #7 @ $D94B8
 
 #W16($D941B)
-c<$88>sk<$AD><$8C>[X]
+//c<$88>sk<$AD><$8C>[X]
 
 
 //POINTER #8 @ $D941D - STRING #8 @ $D94C0
 
 #W16($D941D)
-d<$B0>k<$8C>[X]
+//d<$B0>k<$8C>[X]
 
 
 //POINTER #9 @ $D941F - STRING #9 @ $D94C6
 
 #W16($D941F)
-<$7D><$81><$8A>l[X]
+//<$7D><$81><$8A>l[X]
 
 
 //POINTER #10 @ $D9421 - STRING #10 @ $D94CB
 
 #W16($D9421)
-<$09><$8A>t<$8C>[X]
+//<$09><$8A>t<$8C>[X]
 
 
 //POINTER #11 @ $D9423 - STRING #11 @ $D94D1
 
 #W16($D9423)
-f<$AE><$60><$8C>[X]
+//f<$AE><$60><$8C>[X]
 
 
 //POINTER #12 @ $D9425 - STRING #12 @ $D94D7
 
 #W16($D9425)
-li<$A3>d[X]
+//li<$A3>d[X]
 
 
 //POINTER #13 @ $D9427 - STRING #13 @ $D94DD
 
 #W16($D9427)
-<$60><$87>d<$B0><$8C>[X]
+//<$60><$87>d<$B0><$8C>[X]
 
 
 //POINTER #14 @ $D9429 - STRING #14 @ $D94E3
 
 #W16($D9429)
-<$09><$60><$B0><$97><$8C>[X]
+//<$09><$60><$B0><$97><$8C>[X]
 
 
 //POINTER #15 @ $D942B - STRING #15 @ $D94E9
 
 #W16($D942B)
-<$09><$60><$95><$88>[X]
+//<$09><$60><$95><$88>[X]
 
 
 //POINTER #16 @ $D942D - STRING #16 @ $D94EF
 
 #W16($D942D)
-clu<$AD>[X]
+//clu<$AD>[X]
 
 
 //POINTER #17 @ $D942F - STRING #17 @ $D94F5
 
 #W16($D942F)
-c<$B0><$9A><$A8><$8C>[X]
+//c<$B0><$9A><$A8><$8C>[X]
 
 
 //POINTER #18 @ $D9431 - STRING #18 @ $D94FB
 
 #W16($D9431)
-<$09>cl<$87><$8C>[X]
+//<$09>cl<$87><$8C>[X]
 
 
 //POINTER #19 @ $D9433 - STRING #19 @ $D9502
 
 #W16($D9433)
-<$86>hkl[X]
+//<$86>hkl[X]
 
 
 //POINTER #20 @ $D9435 - STRING #20 @ $D9507
 
 #W16($D9435)
-<$09>j<$7B><$A8>[X]
+//<$09>j<$7B><$A8>[X]
 
 
 //POINTER #21 @ $D9437 - STRING #21 @ $D950D
 
 #W16($D9437)
-<$7F><$B0>k<$AD>[X]
+//<$7F><$B0>k<$AD>[X]
 
 
 //POINTER #22 @ $D9439 - STRING #22 @ $D9513
 
 #W16($D9439)
-<$89>a<$87><$60>[X]
+//<$89>a<$87><$60>[X]
 
 
 //POINTER #23 @ $D943B - STRING #23 @ $D9518
 
 #W16($D943B)
-<$09><$60>a<$86>[X]
+//<$09><$60>a<$86>[X]
 
 
 //POINTER #24 @ $D943D - STRING #24 @ $D951E
 
 #W16($D943D)
-ak<$AE>o<$88>[X]
+//ak<$AE>o<$88>[X]
 
 
 //POINTER #25 @ $D943F - STRING #25 @ $D9525
 
 #W16($D943F)
-m<$87>l[X]
+//m<$87>l[X]
 
 
 //POINTER #26 @ $D9441 - STRING #26 @ $D952B
 
 #W16($D9441)
-<$9B><$88><$9C><$8C>[X]
+//<$9B><$88><$9C><$8C>[X]
 
 
 //POINTER #27 @ $D9443 - STRING #27 @ $D9532
 
 #W16($D9443)
-jc<$8A>[X]
+//jc<$8A>[X]
 
 
 //POINTER #28 @ $D9445 - STRING #28 @ $D9537
 
 #W16($D9445)
-<$60><$B0>j<$B0>[X]
+//<$60><$B0>j<$B0>[X]
 
 
 //POINTER #29 @ $D9447 - STRING #29 @ $D953D
 
 #W16($D9447)
-<$A2><$B0><$8C>[X]
+//<$A2><$B0><$8C>[X]
 
 
 //POINTER #30 @ $D9449 - STRING #30 @ $D9542
 
 #W16($D9449)
-k<$AD><$88><$8A><$B0>[X]
+//k<$AD><$88><$8A><$B0>[X]
 
 
 //POINTER #31 @ $D944B - STRING #31 @ $D9549
 
 #W16($D944B)
-<$7D><$B0>g[X]
+//<$7D><$B0>g[X]
 
 
 //POINTER #32 @ $D944D - STRING #32 @ $D954E
 
 #W16($D944D)
-s<$87>lo<$8C>[X]
+//s<$87>lo<$8C>[X]
 
 
 //POINTER #33 @ $D944F - STRING #33 @ $D9555
 
 #W16($D944F)
-<$60>l<$9F><$88>[X]
+//<$60>l<$9F><$88>[X]
 
 
 //POINTER #34 @ $D9451 - STRING #34 @ $D955A
 
 #W16($D9451)
-<$09><$9A><$A8><$80>t[X]
+//<$09><$9A><$A8><$80>t[X]
 
 
 //POINTER #35 @ $D9453 - STRING #35 @ $D9561
 
 #W16($D9453)
-<$89>a<$9B><$87><$AC>g[X]
+//<$89>a<$9B><$87><$AC>g[X]
 
 
 //POINTER #36 @ $D9455 - STRING #36 @ $D9568
 
 #W16($D9455)
-<$09><$A2>r<$A8>[X]
+//<$09><$A2>r<$A8>[X]
 
 
 //POINTER #37 @ $D9457 - STRING #37 @ $D956C
 
 #W16($D9457)
-[X]
+//[X]
 
 
 //POINTER #38 @ $D9459 - STRING #38 @ $D9576
 
 #W16($D9459)
-<$09>d<$88>c<$8C>[X]
+//<$09>d<$88>c<$8C>[X]
 
 
 //POINTER #39 @ $D945B - STRING #39 @ $D957B
 
 #W16($D945B)
-[X]
+//[X]
 
 
 //POINTER #40 @ $D945D - STRING #40 @ $D9581
 
 #W16($D945D)
-[X]
+//[X]
 
 
 //POINTER #41 @ $D945F - STRING #41 @ $D9587
 
 #W16($D945F)
-[X]
+//[X]
 
 
 //POINTER #42 @ $D9461 - STRING #42 @ $D958C
 
 #W16($D9461)
-<$09><$84><$87>bl[X]
+//<$09><$84><$87>bl[X]
 
 
 //POINTER #43 @ $D9463 - STRING #43 @ $D9592
 
 #W16($D9463)
-<$09>r<$A8>u<$B0>[X]
+//<$09>r<$A8>u<$B0>[X]
 
 
 //POINTER #44 @ $D9465 - STRING #44 @ $D9596
 
 #W16($D9465)
-<$B0>[X]
+//<$B0>[X]
 
 
 //POINTER #45 @ $D9467 - STRING #45 @ $D959C
 
 #W16($D9467)
-t[X]
+//t[X]
 
 
 //POINTER #46 @ $D9469 - STRING #46 @ $D95A1
 
 #W16($D9469)
-<$97>[X]
+//<$97>[X]
 
 
 //POINTER #47 @ $D946B - STRING #47 @ $D95A7
 
 #W16($D946B)
-<$60>[X]
+//<$60>[X]
 
 
 //POINTER #48 @ $D946D - STRING #48 @ $D95AE
 
 #W16($D946D)
-<$09><$87><$7B><$A8>l[X]
+//<$09><$87><$7B><$A8>l[X]
 
 
 //POINTER #49 @ $D946F - STRING #49 @ $D95B4
 
 #W16($D946F)
-<$09><$87><$B0><$7B>[X]
+//<$09><$87><$B0><$7B>[X]
 
 
 //POINTER #50 @ $D9471 - STRING #50 @ $D95BA
 
 #W16($D9471)
-lejy[X]
+//lejy[X]
 
 
 //POINTER #51 @ $D9473 - STRING #51 @ $D95C0
 
 #W16($D9473)
-e<$87>d<$8C>[X]
+//e<$87>d<$8C>[X]
 
 
 //POINTER #52 @ $D9475 - STRING #52 @ $D95C6
 
 #W16($D9475)
-<$60><$89>l[X]
+//<$60><$89>l[X]
 
 
 //POINTER #53 @ $D9477 - STRING #53 @ $D95CB
 
 #W16($D9477)
-<$89>lo<$B0>[X]
+//<$89>lo<$B0>[X]
 
 
 //POINTER #54 @ $D9479 - STRING #54 @ $D95D1
 
 #W16($D9479)
-<$9E><$86>as<$8C>[X]
+//<$9E><$86>as<$8C>[X]
 
 
 //POINTER #55 @ $D947B - STRING #55 @ $D95D8
 
 #W16($D947B)
-<$9A><$A8><$B0><$8C>[X]
+//<$9A><$A8><$B0><$8C>[X]
 
 
 //POINTER #56 @ $D947D - STRING #56 @ $D95DE
 
 #W16($D947D)
-<$86>gp<$AA>[X]
+//<$86>gp<$AA>[X]
 
 
 //POINTER #57 @ $D947F - STRING #57 @ $D95E3
 
 #W16($D947F)
-<$09><$60><$88>rt[X]
+//<$09><$60><$88>rt[X]
 
 
 //POINTER #58 @ $D9481 - STRING #58 @ $D95E9
 
 #W16($D9481)
-<$09><$86><$B0><$86>[X]
+//<$09><$86><$B0><$86>[X]
 
 
 //POINTER #59 @ $D9483 - STRING #59 @ $D95EE
 
 #W16($D9483)
-<$09>t<$8C>t[X]
+//<$09>t<$8C>t[X]
 
 
 //POINTER #60 @ $D9485 - STRING #60 @ $D95F3
 
 #W16($D9485)
-<$09><$87>x<$60><$8C>[X]
+//<$09><$87>x<$60><$8C>[X]
 
 
 //POINTER #61 @ $D9487 - STRING #61 @ $D95F9
 
 #W16($D9487)
-<$09>e<$87><$8C>[X]
+//<$09>e<$87><$8C>[X]
 
 
 //POINTER #62 @ $D9489 - STRING #62 @ $D95FE
 
 #W16($D9489)
-<$09><$86>t[X]
+//<$09><$86>t[X]
 
