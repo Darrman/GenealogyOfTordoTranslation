@@ -752,13 +752,10 @@ GrandKnt[X]
 
 //POINTER #15 @ $38CD1 - STRING #15 @ $38E0F
 
-#WRITE(Class, $38CD1)
 //Evidently some rearranging happened compared to the translated doc and this.
 //It registers spear soldier -> empress, while this is peg rider.
 //Though this version's doc says the same thing. What's going on?
 //There's another copy further down the list. I'm confused...
-//エンプレス[X]
-Empress[X]
 
 //POINTER #16 @ $38CD3 - STRING #16 @ $38E21
 
@@ -776,11 +773,8 @@ FalconKn[X]
 
 //POINTER #18 @ $38CD7 - STRING #18 @ $38E55
 
-#WRITE(Class, $38CD7)
 //Originally Dragon Rider. Maybe it goes unused and the
-//pointers are off. Oh well...
-//ウィザード[X]
-Wizard[X]
+//pointers are off. Oh well... (Wizard)
 
 //POINTER #19 @ $38CD9 - STRING #19 @ $38E43
 
@@ -874,6 +868,7 @@ Mercenry[X]
 //POINTER #30 @ $38CEF - STRING #30 @ $38E0F
 
 #WRITE(Class, $38CEF)
+#WRITE(Class, $38CD1)
 //エンプレス[X]
 Empress[X]
 
@@ -1065,6 +1060,7 @@ Sage[X]
 //POINTER #59 @ $38D29 - STRING #59 @ $38E55
 
 #WRITE(Class, $38D29)
+#WRITE(Class, $38CD7)
 //ウィザード[X]
 //Bard
 Wizard[X]
@@ -1108,7 +1104,7 @@ Espion[X]
 #WRITE(Class, $38D35)
 #WRITE(Class, $38D37)
 //シビリアン[X]
-Civilian
+Civilian[X]
 
 //POINTER #67 @ $38D39 - STRING #67 @ $390E9
 
@@ -4285,6 +4281,18 @@ Ishtar[X]
 #WRITE(Item, $3DE12)
 //てつの剣[X]
 //Iron Sword
+#WRITE(Item, $3DE4A)
+//てつのやり[X]
+//Iron Lance
+#WRITE(Item, $3DE62)
+//てつのおの[X]
+//Iron Axe
+#WRITE(Item, $3DE74)
+//てつのゆみ[X]
+//Iron Bow
+#WRITE(Item, $3DE86)
+//アイアンアーチ[X]
+//Iron Arch
 Iron[X]
 
 //POINTER #1 @ $3DE14 - STRING #1 @ $3DF30
@@ -4292,6 +4300,15 @@ Iron[X]
 #WRITE(Item, $3DE14)
 //はがねの剣[X]
 //Steel Sword
+#WRITE(Item, $3DE4C)
+//はがねのやり[X]
+//Steel Lance
+#WRITE(Item, $3DE64)
+//はがねのおの[X]
+//Steel Axe
+#WRITE(Item, $3DE76)
+//はがねのゆみ[X]
+//Steel Bow
 Steel[X]
 
 //POINTER #2 @ $3DE16 - STRING #2 @ $3DF3C
@@ -4299,6 +4316,15 @@ Steel[X]
 #WRITE(Item, $3DE16)
 //ぎんの剣[X]
 //Silver Sword
+#WRITE(Item, $3DE4E)
+//ぎんのやり[X]
+//Silver Lance
+#WRITE(Item, $3DE66)
+//ぎんのおの[X]
+//Silver Axe
+#WRITE(Item, $3DE78)
+//ぎんのゆみ[X]
+//Silver Bow
 Silver[X]
 
 //POINTER #3 @ $3DE18 - STRING #3 @ $3E0E4
@@ -4342,6 +4368,12 @@ Thief[X]
 #WRITE(Item, $3DE22)
 //マスターソード[X]
 //Master Sword
+#WRITE(Item, $3DE8C)
+//マスターアーチ[X]
+//Master Arch
+#WRITE(Item, $3DEE8)
+//マスターリング[X]
+//Master Ring
 Master[X]
 
 //POINTER #9 @ $3DE24 - STRING #9 @ $3DF92
@@ -4356,6 +4388,15 @@ SolKati[X]
 #WRITE(Item, $3DE26)
 //ゆうしゃの剣[X]
 //Brave Sword
+#WRITE(Item, $3DE54)
+//ゆうしゃのやり[X]
+//Brave Lance
+#WRITE(Item, $3DE68)
+//ゆうしゃのおの[X]
+//Brave Axe
+#WRITE(Item, $3DE7A)
+//ゆうしゃのゆみ[X]
+//Brave Bow
 Brave[X]
 
 //POINTER #11 @ $3DE28 - STRING #11 @ $3DFAE
@@ -4364,6 +4405,12 @@ Brave[X]
 //キルソード[X]
 //Kill Sword
 //Killing Edge
+#WRITE(Item, $3DE7C)
+//キラーボウ[X]
+//Killer Bow
+#WRITE(Item, $3DE8A)
+//キラーアーチ[X]
+//Killer Arch
 Killer[X]
 
 //POINTER #12 @ $3DE2A - STRING #12 @ $3E3D8
@@ -4469,27 +4516,6 @@ Falchon[X]
 //ジュワユース[X]
 Joyeuse[X]
 
-//POINTER #28 @ $3DE4A - STRING #28 @ $3E072
-
-#WRITE(Item, $3DE4A)
-//てつのやり[X]
-//Iron Lance
-Iron[X]
-
-//POINTER #29 @ $3DE4C - STRING #29 @ $3E07E
-
-#WRITE(Item, $3DE4C)
-//はがねのやり[X]
-//Steel Lance
-Steel[X]
-
-//POINTER #30 @ $3DE4E - STRING #30 @ $3E08C
-
-#WRITE(Item, $3DE4E)
-//ぎんのやり[X]
-//Silver Lance
-Silver[X]
-
 //POINTER #31 @ $3DE50 - STRING #31 @ $3E098
 
 #WRITE(Item, $3DE50)
@@ -4502,13 +4528,6 @@ Pilum[X]
 //レギンレイヴ[X]
 //Reginleif
 Regnlif[X]
-
-//POINTER #33 @ $3DE54 - STRING #33 @ $3E0AE
-
-#WRITE(Item, $3DE54)
-//ゆうしゃのやり[X]
-//Brave Lance
-Brave[X]
 
 //POINTER #34 @ $3DE56 - STRING #34 @ $3E0BE
 
@@ -4549,34 +4568,6 @@ Longnus[X]
 //Vidofnir
 Vidofnr[X]
 
-//POINTER #40 @ $3DE62 - STRING #40 @ $3E0F2
-
-#WRITE(Item, $3DE62)
-//てつのおの[X]
-//Iron Axe
-Iron[X]
-
-//POINTER #41 @ $3DE64 - STRING #41 @ $3E0FE
-
-#WRITE(Item, $3DE64)
-//はがねのおの[X]
-//Steel Axe
-Steel[X]
-
-//POINTER #42 @ $3DE66 - STRING #42 @ $3E10C
-
-#WRITE(Item, $3DE66)
-//ぎんのおの[X]
-//Silver Axe
-Silver[X]
-
-//POINTER #43 @ $3DE68 - STRING #43 @ $3E118
-
-#WRITE(Item, $3DE68)
-//ゆうしゃのおの[X]
-//Brave Axe
-Brave[X]
-
 //POINTER #44 @ $3DE6A - STRING #44 @ $3E128
 
 #WRITE(Item, $3DE6A)
@@ -4610,41 +4601,6 @@ Garm[X]
 //Is it "mouse wolf" or something?
 Wolf[X]
 
-//POINTER #49 @ $3DE74 - STRING #49 @ $3E14A
-
-#WRITE(Item, $3DE74)
-//てつのゆみ[X]
-//Iron Bow
-Iron[X]
-
-//POINTER #50 @ $3DE76 - STRING #50 @ $3E156
-
-#WRITE(Item, $3DE76)
-//はがねのゆみ[X]
-//Steel Bow
-Steel[X]
-
-//POINTER #51 @ $3DE78 - STRING #51 @ $3E164
-
-#WRITE(Item, $3DE78)
-//ぎんのゆみ[X]
-//Silver Bow
-Silver[X]
-
-//POINTER #52 @ $3DE7A - STRING #52 @ $3E170
-
-#WRITE(Item, $3DE7A)
-//ゆうしゃのゆみ[X]
-//Brave Bow
-Brave[X]
-
-//POINTER #53 @ $3DE7C - STRING #53 @ $3E180
-
-#WRITE(Item, $3DE7C)
-//キラーボウ[X]
-//Killer Bow
-Killer[X]
-
 //POINTER #54 @ $3DE7E - STRING #54 @ $3E18C
 
 #WRITE(Item, $3DE7E)
@@ -4671,33 +4627,12 @@ Murgles[X]
 //Eagle Eye
 EaglEye[X]
 
-//POINTER #58 @ $3DE86 - STRING #58 @ $40120
-
-#WRITE(Item, $3DE86)
-//アイアンアーチ[X]
-//Iron Arch
-Iron[X]
-
 //POINTER #59 @ $3DE88 - STRING #59 @ $40130
 
 #WRITE(Item, $3DE88)
 //グレートアーチ[X]
 //Great Arch
 Great[X]
-
-//POINTER #60 @ $3DE8A - STRING #60 @ $40140
-
-#WRITE(Item, $3DE8A)
-//キラーアーチ[X]
-//Killer Arch
-Killer[X]
-
-//POINTER #61 @ $3DE8C - STRING #61 @ $3E1D2
-
-#WRITE(Item, $3DE8C)
-//マスターアーチ[X]
-//Master Arch
-Master[X]
 
 //POINTER #62 @ $3DE8E - STRING #62 @ $3E1E2
 
@@ -4908,13 +4843,6 @@ Physic[X]
 //Reserve
 Fortify[X]
 
-//POINTER #93 @ $3DECC - STRING #93 @ $3E198
-
-#WRITE(Item, $3DECC)
-//こわれたぶき[X]
-//Broken weapon
-Broken[X]
-
 //POINTER #94 @ $3DECE - STRING #94 @ $3E33C
 
 #WRITE(Item, $3DECE)
@@ -4927,13 +4855,6 @@ Warp[X]
 //バルキリー[X]
 //Valkyrie
 Valkyre[X]
-
-//POINTER #96 @ $3DED2 - STRING #96 @ $3E198
-
-#WRITE(Item, $3DED2)
-//こわれたぶき[X]
-//Broken weapon
-Broken[X]
 
 //POINTER #97 @ $3DED4 - STRING #97 @ $3E344
 
@@ -4976,10 +4897,6 @@ Sany[X]
 
 //POINTER #103 @ $3DEE0 - STRING #103 @ $3E198
 
-#WRITE(Item, $3DEE0)
-//こわれたぶき[X]
-//Broken Weapon
-Broken[X]
 
 //POINTER #104 @ $3DEE2 - STRING #104 @ $3E9E0
 
@@ -4988,13 +4905,6 @@ Broken[X]
 //Galle's Rod
 //Galle's Staff
 Galle[X]
-
-//POINTER #105 @ $3DEE4 - STRING #105 @ $3E198
-
-#WRITE(Item, $3DEE4)
-//こわれたぶき[X]
-//Broken Weapon
-Broken[X]
 
 //POINTER #106 @ $3DEE6 - STRING #106 @ $3E3E4
 
@@ -5005,9 +4915,6 @@ Life[X]
 
 //POINTER #107 @ $3DEE8 - STRING #107 @ $3E3F4
 
-#WRITE(Item, $3DEE8)
-//マスターリング[X]
-//Master Ring
 Master[X]
 
 //POINTER #108 @ $3DEEA - STRING #108 @ $3E404
@@ -5132,63 +5039,25 @@ Fleche[X]
 
 //POINTER #125 @ $3DF0C - STRING #125 @ $3E198
 
+#WRITE(Item, $3DECC)
+#WRITE(Item, $3DED2)
+#WRITE(Item, $3DEE0)
+#WRITE(Item, $3DEE4)
 #WRITE(Item, $3DF0C)
-//こわれたぶき[X]
-
-//POINTER #126 @ $3DF0E - STRING #126 @ $3E198
-
 #WRITE(Item, $3DF0E)
-//こわれたぶき[X]
-
-//POINTER #127 @ $3DF10 - STRING #127 @ $3E198
-
 #WRITE(Item, $3DF10)
-//こわれたぶき[X]
-
-//POINTER #128 @ $3DF12 - STRING #128 @ $3E198
-
 #WRITE(Item, $3DF12)
-//こわれたぶき[X]
-
-//POINTER #129 @ $3DF14 - STRING #129 @ $3E198
-
 #WRITE(Item, $3DF14)
-//こわれたぶき[X]
-
-//POINTER #130 @ $3DF16 - STRING #130 @ $3E198
-
 #WRITE(Item, $3DF16)
-//こわれたぶき[X]
-
-//POINTER #131 @ $3DF18 - STRING #131 @ $3E198
-
 #WRITE(Item, $3DF18)
-//こわれたぶき[X]
-
-//POINTER #132 @ $3DF1A - STRING #132 @ $3E198
-
 #WRITE(Item, $3DF1A)
-//こわれたぶき[X]
-
-//POINTER #133 @ $3DF1C - STRING #133 @ $3E198
-
 #WRITE(Item, $3DF1C)
-//こわれたぶき[X]
-
-//POINTER #134 @ $3DF1E - STRING #134 @ $3E198
-
 #WRITE(Item, $3DF1E)
-//こわれたぶき[X]
-
-//POINTER #135 @ $3DF20 - STRING #135 @ $3E198
-
 #WRITE(Item, $3DF20)
-//こわれたぶき[X]
-
-//POINTER #136 @ $3DF22 - STRING #136 @ $3E198
-
 #WRITE(Item, $3DF22)
 //こわれたぶき[X]
+//Broken Weapon
+Broken[X]
 
 //POINTER #137 @ $3DF24 - STRING #137 @ $3E4DA
 
@@ -5199,694 +5068,607 @@ Braclet[X]
 
 //BLOCK #009 NAME:		Item Descriptions
 
+#VAR(ItemDesc, CUSTOMPOINTER)
+#CREATEPTR(ItemDesc, "LINEAR", $3B17F, 16)
+
+#JMP($3E5FC, $3EBBF)
+
+
 //POINTER #0 @ $3E4E8 - STRING #0 @ $3E5FC
 
-#W16($3E4E8)
-// [X]
-
-//POINTER #1 @ $3E4EA - STRING #1 @ $3E5FC
-
-#W16($3E4EA)
-// [X]
-
-//POINTER #2 @ $3E4EC - STRING #2 @ $3E5FC
-
-#W16($3E4EC)
-// [X]
+#WRITE(ItemDesc, $3E4E8)
+//Iron Sword
+#WRITE(ItemDesc, $3E4EA)
+//Steel Sword
+#WRITE(ItemDesc, $3E4EC)
+//Silver Sword
+#WRITE(ItemDesc, $3E4FE)
+//Killing Edge
+#WRITE(ItemDesc, $3E520)
+//Iron Lance
+#WRITE(ItemDesc, $3E522)
+//Steel Lance
+#WRITE(ItemDesc, $3E524)
+//Silver Lance
+#WRITE(ItemDesc, $3E526)
+//Pilum
+#WRITE(ItemDesc, $3E52C)
+//Siegmund
+#WRITE(ItemDesc, $3E538)
+//Iron Axe
+#WRITE(ItemDesc, $3E53A)
+//Steel Axe
+#WRITE(ItemDesc, $3E53C)
+//Silver Axe
+#WRITE(ItemDesc, $3E542)
+//Pugi
+#WRITE(ItemDesc, $3E544)
+//Armads
+#WRITE(ItemDesc, $3E564)
+//Fire
+#WRITE(ItemDesc, $3E568)
+//Palas Leia
+#WRITE(ItemDesc, $3E56C)
+//Meteor
+#WRITE(ItemDesc, $3E56E)
+//Thunder
+#WRITE(ItemDesc, $3E572)
+//Palas Selenia
+#WRITE(ItemDesc, $3E576)
+//Bolting
+#WRITE(ItemDesc, $3E578)
+//Wind
+#WRITE(ItemDesc, $3E57A)
+//Sylpheed
+#WRITE(ItemDesc, $3E580)
+//Blizzard
+#WRITE(ItemDesc, $3E58A)
+//Flux
+#WRITE(ItemDesc, $3E58C)
+//Fenrir
+ [X]
 
 //POINTER #3 @ $3E4EE - STRING #3 @ $3E834
 
-#W16($3E4EE)
+#WRITE(ItemDesc, $3E4EE)
+//Raze Tar
 //ラケシスの剣[X]
+//Lachesis's sword
+Lachesis[X]
 
 //POINTER #4 @ $3E4F0 - STRING #4 @ $3E6C2
 
-#W16($3E4F0)
+#WRITE(ItemDesc, $3E4F0)
 //げっこう剣 [X]
+//Luna Sword
+Luna[X]
+#WRITE(ItemDesc, $3E556)
+//Partia
+Luna[X]
 
 //POINTER #5 @ $3E4F2 - STRING #5 @ $3E8FA
 
-#W16($3E4F2)
+#WRITE(ItemDesc, $3E4F2)
 //はじゃ[X]
+//Ragnarok
+#WRITE(ItemDesc, $3E532)
+//Maltet
+#WRITE(ItemDesc, $3E558)
+//Murgleis
+DarkSwd[X]
 
 //POINTER #6 @ $3E4F4 - STRING #6 @ $3E6E2
 
-#W16($3E4F4)
+#WRITE(ItemDesc, $3E4F4)
 //エリート[X]
+//Stella's Sword
+Elite[X]
 
 //POINTER #7 @ $3E4F6 - STRING #7 @ $3E612
 
-#W16($3E4F6)
+#WRITE(ItemDesc, $3E4F6)
 //ゴールドをぬすむ[X]
+//Thief Sword
+//Steals gold
+Steal[X]
 
 //POINTER #8 @ $3E4F8 - STRING #8 @ $3E664
 
-#W16($3E4F8)
+#WRITE(ItemDesc, $3E4F8)
 //２回こうげき[X]
+//Master Sword
+//Attack twice
+#WRITE(ItemDesc, $3E4FC)
+//Brave Sword
+#WRITE(ItemDesc, $3E52A)
+//Brave Lance
+#WRITE(ItemDesc, $3E53E)
+//Brave Axe
+#WRITE(ItemDesc, $3E550)
+//Brave Bow
+#WRITE(ItemDesc, $3E570)
+//Dime Thunder
+#WRITE(ItemDesc, $3E57C)
+//Palas Liana
+#WRITE(ItemDesc, $3E582)
+//Aura Rain
+2xAtk[X]
 
 //POINTER #9 @ $3E4FA - STRING #9 @ $3E748
 
-#W16($3E4FA)
+#WRITE(ItemDesc, $3E4FA)
 //ナイト系に特効[X]
-
-//POINTER #10 @ $3E4FC - STRING #10 @ $3E664
-
-#W16($3E4FC)
-//２回こうげき[X]
-
-//POINTER #11 @ $3E4FE - STRING #11 @ $3E5FC
-
-#W16($3E4FE)
-// [X]
+//Sol Katti
+//Effective against cavalry
+#WRITE(ItemDesc, $3E528)
+//Reginleif
+#WRITE(ItemDesc, $3E592)
+//Forblaze
+Mounts[X]
 
 //POINTER #12 @ $3E500 - STRING #12 @ $3E842
 
-#W16($3E500)
+#WRITE(ItemDesc, $3E500)
 //ラインハルトの剣[X]
+//Holy Sword
+//Reinhardt's sword
+Reinhart[X]
 
 //POINTER #13 @ $3E502 - STRING #13 @ $3E902
 
-#W16($3E502)
+#WRITE(ItemDesc, $3E502)
 //さまざまな特効[X]
+//Rapier
+//"Various effects". Eight characters...
+Cav/Armr[X]
 
 //POINTER #14 @ $3E504 - STRING #14 @ $3E6D0
 
-#W16($3E504)
+#WRITE(ItemDesc, $3E504)
 //らいじんのつるぎ[X]
+//Vajra
+//Thunder god sword.
+LitGodSw[X]
 
 //POINTER #15 @ $3E506 - STRING #15 @ $3EB24
 
-#W16($3E506)
+#WRITE(ItemDesc, $3E506)
 //たいよう剣  [X]
+//Vritra
+#WRITE(ItemDesc, $3E566)
+//Sunflame
+Sol[X]
 
 //POINTER #16 @ $3E508 - STRING #16 @ $3E6A0
 
-#W16($3E508)
+#WRITE(ItemDesc, $3E508)
 //ＨＰをすいとる[X]
+//Lilith's Sword
+#WRITE(ItemDesc, $3E584)
+//Shine
+HPDrain[X]
 
 //POINTER #17 @ $3E50A - STRING #17 @ $3E6EC
 
-#W16($3E50A)
+#WRITE(ItemDesc, $3E50A)
 //いのり[X]
+//Lockhart
+Prayer[X]
 
 //POINTER #18 @ $3E50C - STRING #18 @ $3EAAE
 
-#W16($3E50C)
+#WRITE(ItemDesc, $3E50C)
 //ついげき[X]
+//Sabre
+Pursuit[X]
 
 //POINTER #19 @ $3E50E - STRING #19 @ $3E708
 
-#W16($3E50E)
+#WRITE(ItemDesc, $3E50E)
 //ライブ[X]
+//Amiti
+Life[X]
 
 //POINTER #20 @ $3E510 - STRING #20 @ $3E6F6
 
-#W16($3E510)
+#WRITE(ItemDesc, $3E510)
 //せんりょくアップ[X]
-
-//POINTER #21 @ $3E512 - STRING #21 @ $3E6F6
-
-#W16($3E512)
+//"(something) up". Google 2 says "potential". Get this looked at.
+//In the meantime, a blunt placeholder.
+//Mistoltin
+#WRITE(ItemDesc, $3E512)
 //せんりょくアップ[X]
-
-//POINTER #22 @ $3E514 - STRING #22 @ $3E6F6
-
-#W16($3E514)
+//Tyrfing
+#WRITE(ItemDesc, $3E514)
 //せんりょくアップ[X]
+//Balmung
+#WRITE(ItemDesc, $3E51C)
+//せんりょくアップ[X]
+//Falchion
+#WRITE(ItemDesc, $3E52E)
+//せんりょくアップ[X]
+//Gungnir
+#WRITE(ItemDesc, $3E530)
+//せんりょくアップ[X]
+//Gae Bolg
+#WRITE(ItemDesc, $3E534)
+//せんりょくアップ[X]
+//Longinus
+#WRITE(ItemDesc, $3E540)
+//せんりょくアップ[X]
+//Swanchika
+#WRITE(ItemDesc, $3E554)
+//せんりょくアップ[X]
+//Ichival
+#WRITE(ItemDesc, $3E574)
+//せんりょくアップ[X]
+//Torhammer
+#WRITE(ItemDesc, $3E57E)
+//せんりょくアップ[X]
+//Holsety
+#WRITE(ItemDesc, $3E588)
+//せんりょくアップ[X]
+//Narga
+HolyWepn[X]
 
 //POINTER #23 @ $3E516 - STRING #23 @ $3E736
 
-#W16($3E516)
+#WRITE(ItemDesc, $3E516)
 //アーマー系に特効[X]
+//Sieglinde
+//Effective against armours
+#WRITE(ItemDesc, $3E594)
+//Rexbolt
+Armour[X]
 
 //POINTER #24 @ $3E518 - STRING #24 @ $3E758
 
-#W16($3E518)
+#WRITE(ItemDesc, $3E518)
 //ひこう系に特効[X]
+//Florete
+//Effective against flyers
+#WRITE(ItemDesc, $3E54A)
+//Iron Bow
+#WRITE(ItemDesc, $3E54C)
+//Steel Bow
+#WRITE(ItemDesc, $3E54E)
+//Silver Bow
+#WRITE(ItemDesc, $3E552)
+//Killer Bow
+#WRITE(ItemDesc, $3E55C)
+//Ballista 1
+#WRITE(ItemDesc, $3E55E)
+//Ballista 2
+#WRITE(ItemDesc, $3E560)
+//Ballista 3
+#WRITE(ItemDesc, $3E562)
+//Ballista 4
+#WRITE(ItemDesc, $3E596)
+//Graphcalibur
+Flyers[X]
 
 //POINTER #25 @ $3E51A - STRING #25 @ $3EBBE
 
-#W16($3E51A)
+#WRITE(ItemDesc, $3E51A)
 //せいれいのつるぎ[X]
-
-//POINTER #26 @ $3E51C - STRING #26 @ $3E6F6
-
-#W16($3E51C)
-//せんりょくアップ[X]
+//Arectaris
+//Spirit sword
+SpiritSw[X]
 
 //POINTER #27 @ $3E51E - STRING #27 @ $40072
 
-#W16($3E51E)
+#WRITE(ItemDesc, $3E51E)
 //エスリンの剣[X]
-
-//POINTER #28 @ $3E520 - STRING #28 @ $3E5FC
-
-#W16($3E520)
-// [X]
-
-//POINTER #29 @ $3E522 - STRING #29 @ $3E5FC
-
-#W16($3E522)
-// [X]
-
-//POINTER #30 @ $3E524 - STRING #30 @ $3E5FC
-
-#W16($3E524)
-// [X]
-
-//POINTER #31 @ $3E526 - STRING #31 @ $3E5FC
-
-#W16($3E526)
-// [X]
-
-//POINTER #32 @ $3E528 - STRING #32 @ $3E748
-
-#W16($3E528)
-//ナイト系に特効[X]
-
-//POINTER #33 @ $3E52A - STRING #33 @ $3E664
-
-#W16($3E52A)
-//２回こうげき[X]
-
-//POINTER #34 @ $3E52C - STRING #34 @ $3E5FC
-
-#W16($3E52C)
-// [X]
-
-//POINTER #35 @ $3E52E - STRING #35 @ $3E6F6
-
-#W16($3E52E)
-//せんりょくアップ[X]
-
-//POINTER #36 @ $3E530 - STRING #36 @ $3E6F6
-
-#W16($3E530)
-//せんりょくアップ[X]
-
-//POINTER #37 @ $3E532 - STRING #37 @ $3E8FA
-
-#W16($3E532)
-//はじゃ[X]
-
-//POINTER #38 @ $3E534 - STRING #38 @ $3E6F6
-
-#W16($3E534)
-//せんりょくアップ[X]
+//Joyeuse
+//Ethlin's sword
+Ethlin[X]
 
 //POINTER #39 @ $3E536 - STRING #39 @ $400B0
 
-#W16($3E536)
+#WRITE(ItemDesc, $3E536)
 //ミーシャのやり[X]
-
-//POINTER #40 @ $3E538 - STRING #40 @ $3E5FC
-
-#W16($3E538)
-// [X]
-
-//POINTER #41 @ $3E53A - STRING #41 @ $3E5FC
-
-#W16($3E53A)
-// [X]
-
-//POINTER #42 @ $3E53C - STRING #42 @ $3E5FC
-
-#W16($3E53C)
-// [X]
-
-//POINTER #43 @ $3E53E - STRING #43 @ $3E664
-
-#W16($3E53E)
-//２回こうげき[X]
-
-//POINTER #44 @ $3E540 - STRING #44 @ $3E6F6
-
-#W16($3E540)
-//せんりょくアップ[X]
-
-//POINTER #45 @ $3E542 - STRING #45 @ $3E5FC
-
-#W16($3E542)
-// [X]
-
-//POINTER #46 @ $3E544 - STRING #46 @ $3E5FC
-
-#W16($3E544)
-// [X]
+//Vidofnir
+//Misha's lance
+Misha[X]
 
 //POINTER #47 @ $3E546 - STRING #47 @ $3EA9C
 
-#W16($3E546)
+#WRITE(ItemDesc, $3E546)
 //ドズルのたて  [X]
+//Garm
+//Axe of Dozel
+Dozel[X]
 
 //POINTER #48 @ $3E548 - STRING #48 @ $400D0
 
-#W16($3E548)
+#WRITE(ItemDesc, $3E548)
 //オードのせんぷ[X]
-
-//POINTER #49 @ $3E54A - STRING #49 @ $3E758
-
-#W16($3E54A)
-//ひこう系に特効[X]
-
-//POINTER #50 @ $3E54C - STRING #50 @ $3E758
-
-#W16($3E54C)
-//ひこう系に特効[X]
-
-//POINTER #51 @ $3E54E - STRING #51 @ $3E758
-
-#W16($3E54E)
-//ひこう系に特効[X]
-
-//POINTER #52 @ $3E550 - STRING #52 @ $3E664
-
-#W16($3E550)
-//２回こうげき[X]
-
-//POINTER #53 @ $3E552 - STRING #53 @ $3E758
-
-#W16($3E552)
-//ひこう系に特効[X]
-
-//POINTER #54 @ $3E554 - STRING #54 @ $3E6F6
-
-#W16($3E554)
-//せんりょくアップ[X]
-
-//POINTER #55 @ $3E556 - STRING #55 @ $3E6C2
-
-#W16($3E556)
-//げっこう剣 [X]
-
-//POINTER #56 @ $3E558 - STRING #56 @ $3E8FA
-
-#W16($3E558)
-//はじゃ[X]
+//Wolf thingy
+//Odo... something. What is it???
+Odo[X]
 
 //POINTER #57 @ $3E55A - STRING #57 @ $40090
 
-#W16($3E55A)
+#WRITE(ItemDesc, $3E55A)
 //アルテミスのゆみ[X]
-
-//POINTER #58 @ $3E55C - STRING #58 @ $3E758
-
-#W16($3E55C)
-//ひこう系に特効[X]
-
-//POINTER #59 @ $3E55E - STRING #59 @ $3E758
-
-#W16($3E55E)
-//ひこう系に特効[X]
-
-//POINTER #60 @ $3E560 - STRING #60 @ $3E758
-
-#W16($3E560)
-//ひこう系に特効[X]
-
-//POINTER #61 @ $3E562 - STRING #61 @ $3E758
-
-#W16($3E562)
-//ひこう系に特効[X]
-
-//POINTER #62 @ $3E564 - STRING #62 @ $3E5FC
-
-#W16($3E564)
-// [X]
-
-//POINTER #63 @ $3E566 - STRING #63 @ $3EB24
-
-#W16($3E566)
-//たいよう剣  [X]
-
-//POINTER #64 @ $3E568 - STRING #64 @ $3E5FC
-
-#W16($3E568)
-// [X]
+//Eagle Eye
+//Artemis's Bow
+Artemis[X]
 
 //POINTER #65 @ $3E56A - STRING #65 @ $3E724
 
-#W16($3E56A)
+#WRITE(ItemDesc, $3E56A)
 //ロプトウスむこう[X]
-
-//POINTER #66 @ $3E56C - STRING #66 @ $3E5FC
-
-#W16($3E56C)
-// [X]
-
-//POINTER #67 @ $3E56E - STRING #67 @ $3E5FC
-
-#W16($3E56E)
-// [X]
-
-//POINTER #68 @ $3E570 - STRING #68 @ $3E664
-
-#W16($3E570)
-//２回こうげき[X]
-
-//POINTER #69 @ $3E572 - STRING #69 @ $3E5FC
-
-#W16($3E572)
-// [X]
-
-//POINTER #70 @ $3E574 - STRING #70 @ $3E6F6
-
-#W16($3E574)
-//せんりょくアップ[X]
-
-//POINTER #71 @ $3E576 - STRING #71 @ $3E5FC
-
-#W16($3E576)
-// [X]
-
-//POINTER #72 @ $3E578 - STRING #72 @ $3E5FC
-
-#W16($3E578)
-// [X]
-
-//POINTER #73 @ $3E57A - STRING #73 @ $3E5FC
-
-#W16($3E57A)
-// [X]
-
-//POINTER #74 @ $3E57C - STRING #74 @ $3E664
-
-#W16($3E57C)
-//２回こうげき[X]
-
-//POINTER #75 @ $3E57E - STRING #75 @ $3E6F6
-
-#W16($3E57E)
-//せんりょくアップ[X]
-
-//POINTER #76 @ $3E580 - STRING #76 @ $3E5FC
-
-#W16($3E580)
-// [X]
-
-//POINTER #77 @ $3E582 - STRING #77 @ $3E664
-
-#W16($3E582)
-//２回こうげき[X]
-
-//POINTER #78 @ $3E584 - STRING #78 @ $3E77A
-
-#W16($3E584)
-//ＨＰをすいとる[X]
+//Falaflame
+//"Beyond Lopt"? Negates Lopt, I can only assume.
+NullLopt[X]
 
 //POINTER #79 @ $3E586 - STRING #79 @ $3E768
 
-#W16($3E586)
+#WRITE(ItemDesc, $3E586)
 //ダーク系に特効 [X]
-
-//POINTER #80 @ $3E588 - STRING #80 @ $3E6F6
-
-#W16($3E588)
-//せんりょくアップ[X]
-
-//POINTER #81 @ $3E58A - STRING #81 @ $3E5FC
-
-#W16($3E58A)
-// [X]
-
-//POINTER #82 @ $3E58C - STRING #82 @ $3E5FC
-
-#W16($3E58C)
-// [X]
+//Aureola
+//Effective against dark users
+Dark[X]
 
 //POINTER #83 @ $3E58E - STRING #83 @ $3E712
 
-#W16($3E58E)
+#WRITE(ItemDesc, $3E58E)
 //こうげきはんげん[X]
-
-//POINTER #84 @ $3E590 - STRING #84 @ $3E712
-
-#W16($3E590)
-//こうげきはんげん[X]
-
-//POINTER #85 @ $3E592 - STRING #85 @ $3E748
-
-#W16($3E592)
-//ナイト系に特効[X]
-
-//POINTER #86 @ $3E594 - STRING #86 @ $3E736
-
-#W16($3E594)
-//アーマー系に特効[X]
-
-//POINTER #87 @ $3E596 - STRING #87 @ $3E758
-
-#W16($3E596)
-//ひこう系に特効[X]
+//Starlight
+//Halves attack
+#WRITE(ItemDesc, $3E590)
+//Loputousu
+1/2Atk[X]
 
 //POINTER #88 @ $3E598 - STRING #88 @ $3E78A
 
-#W16($3E598)
+#WRITE(ItemDesc, $3E598)
 //ＨＰを回ふくする[X]
 
 //POINTER #89 @ $3E59A - STRING #89 @ $3E79C
 
-#W16($3E59A)
+#WRITE(ItemDesc, $3E59A)
 //ＨＰをおおく  回ふくする[X]
 
 //POINTER #90 @ $3E59C - STRING #90 @ $3E7B8
 
-#W16($3E59C)
+#WRITE(ItemDesc, $3E59C)
 //ＨＰをかんぜんに回ふくする[X]
 
 //POINTER #91 @ $3E59E - STRING #91 @ $3E7D4
 
-#W16($3E59E)
+#WRITE(ItemDesc, $3E59E)
 //１０マスないの みかたひとりに ライブをかける[X]
 
 //POINTER #92 @ $3E5A0 - STRING #92 @ $3E804
 
-#W16($3E5A0)
+#WRITE(ItemDesc, $3E5A0)
 //１０マスないの みかたぜんいんにライブをかける[X]
 
 //POINTER #93 @ $3E5A2 - STRING #93 @ $3E5FC
 
-#W16($3E5A2)
+#WRITE(ItemDesc, $3E5A2)
 // [X]
 
 //POINTER #94 @ $3E5A4 - STRING #94 @ $3E854
 
-#W16($3E5A4)
+#WRITE(ItemDesc, $3E5A4)
 //みかたひとりを じぐんのどれかの城にワープさせる[X]
 
 //POINTER #95 @ $3E5A6 - STRING #95 @ $3E6F6
 
-#W16($3E5A6)
+#WRITE(ItemDesc, $3E5A6)
 //せんりょくアップ[X]
 
 //POINTER #96 @ $3E5A8 - STRING #96 @ $3E5FC
 
-#W16($3E5A8)
+#WRITE(ItemDesc, $3E5A8)
 // [X]
 
 //POINTER #97 @ $3E5AA - STRING #97 @ $3E8B8
 
-#W16($3E5AA)
+#WRITE(ItemDesc, $3E5AA)
 //１０マスないの みかたひとりの じょうたいを  せいじょうにする[X]
 
 //POINTER #98 @ $3E5AC - STRING #98 @ $3E712
 
-#W16($3E5AC)
+#WRITE(ItemDesc, $3E5AC)
 //こうげきはんげん[X]
 
 //POINTER #99 @ $3E5AE - STRING #99 @ $3E93C
 
-#W16($3E5AE)
+#WRITE(ItemDesc, $3E5AE)
 //１０マスないの てきひとりの  まほうをすうターンつかえなくする[X]
 
 //POINTER #100 @ $3E5B0 - STRING #100 @ $3E97E
 
-#W16($3E5B0)
+#WRITE(ItemDesc, $3E5B0)
 //１０マスないの てきひとりを  すうターンうごけなくする[X]
 
 //POINTER #101 @ $3E5B2 - STRING #101 @ $40050
 
-#W16($3E5B2)
+#WRITE(ItemDesc, $3E5B2)
 //さばきのいかずち[X]
 
 //POINTER #102 @ $3E5B4 - STRING #102 @ $40034
 
-#W16($3E5B4)
+#WRITE(ItemDesc, $3E5B4)
 //ブラギのひじゅつ[X]
 
 //POINTER #103 @ $3E5B6 - STRING #103 @ $3E5FC
 
-#W16($3E5B6)
+#WRITE(ItemDesc, $3E5B6)
 // [X]
 
 //POINTER #104 @ $3E5B8 - STRING #104 @ $3E6F6
 
-#W16($3E5B8)
+#WRITE(ItemDesc, $3E5B8)
 //せんりょくアップ[X]
 
 //POINTER #105 @ $3E5BA - STRING #105 @ $3E5FC
 
-#W16($3E5BA)
+#WRITE(ItemDesc, $3E5BA)
 // [X]
 
 //POINTER #106 @ $3E5BC - STRING #106 @ $3EA0C
 
-#W16($3E5BC)
+#WRITE(ItemDesc, $3E5BC)
 //まいターンＨＰが回ふくする[X]
 
 //POINTER #107 @ $3E5BE - STRING #107 @ $400F0
 
-#W16($3E5BE)
+#WRITE(ItemDesc, $3E5BE)
 //わざ＋５    ＋エリート   ＋リターン  [X]
 
 //POINTER #108 @ $3E5C0 - STRING #108 @ $3E654
 
-#W16($3E5C0)
+#WRITE(ItemDesc, $3E5C0)
 //＋りゅうせい剣[X]
 
 //POINTER #109 @ $3E5C2 - STRING #109 @ $3E886
 
-#W16($3E5C2)
+#WRITE(ItemDesc, $3E5C2)
 //マイラの    ちからがやどったゆびわ     [X]
 
 //POINTER #110 @ $3E5C4 - STRING #110 @ $3EA8A
 
-#W16($3E5C4)
+#WRITE(ItemDesc, $3E5C4)
 //みきり＋オラクル[X]
 
 //POINTER #111 @ $3E5C6 - STRING #111 @ $3E6C0
 
-#W16($3E5C6)
+#WRITE(ItemDesc, $3E5C6)
 //＋げっこう剣 [X]
 
 //POINTER #112 @ $3E5C8 - STRING #112 @ $3EAD8
 
-#W16($3E5C8)
+#WRITE(ItemDesc, $3E5C8)
 //かいものやしゅうりのねだんがはんぶんになる[X]
 
 //POINTER #113 @ $3E5CA - STRING #113 @ $3EB04
 
-#W16($3E5CA)
+#WRITE(ItemDesc, $3E5CA)
 //せんとうごにさいいどうできる[X]
 
 //POINTER #114 @ $3E5CC - STRING #114 @ $3EB22
 
-#W16($3E5CC)
+#WRITE(ItemDesc, $3E5CC)
 //＋たいよう剣  [X]
 
 //POINTER #115 @ $3E5CE - STRING #115 @ $3EAB8
 
-#W16($3E5CE)
+#WRITE(ItemDesc, $3E5CE)
 //すばやさ＋５  ＋ついげき  [X]
 
 //POINTER #116 @ $3E5D0 - STRING #116 @ $3EB42
 
-#W16($3E5D0)
+#WRITE(ItemDesc, $3E5D0)
 //まりょく＋３[X]
 
 //POINTER #117 @ $3E5D2 - STRING #117 @ $3EB50
 
-#W16($3E5D2)
+#WRITE(ItemDesc, $3E5D2)
 //ちから＋３[X]
 
 //POINTER #118 @ $3E5D4 - STRING #118 @ $3EB5C
 
-#W16($3E5D4)
+#WRITE(ItemDesc, $3E5D4)
 //しゅびりょく＋３[X]
 
 //POINTER #119 @ $3E5D6 - STRING #119 @ $3EB6E
 
-#W16($3E5D6)
+#WRITE(ItemDesc, $3E5D6)
 //まほうぼうぎょ ＋３[X]
 
 //POINTER #120 @ $3E5D8 - STRING #120 @ $3EB84
 
-#W16($3E5D8)
+#WRITE(ItemDesc, $3E5D8)
 //いどうりょく＋３[X]
 
 //POINTER #121 @ $3E5DA - STRING #121 @ $3EB96
 
-#W16($3E5DA)
+#WRITE(ItemDesc, $3E5DA)
 //わざ＋５[X]
 
 //POINTER #122 @ $3E5DC - STRING #122 @ $3E6F6
 
-#W16($3E5DC)
+#WRITE(ItemDesc, $3E5DC)
 //せんりょくアップ[X]
 
 //POINTER #123 @ $3E5DE - STRING #123 @ $3E6F6
 
-#W16($3E5DE)
+#WRITE(ItemDesc, $3E5DE)
 //せんりょくアップ[X]
 
 //POINTER #124 @ $3E5E0 - STRING #124 @ $3E6F6
 
-#W16($3E5E0)
+#WRITE(ItemDesc, $3E5E0)
 //せんりょくアップ[X]
 
 //POINTER #125 @ $3E5E2 - STRING #125 @ $3E5FC
 
-#W16($3E5E2)
+#WRITE(ItemDesc, $3E5E2)
 // [X]
 
 //POINTER #126 @ $3E5E4 - STRING #126 @ $3E5FC
 
-#W16($3E5E4)
+#WRITE(ItemDesc, $3E5E4)
 // [X]
 
 //POINTER #127 @ $3E5E6 - STRING #127 @ $3E5FC
 
-#W16($3E5E6)
+#WRITE(ItemDesc, $3E5E6)
 // [X]
 
 //POINTER #128 @ $3E5E8 - STRING #128 @ $3E5FC
 
-#W16($3E5E8)
+#WRITE(ItemDesc, $3E5E8)
 // [X]
 
 //POINTER #129 @ $3E5EA - STRING #129 @ $3E5FC
 
-#W16($3E5EA)
+#WRITE(ItemDesc, $3E5EA)
 // [X]
 
 //POINTER #130 @ $3E5EC - STRING #130 @ $3E5FC
 
-#W16($3E5EC)
+#WRITE(ItemDesc, $3E5EC)
 // [X]
 
 //POINTER #131 @ $3E5EE - STRING #131 @ $3E5FC
 
-#W16($3E5EE)
+#WRITE(ItemDesc, $3E5EE)
 // [X]
 
 //POINTER #132 @ $3E5F0 - STRING #132 @ $3E5FC
 
-#W16($3E5F0)
+#WRITE(ItemDesc, $3E5F0)
 // [X]
 
 //POINTER #133 @ $3E5F2 - STRING #133 @ $3E5FC
 
-#W16($3E5F2)
+#WRITE(ItemDesc, $3E5F2)
 // [X]
 
 //POINTER #134 @ $3E5F4 - STRING #134 @ $3E5FC
 
-#W16($3E5F4)
+#WRITE(ItemDesc, $3E5F4)
 // [X]
 
 //POINTER #135 @ $3E5F6 - STRING #135 @ $3E5FC
 
-#W16($3E5F6)
+#WRITE(ItemDesc, $3E5F6)
 // [X]
 
 //POINTER #136 @ $3E5F8 - STRING #136 @ $3E5FC
 
-#W16($3E5F8)
+#WRITE(ItemDesc, $3E5F8)
 // [X]
 
 //POINTER #137 @ $3E5FA - STRING #137 @ $3EBA0
 
-#W16($3E5FA)
+#WRITE(ItemDesc, $3E5FA)
 //せいれいの   ブレスレット[X]
 
 //BLOCK #010 NAME:		Menu Commands
