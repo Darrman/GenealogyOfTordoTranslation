@@ -5927,7 +5927,7 @@ bracelet[X]
 //BLOCK #012 NAME:		Skill Descriptions
 
 #JMP($9A9DD, $9ADA6)
-#HDR($0)
+#HDR($200)
 
 
 //POINTER #0 @ $9ADFF - STRING #0 @ $9A9DD
@@ -5935,25 +5935,43 @@ bracelet[X]
 #W24($9ADFF)
 //ダメージを     
 //むこうにする[X]
-Placeholder[X]
+//Great Shield
+//Lvx2% to  
+Negate all
+damage[X]
 
 //POINTER #1 @ $9AE02 - STRING #1 @ $9A9FF
 
 #W24($9AE02)
 //ピンチになったとき 
 //いかりのこうげき[X]
+//Wrath
+Automatic 
+critical  
+sub-50% HP[X]
+
 
 //POINTER #2 @ $9AE05 - STRING #2 @ $9AA25
 
 #W24($9AE05)
 //さいこうげきが   
 //でやすくなる          [X]
+//Pursuit
+Doubling  
+threshold 
+is AS+3[X]
 
 //POINTER #3 @ $9AE08 - STRING #3 @ $9AA5B
 
 #W24($9AE08)
 //すばやさのかくりつで
 //れんぞくこうげき[X]
+//Continue
+//AS% chance
+//to attack 
+May attack
+foe again[X]
+
 
 //POINTER #4 @ $9AE0B - STRING #4 @ $9AA81
 
@@ -5961,6 +5979,9 @@ Placeholder[X]
 //こうげきがあたると 
 //あいてのゴールドを 
 //うばう[X]
+//Steal
+Steal foes
+gold[X]
 
 //POINTER #5 @ $9AE0E - STRING #5 @ $200
 
@@ -5973,6 +5994,10 @@ Placeholder[X]
 //りんせつした    
 //ユニットを     
 //いどうかのうにする[X]
+//Dance
+Adjacent  
+allies can
+move again[X]
 
 //POINTER #7 @ $9AE14 - STRING #7 @ $200
 
@@ -5994,6 +6019,10 @@ Placeholder[X]
 #W24($9AE1D)
 //ちかくにいるみかたに
 //１０％のしえんこうか[X]
+//Charisma
+10 Hit/Avo
+to allies 
+in 3 tiles[X]
 
 //POINTER #11 @ $9AE20 - STRING #11 @ $200
 
@@ -6005,12 +6034,19 @@ Placeholder[X]
 #W24($9AE23)
 //ひっさつこうげきなど
 //をふうじる[X]
+//Nihil
+Negates   
+criticals[X]
 
 //POINTER #13 @ $9AE26 - STRING #13 @ $9AB37
 
 #W24($9AE26)
 //ピンチになると   
-かいひりつがあがる[X]
+//かいひりつがあがる[X]
+//Prayer
+Avoid up  
+when near 
+death[X]
 
 //POINTER #14 @ $9AE29 - STRING #14 @ $9AB5F
 
@@ -6018,12 +6054,19 @@ Placeholder[X]
 //ひっさつのいちげきが
 //でやすくなる    
 //ダメージ３ばい[X]
+//Critical
+Skill% to 
+critical  [X]
+//3x damage[X]
 
 //POINTER #15 @ $9AE2C - STRING #15 @ $9AB97
 
 #W24($9AE2C)
 //かならず      
 //せんせいこうげきする  [X]
+//Ambush
+Always hit
+foe first[X]
 
 //POINTER #16 @ $9AE2F - STRING #16 @ $9ABC5
 
@@ -6031,36 +6074,58 @@ Placeholder[X]
 //みがるであれば   
 //ときおり せんとうが
 //けいぞくする[X]
+//Charge
+May extend
+combat[X]
+//combat if 
+//HP is high[X]
 
 //POINTER #17 @ $9AE32 - STRING #17 @ $9ABFB
 
 #W24($9AE32)
 //５かいれんぞくで  
 //こうげきする[X]
+//Astra
+//Skill% to 
+Attack 5  
+times[X]
 
 //POINTER #18 @ $9AE35 - STRING #18 @ $9AC1D
 
 #W24($9AE35)
 //あいてのしゅびりょく
 //をはんげん  [X]
-
+//Luna
+//Skill% to 
+Halve foes
+defence[X]
 //POINTER #19 @ $9AE38 - STRING #19 @ $9AC41
 
 #W24($9AE38)
 //あたえたダメージだけ
 //ＨＰがかいふくする[X]
+//Sol
+//Skill% to 
+Absorb the
+foes HP[X]
 
 //POINTER #20 @ $9AE3B - STRING #20 @ $9ADB7
 
 #W24($9AE3B)
 //こうげきりょく   
 //しゅびりょくがあがる[X]
+//Holy Sword
+Str/Def   
++20[X]
 
 //POINTER #21 @ $9AE3E - STRING #21 @ $9ADB7
 
 #W24($9AE3E)
 //こうげきりょく   
 //しゅびりょくがあがる[X]
+//Dark Sword
+Str/Def   
++15[X]
 
 //POINTER #22 @ $9AE41 - STRING #22 @ $9AC69
 
@@ -6068,12 +6133,19 @@ Placeholder[X]
 //まいターン     
 //ＨＰが５から１０  
 //かいふくする[X]
+//Life
+Restores  
+5-10 HP at
+turn start[X]
 
 //POINTER #23 @ $9AE44 - STRING #23 @ $9AC9F
 
 #W24($9AE44)
 //けいけんちを    
 //２ばいもらえる[X]
+//Elite
+Doubles   
+EXP gain[X]
 
 //POINTER #24 @ $9AE47 - STRING #24 @ $200
 
@@ -6084,6 +6156,10 @@ Placeholder[X]
 
 #W24($9AE4A)
 //かんぜんかいふく [X]
+//Recover
+Fully heal
+at turn   
+start[X]
 
 //POINTER #26 @ $9AE4D - STRING #26 @ $9ACC3
 
@@ -6091,6 +6167,9 @@ Placeholder[X]
 //かいものや     
 //しゅうりが     
 //はんがくでできる[X]
+//Bargain
+Expenses  
+are halved[X]
 
 //POINTER #27 @ $9AE50 - STRING #27 @ $200
 
@@ -6233,6 +6312,8 @@ Sol[X]
 #W24($9AE98)
 //カムイ  [X]
 //"Kamui" google says unhelpfully. I don't think this skill is called "Corrin".
+//If I had to guess, Holy Sword.
+HolySword[X]
 
 //POINTER #52 @ $9AE9B - STRING #52 @ $9ADE1
 
@@ -6240,6 +6321,7 @@ Sol[X]
 //はじゃ[X]
 //Darkness Sword. I assume they gave it more of a name here.
 //I'll nag those in the know later.
+DarkSword[X]
 
 //POINTER #53 @ $9AE9E - STRING #53 @ $9AD91
 
@@ -6274,43 +6356,43 @@ Bargain[X]
 
 #JMP($9FA8B, $9FABE)
 
-0<X>
+0[X]
 //Pointer unknown. Keeps green text in line.
 
 //POINTER #2 @ $9F386 - STRING #2 @ $9FA8F
 
 #W24($9F386)
-1<X>
+1[X]
 
 
 //POINTER #3 @ $9F389 - STRING #3 @ $9FA93
 
 #W24($9F389)
-2<X>
+2[X]
 
 
 //POINTER #4 @ $9F38C - STRING #4 @ $9FA97
 
 #W24($9F38C)
-3<X>
+3[X]
 
 
 //POINTER #5 @ $9F38F - STRING #5 @ $9FA9B
 
 #W24($9F38F)
-4<X>
+4[X]
 
 
 //POINTER #6 @ $9F392 - STRING #6 @ $9FA9F
 
 #W24($9F392)
-5<X>
+5[X]
 
 //POINTER #0 @ $9F380 - STRING #0 @ $9FAA3
 
 #W24($9F380)
 #W24($9F3C2)
-On  <X>
+On  [X]
 
 
 //POINTER #1 @ $9F383 - STRING #1 @ $9FAAD
@@ -6319,7 +6401,7 @@ On  <X>
 #W24($9F3A1)
 #W24($9F3A4)
 #W24($9F3C5)
-Off <X>
+Off [X]
 
 
 
@@ -6330,74 +6412,74 @@ Off <X>
 
 #W24($9F395)
 #W24($9F3BC)
-Norm<X>
+Norm[X]
 
 
 //POINTER #8 @ $9F398 - STRING #8 @ $9F3C8
 
 #W24($9F398)
-Fast<X>
+Fast[X]
 
 
 //POINTER #9 @ $9F39B - STRING #9 @ $9F3D8
 
 #W24($9F39B)
-Ster<X>
+Ster[X]
 
 
 //POINTER #10 @ $9F39E - STRING #10 @ $9F3E2
 
 #W24($9F39E)
-Mono<X>
+Mono[X]
 
 
 
 //POINTER #13 @ $9F3A7 - STRING #13 @ $9F40A
 
 #W24($9F3A7)
-Sav1<X>
+Sav1[X]
 
 
 //POINTER #14 @ $9F3AA - STRING #14 @ $9F414
 
 #W24($9F3AA)
-Sav2<X>
+Sav2[X]
 
 
 //POINTER #15 @ $9F3AD - STRING #15 @ $9F41E
 
 #W24($9F3AD)
-Sav3<X>
+Sav3[X]
 
 
 //POINTER #16 @ $9F3B0 - STRING #16 @ $9F428
 
 #W24($9F3B0)
-Sav4<X>
+Sav4[X]
 
 
 //POINTER #17 @ $9F3B3 - STRING #17 @ $9F3EC
 
 #W24($9F3B3)
-On  <X>
+On  [X]
 
 
 //POINTER #18 @ $9F3B6 - STRING #18 @ $9F3F6
 
 #W24($9F3B6)
-Off <X>
+Off [X]
 
 
 //POINTER #19 @ $9F3B9 - STRING #19 @ $9F400
 
 #W24($9F3B9)
-Solo<X>
+Solo[X]
 
 
 //POINTER #21 @ $9F3BF - STRING #21 @ $9F432
 
 #W24($9F3BF)
-Hard<X>
+Hard[X]
 //BLOCK #014 NAME:		Option Descriptions
 
 #VAR(OptionDesc, CUSTOMPOINTER)
@@ -6411,7 +6493,7 @@ Hard<X>
 Animation 
 1-On     
 2-Off    
-3-Solo<X>
+3-Solo[X]
 
 
 //POINTER #1 @ $9F53B - STRING #1 @ $9F597
@@ -6419,7 +6501,7 @@ Animation
 #W24($9F53B)
 Terrain  
 See avoid
-bonus<X>
+bonus[X]
 
 
 //POINTER #2 @ $9F53E - STRING #2 @ $9F5C5
@@ -6427,7 +6509,7 @@ bonus<X>
 #W24($9F53E)
 UnitWindo
 Show unit
-names<X>
+names[X]
 
 
 //POINTER #3 @ $9F541 - STRING #3 @ $9F5F5
@@ -6435,7 +6517,7 @@ names<X>
 #W24($9F541)
 TextSpeed
 How fast 
-text is<X>
+text is[X]
 
 
 //POINTER #4 @ $9F544 - STRING #4 @ $9F62D
@@ -6443,7 +6525,7 @@ text is<X>
 #W24($9F544)
 MoveSpeed
 Speed of 
-move<X>
+move[X]
 
 
 //POINTER #5 @ $9F547 - STRING #5 @ $9F65B
@@ -6453,7 +6535,7 @@ Music
 BGM mode  
 1-Stereo 
 2-Mono   
-3-None<X>
+3-None[X]
 
 
 //POINTER #6 @ $9F54A - STRING #6 @ $9F6AF
@@ -6463,7 +6545,7 @@ AutoSave
 Selects a
 file to  
 save game
-in<X>
+in[X]
 
 
 //POINTER #7 @ $9F54D - STRING #7 @ $9F72F
@@ -6472,7 +6554,7 @@ in<X>
 AutoCursr
 Start the
 turn on  
-the hero<X>
+the hero[X]
 
 
 //POINTER #8 @ $9F550 - STRING #8 @ $9F6FD
@@ -6480,7 +6562,7 @@ the hero<X>
 #W24($9F550)
 Difficult
 Normal   
-Hard<X>
+Hard[X]
 
 //BLOCK #015 NAME:		Top of Option Choice Panel
 #JMP($9F794, $9F822)
@@ -6489,7 +6571,7 @@ Hard<X>
 //POINTER #0 @ $9F779 - STRING #0 @ $9F7BC
 
 #W24($9F779)
-On   Solo<X>
+On   Solo[X]
 
 
 //POINTER #1 @ $9F77C - STRING #1 @ $9F7A8
@@ -6497,34 +6579,34 @@ On   Solo<X>
 #W24($9F77C)
 #W24($9F77F)
 #W24($9F78E)
-On    Off<X>
+On    Off[X]
 
 
 //POINTER #3 @ $9F782 - STRING #3 @ $9F7D0
 
 #W24($9F782)
-Slow Fast<X>
+Slow Fast[X]
 
 
 //POINTER #4 @ $9F785 - STRING #4 @ $9F794
 
 #W24($9F785)
-  Speed  <X>
+  Speed  [X]
 
 
 //POINTER #5 @ $9F788 - STRING #5 @ $9F7E4
 
 #W24($9F788)
-Ster  Off<X>
+Ster  Off[X]
 
 
 //POINTER #6 @ $9F78B - STRING #6 @ $9F7F8
 
 #W24($9F78B)
-Off  File<X>
+Off  File[X]
 
 
 //POINTER #8 @ $9F791 - STRING #8 @ $9F80C
 
 #W24($9F791)
-Difficult<X>
+Difficult[X]
