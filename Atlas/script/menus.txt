@@ -5069,10 +5069,9 @@ Braclet[X]
 //BLOCK #009 NAME:		Item Descriptions
 
 #VAR(ItemDesc, CUSTOMPOINTER)
-#CREATEPTR(ItemDesc, "LINEAR", $3B17F, 16)
+#CREATEPTR(ItemDesc, "LINEAR", $3E4E8, 16)
 
 #JMP($3E5FC, $3EBBF)
-
 
 //POINTER #0 @ $3E4E8 - STRING #0 @ $3E5FC
 
@@ -5126,6 +5125,26 @@ Braclet[X]
 //Flux
 #WRITE(ItemDesc, $3E58C)
 //Fenrir
+#WRITE(ItemDesc, $3E5A2)
+//P93
+#WRITE(ItemDesc, $3E5A8)
+//P96
+#WRITE(ItemDesc, $3E5B6)
+//P103
+#WRITE(ItemDesc, $3E5BA)
+//P105
+#WRITE(ItemDesc, $3E5E2)
+#WRITE(ItemDesc, $3E5E4)
+#WRITE(ItemDesc, $3E5E6)
+#WRITE(ItemDesc, $3E5E8)
+#WRITE(ItemDesc, $3E5EA)
+#WRITE(ItemDesc, $3E5EC)
+#WRITE(ItemDesc, $3E5EE)
+#WRITE(ItemDesc, $3E5F0)
+#WRITE(ItemDesc, $3E5F2)
+#WRITE(ItemDesc, $3E5F4)
+#WRITE(ItemDesc, $3E5F6)
+#WRITE(ItemDesc, $3E5F8)
  [X]
 
 //POINTER #3 @ $3E4EE - STRING #3 @ $3E834
@@ -5309,6 +5328,17 @@ Life[X]
 #WRITE(ItemDesc, $3E588)
 //せんりょくアップ[X]
 //Narga
+#WRITE(ItemDesc, $3E5A6)
+//せんりょくアップ[X]
+//Valkyrie
+#WRITE(ItemDesc, $3E5B8)
+//Galle's Staff
+#WRITE(ItemDesc, $3E5DC)
+//Apocalypse
+#WRITE(ItemDesc, $3E5DE)
+//Urvan
+#WRITE(ItemDesc, $3E5E0)
+//?fleche
 HolyWepn[X]
 
 //POINTER #23 @ $3E516 - STRING #23 @ $3E736
@@ -5419,257 +5449,255 @@ Dark[X]
 //Halves attack
 #WRITE(ItemDesc, $3E590)
 //Loputousu
+#WRITE(ItemDesc, $3E5AC)
+//Luna
 1/2Atk[X]
 
 //POINTER #88 @ $3E598 - STRING #88 @ $3E78A
 
 #WRITE(ItemDesc, $3E598)
 //ＨＰを回ふくする[X]
+//Heal
+Heal HP[X]
 
 //POINTER #89 @ $3E59A - STRING #89 @ $3E79C
 
 #WRITE(ItemDesc, $3E59A)
 //ＨＰをおおく  回ふくする[X]
+//Mend
+Heals HP
+more[X]
 
 //POINTER #90 @ $3E59C - STRING #90 @ $3E7B8
 
 #WRITE(ItemDesc, $3E59C)
 //ＨＰをかんぜんに回ふくする[X]
+//Recover
+Heal all
+HP[X]
 
 //POINTER #91 @ $3E59E - STRING #91 @ $3E7D4
 
 #WRITE(ItemDesc, $3E59E)
 //１０マスないの みかたひとりに ライブをかける[X]
+//Physic
+Heal HP 
+Range 10[X]
 
 //POINTER #92 @ $3E5A0 - STRING #92 @ $3E804
 
 #WRITE(ItemDesc, $3E5A0)
 //１０マスないの みかたぜんいんにライブをかける[X]
+//Fortify
+Heal all 
+in Rng10[X]
 
 //POINTER #93 @ $3E5A2 - STRING #93 @ $3E5FC
 
-#WRITE(ItemDesc, $3E5A2)
 // [X]
 
 //POINTER #94 @ $3E5A4 - STRING #94 @ $3E854
 
 #WRITE(ItemDesc, $3E5A4)
 //みかたひとりを じぐんのどれかの城にワープさせる[X]
-
-//POINTER #95 @ $3E5A6 - STRING #95 @ $3E6F6
-
-#WRITE(ItemDesc, $3E5A6)
-//せんりょくアップ[X]
+//Warp
+Warp an 
+ally to 
+a castle
+Return[X]
 
 //POINTER #96 @ $3E5A8 - STRING #96 @ $3E5FC
 
-#WRITE(ItemDesc, $3E5A8)
 // [X]
 
 //POINTER #97 @ $3E5AA - STRING #97 @ $3E8B8
 
 #WRITE(ItemDesc, $3E5AA)
 //１０マスないの みかたひとりの じょうたいを  せいじょうにする[X]
-
-//POINTER #98 @ $3E5AC - STRING #98 @ $3E712
-
-#WRITE(ItemDesc, $3E5AC)
-//こうげきはんげん[X]
+//Restore
+Cure bad
+statuses
+on ally
+Range 10[X]
 
 //POINTER #99 @ $3E5AE - STRING #99 @ $3E93C
 
 #WRITE(ItemDesc, $3E5AE)
 //１０マスないの てきひとりの  まほうをすうターンつかえなくする[X]
+//Silence
+Silences
+an enemy
+Range 10[X]
 
 //POINTER #100 @ $3E5B0 - STRING #100 @ $3E97E
 
 #WRITE(ItemDesc, $3E5B0)
 //１０マスないの てきひとりを  すうターンうごけなくする[X]
+//Sleep
+Puts foe
+to sleep
+Range 10[X]
 
 //POINTER #101 @ $3E5B2 - STRING #101 @ $40050
 
 #WRITE(ItemDesc, $3E5B2)
 //さばきのいかずち[X]
+//Judgement
+//Thunder of judgement
+JudgBolt[X]
 
 //POINTER #102 @ $3E5B4 - STRING #102 @ $40034
 
 #WRITE(ItemDesc, $3E5B4)
 //ブラギのひじゅつ[X]
+//???
+//Blagi's ...?
+Blagi[X]
 
 //POINTER #103 @ $3E5B6 - STRING #103 @ $3E5FC
 
-#WRITE(ItemDesc, $3E5B6)
 // [X]
 
 //POINTER #104 @ $3E5B8 - STRING #104 @ $3E6F6
 
-#WRITE(ItemDesc, $3E5B8)
-//せんりょくアップ[X]
+HolyWepn[X]
 
 //POINTER #105 @ $3E5BA - STRING #105 @ $3E5FC
 
-#WRITE(ItemDesc, $3E5BA)
 // [X]
 
 //POINTER #106 @ $3E5BC - STRING #106 @ $3EA0C
 
 #WRITE(ItemDesc, $3E5BC)
 //まいターンＨＰが回ふくする[X]
+//Life Ring
+Heal HP 
+at turn 
+start[X]
 
 //POINTER #107 @ $3E5BE - STRING #107 @ $400F0
 
 #WRITE(ItemDesc, $3E5BE)
 //わざ＋５    ＋エリート   ＋リターン  [X]
+//Master Ring
+Skill+5 
+Elite   
+Return[X]
 
 //POINTER #108 @ $3E5C0 - STRING #108 @ $3E654
 
 #WRITE(ItemDesc, $3E5C0)
 //＋りゅうせい剣[X]
+//Star Ring
+Astra[X]
 
 //POINTER #109 @ $3E5C2 - STRING #109 @ $3E886
 
 #WRITE(ItemDesc, $3E5C2)
 //マイラの    ちからがやどったゆびわ     [X]
+//Myra's Ring
+//Replace flavour with actual effects
+Ring w/ 
+power of
+Myra[X]
 
 //POINTER #110 @ $3E5C4 - STRING #110 @ $3EA8A
 
 #WRITE(ItemDesc, $3E5C4)
 //みきり＋オラクル[X]
+//Iote's Ring
+Nihil   
+Oracle[X]
 
 //POINTER #111 @ $3E5C6 - STRING #111 @ $3E6C0
 
 #WRITE(ItemDesc, $3E5C6)
 //＋げっこう剣 [X]
+//Moon Ring
+Luna[X]
 
 //POINTER #112 @ $3E5C8 - STRING #112 @ $3EAD8
 
 #WRITE(ItemDesc, $3E5C8)
 //かいものやしゅうりのねだんがはんぶんになる[X]
+//Charm Ring
+Halves  
+prices[X]
 
 //POINTER #113 @ $3E5CA - STRING #113 @ $3EB04
 
 #WRITE(ItemDesc, $3E5CA)
 //せんとうごにさいいどうできる[X]
+//Knight Ring
+Use any 
+leftover    
+movement[X]
 
 //POINTER #114 @ $3E5CC - STRING #114 @ $3EB22
 
 #WRITE(ItemDesc, $3E5CC)
 //＋たいよう剣  [X]
+//Sun Ring
+Sol[X]
 
 //POINTER #115 @ $3E5CE - STRING #115 @ $3EAB8
 
 #WRITE(ItemDesc, $3E5CE)
 //すばやさ＋５  ＋ついげき  [X]
+//Speed Ring
+Speed+5 
+Pursuit[X]
 
 //POINTER #116 @ $3E5D0 - STRING #116 @ $3EB42
 
 #WRITE(ItemDesc, $3E5D0)
 //まりょく＋３[X]
+//Magic Ring
+Magic+3[X]
 
 //POINTER #117 @ $3E5D2 - STRING #117 @ $3EB50
 
 #WRITE(ItemDesc, $3E5D2)
 //ちから＋３[X]
+//Power Ring
+Str+3[X]
 
 //POINTER #118 @ $3E5D4 - STRING #118 @ $3EB5C
 
 #WRITE(ItemDesc, $3E5D4)
 //しゅびりょく＋３[X]
+//Shield Ring
+Def+3[X]
 
 //POINTER #119 @ $3E5D6 - STRING #119 @ $3EB6E
 
 #WRITE(ItemDesc, $3E5D6)
 //まほうぼうぎょ ＋３[X]
+//Barrier Ring
+Res+3[X]
 
 //POINTER #120 @ $3E5D8 - STRING #120 @ $3EB84
 
 #WRITE(ItemDesc, $3E5D8)
 //いどうりょく＋３[X]
+//Leg Ring
+Move+3[X]
 
 //POINTER #121 @ $3E5DA - STRING #121 @ $3EB96
 
 #WRITE(ItemDesc, $3E5DA)
 //わざ＋５[X]
-
-//POINTER #122 @ $3E5DC - STRING #122 @ $3E6F6
-
-#WRITE(ItemDesc, $3E5DC)
-//せんりょくアップ[X]
-
-//POINTER #123 @ $3E5DE - STRING #123 @ $3E6F6
-
-#WRITE(ItemDesc, $3E5DE)
-//せんりょくアップ[X]
-
-//POINTER #124 @ $3E5E0 - STRING #124 @ $3E6F6
-
-#WRITE(ItemDesc, $3E5E0)
-//せんりょくアップ[X]
-
-//POINTER #125 @ $3E5E2 - STRING #125 @ $3E5FC
-
-#WRITE(ItemDesc, $3E5E2)
-// [X]
-
-//POINTER #126 @ $3E5E4 - STRING #126 @ $3E5FC
-
-#WRITE(ItemDesc, $3E5E4)
-// [X]
-
-//POINTER #127 @ $3E5E6 - STRING #127 @ $3E5FC
-
-#WRITE(ItemDesc, $3E5E6)
-// [X]
-
-//POINTER #128 @ $3E5E8 - STRING #128 @ $3E5FC
-
-#WRITE(ItemDesc, $3E5E8)
-// [X]
-
-//POINTER #129 @ $3E5EA - STRING #129 @ $3E5FC
-
-#WRITE(ItemDesc, $3E5EA)
-// [X]
-
-//POINTER #130 @ $3E5EC - STRING #130 @ $3E5FC
-
-#WRITE(ItemDesc, $3E5EC)
-// [X]
-
-//POINTER #131 @ $3E5EE - STRING #131 @ $3E5FC
-
-#WRITE(ItemDesc, $3E5EE)
-// [X]
-
-//POINTER #132 @ $3E5F0 - STRING #132 @ $3E5FC
-
-#WRITE(ItemDesc, $3E5F0)
-// [X]
-
-//POINTER #133 @ $3E5F2 - STRING #133 @ $3E5FC
-
-#WRITE(ItemDesc, $3E5F2)
-// [X]
-
-//POINTER #134 @ $3E5F4 - STRING #134 @ $3E5FC
-
-#WRITE(ItemDesc, $3E5F4)
-// [X]
-
-//POINTER #135 @ $3E5F6 - STRING #135 @ $3E5FC
-
-#WRITE(ItemDesc, $3E5F6)
-// [X]
-
-//POINTER #136 @ $3E5F8 - STRING #136 @ $3E5FC
-
-#WRITE(ItemDesc, $3E5F8)
-// [X]
+//Skill Ring
+Skill+5[X]
 
 //POINTER #137 @ $3E5FA - STRING #137 @ $3EBA0
 
 #WRITE(ItemDesc, $3E5FA)
 //せいれいの   ブレスレット[X]
+//Bracelet
+//Actual effects instead of flavour
+Spirit  
+bracelet[X]
 
 //BLOCK #010 NAME:		Menu Commands
 
@@ -5899,6 +5927,7 @@ Dark[X]
 //BLOCK #012 NAME:		Skill Descriptions
 
 #JMP($9A9DD, $9ADA6)
+#HDR($0)
 
 
 //POINTER #0 @ $9ADFF - STRING #0 @ $9A9DD
