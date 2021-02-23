@@ -38,13 +38,13 @@ To Jungby[X]
 
 #WRITE(Goals, $DD7D)
 //オーガヒル城のせいあつ[X]
-To Orgahil
+To Orgahil[X]
 
 //POINTER #4 @ $DD80 - STRING #4 @ $DDF6
 
 #WRITE(Goals, $DD80)
 //ザクソン城のせいあつ[X]
-To Zaxon
+To Zaxon[X]
 
 //POINTER #5 @ $DD83 - STRING #5 @ $DE0C
 
@@ -768,8 +768,9 @@ PegKnt[X]
 
 #WRITE(Class, $38CD5)
 //エンリルナイト[X]
+//Enlil Knight
 //Falcon Knight
-FalconKn[X]
+EnlilKnt[X]
 
 //POINTER #18 @ $38CD7 - STRING #18 @ $38E55
 
@@ -5143,18 +5144,6 @@ JudgBolt[X]
 //Blagi's ...?
 Blagi[X]
 
-//POINTER #103 @ $3E5B6 - STRING #103 @ $3E5FC
-
-// [X]
-
-//POINTER #104 @ $3E5B8 - STRING #104 @ $3E6F6
-
-HolyWepn[X]
-
-//POINTER #105 @ $3E5BA - STRING #105 @ $3E5FC
-
-// [X]
-
 //POINTER #106 @ $3E5BC - STRING #106 @ $3EA0C
 
 #WRITE(ItemDesc, $3E5BC)
@@ -5219,7 +5208,7 @@ prices[X]
 //せんとうごにさいいどうできる[X]
 //Knight Ring
 Use any 
-leftover    
+leftover
 movement[X]
 
 //POINTER #114 @ $3E5CC - STRING #114 @ $3EB22

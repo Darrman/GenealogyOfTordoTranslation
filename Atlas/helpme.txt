@@ -1,0 +1,73 @@
+GENEALOGY OF TORDO: "WHAT THE HELL DOES THIS MEAN" LIST
+ENEMY NAMES:
+
+//ゴメース[X]
+//The only difference between Bucks and this guy is the long vowel.
+//Probably some form of bad pun... Get this looked at.
+//In the meantime, I'll make up my own pun.
+Bugs[X]
+
+//バクース[X]
+//See above.
+Goomez[X]
+
+(Context: Dimaggio and Gerrard were replaced with Bucks and Gomez.)
+(Dobarl and Pizarl are replaced with these weird long-voweled versions.)
+
+//エクスリッター[X]
+//X Ritter?
+XRitter[X]
+
+//テーアリッター[X]
+//"Te-a" Ritter? Tear Ritter? Another one for the "help please" pile.
+TRitter[X] 
+(Location swaps meant the hacker made up some new Ritters.)
+
+(Probably more in Gen 2, I haven't gone through those yet.)
+
+ITEM NAMES:
+There's a bunch of stuff that I think are TRS references that I'd rather not mangle.
+In the interests of time, I'll only mention the stuff I'm really ??? on.
+
+//マオザウルフ[X]
+//No idea. Nag someone who does.
+//Is it "mouse wolf" or something?
+Wolf[X]
+
+//セイニー[X]
+//Jury's out here. Later context needed.
+//All I can think of is Capcom money. And I doubt it's a Zenny Staff.
+Sany[X]
+
+//バルフレチェ[X]
+//It's got the "fleche" part of Rienfleche.
+//So what's the "baru" meant to be? Balfleche?
+Fleche[X]
+
+DESCRIPTIONS:
+//せんりょくアップ[X]
+//"(something) up". Google 2 says "potential". Get this looked at.
+//In the meantime, a blunt placeholder.
+(every holy weapon)
+HolyWepn[X]
+
+//オードのせんぷ[X]
+//Wolf thingy
+//Odo... something. What is it???
+Odo[X]
+
+//ブラギのひじゅつ[X]
+//???
+//Blagi's ...?
+Blagi[X]
+
+SKILLS:
+//カムイ  [X]
+//"Kamui" google says unhelpfully. I don't think this skill is called "Corrin".
+//If I had to guess, Holy Sword.
+HolySword[X]
+
+//はじゃ[X]
+//Darkness Sword. I assume they gave it more of a name here.
+//I'll nag those in the know later.
+DarkSword[X]
