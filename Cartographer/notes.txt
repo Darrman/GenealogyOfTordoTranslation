@@ -7,8 +7,28 @@ All offsets headered.
 0x39C59: Character name pointers
 0x3A191: Tiltyu's name.
 
+0x3DAE8: Army name pointers
+0x3DD42: Tiltyu's Army
+
 0x3DE12: Item name pointers
 0x3DF26: Iron Sword name
 
+0x3E4E8: Item description pointers
+0x3E6D0: Vajra (Tiltyu's crit on demand sword) description
+
 0x9a9dd: great shield desc
 pointer location hasn't changed (9adff), but dumper melts at the dummy 00 pointers. better change them to 00 00 80 or something to hit something valid.
+
+Taken from Binary but I want to figure this stuff out properly: stat screen labels.
+(Not sure where these begin and where they end...)
+This is the strength stat label. 
+A9 00 89 85 25 A9 26 9D 85 24 A2 05 0D 22 54 93 87
+?? ?? ?? ?? ?? ?? Point ?? ?? ?? XX YY ?? ?? ?? ??
+
+Considering J2E tagged these as ASMPTR, it's probably ASM. So...
+LDA #00 ;load zero to accumulator
+BIT #2585 ;no idea. probably reading something wrong.
+LDA #9D26 ;pointer to text
+STA (dp) ;whatever the "direct page" is
+LDX #050D ;coordinates
+JSR #879354 ;jump to wherever this code is. probably the drawing code.

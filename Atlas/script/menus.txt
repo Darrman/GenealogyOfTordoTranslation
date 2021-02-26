@@ -86,6 +86,19 @@ To Dozel[X]
 //Chalphy
 To Freege[X]
 
+#W16($DD01)
+Goal[X]
+
+#W16($DD2F)
+Time[X]
+
+#W16($DD56)
+ Turns[X]
+ 
+//Army label
+#JMP($DF1C, $DF27)
+#W16($DED2)
+Army[X]
 
 //BLOCK #001 NAME:		Skill Menu Names
 
@@ -262,6 +275,30 @@ AutoCrsr[X]
 //#WRITE(OptionsMenu, $EA35)
 //Seems to be gone?
 //Difficult[X]
+
+//Valkyrie Staff
+
+#JMP($E43E, $E457)
+#W16($E3CC)
+//Choose character to revive
+Choose unit[X]
+
+//Nobody to revive
+#JMP($E484, $E497)
+#W16($E46B)
+No revive[X]
+
+
+//Inventory empty
+
+#JMP($D246, $D27D)
+#W16($D121)
+//No items at all?
+You have none![X]
+
+#W16($D132)
+//For goodness sake, get some.
+Press B now![X]
 
 //BLOCK #003 NAME:		Terrain Names
 
@@ -6188,3 +6225,315 @@ Off  File[X]
 
 #W24($9F791)
 Difficult[X]
+
+//Castle Menu Choices
+//Spaces are important,
+//otherwise text leaks in from below
+
+#JMP($A8AE0, $A8B7F)
+
+#W16($A8A06)
+  Fight  [X]
+
+#W16($A8A19)
+  Guard  [X]
+
+#W16($A8A2C)
+  Promote[X]
+
+#W16($A8A41)
+  Town   [X]
+
+#W16($A8AC7)
+  Staff  [X]
+
+#W16($A8A6A)
+//Blank
+         [X]
+
+#W16($A8AD9)
+  Dance  [X]
+  
+#W16($A8A4E)
+#W16($A8A94)
+  Give   [X]
+
+
+
+//BLOCK #ABC NAME: 		Shop Menu Choices
+
+#JMP($AAFCE)
+#W16($AAFB3)
+Lovers[X]
+
+#JMP($AC4FE)
+#W16($AC316)
+Buy  Own[X]
+
+#JMP($AA548)
+#W16($AD298)
+ Yes  No[X]
+ 
+#JMP($AE989)
+#W16($AE8A6)
+Fight  Quit[X]
+
+#JMP($AEC3C)
+#W16($AEB44)
+Cede  Fight  Weapon[X]
+
+#JMP($AED56)
+#W16($AEC97)
+Fight  Quit  Weapon[X]
+
+#JMP($AF675)
+#W16($AF57A)
+Give  Take[X]
+
+#JMP($AFFF0, $B01B8)
+#W16($AAFBE)
+Records[X]
+
+#W16($AAFC9)
+Parents[X]
+
+#W16($AC53F)
+Sell  Buy[X]
+
+#JMP($AB0DA, $AB109)
+#W16($AB001)
+Enemy[X]
+
+#W16($AB0AF)
+Lv[X]
+
+#W16($AB092)
+Push B to exit[X]
+
+
+
+//BLOCK NAME: 		Status Screen
+
+#JMP($9BCC1, $9BCF2)
+
+//Weapon stat labels, item menu
+
+#W16($9BBB2)
+Hit[X]
+
+#W16($9BBC3)
+Mgt[X]
+
+#W16($9BBD4)
+Rang[X]
+
+#W16($9BBE5)
+Wgt[X]
+
+
+//Weapon stat labels, stat screen
+
+#JMP($98B73, $98B9A)
+
+#W16($98A1D)
+Hit[X]
+
+#W16($98A2E)
+Mgt[X]
+
+#W16($98A3F)
+Rang[X]
+
+#W16($98A50)
+Wgt[X]
+
+
+#JMP($99E52, $99E7B)
+//Stat screen, top right corner
+
+#W16($99E05)
+At[X]
+
+#W16($99E16)
+Ht[X]
+
+#W16($99E27)
+Rang[X]
+
+#W16($99E38)
+Av[X]
+
+#W16($9FBB5)
+Crit[X]
+
+
+#JMP($99F26, $99F71)
+//Stat screen, stat labels
+
+#W16($99EB4)
+Str[X]
+
+#W16($99EC5)
+Mag[X]
+
+#W16($99ED6)
+Skl[X]
+
+#W16($99EE7)
+Spd[X]
+
+#W16($99EF8)
+Luk[X]
+
+#W16($99F09)
+Def[X]
+
+#W16($99F1A)
+Res[X]
+
+
+#JMP($9A10B, $9A1A0)
+//Stat screen 2
+
+#W16($99FD6)
+Lead[X]
+
+#W16($99FED)
+Army[X]
+
+#W16($9A000)
+Lover[X]
+
+#W16($9A011)
+Talk[X]
+
+#W16($9A022)
+Move[X]
+
+#W16($9A033)
+Gold[X]
+
+#W16($9A044)
+Arena[X]
+
+#W16($9A055)
+State[X]
+
+//Weapon type strings, dummied out
+
+#W16($9A066)
+//Sword
+#W16($9A077)
+//Lance
+#W16($9A088)
+//Axe
+#W16($9A099)
+//Bow
+#W16($9A0AA)
+//Staff
+#W16($9A0BB)
+//Fire
+#W16($9A0CC)
+//Thunder
+#W16($9A0DD)
+//Wind
+#W16($9A0EE)
+//Light
+#W16($9A0FF)
+//Dark
+[X]
+
+
+//Personal/Class skill labels
+#JMP($9A6C5, $9A6E3)
+
+#W16($9A6AC)
+Personal[X]
+
+#W16($9A6A0)
+Class[X]
+
+
+//Status conditions
+#JMP($9A981, $9A9C8)
+
+#W16($9A96C)
+Fine[X]
+
+#W16($9A978)
+Mute[X]
+
+#W16($9A97B)
+Slep[X]
+
+#W16($9A97E)
+Bsrk[X]
+
+#W16($99C4B)
+Dead[X]
+
+#JMP($BD477, $BD4A2)
+//Data menu headings
+
+#W16($BD35D)
+Lead[X]
+
+#W16($BD36E)
+Type[X]
+
+#W16($BD37F)
+Unit[X]
+
+#W16($BD3DD)
+------[X]
+
+
+#JMP($BD4AF, $BD4D6)
+//Alignment
+
+#W24($BD4A3)
+Us[X]
+
+#W24($BD4A6)
+Them[X]
+
+#W24($BD4A9)
+Ally[X]
+
+#W24($BD4AC)
+Neut[X]
+
+
+#JMP($BD64E, $BD6C5)
+//Data screen 2
+
+#W16($BD506)
+Home[X]
+
+#W16($BD569)
+No units out[X]
+
+#W16($BD57E)
+No leader out[X]
+
+#W16($BD593)
+Leader[X]
+
+#W16($BD5C6)
+Lv[X]
+
+#W16($BD5EC)
+HP   /[X]
+
+#W16($BD627)
+Atk[X]
+
+#W16($BD52B)
+----[X]
+
+
+#JMP($BE1A9, $BE1BE)
+//Nobody has a skill
+
+#W16($BDC8E)
+Nobody[X]
