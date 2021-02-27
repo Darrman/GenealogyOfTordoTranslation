@@ -1266,7 +1266,7 @@ MagePrnc[X]
 #VAR(Unit, CUSTOMPOINTER)
 #CREATEPTR(Unit, "LINEAR", $39C59, 16)
 
-#JMP($3A191, $3AF04)
+#JMP($3A0CD, $3AF04)
 
 //POINTER #0 @ $39C59 - STRING #0 @ $3A191
 
@@ -5400,7 +5400,7 @@ bracelet[X]
 //BLOCK #010 NAME:		Menu Commands
 
 #HDR($200)
-#JMP($5F9E0, $5FE9F)
+#JMP($5F2B0, $5FFD0)
 
 //POINTER #0 @ $5E4AF - STRING #0 @ $5F9E0
 
@@ -5577,6 +5577,7 @@ bracelet[X]
 //POINTER #0 @ $5DF98 - STRING #0 @ $5DF0C
 
 #W16($5DF98)
+#W16($5DFBF)
 <$DD><$DB><$85><$01><$01>
  Unit[X]
 
@@ -5584,6 +5585,7 @@ bracelet[X]
 //POINTER #1 @ $5DF9D - STRING #1 @ $5DF1D
 
 #W16($5DF9D)
+#W16($5DFC4)
 <$ED><$DB><$85><$01><$01>
  Item[X]
 
@@ -5591,6 +5593,7 @@ bracelet[X]
 //POINTER #2 @ $5DFA2 - STRING #2 @ $5FB95
 
 #W16($5DFA2)
+#W16($5DFC9)
 <$F6><$DB><$85><$01><$01>
  Data[X]
 
@@ -5598,6 +5601,7 @@ bracelet[X]
 //POINTER #3 @ $5DFA7 - STRING #3 @ $5FBA6
 
 #W16($5DFA7)
+#W16($5DFCE)
 <$0E><$DC><$85><$01><$01>
  Skill[X]
 
@@ -5605,6 +5609,7 @@ bracelet[X]
 //POINTER #4 @ $5DFAC - STRING #4 @ $5FBB9
 
 #W16($5DFAC)
+#W16($5DFD3)
 <$CA><$DC><$85><$01><$01>
  Option[X]
 
@@ -5619,6 +5624,7 @@ bracelet[X]
 //POINTER #6 @ $5DFB6 - STRING #6 @ $5DF7D
 
 #W16($5DFB6)
+#W16($5DFD8)
 <$26><$DC><$85><$01><$01>
  End[X]
  
