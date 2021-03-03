@@ -1993,10 +1993,10 @@ Dozel[X]
 
 #WRITE(Unit, $39DAB)
 //ゴメース[X]
-//The only difference between Bucks and this guy is the long vowel.
+//The only difference between Gomez and this guy is the long vowel.
 //Probably some form of bad pun... Get this looked at.
 //In the meantime, I'll make up my own pun.
-Bugs[X]
+Goomez[X]
 
 //POINTER #170 @ $39DAD - STRING #170 @ $3A527
 
@@ -2006,7 +2006,7 @@ Bugs[X]
 #WRITE(Unit, $39DAF)
 //バクース[X]
 //See above.
-Goomez[X]
+Bugs[X]
 
 //POINTER #176 @ $39DB9 - STRING #176 @ $3A545
 
@@ -2207,6 +2207,7 @@ Barhara[X]
 //POINTER #238 @ $39E35 - STRING #238 @ $3A6B5
 
 #WRITE(Unit, $39E35)
+#WRITE(Unit, $39F19)
 //ランゴバルト[X]
 Langbart[X]
 
@@ -2276,952 +2277,542 @@ Harold[X]
 //POINTER #263 @ $39E67 - STRING #263 @ $3A815
 
 #WRITE(Unit, $39E67)
-//ガネーシャ兵[X]
-
-//POINTER #264 @ $39E69 - STRING #264 @ $3A815
-
 #WRITE(Unit, $39E69)
+#WRITE(Unit, $39E7B)
+#WRITE(Unit, $39E7D)
 //ガネーシャ兵[X]
-
-//POINTER #265 @ $39E6B - STRING #265 @ $3A7D5
-
+//Ganeishire
+Ganei[X]
 
 //POINTER #266 @ $39E6D - STRING #266 @ $3A7EB
 
 #WRITE(Unit, $39E6D)
+#WRITE(Unit, $39E73)
 //ソファラ兵[X]
+Sophara[X]
 
 //POINTER #267 @ $39E6F - STRING #267 @ $3A201
 
 #WRITE(Unit, $39E6F)
-//シアルフィ兵[X]
-
-//POINTER #268 @ $39E71 - STRING #268 @ $3A201
-
 #WRITE(Unit, $39E71)
 //シアルフィ兵[X]
-
-//POINTER #269 @ $39E73 - STRING #269 @ $3A7EB
-
-#WRITE(Unit, $39E73)
-//ソファラ兵[X]
+Chalphy[X]
 
 //POINTER #270 @ $39E75 - STRING #270 @ $3A7F7
 
 #WRITE(Unit, $39E75)
 //シュミット[X]
+Schmidt[X]
 
 //POINTER #271 @ $39E77 - STRING #271 @ $3A803
 
 #WRITE(Unit, $39E77)
 //リボー兵[X]
+Rivough[X]
 
 //POINTER #272 @ $39E79 - STRING #272 @ $3A0CD
 
 #WRITE(Unit, $39E79)
 //バラート[X]
-
-//POINTER #273 @ $39E7B - STRING #273 @ $3A815
-
-#WRITE(Unit, $39E7B)
-//ガネーシャ兵[X]
-
-//POINTER #274 @ $39E7D - STRING #274 @ $3A815
-
-#WRITE(Unit, $39E7D)
-//ガネーシャ兵[X]
+Barat[X]
 
 //POINTER #275 @ $39E7F - STRING #275 @ $3A823
 
 #WRITE(Unit, $39E7F)
+#WRITE(Unit, $3A013)
 //クトゥーゾフ[X]
+Kutozov[X]
 
 //POINTER #276 @ $39E81 - STRING #276 @ $3A831
 
 #WRITE(Unit, $39E81)
-//イードマージ[X]
-
-//POINTER #277 @ $39E83 - STRING #277 @ $3A831
-
 #WRITE(Unit, $39E83)
-//イードマージ[X]
-
-//POINTER #278 @ $39E85 - STRING #278 @ $3A87F
-
-
-//POINTER #279 @ $39E87 - STRING #279 @ $3A831
-
 #WRITE(Unit, $39E87)
 //イードマージ[X]
-
-//POINTER #280 @ $39E89 - STRING #280 @ $3A89F
-
+Yied[X]
 
 //POINTER #281 @ $39E8B - STRING #281 @ $3A8AB
-
 #WRITE(Unit, $39E8B)
-//アルスター兵[X]
-
-//POINTER #282 @ $39E8D - STRING #282 @ $3A8AB
-
 #WRITE(Unit, $39E8D)
+#WRITE(Unit, $39E93)
+#WRITE(Unit, $39EB5)
+#WRITE(Unit, $39EB7)
 //アルスター兵[X]
-
-//POINTER #283 @ $39E8F - STRING #283 @ $3A83F
-
+Alster[X]
 
 //POINTER #284 @ $39E91 - STRING #284 @ $3A849
 
 #WRITE(Unit, $39E91)
+#WRITE(Unit, $39EE1)
 //スルーフ[X]
-
-//POINTER #285 @ $39E93 - STRING #285 @ $3A8AB
-
-#WRITE(Unit, $39E93)
-//アルスター兵[X]
+Sleuf[X]
 
 //POINTER #286 @ $39E95 - STRING #286 @ $3A895
 
 #WRITE(Unit, $39E95)
+#WRITE(Unit, $39EB1)
 //ダーナ兵[X]
+Darna[X]
 
 //POINTER #287 @ $39E97 - STRING #287 @ $3A2BD
 
 #WRITE(Unit, $39E97)
 //コープル[X]
+Corple[X]
 
 //POINTER #288 @ $39E99 - STRING #288 @ $3A867
 
 #WRITE(Unit, $39E99)
+#WRITE(Unit, $39E9D)
+#WRITE(Unit, $39E9F)
+#WRITE(Unit, $39EA1)
+#WRITE(Unit, $39EA3)
+#WRITE(Unit, $39EA5)
+#WRITE(Unit, $39EA7)
 //メルゲン兵[X]
+Melgen[X]
 
 //POINTER #289 @ $39E9B - STRING #289 @ $3A85F
 
 #WRITE(Unit, $39E9B)
 //マナ[X]
-
-//POINTER #290 @ $39E9D - STRING #290 @ $3A867
-
-#WRITE(Unit, $39E9D)
-//メルゲン兵[X]
-
-//POINTER #291 @ $39E9F - STRING #291 @ $3A867
-
-#WRITE(Unit, $39E9F)
-//メルゲン兵[X]
-
-//POINTER #292 @ $39EA1 - STRING #292 @ $3A867
-
-#WRITE(Unit, $39EA1)
-//メルゲン兵[X]
-
-//POINTER #293 @ $39EA3 - STRING #293 @ $3A867
-
-#WRITE(Unit, $39EA3)
-//メルゲン兵[X]
-
-//POINTER #294 @ $39EA5 - STRING #294 @ $3A867
-
-#WRITE(Unit, $39EA5)
-//メルゲン兵[X]
-
-//POINTER #295 @ $39EA7 - STRING #295 @ $3A867
-
-#WRITE(Unit, $39EA7)
-//メルゲン兵[X]
+Mana[X]
 
 //POINTER #296 @ $39EA9 - STRING #296 @ $3A2C7
 
 #WRITE(Unit, $39EA9)
 //リルケ[X]
-
-//POINTER #297 @ $39EAB - STRING #297 @ $3A87F
-
-
-//POINTER #298 @ $39EAD - STRING #298 @ $3A87F
-
+//Kana = Riruke. Likely a Thracia boss I don't remember.
+//Gonna make something up for now.
+Riluke[X]
 
 //POINTER #299 @ $39EAF - STRING #299 @ $3A889
 
 #WRITE(Unit, $39EAF)
 //ブラムセル[X]
-
-//POINTER #300 @ $39EB1 - STRING #300 @ $3A895
-
-#WRITE(Unit, $39EB1)
-//ダーナ兵[X]
-
-//POINTER #301 @ $39EB3 - STRING #301 @ $3A89F
-
-
-//POINTER #302 @ $39EB5 - STRING #302 @ $3A8AB
-
-#WRITE(Unit, $39EB5)
-//アルスター兵[X]
-
-//POINTER #303 @ $39EB7 - STRING #303 @ $3A8AB
-
-#WRITE(Unit, $39EB7)
-//アルスター兵[X]
+Bramsel[X]
 
 //POINTER #304 @ $39EB9 - STRING #304 @ $3A29D
 
 #WRITE(Unit, $39EB9)
+#WRITE(Unit, $39EFB)
 //ジャコバン[X]
+Jacoban[X]
 
 //POINTER #305 @ $39EBB - STRING #305 @ $3A873
 
 #WRITE(Unit, $39EBB)
+#WRITE(Unit, $39EFD)
 //ジャバロー[X]
+Jabarro[X]
 
 //POINTER #306 @ $39EBD - STRING #306 @ $3AAE1
 
 #WRITE(Unit, $39EBD)
+#WRITE(Unit, $39EFF)
 //ボイス[X]
+Boyce[X]
 
 //POINTER #307 @ $39EBF - STRING #307 @ $3A8D5
 
 #WRITE(Unit, $39EBF)
-//ハイマージ[X]
-
-//POINTER #308 @ $39EC1 - STRING #308 @ $3A8D5
-
 #WRITE(Unit, $39EC1)
-//ハイマージ[X]
-
-//POINTER #309 @ $39EC3 - STRING #309 @ $3A8D5
-
 #WRITE(Unit, $39EC3)
 //ハイマージ[X]
+//High Mage
+High[X]
 
 //POINTER #310 @ $39EC5 - STRING #310 @ $3A679
 
 #WRITE(Unit, $39EC5)
 //レイミア[X]
+Lamia[X]
 
 //POINTER #311 @ $39EC7 - STRING #311 @ $3A91D
-
 #WRITE(Unit, $39EC7)
-//コノート兵[X]
-
-//POINTER #312 @ $39EC9 - STRING #312 @ $3A91D
-
 #WRITE(Unit, $39EC9)
-//コノート兵[X]
-
-//POINTER #313 @ $39ECB - STRING #313 @ $3A91D
-
 #WRITE(Unit, $39ECB)
-//コノート兵[X]
-
-//POINTER #314 @ $39ECD - STRING #314 @ $3A91D
-
 #WRITE(Unit, $39ECD)
+#WRITE(Unit, $39ED1)
+#WRITE(Unit, $39ED3)
+#WRITE(Unit, $39ED9)
+#WRITE(Unit, $39EDF)
+#WRITE(Unit, $39EE3)
 //コノート兵[X]
+Conote[X]
 
 //POINTER #315 @ $39ECF - STRING #315 @ $3AA4F
 
 #WRITE(Unit, $39ECF)
 //ヒルダ[X]
-
-//POINTER #316 @ $39ED1 - STRING #316 @ $3A91D
-
-#WRITE(Unit, $39ED1)
-//コノート兵[X]
-
-//POINTER #317 @ $39ED3 - STRING #317 @ $3A91D
-
-#WRITE(Unit, $39ED3)
-//コノート兵[X]
-
-//POINTER #318 @ $39ED5 - STRING #318 @ $3A8FD
-
-
-//POINTER #319 @ $39ED7 - STRING #319 @ $3A93B
-
-
-//POINTER #320 @ $39ED9 - STRING #320 @ $3A91D
-
-#WRITE(Unit, $39ED9)
-//コノート兵[X]
+Hilda[X]
 
 //POINTER #321 @ $39EDB - STRING #321 @ $3A319
 
 #WRITE(Unit, $39EDB)
+#WRITE(Unit, $39F75)
+#WRITE(Unit, $3A001)
 //リーン[X]
-
-//POINTER #322 @ $39EDD - STRING #322 @ $3A93B
-
-
-//POINTER #323 @ $39EDF - STRING #323 @ $3A91D
-
-#WRITE(Unit, $39EDF)
-//コノート兵[X]
-
-//POINTER #324 @ $39EE1 - STRING #324 @ $3A913
-
-#WRITE(Unit, $39EE1)
-//スルーフ[X]
-
-//POINTER #325 @ $39EE3 - STRING #325 @ $3A91D
-
-#WRITE(Unit, $39EE3)
-//コノート兵[X]
-
-//POINTER #328 @ $39EE9 - STRING #328 @ $3A93B
-
-
-//POINTER #329 @ $39EEB - STRING #329 @ $3AB1F
-
+Leen[X]
 
 //POINTER #330 @ $39EED - STRING #330 @ $3A931
 
 #WRITE(Unit, $39EED)
 //コルータ[X]
-
-//POINTER #331 @ $39EEF - STRING #331 @ $3AB1F
-
-
-//POINTER #332 @ $39EF1 - STRING #332 @ $3A93B
-
-
-//POINTER #333 @ $39EF3 - STRING #333 @ $3AB1F
-
-
-//POINTER #334 @ $39EF5 - STRING #334 @ $3A93B
-
-
-//POINTER #335 @ $39EF7 - STRING #335 @ $3AB1F
-
+Coruta[X]
 
 //POINTER #336 @ $39EF9 - STRING #336 @ $3A953
 
 #WRITE(Unit, $39EF9)
 //マイコフ[X]
-
-//POINTER #337 @ $39EFB - STRING #337 @ $3A29D
-
-#WRITE(Unit, $39EFB)
-//ジャコバン[X]
-
-//POINTER #338 @ $39EFD - STRING #338 @ $3A873
-
-#WRITE(Unit, $39EFD)
-//ジャバロー[X]
-
-//POINTER #339 @ $39EFF - STRING #339 @ $3AAE1
-
-#WRITE(Unit, $39EFF)
-//ボイス[X]
+Maikov[X]
 
 //POINTER #340 @ $39F01 - STRING #340 @ $3A983
 
 #WRITE(Unit, $39F01)
-//カパトギア兵[X]
-
-//POINTER #341 @ $39F03 - STRING #341 @ $3A983
-
 #WRITE(Unit, $39F03)
-//カパトギア兵[X]
-
-//POINTER #342 @ $39F05 - STRING #342 @ $3A983
-
 #WRITE(Unit, $39F05)
-//カパトギア兵[X]
-
-//POINTER #343 @ $39F07 - STRING #343 @ $3A983
-
 #WRITE(Unit, $39F07)
 //カパトギア兵[X]
-
-//POINTER #344 @ $39F09 - STRING #344 @ $3AB1F
-
-
-//POINTER #345 @ $39F0B - STRING #345 @ $3AB1F
-
-
-//POINTER #346 @ $39F0D - STRING #346 @ $3A991
-
+//Kapathogia
+Kapath[X]
 
 //POINTER #347 @ $39F0F - STRING #347 @ $3A99B
 
 #WRITE(Unit, $39F0F)
 //カナッツ[X]
+Kanatz[X]
 
 //POINTER #348 @ $39F11 - STRING #348 @ $3A9A5
 
 #WRITE(Unit, $39F11)
 //ディスラー[X]
+Disler[X]
 
 //POINTER #349 @ $39F13 - STRING #349 @ $3A9CF
 
 #WRITE(Unit, $39F13)
+#WRITE(Unit, $39F21)
 //グルティア兵[X]
+Grutia[X]
 
 //POINTER #350 @ $39F15 - STRING #350 @ $3A96D
 
 #WRITE(Unit, $39F15)
 //このえへい[X]
+//Guard, says Google. Play further for context. And maybe a name.
+Guard[X]
 
 //POINTER #351 @ $39F17 - STRING #351 @ $3AA81
 
 #WRITE(Unit, $39F17)
 //エリンシア[X]
-
-//POINTER #352 @ $39F19 - STRING #352 @ $3A6B5
-
-#WRITE(Unit, $39F19)
-//ランゴバルト[X]
-
-//POINTER #353 @ $39F1B - STRING #353 @ $3AB1F
-
+//Ah, the inexplicable cameo.
+Elincia[X]
 
 //POINTER #354 @ $39F1D - STRING #354 @ $3A9C7
 
 #WRITE(Unit, $39F1D)
 //ジュダ[X]
-
-//POINTER #355 @ $39F1F - STRING #355 @ $3A9F9
-
-
-//POINTER #356 @ $39F21 - STRING #356 @ $3A9CF
-
-#WRITE(Unit, $39F21)
-//グルティア兵[X]
+Judah[X]
 
 //POINTER #357 @ $39F23 - STRING #357 @ $3A14D
 
 #WRITE(Unit, $39F23)
+#WRITE(Unit, $39FFD)
 //レックス[X]
-
-//POINTER #358 @ $39F25 - STRING #358 @ $3AB33
-
-
-//POINTER #359 @ $39F27 - STRING #359 @ $3AB33
-
-
-//POINTER #360 @ $39F29 - STRING #360 @ $3A9F9
-
-
-//POINTER #361 @ $39F2B - STRING #361 @ $3AB1F
-
-
-//POINTER #362 @ $39F2D - STRING #362 @ $3A9F9
-
-
-//POINTER #363 @ $39F2F - STRING #363 @ $3AB1F
-
-
-//POINTER #364 @ $39F31 - STRING #364 @ $3A9F9
-
-
-//POINTER #365 @ $39F33 - STRING #365 @ $3AB1F
-
+Lex[X]
 
 //POINTER #366 @ $39F35 - STRING #366 @ $3AA11
 
 #WRITE(Unit, $39F35)
 //シーサー[X]
+//Caesar, maybe? Doesn't match his Japanese name though.
+Caesar[X]
 
 //POINTER #367 @ $39F37 - STRING #367 @ $3AA1B
 
 #WRITE(Unit, $39F37)
-//<$92><$E9><$8D><$91>兵[X]
-
-//POINTER #368 @ $39F39 - STRING #368 @ $3AA1B
-
 #WRITE(Unit, $39F39)
-//<$92><$E9><$8D><$91>兵[X]
-
-//POINTER #369 @ $39F3B - STRING #369 @ $3AA1B
-
 #WRITE(Unit, $39F3B)
-//<$92><$E9><$8D><$91>兵[X]
-
-//POINTER #370 @ $39F3D - STRING #370 @ $3AA1B
-
 #WRITE(Unit, $39F3D)
-//<$92><$E9><$8D><$91>兵[X]
+//帝国兵[X]
+Imperial[X]
 
 //POINTER #371 @ $39F3F - STRING #371 @ $3AA23
 
 #WRITE(Unit, $39F3F)
 //クーガー[X]
+//Cougar
+Cormag[X]
 
 //POINTER #372 @ $39F41 - STRING #372 @ $3AA2F
 
 #WRITE(Unit, $39F41)
-//クーガーたい[X]
-
-//POINTER #373 @ $39F43 - STRING #373 @ $3AA2F
-
 #WRITE(Unit, $39F43)
-//クーガーたい[X]
-
-//POINTER #374 @ $39F45 - STRING #374 @ $3AA2F
-
 #WRITE(Unit, $39F45)
-//クーガーたい[X]
-
-//POINTER #375 @ $39F47 - STRING #375 @ $3AA2F
-
 #WRITE(Unit, $39F47)
-//クーガーたい[X]
-
-//POINTER #376 @ $39F49 - STRING #376 @ $3AA2F
-
 #WRITE(Unit, $39F49)
 //クーガーたい[X]
+//Cormag's Squad
+CormSqd[X]
 
 //POINTER #377 @ $39F4B - STRING #377 @ $3AA45
 
 #WRITE(Unit, $39F4B)
 //モリガン[X]
+Morrigan[X]
 
 //POINTER #378 @ $39F4D - STRING #378 @ $3A95D
-
 #WRITE(Unit, $39F4D)
+#WRITE(Unit, $39F53)
+#WRITE(Unit, $39F55)
+#WRITE(Unit, $39F57)
+#WRITE(Unit, $39F59)
+#WRITE(Unit, $39F5B)
+#WRITE(Unit, $39F63)
+#WRITE(Unit, $39F65)
+#WRITE(Unit, $39F67)
+#WRITE(Unit, $39F69)
+#WRITE(Unit, $39F6B)
+#WRITE(Unit, $39F6D)
+#WRITE(Unit, $39F6F)
+#WRITE(Unit, $39F71)
+#WRITE(Unit, $39F7F)
+#WRITE(Unit, $39F9B)
+#WRITE(Unit, $39F9D)
+#WRITE(Unit, $39FBD)
+#WRITE(Unit, $39FBF)
+#WRITE(Unit, $39FDD)
+#WRITE(Unit, $39FE1)
 //ベルクローゼン[X]
-
-//POINTER #379 @ $39F4F - STRING #379 @ $3A527
-
+//Berg Rosen. Or Schwarze Rosen, as I remember FE5 putting it.
+//Why'd Shaya mess around with it? I'll use the consistent bit.
+Rosen[X]
 
 //POINTER #380 @ $39F51 - STRING #380 @ $3A19D
 
+#WRITE(Unit, $39FD5)
 #WRITE(Unit, $39F51)
 //シルヴィア[X]
-
-//POINTER #381 @ $39F53 - STRING #381 @ $3A95D
-
-#WRITE(Unit, $39F53)
-//ベルクローゼン[X]
-
-//POINTER #382 @ $39F55 - STRING #382 @ $3A95D
-
-#WRITE(Unit, $39F55)
-//ベルクローゼン[X]
-
-//POINTER #383 @ $39F57 - STRING #383 @ $3A95D
-
-#WRITE(Unit, $39F57)
-//ベルクローゼン[X]
-
-//POINTER #384 @ $39F59 - STRING #384 @ $3A95D
-
-#WRITE(Unit, $39F59)
-//ベルクローゼン[X]
-
-//POINTER #385 @ $39F5B - STRING #385 @ $3A95D
-
-#WRITE(Unit, $39F5B)
-//ベルクローゼン[X]
-
-//POINTER #386 @ $39F5D - STRING #386 @ $3AAA5
-
-
-//POINTER #387 @ $39F5F - STRING #387 @ $3AAA5
-
-
-//POINTER #388 @ $39F61 - STRING #388 @ $3AB8D
+Sylvia[X]
 
 #WRITE(Unit, $39F61)
 //ベルド[X]
-
-//POINTER #389 @ $39F63 - STRING #389 @ $3A95D
-
-#WRITE(Unit, $39F63)
-//ベルクローゼン[X]
-
-//POINTER #390 @ $39F65 - STRING #390 @ $3A95D
-
-#WRITE(Unit, $39F65)
-//ベルクローゼン[X]
-
-//POINTER #391 @ $39F67 - STRING #391 @ $3A95D
-
-#WRITE(Unit, $39F67)
-//ベルクローゼン[X]
-
-//POINTER #392 @ $39F69 - STRING #392 @ $3A95D
-
-#WRITE(Unit, $39F69)
-//ベルクローゼン[X]
-
-//POINTER #393 @ $39F6B - STRING #393 @ $3A95D
-
-#WRITE(Unit, $39F6B)
-//ベルクローゼン[X]
-
-//POINTER #394 @ $39F6D - STRING #394 @ $3A95D
-
-#WRITE(Unit, $39F6D)
-//ベルクローゼン[X]
-
-//POINTER #395 @ $39F6F - STRING #395 @ $3A95D
-
-#WRITE(Unit, $39F6F)
-//ベルクローゼン[X]
-
-//POINTER #396 @ $39F71 - STRING #396 @ $3A95D
-
-#WRITE(Unit, $39F71)
-//ベルクローゼン[X]
+Veld[X]
 
 //POINTER #397 @ $39F73 - STRING #397 @ $3A265
 
 #WRITE(Unit, $39F73)
+#WRITE(Unit, $39FE3)
 //ユリア[X]
+Julia[X]
 
 //POINTER #398 @ $39F75 - STRING #398 @ $3A319
-
-#WRITE(Unit, $39F75)
 //リーン[X]
+Leen[X]
 
 //POINTER #399 @ $39F77 - STRING #399 @ $3A15F
 
 
 //POINTER #400 @ $39F79 - STRING #400 @ $3AC2B
-
 #WRITE(Unit, $39F79)
-//ヴァイスリッター[X]
-
-//POINTER #401 @ $39F7B - STRING #401 @ $3AC2B
-
 #WRITE(Unit, $39F7B)
-//ヴァイスリッター[X]
-
-//POINTER #402 @ $39F7D - STRING #402 @ $3AC2B
-
 #WRITE(Unit, $39F7D)
+#WRITE(Unit, $39F89)
+#WRITE(Unit, $39F8B)
+#WRITE(Unit, $39F8F)
+#WRITE(Unit, $39F91)
+#WRITE(Unit, $39F95)
+#WRITE(Unit, $39F97)
+#WRITE(Unit, $39F99)
 //ヴァイスリッター[X]
-
-//POINTER #403 @ $39F7F - STRING #403 @ $3A95D
-
-#WRITE(Unit, $39F7F)
-//ベルクローゼン[X]
+//Weissen Ritter
+WeissRit[X]
 
 //POINTER #404 @ $39F81 - STRING #404 @ $3AA99
 
 #WRITE(Unit, $39F81)
 //パルマーク[X]
-
-//POINTER #405 @ $39F83 - STRING #405 @ $3AAA5
-
-
-//POINTER #406 @ $39F85 - STRING #406 @ $3AAA5
-
-
-//POINTER #407 @ $39F87 - STRING #407 @ $3AAAD
-
-
-//POINTER #408 @ $39F89 - STRING #408 @ $3AC2B
-
-#WRITE(Unit, $39F89)
-//ヴァイスリッター[X]
-
-//POINTER #409 @ $39F8B - STRING #409 @ $3AC2B
-
-#WRITE(Unit, $39F8B)
-//ヴァイスリッター[X]
-
-//POINTER #410 @ $39F8D - STRING #410 @ $3AAAD
-
-
-//POINTER #411 @ $39F8F - STRING #411 @ $3AC2B
-
-#WRITE(Unit, $39F8F)
-//ヴァイスリッター[X]
-
-//POINTER #412 @ $39F91 - STRING #412 @ $3AC2B
-
-#WRITE(Unit, $39F91)
-//ヴァイスリッター[X]
-
-//POINTER #413 @ $39F93 - STRING #413 @ $3AAAD
-
-
-//POINTER #414 @ $39F95 - STRING #414 @ $3AC2B
-
-#WRITE(Unit, $39F95)
-//ヴァイスリッター[X]
-
-//POINTER #415 @ $39F97 - STRING #415 @ $3AC2B
-
-#WRITE(Unit, $39F97)
-//ヴァイスリッター[X]
-
-//POINTER #416 @ $39F99 - STRING #416 @ $3AC2B
-
-#WRITE(Unit, $39F99)
-//ヴァイスリッター[X]
-
-//POINTER #417 @ $39F9B - STRING #417 @ $3A95D
-
-#WRITE(Unit, $39F9B)
-//ベルクローゼン[X]
-
-//POINTER #418 @ $39F9D - STRING #418 @ $3A95D
-
-#WRITE(Unit, $39F9D)
-//ベルクローゼン[X]
+Palmark[X]
 
 //POINTER #419 @ $39F9F - STRING #419 @ $3AAD7
 
 #WRITE(Unit, $39F9F)
 //ディオ[X]
-
-//POINTER #420 @ $39FA1 - STRING #420 @ $3AA6D
-
-
-//POINTER #421 @ $39FA3 - STRING #421 @ $3AA6D
-
-
-//POINTER #422 @ $39FA5 - STRING #422 @ $3AA6D
-
-
-//POINTER #423 @ $39FA7 - STRING #423 @ $3AA6D
-
-
-//POINTER #424 @ $39FA9 - STRING #424 @ $3AA6D
-
+//Random Jojo? Who knows?
+Dio[X]
 
 //POINTER #425 @ $39FAB - STRING #425 @ $3AAE9
 
 #WRITE(Unit, $39FAB)
 //グレイド[X]
+Glade[X]
 
 //POINTER #426 @ $39FAD - STRING #426 @ $3A9E9
 
 #WRITE(Unit, $39FAD)
-//ランスリッター[X]
-
-//POINTER #427 @ $39FAF - STRING #427 @ $3A9E9
-
 #WRITE(Unit, $39FAF)
+#WRITE(Unit, $39FB3)
+#WRITE(Unit, $39FB5)
+#WRITE(Unit, $39FB7)
+#WRITE(Unit, $39FB9)
 //ランスリッター[X]
+//Lanzen Ritter
+LanzeRit[X]
 
 //POINTER #428 @ $39FB1 - STRING #428 @ $3AAF3
 
 #WRITE(Unit, $39FB1)
 //ロダン[X]
-
-//POINTER #429 @ $39FB3 - STRING #429 @ $3A9E9
-
-#WRITE(Unit, $39FB3)
-//ランスリッター[X]
-
-//POINTER #430 @ $39FB5 - STRING #430 @ $3A9E9
-
-#WRITE(Unit, $39FB5)
-//ランスリッター[X]
-
-//POINTER #431 @ $39FB7 - STRING #431 @ $3A9E9
-
-#WRITE(Unit, $39FB7)
-//ランスリッター[X]
-
-//POINTER #432 @ $39FB9 - STRING #432 @ $3A9E9
-
-#WRITE(Unit, $39FB9)
-//ランスリッター[X]
-
-//POINTER #433 @ $39FBB - STRING #433 @ $3AB01
-
-
-//POINTER #434 @ $39FBD - STRING #434 @ $3A95D
-
-#WRITE(Unit, $39FBD)
-//ベルクローゼン[X]
-
-//POINTER #435 @ $39FBF - STRING #435 @ $3A95D
-
-#WRITE(Unit, $39FBF)
-//ベルクローゼン[X]
+Rodan[X]
 
 //POINTER #436 @ $39FC1 - STRING #436 @ $3AB11
 
 #WRITE(Unit, $39FC1)
 //フイッシャー[X]
+Fisher[X]
 
 //POINTER #437 @ $39FC3 - STRING #437 @ $3AA05
 
 #WRITE(Unit, $39FC3)
-//トラキア兵[X]
-
-//POINTER #438 @ $39FC5 - STRING #438 @ $3AA05
-
 #WRITE(Unit, $39FC5)
 //トラキア兵[X]
+Thracia[X]
 
 //POINTER #439 @ $39FC7 - STRING #439 @ $3AB29
 
 #WRITE(Unit, $39FC7)
 //エダ[X]
+Eda[X]
 
 //POINTER #440 @ $39FC9 - STRING #440 @ $3AB6D
 
 #WRITE(Unit, $39FC9)
-//ヴァンリッター[X]
-
-//POINTER #441 @ $39FCB - STRING #441 @ $3AB6D
-
 #WRITE(Unit, $39FCB)
 //ヴァンリッター[X]
-
-//POINTER #442 @ $39FCD - STRING #442 @ $3AB01
-
+//Oh great, more incomprehensible ritters.
+//Von Ritter?
+VRitter[X]
 
 //POINTER #443 @ $39FCF - STRING #443 @ $3AB7D
 
 #WRITE(Unit, $39FCF)
 //シャナム[X]
-
-//POINTER #444 @ $39FD1 - STRING #444 @ $3A1F1
-
-
-//POINTER #446 @ $39FD5 - STRING #446 @ $3A19D
-
-#WRITE(Unit, $39FD5)
-//シルヴィア[X]
-
-//POINTER #447 @ $39FD7 - STRING #447 @ $3A7A3
-
-
-//POINTER #448 @ $39FD9 - STRING #448 @ $3A7A3
-
+Shanam[X]
 
 //POINTER #449 @ $39FDB - STRING #449 @ $3AB43
 
 #WRITE(Unit, $39FDB)
 //ダゴン[X]
-
-//POINTER #450 @ $39FDD - STRING #450 @ $3A95D
-
-#WRITE(Unit, $39FDD)
-//ベルクローゼン[X]
+Daggon[X]
 
 //POINTER #451 @ $39FDF - STRING #451 @ $3AB87
 
 #WRITE(Unit, $39FDF)
 //サラ[X]
-
-//POINTER #452 @ $39FE1 - STRING #452 @ $3A95D
-
-#WRITE(Unit, $39FE1)
-//ベルクローゼン[X]
-
-//POINTER #453 @ $39FE3 - STRING #453 @ $3A265
-
-#WRITE(Unit, $39FE3)
-//ユリア[X]
+Sara[X]
 
 //POINTER #454 @ $39FE5 - STRING #454 @ $40150
 
 #WRITE(Unit, $39FE5)
 //セティコピー[X]
+//Sety Copy
+Sety[X]
 
 //POINTER #455 @ $39FE7 - STRING #455 @ $4015E
 
 #WRITE(Unit, $39FE7)
 //ヘズルコピー[X]
+//Hezul Copy
+Hezul[X]
 
 //POINTER #456 @ $39FE9 - STRING #456 @ $4016C
 
 #WRITE(Unit, $39FE9)
 //ネールコピー[X]
+//Neir Copy
+Neir[X]
 
 //POINTER #457 @ $39FEB - STRING #457 @ $4017A
 
 #WRITE(Unit, $39FEB)
 //ブラギコピー[X]
+//Blagi Copy
+Blagi[X]
 
 //POINTER #458 @ $39FED - STRING #458 @ $40188
 
 #WRITE(Unit, $39FED)
 //ウルコピー[X]
+//Ulir Copy[X]
+Ulir[X]
 
 //POINTER #459 @ $39FEF - STRING #459 @ $40194
 
 #WRITE(Unit, $39FEF)
 //ヘイムコピー[X]
+//Heim Copy
+Heim[X]
 
 //POINTER #460 @ $39FF1 - STRING #460 @ $401A2
 
 #WRITE(Unit, $39FF1)
 //バルドコピー[X]
+//Baldo Copy
+Baldo[X]
 
 //POINTER #461 @ $39FF3 - STRING #461 @ $401B0
 
 #WRITE(Unit, $39FF3)
 //ノヴァコピー[X]
+//Noba Copy
+Noba[X]
 
 //POINTER #462 @ $39FF5 - STRING #462 @ $401BE
 
 #WRITE(Unit, $39FF5)
 //オードコピー[X]
+//Odo Copy
+Odo[X]
 
 //POINTER #463 @ $39FF7 - STRING #463 @ $401CC
 
 #WRITE(Unit, $39FF7)
 //ファラコピー[X]
+//Fala Copy
 
 //POINTER #464 @ $39FF9 - STRING #464 @ $401DA
 
 #WRITE(Unit, $39FF9)
 //トードコピー[X]
+//Tordo Copy
+Tordo[X]
 
 //POINTER #465 @ $39FFB - STRING #465 @ $401E8
 
 #WRITE(Unit, $39FFB)
 //ダインコピー[X]
-
-//POINTER #466 @ $39FFD - STRING #466 @ $3A14D
-
-#WRITE(Unit, $39FFD)
-//レックス[X]
-
-//POINTER #467 @ $39FFF - STRING #467 @ $3AB33
-
-
-//POINTER #468 @ $3A001 - STRING #468 @ $3A319
-
-#WRITE(Unit, $3A001)
-//リーン[X]
+//Dain Copy
+Dain[X]
 
 //POINTER #469 @ $3A003 - STRING #469 @ $3AC49
 
 #WRITE(Unit, $3A003)
 //メング[X]
+Meng[X]
 
 //POINTER #470 @ $3A005 - STRING #470 @ $3AC51
 
 #WRITE(Unit, $3A005)
 //メイベル[X]
+Maybell[X]
 
 //POINTER #471 @ $3A007 - STRING #471 @ $3AC5B
 
 #WRITE(Unit, $3A007)
 //ブレグ[X]
-
-//POINTER #472 @ $3A009 - STRING #472 @ $3AAB9
-
-
-//POINTER #473 @ $3A00B - STRING #473 @ $3AAB9
-
-
-//POINTER #474 @ $3A00D - STRING #474 @ $3AAB9
-
-
-//POINTER #475 @ $3A00F - STRING #475 @ $3AAB9
-
-
-//POINTER #476 @ $3A011 - STRING #476 @ $3AC6F
-
-
-//POINTER #477 @ $3A013 - STRING #477 @ $3A823
-
-#WRITE(Unit, $3A013)
-//クトゥーゾフ[X]
+Bleg[X]
 
 //POINTER #478 @ $3A015 - STRING #478 @ $3A8C3
 
