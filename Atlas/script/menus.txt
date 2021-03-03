@@ -2815,464 +2815,588 @@ Maybell[X]
 Bleg[X]
 
 //POINTER #478 @ $3A015 - STRING #478 @ $3A8C3
+//Here lie the arena enemies. 
+//Lots of these guys are FE references. But not all.
+//I'm probably going to mangle a lot of TRS names.
 
 #WRITE(Unit, $3A015)
 //シーダ[X]
+Sheeda[X]
 
 //POINTER #479 @ $3A017 - STRING #479 @ $3AC85
 
 #WRITE(Unit, $3A017)
 //バーツ[X]
+Barts[X]
 
 //POINTER #480 @ $3A019 - STRING #480 @ $3AC8D
 
 #WRITE(Unit, $3A019)
 //ルゥ[X]
+//Not an FE reference, probably mangled TRS. Henceforth //TRS?
+Roo[X]
 
 //POINTER #481 @ $3A01B - STRING #481 @ $3AC93
 
 #WRITE(Unit, $3A01B)
 //アデル[X]
+//TRS?
+Adele[X]
 
 //POINTER #482 @ $3A01D - STRING #482 @ $3AC9B
 
 #WRITE(Unit, $3A01D)
 //ゼノ[X]
+//TRS?
+Zeno[X]
 
 //POINTER #483 @ $3A01F - STRING #483 @ $3ACA1
 
 #WRITE(Unit, $3A01F)
 //カシム[X]
+Kashim[X]
 
 //POINTER #484 @ $3A021 - STRING #484 @ $3ACA9
 
 #WRITE(Unit, $3A021)
 //ダウド[X]
+//TRS?
+Daud[X]
 
 //POINTER #485 @ $3A023 - STRING #485 @ $3ACB3
 
 #WRITE(Unit, $3A023)
 //リュート[X]
+Ryuto[X]
 
 //POINTER #486 @ $3A025 - STRING #486 @ $3ACBD
 
 #WRITE(Unit, $3A025)
 //ドーガ[X]
+Doga[X]
 
 //POINTER #487 @ $3A027 - STRING #487 @ $3ACC5
 
 #WRITE(Unit, $3A027)
 //トムス[X]
+Tomth[X]
 
 //POINTER #488 @ $3A029 - STRING #488 @ $3ACCD
 
 #WRITE(Unit, $3A029)
 //エルク[X]
+Erk[X]
 
 //POINTER #489 @ $3A02B - STRING #489 @ $3ACD7
 
 #WRITE(Unit, $3A02B)
 //クライス[X]
+//TRS?
+Kreis[X]
 
 //POINTER #490 @ $3A02D - STRING #490 @ $3ACE1
 
 #WRITE(Unit, $3A02D)
 //アストリア[X]
+Astria[X]
 
 //POINTER #491 @ $3A02F - STRING #491 @ $3ACED
 
 #WRITE(Unit, $3A02F)
 //ウィル[X]
+Wil[X]
 
 //POINTER #492 @ $3A031 - STRING #492 @ $3ACF5
 
 #WRITE(Unit, $3A031)
 //ギリアム[X]
+Gilliam[X]
 
 //POINTER #493 @ $3A033 - STRING #493 @ $3AD01
 
 #WRITE(Unit, $3A033)
 //メイ[X]
+May[X]
 
 //POINTER #494 @ $3A035 - STRING #494 @ $3AD07
 
 #WRITE(Unit, $3A035)
 //クレイマー[X]
+//TRS?
+Kramer[X]
 
 //POINTER #495 @ $3A037 - STRING #495 @ $3AD13
 
 #WRITE(Unit, $3A037)
 //シルウィス[X]
+//TRS?
+Sylvis[X]
 
 //POINTER #496 @ $3A039 - STRING #496 @ $3AD71
 
 #WRITE(Unit, $3A039)
 //マチス[X]
+Machis[X]
 
 //POINTER #497 @ $3A03B - STRING #497 @ $3AD29
 
 #WRITE(Unit, $3A03B)
 //シン[X]
+Shin[X]
 
 //POINTER #498 @ $3A03D - STRING #498 @ $3AD31
 
 #WRITE(Unit, $3A03D)
 //ロビン[X]
+Robin[X]
 
 //POINTER #499 @ $3A03F - STRING #499 @ $3AD39
 
 #WRITE(Unit, $3A03F)
 //ツイハーク[X]
+//TRS?
+Psyhawk[X]
 
 //POINTER #500 @ $3A041 - STRING #500 @ $3AD45
 
 #WRITE(Unit, $3A041)
 //ヨファ[X]
+//TRS?
+Yofa[X]
 
 //POINTER #501 @ $3A043 - STRING #501 @ $3AD4D
 
 #WRITE(Unit, $3A043)
 //メグ[X]
+Meg[X]
 
 //POINTER #502 @ $3A045 - STRING #502 @ $3AD55
 
 #WRITE(Unit, $3A045)
 //ニノ[X]
+Nino[X]
 
 //POINTER #503 @ $3A047 - STRING #503 @ $3AD5D
 
 #WRITE(Unit, $3A047)
 //ルヴィ[X]
+//TRS?
+Ruby[X]
 
 //POINTER #504 @ $3A049 - STRING #504 @ $3AD65
 
 #WRITE(Unit, $3A049)
 //エリンシア[X]
+Elincia[X]
 
 //POINTER #505 @ $3A04B - STRING #505 @ $3AD1F
 
 #WRITE(Unit, $3A04B)
 //ルイーズ[X]
+Louise[X]
 
 //POINTER #506 @ $3A04D - STRING #506 @ $3AD79
 
 #WRITE(Unit, $3A04D)
 //マリク[X]
+Marich[X]
 
 //POINTER #507 @ $3A04F - STRING #507 @ $3AD81
 
 #WRITE(Unit, $3A04F)
 //パーシバル[X]
+Percival[X]
 
 //POINTER #508 @ $3A051 - STRING #508 @ $3AD8D
 
 #WRITE(Unit, $3A051)
 //シロウ[X]
+//There's a Shiro in Fates, but this long preceded it.
+//TRS?
+Shirou[X]
 
 //POINTER #509 @ $3A053 - STRING #509 @ $3AD95
 
 #WRITE(Unit, $3A053)
 //ジェイガン[X]
+Jeigan[X]
 
 //POINTER #510 @ $3A055 - STRING #510 @ $3ADA1
 
 #WRITE(Unit, $3A055)
 //サーシャ[X]
+//TRS
+Sasha[X]
 
 //POINTER #511 @ $3A057 - STRING #511 @ $3ADAB
 
 #WRITE(Unit, $3A057)
 //レオ[X]
+Leo[X]
 
 //POINTER #512 @ $3A059 - STRING #512 @ $3ADC3
 
 #WRITE(Unit, $3A059)
 //エニード[X]
+//TRS?
+Enid[X]
 
 //POINTER #513 @ $3A05B - STRING #513 @ $3ADB9
 
 #WRITE(Unit, $3A05B)
 //エフラム[X]
+Ephraim[X]
 
 //POINTER #514 @ $3A05D - STRING #514 @ $3ADB1
 
 #WRITE(Unit, $3A05D)
 //ミカヤ[X]
+Micaiah[X]
 
 //POINTER #515 @ $3A05F - STRING #515 @ $3ADE1
 
 #WRITE(Unit, $3A05F)
 //リュナン[X]
+//TRS
+Runan[X]
 
 //POINTER #516 @ $3A061 - STRING #516 @ $3AE07
 
 #WRITE(Unit, $3A061)
 //ホームズ[X]
+//TRS
+Holmes[X]
 
 //POINTER #517 @ $3A063 - STRING #517 @ $3ADD9
 
 #WRITE(Unit, $3A063)
 //カミュ[X]
+Camus[X]
 
 //POINTER #518 @ $3A065 - STRING #518 @ $3ADCD
 
 #WRITE(Unit, $3A065)
 //マードック[X]
+Murdock[X]
 
 //POINTER #519 @ $3A067 - STRING #519 @ $3ADF5
 
 #WRITE(Unit, $3A067)
 //ワユ[X]
+//Wayu
+Mia[X]
 
 //POINTER #520 @ $3A069 - STRING #520 @ $3ADED
 
 #WRITE(Unit, $3A069)
 //ジル[X]
+Jill[X]
 
 //POINTER #521 @ $3A06B - STRING #521 @ $3AE1B
 
 #WRITE(Unit, $3A06B)
 //レニー[X]
+//TRS?
+Rennie[X]
 
 //POINTER #522 @ $3A06D - STRING #522 @ $3AE11
 
 #WRITE(Unit, $3A06D)
 //リネット[X]
+//TRS?
+Lynette[X]
 
 //POINTER #523 @ $3A06F - STRING #523 @ $3ADFB
 
 #WRITE(Unit, $3A06F)
 //ハーディン[X]
+Hardin[X]
 
 //POINTER #524 @ $3A071 - STRING #524 @ $3AE23
 
 #WRITE(Unit, $3A071)
 //バアトル[X]
+Batou[X]
 
 //POINTER #525 @ $3A073 - STRING #525 @ $3AE53
 
 #WRITE(Unit, $3A073)
 //ルーテ[X]
+Lute[X]
 
 //POINTER #526 @ $3A075 - STRING #526 @ $3AE39
 
 #WRITE(Unit, $3A075)
 //ラフィン[X]
+//TRS?
+Raffin[X]
 
 //POINTER #527 @ $3A077 - STRING #527 @ $3AE45
 
 #WRITE(Unit, $3A077)
 //サムトー[X]
+Samto[X]
 
 //POINTER #528 @ $3A079 - STRING #528 @ $3AE2F
 
 #WRITE(Unit, $3A079)
 //ライアン[X]
+Ryan[X]
 
 //POINTER #529 @ $3A07B - STRING #529 @ $3AE5B
 
 #WRITE(Unit, $3A07B)
 //マーセル[X]
+//TRS?
+Marcel[X]
 
 //POINTER #530 @ $3A07D - STRING #530 @ $3AE65
 
 #WRITE(Unit, $3A07D)
 //サムソン[X]
+Samson[X]
 
 //POINTER #531 @ $3A07F - STRING #531 @ $3AE71
 
 #WRITE(Unit, $3A07F)
 //リン[X]
+Lyn[X]
 
 //POINTER #532 @ $3A081 - STRING #532 @ $3AE7B
 
 #WRITE(Unit, $3A081)
 //ドルカス[X]
+Dorcas[X]
 
 //POINTER #533 @ $3A083 - STRING #533 @ $3AE85
 
 #WRITE(Unit, $3A083)
 //ヒュウ[X]
+Hugh[X]
 
 //POINTER #534 @ $3A085 - STRING #534 @ $3AE8F
 
 #WRITE(Unit, $3A085)
 //アルヴィナ[X]
+//TRS?
+Alvina[X]
 
 //POINTER #535 @ $3A087 - STRING #535 @ $3AE9D
 
 #WRITE(Unit, $3A087)
 //ヴェガ[X]
+//TRS?
+Vega[X]
 
 //POINTER #536 @ $3A089 - STRING #536 @ $3AEA5
 
 #WRITE(Unit, $3A089)
 //ラケル[X]
+//TRS?
+Raquel[X]
 
 //POINTER #537 @ $3A08B - STRING #537 @ $3AEAD
 
 #WRITE(Unit, $3A08B)
 //シーマ[X]
+Sheema[X]
 
 //POINTER #538 @ $3A08D - STRING #538 @ $3AEB5
 
 #WRITE(Unit, $3A08D)
 //ティーエ[X]
+//TRS?
+Tye[X]
 
 //POINTER #539 @ $3A08F - STRING #539 @ $3AEC1
 
 #WRITE(Unit, $3A08F)
 //アルム[X]
+Alm[X]
 
 //POINTER #540 @ $3A091 - STRING #540 @ $3AEC9
 
 #WRITE(Unit, $3A091)
 //セリカ[X]
+Celica[X]
 
 //POINTER #541 @ $3A093 - STRING #541 @ $3AED5
 
 #WRITE(Unit, $3A093)
 //レオン[X]
+//TRS? No Fates yet.
+Leon[X]
 
 //POINTER #542 @ $3A095 - STRING #542 @ $3AEDF
 
 #WRITE(Unit, $3A095)
 //クリス[X]
+//Was FE12 a thing yet?
+Chris[X]
 
 //POINTER #543 @ $3A097 - STRING #543 @ $3AF27
 
 #WRITE(Unit, $3A097)
 //ケビン[X]
+//TRS?
+Kevin[X]
 
 //POINTER #544 @ $3A099 - STRING #544 @ $3AEF5
 
 #WRITE(Unit, $3A099)
 //ギィ[X]
+Guy[X]
 
 //POINTER #545 @ $3A09B - STRING #545 @ $3AEFB
 
 #WRITE(Unit, $3A09B)
 //レベッカ[X]
+Rebecca[X]
 
 //POINTER #546 @ $3A09D - STRING #546 @ $3AF05
 
 #WRITE(Unit, $3A09D)
 //ロレンス[X]
+Lawrence[X]
 
 //POINTER #547 @ $3A09F - STRING #547 @ $3AF0F
 
 #WRITE(Unit, $3A09F)
 //リリーナ[X]
+Lilina[X]
 
 //POINTER #548 @ $3A0A1 - STRING #548 @ $3AF1B
 
 #WRITE(Unit, $3A0A1)
 //ミスト[X]
+Mist[X]
 
 //POINTER #549 @ $3A0A3 - STRING #549 @ $3AEE9
 
 #WRITE(Unit, $3A0A3)
 //ゼフィール[X]
+//Zephyr
+Zephiel[X]
 
 //POINTER #550 @ $3A0A5 - STRING #550 @ $3AF2F
 
 #WRITE(Unit, $3A0A5)
 //イレース[X]
+//Elaice
+Ilyana[X]
 
 //POINTER #551 @ $3A0A7 - STRING #551 @ $3AF3B
 
 #WRITE(Unit, $3A0A7)
 //アラン[X]
+Aran[X]
 
 //POINTER #552 @ $3A0A9 - STRING #552 @ $3AF45
 
 #WRITE(Unit, $3A0A9)
 //ジョルジュ[X]
+George[X]
 
 //POINTER #553 @ $3A0AB - STRING #553 @ $3AF51
 
 #WRITE(Unit, $3A0AB)
 //フェイ[X]
+//TRS?
+Faye[X]
 
 //POINTER #554 @ $3A0AD - STRING #554 @ $3AF5B
 
 #WRITE(Unit, $3A0AD)
 //メリエル[X]
+//TRS?
+Meriel[X]
 
 //POINTER #555 @ $3A0AF - STRING #555 @ $3AF65
 
 #WRITE(Unit, $3A0AF)
-//ヘクトル[X]
-
-//POINTER #556 @ $3A0B1 - STRING #556 @ $3AF65
-
 #WRITE(Unit, $3A0B1)
 //ヘクトル[X]
+Hector[X]
 
 //POINTER #557 @ $3A0B3 - STRING #557 @ $3AF6F
 
 #WRITE(Unit, $3A0B3)
 //ネイファ[X]
+//TRS?
+Nayfa[X]
 
 //POINTER #558 @ $3A0B5 - STRING #558 @ $3AF79
 
 #WRITE(Unit, $3A0B5)
 //ギネヴィア[X]
+//Guinevere
+Guinvere[X]
 
 //POINTER #559 @ $3A0B7 - STRING #559 @ $3AF89
 
 #WRITE(Unit, $3A0B7)
 //サザ[X]
+//TRS?
+Saza[X]
 
 //POINTER #560 @ $3A0B9 - STRING #560 @ $3AF91
 
 #WRITE(Unit, $3A0B9)
 //ミネルバ[X]
+Minerva[X]
 
 //POINTER #561 @ $3A0BB - STRING #561 @ $3AF9B
 
 #WRITE(Unit, $3A0BB)
 //クレイン[X]
+Klein[X]
 
 //POINTER #562 @ $3A0BD - STRING #562 @ $3AFA5
 
 #WRITE(Unit, $3A0BD)
 //シゲン[X]
+//TRS?
+Shigen[X]
 
 //POINTER #563 @ $3A0BF - STRING #563 @ $3AFAD
 
 #WRITE(Unit, $3A0BF)
 //イストバル[X]
+//TRS?
+Estobar[X]
 
 //POINTER #564 @ $3A0C1 - STRING #564 @ $3AFB9
 
 #WRITE(Unit, $3A0C1)
-//エリウッド[X]
-
-//POINTER #565 @ $3A0C3 - STRING #565 @ $3AFB9
-
 #WRITE(Unit, $3A0C3)
 //エリウッド[X]
+Eliwood[X]
 
 //POINTER #566 @ $3A0C5 - STRING #566 @ $3AFD5
 
 #WRITE(Unit, $3A0C5)
 //デリック[X]
+//TRS?
+Derek[X]
 
 //POINTER #567 @ $3A0C7 - STRING #567 @ $3AFDF
 
 #WRITE(Unit, $3A0C7)
 //アイク[X]
+Ike[X]
 
 //POINTER #568 @ $3A0C9 - STRING #568 @ $3AFC5
 
 #WRITE(Unit, $3A0C9)
 //サフィア[X]
+//TRS?
+Safia[X]
 
 //POINTER #569 @ $3A0CB - STRING #569 @ $3AFE7
 
 #WRITE(Unit, $3A0CB)
 //フォルセティ[X]
+Holsety[X]
 
 //BLOCK #007 NAME:		Army Names
 
