@@ -4309,6 +4309,7 @@ Garm[X]
 //マオザウルフ[X]
 //No idea. Nag someone who does.
 //Is it "mouse wolf" or something?
+//Berwick reference, apparently. Serenes renders as "Maoza Wolf".s
 Wolf[X]
 
 //POINTER #54 @ $3DE7E - STRING #54 @ $3E18C
@@ -4603,7 +4604,8 @@ Judgmnt[X]
 //セイニー[X]
 //Jury's out here. Later context needed.
 //All I can think of is Capcom money. And I doubt it's a Zenny Staff.
-Sany[X]
+//Turns out this is Thani. Oops.
+Thani[X]
 
 //POINTER #103 @ $3DEE0 - STRING #103 @ $3E198
 
@@ -4745,7 +4747,8 @@ Urvan[X]
 //バルフレチェ[X]
 //It's got the "fleche" part of Rienfleche.
 //So what's the "baru" meant to be? Balfleche?
-Fleche[X]
+//The Double Bow, as it so happens!
+Double[X]
 
 //POINTER #125 @ $3DF0C - STRING #125 @ $3E198
 
@@ -5004,6 +5007,8 @@ Life[X]
 //せんりょくアップ[X]
 //"(something) up". Google 2 says "potential". Get this looked at.
 //In the meantime, a blunt placeholder.
+//Since it's the stock holy weapon description - "Confers great power" as PN puts it...
+//"Holy weapon" will do just fine. I only have eight characters.
 //Mistoltin
 #WRITE(ItemDesc, $3E512)
 //せんりょくアップ[X]
@@ -5048,7 +5053,7 @@ Life[X]
 #WRITE(ItemDesc, $3E5DE)
 //Urvan
 #WRITE(ItemDesc, $3E5E0)
-//?fleche
+//Double Bow
 HolyWepn[X]
 
 //POINTER #23 @ $3E516 - STRING #23 @ $3E736
@@ -5125,7 +5130,9 @@ Dozel[X]
 //オードのせんぷ[X]
 //Wolf thingy
 //Odo... something. What is it???
-Odo[X]
+//Sety's best guess is "Odo's Proclaimation".
+//How am I meant to fit that in eight characters?
+OdoProcl[X]
 
 //POINTER #57 @ $3E55A - STRING #57 @ $40090
 
@@ -5199,7 +5206,7 @@ Range 10[X]
 #WRITE(ItemDesc, $3E5A0)
 //１０マスないの みかたぜんいんにライブをかける[X]
 //Fortify
-Heal all 
+Heal all
 in Rng10[X]
 
 //POINTER #93 @ $3E5A2 - STRING #93 @ $3E5FC
@@ -5227,7 +5234,7 @@ Return[X]
 //Restore
 Cure bad
 statuses
-on ally
+on ally 
 Range 10[X]
 
 //POINTER #99 @ $3E5AE - STRING #99 @ $3E93C
@@ -5262,7 +5269,8 @@ JudgBolt[X]
 //ブラギのひじゅつ[X]
 //???
 //Blagi's ...?
-Blagi[X]
+//Blagi's Secret Art, apparently
+BlagiArt[X]
 
 //POINTER #106 @ $3E5BC - STRING #106 @ $3EA0C
 
@@ -6017,7 +6025,9 @@ Sol[X]
 //カムイ  [X]
 //"Kamui" google says unhelpfully. I don't think this skill is called "Corrin".
 //If I had to guess, Holy Sword.
-HolySword[X]
+//Turns out ol' Corrin's a myth reference, like everything in FE.
+//I'll keep it around for accuracy.
+Kamuy[X]
 
 //POINTER #52 @ $9AE9B - STRING #52 @ $9ADE1
 
@@ -6025,7 +6035,9 @@ HolySword[X]
 //はじゃ[X]
 //Darkness Sword. I assume they gave it more of a name here.
 //I'll nag those in the know later.
-DarkSword[X]
+//haja = "destruction of evil"? Great, I have to make something up here.
+//This doesn't really translate...
+AntiEvil[X]
 
 //POINTER #53 @ $9AE9E - STRING #53 @ $9AD91
 
