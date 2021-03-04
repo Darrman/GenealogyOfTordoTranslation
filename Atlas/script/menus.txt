@@ -5410,36 +5410,27 @@ Off[X]
 #W16($5A85F)
 All[X]
 
-//POINTER #5 @ $9AE0E - STRING #5 @ $200
+//Within "All"...
 
-#W24($9AE0E)
-//<$E0><$0D>[X]
+//#JMP($5A9CE, $5A9DD)
 
-//POINTER #6 @ $9AE11 - STRING #6 @ $9AAB1
+#W16($5A9A6)
+On[X]
 
-#W24($9AE11)
-//りんせつした    
-//ユニットを     
-//いどうかのうにする[X]
-//Dance
-Adjacent  
-allies can
-move again[X]
+#W16($5A9B7)
+Off[X]
 
-//POINTER #7 @ $9AE14 - STRING #7 @ $200
 
-//<$E0><$0D>[X]
+//Inventory full!
 
 //#JMP($5B8A0, $5B8DF)
 
 #W16($5B86D)
 Inventory is[X]
 
-//POINTER #9 @ $9AE1A - STRING #9 @ $200
+#W16($5B87E)
 full Store  [X]
 
-#W24($9AE1A)
-//<$E0><$0D>[X]
 #W16($5B88F)
 item?[X]
 
