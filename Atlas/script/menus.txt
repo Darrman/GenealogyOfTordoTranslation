@@ -706,10 +706,10 @@ Miletos[X]
 Perluke[X]
 
 //POINTER #39 @ $3F765 - STRING #39 @ $3F96D
-
-#WRITE(Castle, $3F765)
+//Some castles were merged with armies to save space.
+//You can't do this in vanilla, but Tordo moved the castles.
 //クロノス城[X]
-Chronos[X]
+//Chronos[X]
 
 //POINTER #40 @ $3F767 - STRING #40 @ $3F979
 
@@ -719,16 +719,14 @@ Rados[X]
 
 //POINTER #41 @ $3F769 - STRING #41 @ $3F983
 
-#WRITE(Castle, $3F769)
 //ミーズ城[X]
-Mease[X]
+//Mease[X]
 
 //POINTER #42 @ $3F76B - STRING #42 @ $3F98D
 
-#WRITE(Castle, $3F76B)
 //カパトギア城[X]
 //Kapathogia
-Kapath[X]
+//Kapath[X]
 
 //POINTER #43 @ $3F76D - STRING #43 @ $3F99B
 
@@ -739,15 +737,13 @@ Luthcia[X]
 
 //POINTER #44 @ $3F76F - STRING #44 @ $3F7FD
 
-#WRITE(Castle, $3F76F)
 //ドズル城[X]
-Dozel[X]
+//Dozel[X]
 
 //POINTER #45 @ $3F771 - STRING #45 @ $3F9B3
 
-#WRITE(Castle, $3F771)
 //グルティア城[X]
-Grutia[X]
+//Grutia[X]
 
 //BLOCK #005 NAME:		Class Names
 
@@ -1213,60 +1209,12 @@ DkBishop[X]
 //シーフ[X]
 Thief[X]
 
-//POINTER #64 @ $38D33 - STRING #64 @ $390BF
-
-#WRITE(Class, $38D33)
-//エスピオン[X]
-//Thief Fighter
-Espion[X]
-
-//POINTER #65 @ $38D35 - STRING #65 @ $390DD
-
-#WRITE(Class, $38D35)
-#WRITE(Class, $38D37)
-//シビリアン[X]
-Civilian[X]
-
-//POINTER #67 @ $38D39 - STRING #67 @ $390E9
-
-#WRITE(Class, $38D39)
-//マージロード[X]
-MageLord[X]
-
-//POINTER #68 @ $38D3B - STRING #68 @ $390F7
-
-#WRITE(Class, $38D3B)
-//グラスランナー[X]
-//Grassrunner
-GrasRunr[X]
-
-//POINTER #69 @ $38D3D - STRING #69 @ $39107
-
-#WRITE(Class, $38D3D)
-//テトラアーチ[X]
-//Tetra Arch
-TetraBal[X]
-
-//POINTER #70 @ $38D3F - STRING #70 @ $39115
-
-#WRITE(Class, $38D3F)
-//マスターアーチ[X]
-//Master Arch
-MstrBall[X]
-
-//POINTER #71 @ $38D41 - STRING #71 @ $39125
-
-#WRITE(Class, $38D41)
-//マージプリンス[X]
-//Mage Prince
-MagePrnc[X]
-
 //BLOCK #006 NAME:		Character Names
 
 #VAR(Unit, CUSTOMPOINTER)
 #CREATEPTR(Unit, "LINEAR", $39C59, 16)
 
-#JMP($3A0CD, $3AF04)
+#JMP($3A0CD, $3AFF4)
 
 //POINTER #0 @ $39C59 - STRING #0 @ $3A191
 
@@ -2781,6 +2729,7 @@ Odo[X]
 #WRITE(Unit, $39FF7)
 //ファラコピー[X]
 //Fala Copy
+Fala[X]
 
 //POINTER #464 @ $39FF9 - STRING #464 @ $401DA
 
@@ -3476,6 +3425,7 @@ Velthom[X]
 
 #WRITE(Army, $3DAFC)
 #WRITE(Army, $3DB40)
+#WRITE(Castle, $3F76F)
 //ドズル軍[X]
 Dozel[X]
 
@@ -3635,6 +3585,7 @@ Miletos[X]
 //POINTER #39 @ $3DB36 - STRING #39 @ $3DD50
 
 #WRITE(Army, $3DB36)
+#WRITE(Castle, $3F765)
 //クロノス軍[X]
 Chronos[X]
 
@@ -3647,12 +3598,14 @@ Rados[X]
 //POINTER #41 @ $3DB3A - STRING #41 @ $3DD66
 
 #WRITE(Army, $3DB3A)
+#WRITE(Castle, $3F769)
 //ミーズ軍[X]
 Mease[X]
 
 //POINTER #42 @ $3DB3C - STRING #42 @ $3DD70
 
 #WRITE(Army, $3DB3C)
+#WRITE(Castle, $3F76B)
 //カパトギア軍[X]
 //Kapathogia
 Kapath[X]
@@ -3666,6 +3619,7 @@ Luthecia[X]
 //POINTER #45 @ $3DB42 - STRING #45 @ $3DD96
 
 #WRITE(Army, $3DB42)
+#WRITE(Castle, $3F771)
 //グルティア軍[X]
 Grutia[X]
 
@@ -4588,7 +4542,6 @@ Lachesis[X]
 #WRITE(ItemDesc, $3E4F0)
 //げっこう剣 [X]
 //Luna Sword
-Luna[X]
 #WRITE(ItemDesc, $3E556)
 //Partia
 Luna[X]
@@ -5018,9 +4971,13 @@ Astra[X]
 //マイラの    ちからがやどったゆびわ     [X]
 //Myra's Ring
 //Replace flavour with actual effects
-Ring w/ 
-power of
-Myra[X]
+//Ring w/ 
+//power of
+//Myra[X]
+Charisma
+Prayer  
+NullLopt
+Move+3[X]
 
 //POINTER #110 @ $3E5C4 - STRING #110 @ $3EA8A
 
@@ -5117,8 +5074,63 @@ Skill+5[X]
 //せいれいの   ブレスレット[X]
 //Bracelet
 //Actual effects instead of flavour
-Spirit  
-bracelet[X]
+//Spirit  
+//bracelet[X]
+Charisma
+Life[X]
+
+#JMP($40034, $401FF)
+//The original hackers used this as overflow space.
+//I'm going to do the same and shove the extra classes here.
+//POINTER #64 @ $38D33 - STRING #64 @ $390BF
+
+#WRITE(Class, $38D33)
+//エスピオン[X]
+//Thief Fighter
+Espion[X]
+
+//POINTER #65 @ $38D35 - STRING #65 @ $390DD
+
+#WRITE(Class, $38D35)
+#WRITE(Class, $38D37)
+//シビリアン[X]
+Civilian[X]
+
+//POINTER #67 @ $38D39 - STRING #67 @ $390E9
+
+#WRITE(Class, $38D39)
+//マージロード[X]
+MageLord[X]
+
+//POINTER #68 @ $38D3B - STRING #68 @ $390F7
+
+#WRITE(Class, $38D3B)
+//グラスランナー[X]
+//Grassrunner
+GrasRunr[X]
+
+//POINTER #69 @ $38D3D - STRING #69 @ $39107
+
+#WRITE(Class, $38D3D)
+//テトラアーチ[X]
+//Tetra Arch
+TetraBal[X]
+
+//POINTER #70 @ $38D3F - STRING #70 @ $39115
+
+#WRITE(Class, $38D3F)
+//マスターアーチ[X]
+//Master Arch
+MstrBall[X]
+
+//POINTER #71 @ $38D41 - STRING #71 @ $39125
+
+#WRITE(Class, $38D41)
+//マージプリンス[X]
+//Mage Prince
+MagePrnc[X]
+
+
 
 //BLOCK #010 NAME:		Menu Commands
 
@@ -5351,64 +5363,52 @@ bracelet[X]
 <$26><$DC><$85><$01><$01>
  End[X]
  
-//BLOCK #012 NAME:		Skill Descriptions
-
-#JMP($9A9DD, $9ADA6)
-#HDR($200)
+//General overworld popups
 
 
-//POINTER #0 @ $9ADFF - STRING #0 @ $9A9DD
+//#JMP($5BBBC, $5BBD3)
+#W16($5BB9E)
+G obtained![X]
 
-#W24($9ADFF)
-//ダメージを     
-//むこうにする[X]
-//Great Shield
-//Lvx2% to  
-Negate all
-damage[X]
+//#JMP($5BCB3, $5BCC6)
+#W16($5BC9D)
+ seized![X]
+ 
+//#JMP($5BE8C, $5BE9D)
+#W16($5BE3D)
+ obtained![X]
+ 
+ 
+//Save prompt
 
-//POINTER #1 @ $9AE02 - STRING #1 @ $9A9FF
+//#JMP($5A6E6, $5A707)
 
-#W24($9AE02)
-//ピンチになったとき 
-//いかりのこうげき[X]
-//Wrath
-Automatic 
-critical  
-sub-50% HP[X]
+#W16($5A6A8)
+Save Game[X]
 
+#W16($5A6B9)
+Yes[X]
 
-//POINTER #2 @ $9AE05 - STRING #2 @ $9AA25
-
-#W24($9AE05)
-//さいこうげきが   
-//でやすくなる          [X]
-//Pursuit
-Doubling  
-threshold 
-is AS+3[X]
-
-//POINTER #3 @ $9AE08 - STRING #3 @ $9AA5B
-
-#W24($9AE08)
-//すばやさのかくりつで
-//れんぞくこうげき[X]
-//Continue
-//AS% chance
-//to attack 
-May attack
-foe again[X]
+#W16($5A6CA)
+No[X]
 
 
-//POINTER #4 @ $9AE0B - STRING #4 @ $9AA81
+//Unit animation settings
 
-#W24($9AE0B)
-//こうげきがあたると 
-//あいてのゴールドを 
-//うばう[X]
-//Steal
-Steal foes
-gold[X]
+//#JMP($5A870, $5A899)
+
+#W16($5A82C)
+//Animation
+Animate[X]
+
+#W16($5A83D)
+On[X]
+
+#W16($5A84E)
+Off[X]
+
+#W16($5A85F)
+All[X]
 
 //POINTER #5 @ $9AE0E - STRING #5 @ $200
 
@@ -5428,195 +5428,96 @@ move again[X]
 
 //POINTER #7 @ $9AE14 - STRING #7 @ $200
 
-#W24($9AE14)
 //<$E0><$0D>[X]
 
-//POINTER #8 @ $9AE17 - STRING #8 @ $200
+//#JMP($5B8A0, $5B8DF)
 
-#W24($9AE17)
-//<$E0><$0D>[X]
+#W16($5B86D)
+Inventory is[X]
 
 //POINTER #9 @ $9AE1A - STRING #9 @ $200
+full Store  [X]
 
 #W24($9AE1A)
 //<$E0><$0D>[X]
+#W16($5B88F)
+item?[X]
 
-//POINTER #10 @ $9AE1D - STRING #10 @ $9AAED
+//#JMP($5B7B2, $5B7DD)
 
-#W24($9AE1D)
-//ちかくにいるみかたに
-//１０％のしえんこうか[X]
-//Charisma
-10 Hit/Avo
-to allies 
-in 3 tiles[X]
+#W16($5B77F)
+Send this item[X]
 
-//POINTER #11 @ $9AE20 - STRING #11 @ $200
+#W16($5B790)
+Yes[X]
 
-#W24($9AE20)
-//<$E0><$0D>[X]
+#W16($5B7A1)
+No[X]
 
-//POINTER #12 @ $9AE23 - STRING #12 @ $9AB17
 
-#W24($9AE23)
-//ひっさつこうげきなど
-//をふうじる[X]
-//Nihil
-Negates   
-criticals[X]
+//Such and such a phase
 
-//POINTER #13 @ $9AE26 - STRING #13 @ $9AB37
+//#JMP($5AF47, $5AF54)
 
-#W24($9AE26)
-//ピンチになると   
-//かいひりつがあがる[X]
-//Prayer
-Avoid up  
-when near 
-death[X]
+#W16($5AF32)
+ Phase[X]
+ 
+ 
+//Staff menu options in castle
 
-//POINTER #14 @ $9AE29 - STRING #14 @ $9AB5F
+//#JMP($5EBA1, $5EBC6)
 
-#W24($9AE29)
-//ひっさつのいちげきが
-//でやすくなる    
-//ダメージ３ばい[X]
-//Critical
-Skill% to 
-critical  [X]
-//3x damage[X]
+#W16($5EC40)
+<$6B><$E9><$85><$01><$01>
+ Indoor[X]
 
-//POINTER #15 @ $9AE2C - STRING #15 @ $9AB97
+#W16($5EC3E)
+<$86><$E9><$85><$01><$01>
+ Outdor[X]
 
-#W24($9AE2C)
-//かならず      
-//せんせいこうげきする  [X]
-//Ambush
-Always hit
-foe first[X]
+ 
+//Combat forecast
+//#JMP($590A1, $590C4)
+//
+//#W16($58FDB)
+//Lv[X]
+//
+//#W16($58FF4)
+//HP[X]
+//
+//#W16($5901E)
+//Atk[X]
+//
+//#W16($59040)
+//Def[X]
+//
+//#W16($59062)
+//Hit[X]
 
-//POINTER #16 @ $9AE2F - STRING #16 @ $9ABC5
 
-#W24($9AE2F)
-//みがるであれば   
-//ときおり せんとうが
-//けいぞくする[X]
-//Charge
-May extend
-combat[X]
-//combat if 
-//HP is high[X]
+#JMP($59B53, $59B72)
 
-//POINTER #17 @ $9AE32 - STRING #17 @ $9ABFB
+#W16($59AF1)
+Atk[X]
 
-#W24($9AE32)
-//５かいれんぞくで  
-//こうげきする[X]
-//Astra
-//Skill% to 
-Attack 5  
-times[X]
+//#W16($59B02)
+#W16($59B13)
+Hit[X]
 
-//POINTER #18 @ $9AE35 - STRING #18 @ $9AC1D
+#W16($59B35)
+Avo[X]
 
-#W24($9AE35)
-//あいてのしゅびりょく
-//をはんげん  [X]
-//Luna
-//Skill% to 
-Halve foes
-defence[X]
-//POINTER #19 @ $9AE38 - STRING #19 @ $9AC41
+#W16($59B24)
+Typ[X]
 
-#W24($9AE38)
-//あたえたダメージだけ
-//ＨＰがかいふくする[X]
-//Sol
-//Skill% to 
-Absorb the
-foes HP[X]
 
-//POINTER #20 @ $9AE3B - STRING #20 @ $9ADB7
 
-#W24($9AE3B)
-//こうげきりょく   
-//しゅびりょくがあがる[X]
-//Holy Sword
-Str/Def   
-+20[X]
 
-//POINTER #21 @ $9AE3E - STRING #21 @ $9ADB7
+ 
+//BLOCK #012 NAME:		Skill Names
 
-#W24($9AE3E)
-//こうげきりょく   
-//しゅびりょくがあがる[X]
-//Dark Sword
-Str/Def   
-+15[X]
-
-//POINTER #22 @ $9AE41 - STRING #22 @ $9AC69
-
-#W24($9AE41)
-//まいターン     
-//ＨＰが５から１０  
-//かいふくする[X]
-//Life
-Restores  
-5-10 HP at
-turn start[X]
-
-//POINTER #23 @ $9AE44 - STRING #23 @ $9AC9F
-
-#W24($9AE44)
-//けいけんちを    
-//２ばいもらえる[X]
-//Elite
-Doubles   
-EXP gain[X]
-
-//POINTER #24 @ $9AE47 - STRING #24 @ $200
-
-#W24($9AE47)
-//<$E0><$0D>[X]
-
-//POINTER #25 @ $9AE4A - STRING #25 @ $9A9C9
-
-#W24($9AE4A)
-//かんぜんかいふく [X]
-//Recover
-Fully heal
-at turn   
-start[X]
-
-//POINTER #26 @ $9AE4D - STRING #26 @ $9ACC3
-
-#W24($9AE4D)
-//かいものや     
-//しゅうりが     
-//はんがくでできる[X]
-//Bargain
-Expenses  
-are halved[X]
-
-//POINTER #27 @ $9AE50 - STRING #27 @ $200
-
-#W24($9AE50)
-//<$E0><$0D>[X]
-
-//POINTER #28 @ $9AE53 - STRING #28 @ $200
-
-#W24($9AE53)
-//<$E0><$0D>[X]
-
-//POINTER #29 @ $9AE56 - STRING #29 @ $200
-
-#W24($9AE56)
-//<$E0><$0D>[X]
-
-//POINTER #30 @ $9AE59 - STRING #30 @ $200
-
-#W24($9AE59)
-//<$E0><$0D>[X]
+#JMP($9A9DD, $9ADA6)
+#HDR($200)
 
 //POINTER #31 @ $9AE5C - STRING #31 @ $9ACFD
 
@@ -6288,6 +6189,274 @@ Bsrk[X]
 #W16($99C4B)
 Dead[X]
 
+//BLOCK #012 NAME: Skill Descriptions
+
+#JMP($9FC30, $A01BF)
+//End of bank free space, moving the skill descs here
+
+//POINTER #0 @ $9ADFF - STRING #0 @ $9A9DD
+
+#W24($9ADFF)
+//ダメージを     
+//むこうにする[X]
+//Great Shield
+Lvx2% to  
+negate all
+damage[X]
+
+//POINTER #1 @ $9AE02 - STRING #1 @ $9A9FF
+
+#W24($9AE02)
+//ピンチになったとき 
+//いかりのこうげき[X]
+//Wrath
+Automatic 
+critical  
+sub-50% HP[X]
+
+
+//POINTER #2 @ $9AE05 - STRING #2 @ $9AA25
+
+#W24($9AE05)
+//さいこうげきが   
+//でやすくなる          [X]
+//Pursuit
+Doubling  
+threshold 
+is AS+3[X]
+
+//POINTER #3 @ $9AE08 - STRING #3 @ $9AA5B
+
+#W24($9AE08)
+//すばやさのかくりつで
+//れんぞくこうげき[X]
+//Continue
+AS% chance
+to attack 
+//May attack
+foe again[X]
+
+
+//POINTER #4 @ $9AE0B - STRING #4 @ $9AA81
+
+#W24($9AE0B)
+//こうげきがあたると 
+//あいてのゴールドを 
+//うばう[X]
+//Steal
+Steal foes
+gold[X]
+
+//POINTER #5 @ $9AE0E - STRING #5 @ $200
+
+#W24($9AE0E)
+//<$E0><$0D>[X]
+
+//POINTER #6 @ $9AE11 - STRING #6 @ $9AAB1
+
+#W24($9AE11)
+//りんせつした    
+//ユニットを     
+//いどうかのうにする[X]
+//Dance
+Adjacent  
+allies can
+move again[X]
+
+//POINTER #7 @ $9AE14 - STRING #7 @ $200
+
+#W24($9AE14)
+//<$E0><$0D>[X]
+
+//POINTER #8 @ $9AE17 - STRING #8 @ $200
+
+#W24($9AE17)
+//<$E0><$0D>[X]
+
+//POINTER #9 @ $9AE1A - STRING #9 @ $200
+
+#W24($9AE1A)
+//<$E0><$0D>[X]
+
+//POINTER #10 @ $9AE1D - STRING #10 @ $9AAED
+
+#W24($9AE1D)
+//ちかくにいるみかたに
+//１０％のしえんこうか[X]
+//Charisma
+10 Hit/Avo
+to allies 
+in 3 tiles[X]
+
+//POINTER #11 @ $9AE20 - STRING #11 @ $200
+
+#W24($9AE20)
+//<$E0><$0D>[X]
+
+//POINTER #12 @ $9AE23 - STRING #12 @ $9AB17
+
+#W24($9AE23)
+//ひっさつこうげきなど
+//をふうじる[X]
+//Nihil
+Negates   
+criticals[X]
+
+//POINTER #13 @ $9AE26 - STRING #13 @ $9AB37
+
+#W24($9AE26)
+//ピンチになると   
+//かいひりつがあがる[X]
+//Prayer
+Avoid up  
+when near 
+death[X]
+
+//POINTER #14 @ $9AE29 - STRING #14 @ $9AB5F
+
+#W24($9AE29)
+//ひっさつのいちげきが
+//でやすくなる    
+//ダメージ３ばい[X]
+//Critical
+Skill% to 
+critical  
+3x damage[X]
+
+//POINTER #15 @ $9AE2C - STRING #15 @ $9AB97
+
+#W24($9AE2C)
+//かならず      
+//せんせいこうげきする  [X]
+//Ambush
+Always hit
+foe first[X]
+
+//POINTER #16 @ $9AE2F - STRING #16 @ $9ABC5
+
+#W24($9AE2F)
+//みがるであれば   
+//ときおり せんとうが
+//けいぞくする[X]
+//Charge
+May extend
+combat if 
+HP is high[X]
+
+//POINTER #17 @ $9AE32 - STRING #17 @ $9ABFB
+
+#W24($9AE32)
+//５かいれんぞくで  
+//こうげきする[X]
+//Astra
+Skill% to 
+attack 5  
+times[X]
+
+//POINTER #18 @ $9AE35 - STRING #18 @ $9AC1D
+
+#W24($9AE35)
+//あいてのしゅびりょく
+//をはんげん  [X]
+//Luna
+Skill% to 
+halve foes
+defence[X]
+//POINTER #19 @ $9AE38 - STRING #19 @ $9AC41
+
+#W24($9AE38)
+//あたえたダメージだけ
+//ＨＰがかいふくする[X]
+//Sol
+Skill% to 
+absorb the
+foes HP[X]
+
+//POINTER #20 @ $9AE3B - STRING #20 @ $9ADB7
+
+#W24($9AE3B)
+//こうげきりょく   
+//しゅびりょくがあがる[X]
+//Holy Sword
+Str/Def   
++20[X]
+
+//POINTER #21 @ $9AE3E - STRING #21 @ $9ADB7
+
+#W24($9AE3E)
+//こうげきりょく   
+//しゅびりょくがあがる[X]
+//Dark Sword
+Str/Def   
++15[X]
+
+//POINTER #22 @ $9AE41 - STRING #22 @ $9AC69
+
+#W24($9AE41)
+//まいターン     
+//ＨＰが５から１０  
+//かいふくする[X]
+//Life
+Restores  
+5-10 HP at
+turn start[X]
+
+//POINTER #23 @ $9AE44 - STRING #23 @ $9AC9F
+
+#W24($9AE44)
+//けいけんちを    
+//２ばいもらえる[X]
+//Elite
+Doubles   
+EXP gain[X]
+
+//POINTER #24 @ $9AE47 - STRING #24 @ $200
+
+#W24($9AE47)
+//<$E0><$0D>[X]
+
+//POINTER #25 @ $9AE4A - STRING #25 @ $9A9C9
+
+#W24($9AE4A)
+//かんぜんかいふく [X]
+//Recover
+Fully heal
+at turn   
+start[X]
+
+//POINTER #26 @ $9AE4D - STRING #26 @ $9ACC3
+
+#W24($9AE4D)
+//かいものや     
+//しゅうりが     
+//はんがくでできる[X]
+//Bargain
+Expenses  
+are halved[X]
+
+//POINTER #27 @ $9AE50 - STRING #27 @ $200
+
+#W24($9AE50)
+//<$E0><$0D>[X]
+
+//POINTER #28 @ $9AE53 - STRING #28 @ $200
+
+#W24($9AE53)
+//<$E0><$0D>[X]
+
+//POINTER #29 @ $9AE56 - STRING #29 @ $200
+
+#W24($9AE56)
+//<$E0><$0D>[X]
+
+//POINTER #30 @ $9AE59 - STRING #30 @ $200
+
+#W24($9AE59)
+//<$E0><$0D>[X]
+
+
+
+
 #JMP($BD477, $BD4A2)
 //Data menu headings
 
@@ -6353,3 +6522,21 @@ Atk[X]
 
 #W16($BDC8E)
 Nobody[X]
+
+#JMP($1F0020, $1F01FF)
+//Map anim messages, moved to free space
+#W16($1E9A8E)
+//Item dropped
+ obtained![X]
+
+#W16($1E9AEE)
+//Item broke
+ broke[X]
+ 
+#W16($1E9B47)
+//Gold obtained
+G obtained![X]
+
+#W16($1E9B76)
+//Gold stolen
+G stolen[X]
