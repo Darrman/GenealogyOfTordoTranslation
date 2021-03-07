@@ -5468,22 +5468,41 @@ No[X]
 
  
 //Combat forecast
-//#JMP($590A1, $590C4)
-//
-//#W16($58FDB)
-//Lv[X]
-//
-//#W16($58FF4)
-//HP[X]
-//
-//#W16($5901E)
+#JMP($59090, $590C4)
+//Aside from level and HP, these don't use the standard menu encoding.
+//The raw bytes here will represent the letters commented.
+//TODO: Add a duplicate A top since that's tile 0. <$60> is the placeholder.
+
+#W16($5903A)
+//Crt[X]
+<$02><$A1><$A3><$00>
+<$12><$B1><$B3><$00>
+
+#W16($5904C)
+//AS[X]
+<$60><$22><$00><$00>
+<$10><$32><$00><$00>
+<$6B>
+#W16($58FD4)
+Lv[X]
+
+#W16($58FEA)
+HP[X]
+
+#W16($59004)
 //Atk[X]
-//
-//#W16($59040)
+<$60><$A3><$8A><$00>
+<$10><$B3><$9A><$00>
+
+#W16($59016)
 //Def[X]
-//
-//#W16($59062)
+<$03><$84><$85><$00>
+<$13><$94><$95><$00>
+
+#W16($59028)
 //Hit[X]
+<$07><$88><$A3><$00>
+<$17><$98><$B3><$00>
 
 
 #JMP($59B53, $59B72)

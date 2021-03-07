@@ -1,0 +1,66 @@
+//Where the various offsets that need to be adjusted in order to properly configure a bunch of things need to go.
+//Think moving strings on the stat screen or implementing the 6restrict hack.
+
+#VAR(menu, TABLE)
+#ADDTBL("menutext.tbl", menu)
+#ACTIVETBL(menu)
+
+#HDR($200)
+
+
+//Combat forecast
+
+// Skip the code which alters the text placer to single-tile
+//Worth noting that tile 00 is at VRAM 0x9400, not desirable.
+//Twilkitri's description of this is a bit off, because this moves VRAM.
+#JMP($58FFD)
+//Vanilla: $A940. 
+<$80><$04>
+
+//$59018: A9 00 85 85 25 A9 AD 8E 85 24 A2 02 0B 22 F7 88 87 A9 00 85 85 25 A9 B1 8E 85 24 A2 02 0C 22 F7 88 87
+//becomes...
+//$59003: A9 AD 8E A2 02 0B 20 82 8E A9 B1 8E A2 02 0C 20 82 8E
+//removing the original hook for the code change.
+
+//// Reroute Attack's text placer, skip the bottom layer
+//#JMP($59025)
+//<$22><$21><$89><$87>
+//<$80><$0F>
+//
+//// Defence
+//#JMP($59047)
+//<$22><$21><$89><$87>
+//<$80><$0F>
+//
+//// Accuracy
+//#JMP($59069)
+//<$22><$21><$89><$87>
+//<$80><$0F>
+
+
+
+
+//Change weapons
+// We don't want kanji
+#JMP($59AC4)
+<$00><$20>
+
+// Reroute Weapon Type's text placer, skip the bottom layer
+#JMP($59AD6)
+<$22><$21><$89><$87>
+<$80><$0F>
+
+//Attack
+#JMP($59AF8)
+<$22><$21><$89><$87>
+<$80><$0F>
+
+//Accuracy
+#JMP($59B1A)
+<$22><$21><$89><$87>
+<$80><$0F>
+
+//Avoid
+#JMP($59B3C)
+<$22><$21><$89><$87>
+<$80><$0F>
