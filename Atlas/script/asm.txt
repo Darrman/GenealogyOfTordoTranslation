@@ -21,6 +21,7 @@
 //becomes...
 //$59003: A9 AD 8E A2 02 0B 20 82 8E A9 B1 8E A2 02 0C 20 82 8E
 //removing the original hook for the code change.
+//Dealt with using the single tile placement; see menus.txt
 
 //// Reroute Attack's text placer, skip the bottom layer
 //#JMP($59025)
@@ -64,3 +65,109 @@
 #JMP($59B3C)
 <$22><$21><$89><$87>
 <$80><$0F>
+
+//Status screen, adjusting X coordinates mainly
+//Could fiddle with some Ys, but generally unnecessary
+// Char Status Wep Accuracy
+#JMP($98A22)
+<$04>
+
+//Might
+#JMP($98A33)
+<$04>
+
+//Range
+#JMP($98A44)
+<$03>
+
+//Weight
+#JMP($98A55)
+<$04>
+
+// Char Status Stat Power 
+#JMP($99EB9)
+<$05>
+
+//Magic
+#JMP($99ECA)
+<$05>
+
+//Skill
+#JMP($99EDB)
+<$05>
+
+//Speed
+#JMP($99EEC)
+<$05>
+
+//Luck
+#JMP($99EFD)
+<$05>
+
+//Defence
+#JMP($99F0E)
+<$05>
+
+//Resistance
+#JMP($99F1F)
+<$05>
+
+// Char Status Info Leader
+#JMP($99FDB)
+<$03>
+
+//Army
+#JMP($99FF2)
+<$03>
+
+//Lover
+#JMP($9A005)
+<$02>
+
+//Talk
+#JMP($9A016)
+<$03>
+
+//Move
+#JMP($9A027)
+<$03>
+
+//Gold
+#JMP($9A038)
+<$03>
+
+//Arena
+#JMP($9A049)
+<$02>
+
+//Status
+#JMP($9A05A)
+<$02>
+
+//The pattern continues on for the weapon type labels,
+//which I've dummied out. Common sense goes a long way.
+
+//Item screen labels
+// Item Screen Wep Accuracy
+#JMP($9BBB7)
+<$16>
+
+//Might
+#JMP($9BBC8)
+<$16>
+
+//Range
+#JMP($9BBD9)
+<$15>
+
+//Weight
+#JMP($9BBEA)
+<$16>
+
+// Castle Character Status
+#JMP($A87BA)
+<$12>
+
+// Castle Character 'Remaining', nullification of said
+#JMP($A87CB)
+<$39>

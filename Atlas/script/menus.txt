@@ -6057,10 +6057,14 @@ Rang[X]
 #W16($9BBE5)
 Wgt[X]
 
+#JMP($9FBF0, $9FBF9)
+#W16($9FBE4)
+Crit[X]
+
 
 //Weapon stat labels, stat screen
 
-#JMP($98B73, $98B9A)
+#JMP($98B73, $98BA2)
 
 #W16($98A1D)
 Hit[X]
