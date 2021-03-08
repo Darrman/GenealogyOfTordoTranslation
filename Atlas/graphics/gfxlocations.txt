@@ -1,0 +1,137 @@
+Graphics Locations
+*Warning: these might be wrong. 
+*Oh, and most of this is google translated, barring what I know for a fact to be true.
+Assume the graphics are compressed unless noted otherwise.
+$000C2B Menu font
+$001E83 Level up screen characters?
+$0021BA Data menu?
+$002742 Command list?
+$002986 In battle text box
+$002D6B Game Over graphic
+$00385A Loputousu's sprite on Julius's death
+$105873 World map
+$128200 Dialogue font (2BPP)
+$1319A0 A-Rank ending, Darna background
+$132ECB Birds in the above
+$1340FA Castle town background
+$1360B4 Fin, ending background
+$138200 Dialogue font 2 (2BPP)
+$142473 Ranking screen
+$14286E ？
+$1435A6 Clouds in the demo?
+$148200 Dialogue font 3 (2BPP)
+$170200 Bits of map sprites (4BPP)
+$176200 Shop menu graphics (2BPP)
+$180200 Base castle graphics (4BPP)
+$184200 Item icons (4BPP)
+$190200 Map tileset (4BPP)
+$1A0200 More map sprites (4BPP)
+$1B0200 Tileset animations (4BPP)
+$1C0200 More tileset animations (4BPP)
+$1CF200 Map animation level up graphics (4BPP)
+$1D0200 Holy blood wheel
+$1D3B32 Config icons
+$1D41A6 Chapter titles
+$1E0400 Weapon type and holy blood icons (4BPP)
+$1E36C0 Skill icons (4BPP)
+$1E4AC0 Unit list headings (2BPP)
+$1F025F Opening: 「記憶の彼方の時代」
+$1F05A5 Opening: 「魔王の闇が世を満」
+$1F095B Opening: 「世界は悪夢の中に」
+$1F0D25 Opening: 「果てしない嘆きの」
+$1F1044 Opening: 「むなしく見上げる」
+$1F143A Opening: 「十二の神、天より来」
+$1F1742 Opening: 「邪悪な闇に立ち向」
+$1F1AEA Opening: 「光を呼び、魔を焼」
+$1F1EA2 Opening: 「失われし希望が」
+$1F2136 Opening: 「再びこの世によみ」
+$1F252B Opening: 「そして今」
+$1F2680 Opening: 「無数の昼と夜がめ」
+$1F2A50 Opening: 「全ては伝説の中へ」
+$1F2CFE Nintendo logo
+$1F3392 Thicket/A-Rank ending background
+$203739 In combat stats (HIT, etc...)
+$203949 EXP bar
+$2E2760 (Wind)
+$2E2A43 (Iron Sword)
+$2E802E Shield?
+$2F0A15 (Heal)
+$2F0E10 (Mend)
+$2F1375 (Recover)
+$2F1BAC Fortify)
+$2F30B2 (Warp)
+$2F441A (Return)
+$2F4524 (Restore)
+$2F4E33 (Sleep)
+$2F5939 (Berserk)
+$2F6971 ？
+$2F6B8D ？
+$2F7142 (Fire/Elfire)
+$30033D (Bolganone)
+$301560 ？
+$301BF4 (Falaflame)
+$302466 (Meteor 1)
+$3031C1 ？
+$303C1C (Meteor 2)
+$3048BF (Meteor 3)
+$307AE5 Resire
+$311486 Aura
+$312B72 Holsety
+$314BC5 Wind ２
+$315310 Elwind
+$3161DD Tornado
+$316E14 Sleep ２
+$317276 Blizzard
+$31738D Falaflame
+$31791D Meteor 4
+$320283 Elthunder
+$321281 Elthunder 2
+$321A30 Thoron
+$322B2F Thunder
+$323080 Thunder ２
+$3234C0 Thoron２
+$323D79 Thoron３
+$324A7B Thoron４
+$325489 Elthunder４
+$3264AC Lightning
+$3278E0 Holsety (map)
+$328072 Lightning 2
+$33106F Narga
+$333FD0 Rising flames in the opening
+$33446A Hel
+$341669 Jormungand
+$342138 Loputousu
+$343F26 Fenrir
+$344B3C Fenrir 2
+$346AD3 Holsety
+$348055 Holsety 2
+$350C88 More flames in the opening
+$352D03 Opening's holy blood wheel
+$3549D4 Opening holy weapons
+$355D0E Title screen
+$357965 Title screen flash
+$358044 Title flag and sword
+$361DB4 Promotion light
+$3625D3 Tree in thicket BG/best ending
+$364999 Opening Darna
+$3678FE Opening: base of the above
+$37339C Plains background
+$3760B1 Bridge backgrounsd
+
+
+ヨツムンガンドやフェンリルの顔をアーダンに書き換えたり出来ます。
+OPの文章を書き換えることも可能
+
+画像ヘッダアドレス指定部
+$17F528:OPのナーガの背景
+$17F549:ＯＰの文章「失われし希望が」
+$17F562:FFで3h埋めると神器が回転している時の波打つ背景が変わる？
+$17F56A:神器が回転している時の波打つ背景？
+$17F58E:神器が回転している時の真ん中の台
+$17F5C2:タイトル
+$17F5CD:タイトル背面（旗と剣）
+
+I'm just going to tack any title card rambling here.
+Ch1's tile arrangement uses 0x67 and 0x87 for the 1.
+It's located in the same bank as the actual cards.
+(Roughly 0x1D64F7.)
