@@ -5694,6 +5694,51 @@ Recover[X]
 //ねぎり[X]
 Bargain[X]
 
+//BLOCK #013 NAME:		Unselected Option Choices
+
+#JMP($9EF85, $9EFFC)
+
+//POINTER #0 @ $9EF6A - STRING #0 @ $9EF85
+
+#W24($9EF6A)
+#W24($9EF79)
+// １  ２  ３ [X]
+ 1  2  3 [X]
+
+//POINTER #1 @ $9EF6D - STRING #1 @ $9EF99
+
+#W24($9EF6D)
+#W24($9EF70)
+#W24($9EF7F)
+//ＯＮ    ＯＦＦ[X]
+On    Off[X]
+
+//POINTER #3 @ $9EF73 - STRING #3 @ $9EFAD
+
+#W24($9EF73)
+//１ ２ ３ ４ ５[X]
+1 2 3 4 5[X]
+
+//POINTER #4 @ $9EF76 - STRING #4 @ $9EFC1
+
+#W24($9EF76)
+//リアル   はやい[X]
+Norm Fast[X]
+
+//POINTER #6 @ $9EF7C - STRING #6 @ $9EFD5
+
+#W24($9EF7C)
+//０ １ ２ ３ ４[X]
+0 1 2 3 4[X]
+
+//POINTER #8 @ $9EF82 - STRING #8 @ $9EFE9
+
+#W24($9EF82)
+//ふつう  かしこい[X]
+Norm Hard[X]
+
+
+
 //BLOCK #013 NAME:		Option Choices
 
 #JMP($9FA8B, $9FABE)
@@ -6207,6 +6252,12 @@ Dead[X]
 
 #JMP($9FC30, $A01BF)
 //End of bank free space, moving the skill descs here
+//And some obnoxiously short options
+#W16($9F119)
+Norm[X]
+
+#W16($9F128)
+Fast[X]
 
 //POINTER #0 @ $9ADFF - STRING #0 @ $9A9DD
 
@@ -6467,7 +6518,6 @@ are halved[X]
 
 #W24($9AE59)
 //<$E0><$0D>[X]
-
 
 
 

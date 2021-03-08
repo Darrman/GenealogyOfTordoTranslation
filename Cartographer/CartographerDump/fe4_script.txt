@@ -2767,22 +2767,22 @@
 //POINTER #367 @ $39F37 - STRING #367 @ $3AA1B
 
 #W16($39F37)
-//<$92><$E9><$8D><$91>兵[X]
+//帝国兵[X]
 
 //POINTER #368 @ $39F39 - STRING #368 @ $3AA1B
 
 #W16($39F39)
-//<$92><$E9><$8D><$91>兵[X]
+//帝国兵[X]
 
 //POINTER #369 @ $39F3B - STRING #369 @ $3AA1B
 
 #W16($39F3B)
-//<$92><$E9><$8D><$91>兵[X]
+//帝国兵[X]
 
 //POINTER #370 @ $39F3D - STRING #370 @ $3AA1B
 
 #W16($39F3D)
-//<$92><$E9><$8D><$91>兵[X]
+//帝国兵[X]
 
 //POINTER #371 @ $39F3F - STRING #371 @ $3AA23
 
@@ -5891,7 +5891,54 @@
 #W24($9AEAA)
 //ねぎり[X]
 
-//BLOCK #013 NAME:		Option Choices
+//BLOCK #013 NAME:		Unselected Option Choices
+
+//POINTER #0 @ $9EF6A - STRING #0 @ $9EF85
+
+#W24($9EF6A)
+// １  ２  ３ [X]
+
+//POINTER #1 @ $9EF6D - STRING #1 @ $9EF99
+
+#W24($9EF6D)
+//ＯＮ    ＯＦＦ[X]
+
+//POINTER #2 @ $9EF70 - STRING #2 @ $9EF99
+
+#W24($9EF70)
+//ＯＮ    ＯＦＦ[X]
+
+//POINTER #3 @ $9EF73 - STRING #3 @ $9EFAD
+
+#W24($9EF73)
+//１ ２ ３ ４ ５[X]
+
+//POINTER #4 @ $9EF76 - STRING #4 @ $9EFC1
+
+#W24($9EF76)
+//リアル   はやい[X]
+
+//POINTER #5 @ $9EF79 - STRING #5 @ $9EF85
+
+#W24($9EF79)
+// １  ２  ３ [X]
+
+//POINTER #6 @ $9EF7C - STRING #6 @ $9EFD5
+
+#W24($9EF7C)
+//０ １ ２ ３ ４[X]
+
+//POINTER #7 @ $9EF7F - STRING #7 @ $9EF99
+
+#W24($9EF7F)
+//ＯＮ    ＯＦＦ[X]
+
+//POINTER #8 @ $9EF82 - STRING #8 @ $9EFE9
+
+#W24($9EF82)
+//ふつう  かしこい[X]
+
+//BLOCK #014 NAME:		Option Choices
 
 //POINTER #0 @ $9F380 - STRING #0 @ $9FAA3
 
@@ -6013,7 +6060,7 @@
 #W24($9F3C5)
 //ＯＦＦ [X]
 
-//BLOCK #014 NAME:		Option Descriptions
+//BLOCK #015 NAME:		Option Descriptions
 
 //POINTER #0 @ $9F538 - STRING #0 @ $9F553
 
@@ -6060,7 +6107,7 @@
 #W24($9F550)
 //てきのあたまのよさてきユニットの  あたまのよさ[X]
 
-//BLOCK #015 NAME:		Top of Option Choice Panel
+//BLOCK #016 NAME:		Top of Option Choice Panel
 
 //POINTER #0 @ $9F779 - STRING #0 @ $9F7BC
 
@@ -6107,7 +6154,7 @@
 #W24($9F791)
 // あたまのよさ  [X]
 
-//BLOCK #016 NAME:		Character Names (Dialogue)
+//BLOCK #017 NAME:		Character Names (Dialogue)
 
 //POINTER #0 @ $D940D - STRING #0 @ $D948B
 
@@ -6487,7 +6534,7 @@
 //<$09><$86>t[X]
 
 
-//BLOCK #017 NAME:		Item Names (Dialogue)
+//BLOCK #018 NAME:		Item Names (Dialogue)
 
 //POINTER #0 @ $D9602 - STRING #0 @ $D9714
 
@@ -7311,7 +7358,7 @@
 //<$16><$13><$1F>.L<$12><$1B><$5F>[X]
 
 
-//BLOCK #018 NAME:		Class Names (Dialogue)
+//BLOCK #019 NAME:		Class Names (Dialogue)
 
 //POINTER #0 @ $D9A92 - STRING #0 @ $D9B22
 
@@ -7745,7 +7792,7 @@
 //<$09><$7E><$B0><$93><$A4><$87><$8C>l[X]
 
 
-//BLOCK #019 NAME:		Main Menu
+//BLOCK #020 NAME:		Main Menu
 
 //POINTER #0 @ $D9D65 - STRING #0 @ $D9D7B
 
@@ -7813,7 +7860,7 @@
 //<$09><$C5><$C5><$C5><$C5><$C5><$0B><$7F><$80><$09><$3E><$10>7.<$1D><$3D><$C5><$C5><$C5><$C5><$C5><$C5><$C5>[X]
 
 
-//BLOCK #020 NAME:		Chapter Names
+//BLOCK #021 NAME:		Chapter Names
 
 //POINTER #0 @ $D9DF6 - STRING #0 @ $D9E0E
 
@@ -7887,7 +7934,7 @@
 //<$0A><$B5><$BC><$09>(<$0A>-d[X]
 
 
-//BLOCK #021 NAME:		Shop Text
+//BLOCK #022 NAME:		Shop Text
 
 //POINTER #0 @ $AD0B3 - STRING #0 @ $AD0D4
 
@@ -8423,7 +8470,7 @@
 // <$5F><$5C><$23><$3B><$18><$10>7K'[N][A][Clear]L<$12><$1C>8<$BE>[N][X]
 
 
-//BLOCK #022 NAME:		Intermission Names 1
+//BLOCK #023 NAME:		Intermission Names 1
 
 //POINTER #0 @ $8E92F - STRING #0 @ $8EE34
 
@@ -8539,7 +8586,7 @@
 //<$09>a<$92><$B0>g(<$0A><$9D><$60><$09><$BB><$60>a<$86><$C5><$C5><$C5>[N]<$00><$82>[N]<$18><$00>[N][N]<$00><$84>[N][X]
 
 
-//BLOCK #023 NAME:		Intermission Names 2
+//BLOCK #024 NAME:		Intermission Names 2
 
 //POINTER #0 @ $8E65D - STRING #0 @ $8EE34
 

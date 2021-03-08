@@ -164,6 +164,11 @@
 #JMP($9BBEA)
 <$16>
 
+
+// Fast X location
+#JMP($9F12D)
+<$1A>
+
 // Castle Character Status
 #JMP($A87BA)
 <$12>
@@ -171,6 +176,10 @@
 // Castle Character 'Remaining', nullification of said
 #JMP($A87CB)
 <$39>
+
+// Home Castle - Castle Name
+#JMP($BD545)
+<$13>
 
 // 6-letter restricted Print SJIS Code
 // @@3062702@@
