@@ -6587,6 +6587,11 @@ Atk[X]
 #W16($BDC8E)
 Nobody[X]
 
+#JMP($BCB6A)
+#W16($BCB5E)
+//Sort by skills in unit list
+Skl[X]
+
 #JMP($1F0020, $1F01FF)
 //Map anim messages, moved to free space
 #W16($1E9A8E)
