@@ -6,62 +6,62 @@
 #VAR(Table_1, TABLE)
 #ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/menutext.tbl", Table_1)
 
-//BLOCK #015 NAME:		Top of Option Choice Panel
+//BLOCK #015 NAME:		Option Descriptions
 #ACTIVETBL(Table_1) // Activate this block's starting TABLE
 
-#JMP($9F794, $9F81F) // Jump to insertion point
+#JMP($9F553, $9F778) // Jump to insertion point
 #HDR($-7FFE00) // Difference between ROM and RAM addresses for pointer value calculations
 
-//POINTER #0 @ $9F779 - STRING #0 @ $9F7BC
-#W24($9F779)
-//リアル   こ<$95><$94>つ[X]
+//POINTER #0 @ $9F538 - STRING #0 @ $9F553
+#W24($9F538)
+//アニメせってい   １ーリアル    ２ーマップ    ３ーこ<$95><$94>つ[X]
 //
-// current address: $9F7D0
+// current address: $9F597
 
-//POINTER #1 @ $9F77C - STRING #1 @ $9F7A8
-#W24($9F77C)
-//する    しない[X]
+//POINTER #1 @ $9F53B - STRING #1 @ $9F597
+#W24($9F53B)
+//ちけいウィンドウ ちけいウィンドウのひょうじ[X]
 //
-// current address: $9F7BC
+// current address: $9F5C5
 
-//POINTER #2 @ $9F77F - STRING #2 @ $9F7A8
-#W24($9F77F)
-//する    しない[X]
+//POINTER #2 @ $9F53E - STRING #2 @ $9F5C5
+#W24($9F53E)
+//ユニットウィンドウユニットウィンドウのひょうじ[X]
 //
-// current address: $9F7BC
+// current address: $9F5F5
 
-//POINTER #3 @ $9F782 - STRING #3 @ $9F7D0
-#W24($9F782)
-//おそい   はやい[X]
+//POINTER #3 @ $9F541 - STRING #3 @ $9F5F5
+#W24($9F541)
+//メッセージスピードメッセージを   ひょうじするはやさ[X]
 //
-// current address: $9F7E4
+// current address: $9F62D
 
-//POINTER #4 @ $9F785 - STRING #4 @ $9F794
-#W24($9F785)
-// いどうスピード [X]
+//POINTER #4 @ $9F544 - STRING #4 @ $9F62D
+#W24($9F544)
+//てきいどうスピードてきのいどうする スピード[X]
 //
-// current address: $9F7A8
+// current address: $9F65B
 
-//POINTER #5 @ $9F788 - STRING #5 @ $9F7E4
-#W24($9F788)
-//ステレオ   オフ[X]
+//POINTER #5 @ $9F547 - STRING #5 @ $9F65B
+#W24($9F547)
+//サウンドせってい ＢＧＭのせってい  １ーステレオ   ２ーモノラル   ３ーオフ[X]
 //
-// current address: $9F7F8
+// current address: $9F6AF
 
-//POINTER #6 @ $9F78B - STRING #6 @ $9F7F8
-#W24($9F78B)
-//オフ  ファイル [X]
+//POINTER #6 @ $9F54A - STRING #6 @ $9F6AF
+#W24($9F54A)
+//オートセーブ   ターンのはじめに えらんだファイルへじどうてきにセーブする[X]
 //
-// current address: $9F80C
+// current address: $9F6FD
 
-//POINTER #7 @ $9F78E - STRING #7 @ $9F7A8
-#W24($9F78E)
-//する    しない[X]
+//POINTER #7 @ $9F54D - STRING #7 @ $9F72F
+#W24($9F54D)
+//オートカーソル  ターンのはじめに しゅじんこうに  カーソルをあわせる[X]
 //
-// current address: $9F7BC
+// current address: $9F779
 
-//POINTER #8 @ $9F791 - STRING #8 @ $9F80C
-#W24($9F791)
-// あたまのよさ  [X]
+//POINTER #8 @ $9F550 - STRING #8 @ $9F6FD
+#W24($9F550)
+//てきのあたまのよさてきユニットの  あたまのよさ[X]
 //
-// current address: $9F820
+// current address: $9F72F

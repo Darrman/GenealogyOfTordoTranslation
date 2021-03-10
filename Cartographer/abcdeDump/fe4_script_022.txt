@@ -6,141 +6,631 @@
 #VAR(Table_1, TABLE)
 #ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/menutext.tbl", Table_1)
 
-//BLOCK #022 NAME:		Intermission Names 1
+//BLOCK #022 NAME:		Shop Text
 #ACTIVETBL(Table_0) // Activate this block's starting TABLE
 
-#JMP($8EE34, $8F03B) // Jump to insertion point
-#HDR($80200) // Difference between ROM and RAM addresses for pointer value calculations
+#JMP($AD0D4, $AD847) // Jump to insertion point
+#HDR($-800000) // Difference between ROM and RAM addresses for pointer value calculations
 
-//POINTER #0 @ $8E92F - STRING #0 @ $8EE34
-#W16($8E92F)
-//<$09><$7B><$87><$B0><$93>(<$0A><$5C>K<$09><$BB><$86>a<$8C>y<$88>s[N]<$00><$82>[N][N]<$00>[N][N]<$00><$84>[N][X]
+//POINTER #0 @ $AD0B3 - STRING #0 @ $AD0D4
+#W24($AD0B3)
+//<$0D>QロフLロ7MログNログOロさSロフLロワLロCMロベNロボOロさSロ<$F9>Pロ三KロMLロ三KロびOロさSロ<$F1>Kロ.Lロ<$F1>Kロ[X]
 //
 //
-// current address: $8EE51
+// current address: $AD114
 
-//POINTER #1 @ $8E955 - STRING #1 @ $8EE51
-#W16($8E955)
-//<$09><$7B><$87><$B0><$93>(<$0A><$5C>K<$09><$BB>d<$B0><$A1><$AB>[N]<$00><$82>[N][Clear]<$00>[N][N]<$00><$84>[N][X]
+//POINTER #1 @ $AD0B6 - STRING #1 @ $AD195
+#W24($AD0B6)
+//NロすNロすNロのRロぼNロぼNロぼNロぼNロぼNロまNロまNロまNロまNロのRロる九[X]
 //
 //
-// current address: $8EE6C
+// current address: $AD1C1
 
-//POINTER #2 @ $8E97B - STRING #2 @ $8EE6C
-#W16($8E97B)
-//<$09><$7B><$87><$B0><$93>(<$0B><$CD><$0A><$5C>K<$09><$BB><$80>y<$7E><$9B><$C5>[N]<$00><$82>[N][Scroll]<$00>[N][N]<$00><$84>[N][X]
+//POINTER #2 @ $AD0B9 - STRING #2 @ $AD2D9
+#W24($AD0B9)
+//<$0A>じ<$0B><$FC>8<$09>だぜ[N][X]
 //
 //
-// current address: $8EE8A
+// current address: $AD2E3
 
-//POINTER #3 @ $8E9A1 - STRING #3 @ $8EE8A
-#W16($8E9A1)
-//<$09><$0A><$3B><$5C>K<$09><$BB><$60><$87>d<$B0><$8C><$C5><$C5>[N]<$00><$82>[N]<$0E><$00>[N][N]<$00><$84>[N][X]
+//POINTER #3 @ $AD0BC - STRING #3 @ $AD3D3
+#W24($AD0BC)
+//<$09>どれがほしいんだい?[N][X]
 //
 //
-// current address: $8EEA4
+// current address: $AD3E0
 
-//POINTER #4 @ $8E9C7 - STRING #4 @ $8EEA4
-#W16($8E9C7)
-//<$09><$9C><$B0>y<$86>(<$0A><$9D><$5F><$09><$BB><$7D><$81><$8A>l<$C5>[N]<$00><$82>[N]<$0A><$00>[N][N]<$00><$84>[N][X]
+//POINTER #4 @ $AD0BF - STRING #4 @ $AD727
+#W24($AD0BF)
+//[N]ちょっとわけありでね[N][A][Clear]どうする?[N][X]
 //
 //
-// current address: $8EEC0
+// current address: $AD73C
 
-//POINTER #5 @ $8E9ED - STRING #5 @ $8EEC0
-#W16($8E9ED)
-//<$09><$0A><$5E><$60>iK<$09><$BB>cl<$87><$8C><$C5><$C5>[N]<$00><$82>[N]<$13><$00>[N][N]<$00><$84>[N][X]
+//POINTER #5 @ $AD0C2 - STRING #5 @ $AD4B0
+#W24($AD0C2)
+//かえねぇな[N][A][X]
 //
 //
-// current address: $8EEDA
+// current address: $AD4B8
 
-//POINTER #6 @ $8EA13 - STRING #6 @ $8EEDA
-#W16($8EA13)
-//<$09>a<$92><$B0>g(<$0A><$9D><$60><$09><$BB><$89>a<$87><$60><$C5><$C5>[N]<$00><$82>[N]<$17><$00>[N][N]<$00><$84>[N][X]
+//POINTER #6 @ $AD0C5 - STRING #6 @ $AD60D
+#W24($AD0C5)
+//ほかにもあずける?[N][X]
 //
 //
-// current address: $8EEF7
+// current address: $AD618
 
-//POINTER #7 @ $8EA39 - STRING #7 @ $8EEF7
-#W16($8EA39)
-//<$09>a<$92><$B0>g(<$0A><$8B><$0C>y<$0A><$5C>K<$09><$BB><$7B><$A8><$8C><$C5>[N]<$00><$82>[N][TargetBottom]<$00>[N][N]<$00><$84>[N][X]
+//POINTER #7 @ $AD0C8 - STRING #7 @ $AD60D
+#W24($AD0C8)
+//ほかにもあずける?[N][X]
 //
 //
-// current address: $8EF16
+// current address: $AD618
 
-//POINTER #8 @ $8EA5F - STRING #8 @ $8EF16
-#W16($8EA5F)
-//<$09><$A1><$AA><$88><$97><$8C>(<$0A><$5E><$5F><$09><$BB><$8A>t<$8C><$C5>[N]<$00><$82>[N]<$0B><$00>[N][N]<$00><$84>[N][X]
+//POINTER #8 @ $AD0CB - STRING #8 @ $AD60D
+#W24($AD0CB)
+//ほかにもあずける?[N][X]
 //
 //
-// current address: $8EF32
+// current address: $AD618
 
-//POINTER #9 @ $8EA85 - STRING #9 @ $8EF32
-#W16($8EA85)
-//<$09><$84><$8C><$8F><$A1><$A8><$0A><$5E><$60><$09><$BB>c<$B0><$9A><$A8><$8C>[N]<$00><$82>[N]<$12><$00>[N][N]<$00><$84>[N][X]
+//POINTER #9 @ $AD0CE - STRING #9 @ $AD60D
+#W24($AD0CE)
+//ほかにもあずける?[N][X]
 //
 //
-// current address: $8EF4E
+// current address: $AD618
 
-//POINTER #10 @ $8EAAB - STRING #10 @ $8EF4E
-#W16($8EAAB)
-//<$0B><$60><$0A><$5C>K<$09><$BB>li<$A3>d<$C5><$C5><$C5>[N]<$00><$82>[N]<$0D><$00>[N][N]<$00><$84>[N][X]
+//POINTER #10 @ $AD0D1 - STRING #10 @ $AD60D
+#W24($AD0D1)
+//ほかにもあずける?[N][X]
 //
 //
-// current address: $8EF68
+// current address: $AD618
 
-//POINTER #11 @ $8EAD1 - STRING #11 @ $8EF68
-#W16($8EAD1)
-//<$0A><$3E>K<$09><$BB>d<$B0>k<$8C>[N]<$00><$82>[N]<$09><$00>[N][N]<$00><$84>[N][X]
+//POINTER #11 @ $AD0D4 - STRING #11 @ $AD60D
+#W24($AD0D4)
+//ほかにもあずける?[N][X]
 //
 //
-// current address: $8EF7D
+// current address: $AD618
 
-//POINTER #12 @ $8EAF7 - STRING #12 @ $8EF7D
-#W16($8EAF7)
-//h<$97><$82>x<$BB><$60><$B0><$97><$8C>[N]<$00><$82>[N]<$0F><$00>[N][N]<$00><$84>[N][X]
+//POINTER #12 @ $AD0D7 - STRING #12 @ $AD17B
+#W24($AD0D7)
+//ロ<$0B>OロさSロ<$0A>Nロ<$0A>Nロ<$F8>Mロ<$0A>NロさSロすNロすNロすNロすNロのRロぼNロぼNロぼNロぼNロぼNロまNロまNロまNロまNロのRロる九[X]
 //
 //
-// current address: $8EF92
+// current address: $AD1C1
 
-//POINTER #13 @ $8EB1D - STRING #13 @ $8EF92
-#W16($8EB1D)
-//<$09><$0A>W<$5C>K<$09><$BB>c<$88>sk<$AD><$8C><$C5><$C5>[N]<$00><$82>[N][A]<$00>[N][N]<$00><$84>[N][X]
+//POINTER #13 @ $AD0DA - STRING #13 @ $AD2B8
+#W24($AD0DA)
+//ッXけD<$00>[X]
 //
 //
-// current address: $8EFAD
+// current address: $AD2BE
 
-//POINTER #14 @ $8EB43 - STRING #14 @ $8EFAD
-#W16($8EB43)
-//<$09><$60><$8F>ls<$87><$60>(<$0A><$5C>K<$09><$BB><$86>hkl<$C5><$C5>[N]<$00><$82>[N]<$14><$00>[N][N]<$00><$84>[N][X]
+//POINTER #14 @ $AD0DD - STRING #14 @ $AD38F
+#W24($AD0DD)
+//がとよ[N][A][X]
 //
 //
-// current address: $8EFCC
+// current address: $AD395
 
-//POINTER #15 @ $8EB69 - STRING #15 @ $8EFCC
-#W16($8EB69)
-//<$0A><$8D><$09>(<$0B><$87><$0C><$25><$0A><$5C>K<$09><$BB><$7F><$B0>k<$AD>[N]<$00><$82>[N]<$16><$00>[N][N]<$00><$84>[N][X]
+//POINTER #15 @ $AD0E0 - STRING #15 @ $AD48F
+#W24($AD0E0)
+//い[N]もちものがいっぱいだぜ[N][A][X]
 //
 //
-// current address: $8EFE9
+// current address: $AD49F
 
-//POINTER #16 @ $8EB8F - STRING #16 @ $8EFE9
-#W16($8EB8F)
-//<$09><$0A>U<$0B><$5F><$0A><$5C>K<$09><$BB>f<$AE><$60><$8C>[N]<$00><$82>[N]<$0C><$00>[N][N]<$00><$84>[N][X]
+//POINTER #16 @ $AD0E3 - STRING #16 @ $AD81A
+#W24($AD0E3)
+//きたのぉ[N]そなたの<$0A>グ<$09>りたいことを[N]<$0A>ダ<$09>ってしんぜよう[A][Clear]なにが<$0A>グ<$09>りたいのじゃ?[N][X]
 //
 //
-// current address: $8F003
+// current address: $AD848
 
-//POINTER #17 @ $8EBB5 - STRING #17 @ $8F003
-#W16($8EBB5)
-//<$09>c<$AC><$97>(<$0A><$9D><$60><$09><$BB>j<$7B><$A8><$C5><$C5><$C5>[N]<$00><$82>[N]<$15><$00>[N][N]<$00><$84>[N][X]
+//POINTER #17 @ $AD0E6 - STRING #17 @ $AD17B
+#W24($AD0E6)
+//ロ<$0B>OロさSロ<$0A>Nロ<$0A>Nロ<$F8>Mロ<$0A>NロさSロすNロすNロすNロすNロのRロぼNロぼNロぼNロぼNロぼNロまNロまNロまNロまNロのRロる九[X]
 //
 //
-// current address: $8F01F
+// current address: $AD1C1
 
-//POINTER #18 @ $8EBDB - STRING #18 @ $8F01F
-#W16($8EBDB)
-//<$09>a<$92><$B0>g(<$0A><$9D><$60><$09><$BB><$60>a<$86><$C5><$C5><$C5>[N]<$00><$82>[N]<$18><$00>[N][N]<$00><$84>[N][X]
+//POINTER #18 @ $AD0E9 - STRING #18 @ $AD18B
+#W24($AD0E9)
+//<$0A>NロさSロすNロすNロすNロすNロのRロぼNロぼNロぼNロぼNロぼNロまNロまNロまNロまNロのRロる九[X]
 //
 //
-// current address: $8F03C
+// current address: $AD1C1
+
+//POINTER #19 @ $AD0EC - STRING #19 @ $AD2C8
+#W24($AD0EC)
+//ぐ<$00>けコ<$0B><$00>ェてぷジリア[Clear]<$09>ここは<$0A>じ<$0B><$FC>8<$09>だぜ[N][X]
+//
+//
+// current address: $AD2E3
+
+//POINTER #20 @ $AD0EF - STRING #20 @ $AD39F
+#W24($AD0EF)
+//だぜ[N]いろいろ<$0C>こ<$09>り<$0C>さ<$09>いしてくれよ[N][X]
+//
+//
+// current address: $AD3B5
+
+//POINTER #21 @ $AD0F2 - STRING #21 @ $AD4A0
+#W24($AD0F2)
+//<$09>わるいがその<$0D>ざ<$0A>二<$09>は[N]あつかえねぇな[N][A][X]
+//
+//
+// current address: $AD4B8
+
+//POINTER #22 @ $AD0F5 - STRING #22 @ $AD81A
+#W24($AD0F5)
+//きたのぉ[N]そなたの<$0A>グ<$09>りたいことを[N]<$0A>ダ<$09>ってしんぜよう[A][Clear]なにが<$0A>グ<$09>りたいのじゃ?[N][X]
+//
+//
+// current address: $AD848
+
+//POINTER #23 @ $AD0F8 - STRING #23 @ $AD5F9
+#W24($AD0F8)
+//てほしいの?[N][X]
+//
+//
+// current address: $AD601
+
+//POINTER #24 @ $AD0FB - STRING #24 @ $AD0E3
+#W24($AD0FB)
+//さSロフLロワLロCMロベNロボOロさSロ<$F9>Pロ三KロMLロ三KロびOロさSロ<$F1>Kロ.Lロ<$F1>Kロ[X]
+//
+//
+// current address: $AD114
+
+//POINTER #25 @ $AD0FE - STRING #25 @ $AD1D2
+#W24($AD0FE)
+//ッヴ[A]<$F0>よる九[X]
+//
+//
+// current address: $AD1DA
+
+//POINTER #26 @ $AD101 - STRING #26 @ $AD0E3
+#W24($AD101)
+//さSロフLロワLロCMロベNロボOロさSロ<$F9>Pロ三KロMLロ三KロびOロさSロ<$F1>Kロ.Lロ<$F1>Kロ[X]
+//
+//
+// current address: $AD114
+
+//POINTER #27 @ $AD104 - STRING #27 @ $AD44E
+#W24($AD104)
+//<$09>があるのか?[N][X]
+//
+//
+// current address: $AD457
+
+//POINTER #28 @ $AD107 - STRING #28 @ $AD81A
+#W24($AD107)
+//きたのぉ[N]そなたの<$0A>グ<$09>りたいことを[N]<$0A>ダ<$09>ってしんぜよう[A][Clear]なにが<$0A>グ<$09>りたいのじゃ?[N][X]
+//
+//
+// current address: $AD848
+
+//POINTER #29 @ $AD10A - STRING #29 @ $AD0F1
+#W24($AD10A)
+//ロボOロさSロ<$F9>Pロ三KロMLロ三KロびOロさSロ<$F1>Kロ.Lロ<$F1>Kロ[X]
+//
+//
+// current address: $AD114
+
+//POINTER #30 @ $AD10D - STRING #30 @ $AD1E0
+#W24($AD10D)
+//<$00>てッグムゥ<$FF><$FF>グチヌミムぎッヴ[A] <$00>ーくけコ[X]
+//
+//
+// current address: $AD1F8
+
+//POINTER #31 @ $AD110 - STRING #31 @ $AD0F1
+#W24($AD110)
+//ロボOロさSロ<$F9>Pロ三KロMLロ三KロびOロさSロ<$F1>Kロ.Lロ<$F1>Kロ[X]
+//
+//
+// current address: $AD114
+
+//POINTER #32 @ $AD113 - STRING #32 @ $AD401
+#W24($AD113)
+//い?[N][X]
+//
+//
+// current address: $AD405
+
+//POINTER #33 @ $AD116 - STRING #33 @ $AD81A
+#W24($AD116)
+//きたのぉ[N]そなたの<$0A>グ<$09>りたいことを[N]<$0A>ダ<$09>ってしんぜよう[A][Clear]なにが<$0A>グ<$09>りたいのじゃ?[N][X]
+//
+//
+// current address: $AD848
+
+//POINTER #34 @ $AD119 - STRING #34 @ $AD101
+#W24($AD119)
+//三KロびOロさSロ<$F1>Kロ.Lロ<$F1>Kロ[X]
+//
+//
+// current address: $AD114
+
+//POINTER #35 @ $AD11C - STRING #35 @ $AD1F2
+#W24($AD11C)
+//<$00>ーくけコ[X]
+//
+//
+// current address: $AD1F8
+
+//POINTER #36 @ $AD11F - STRING #36 @ $AD81A
+#W24($AD11F)
+//きたのぉ[N]そなたの<$0A>グ<$09>りたいことを[N]<$0A>ダ<$09>ってしんぜよう[A][Clear]なにが<$0A>グ<$09>りたいのじゃ?[N][X]
+//
+//
+// current address: $AD848
+
+//POINTER #37 @ $AD122 - STRING #37 @ $AD45D
+#W24($AD122)
+//にももってねぇじゃないか[N][A][Clear]ほかにも<$0A>ば<$09>があるのか?[N][X]
+//
+//
+// current address: $AD47B
+
+//POINTER #38 @ $AD125 - STRING #38 @ $AD81A
+#W24($AD125)
+//きたのぉ[N]そなたの<$0A>グ<$09>りたいことを[N]<$0A>ダ<$09>ってしんぜよう[A][Clear]なにが<$0A>グ<$09>りたいのじゃ?[N][X]
+//
+//
+// current address: $AD848
+
+//POINTER #39 @ $AD128 - STRING #39 @ $AD110
+#W24($AD128)
+//<$F1>Kロ[X]
+//
+//
+// current address: $AD114
+
+//POINTER #40 @ $AD12B - STRING #40 @ $AD27B
+#W24($AD12B)
+//<$00>[Clear]ぷユ[N][Clear]ぷユ[X]
+//
+//
+// current address: $AD284
+
+//POINTER #41 @ $AD12E - STRING #41 @ $AD363
+#W24($AD12E)
+//かみてねぇで[N]<$0A>げ<$09>の<$0B>ボ<$0D>ざ<$09>をみてくれよ[N][X]
+//
+//
+// current address: $AD37B
+
+//POINTER #42 @ $AD131 - STRING #42 @ $AD110
+#W24($AD131)
+//<$F1>Kロ[X]
+//
+//
+// current address: $AD114
+
+//POINTER #43 @ $AD134 - STRING #43 @ $AD110
+#W24($AD134)
+//<$F1>Kロ[X]
+//
+//
+// current address: $AD114
+
+//POINTER #44 @ $AD137 - STRING #44 @ $AD121
+#W24($AD137)
+//ロゃOロさSロあLロフMロエNロあLロあLロつLロロMロつLロがOロつLロベMロベMロトNロベMロベMロぷLロ[TargetWin]MロさSロ<$EF>NロさSロさSロくMロさSロ[X]
+//
+//
+// current address: $AD16E
+
+//POINTER #45 @ $AD13A - STRING #45 @ $AD28A
+#W24($AD13A)
+//<$FF>[Clear]ぷユ。<$FF><$FF><$FF>ゥ<$00>ロヨにゥだピヨなッXけD<$00>[X]
+//
+//
+// current address: $AD2A2
+
+//POINTER #46 @ $AD13D - STRING #46 @ $AD121
+#W24($AD13D)
+//ロゃOロさSロあLロフMロエNロあLロあLロつLロロMロつLロがOロつLロベMロベMロトNロベMロベMロぷLロ[TargetWin]MロさSロ<$EF>NロさSロさSロくMロさSロ[X]
+//
+//
+// current address: $AD16E
+
+//POINTER #47 @ $AD140 - STRING #47 @ $AD43E
+#W24($AD140)
+//<$0C>こ<$09>りきれだ[N][A][Clear]ほかにも<$0A>ば<$09>があるのか?[N][X]
+//
+//
+// current address: $AD457
+
+//POINTER #48 @ $AD143 - STRING #48 @ $AD121
+#W24($AD143)
+//ロゃOロさSロあLロフMロエNロあLロあLロつLロロMロつLロがOロつLロベMロベMロトNロベMロベMロぷLロ[TargetWin]MロさSロ<$EF>NロさSロさSロくMロさSロ[X]
+//
+//
+// current address: $AD16E
+
+//POINTER #49 @ $AD146 - STRING #49 @ $AD29F
+#W24($AD146)
+//D<$00>[X]
+//
+//
+// current address: $AD2A2
+
+//POINTER #50 @ $AD149 - STRING #50 @ $AD29F
+#W24($AD149)
+//D<$00>[X]
+//
+//
+// current address: $AD2A2
+
+//POINTER #51 @ $AD14C - STRING #51 @ $AD373
+#W24($AD14C)
+//をみてくれよ[N][X]
+//
+//
+// current address: $AD37B
+
+//POINTER #52 @ $AD14F - STRING #52 @ $AD29F
+#W24($AD14F)
+//D<$00>[X]
+//
+//
+// current address: $AD2A2
+
+//POINTER #53 @ $AD152 - STRING #53 @ $AD29F
+#W24($AD152)
+//D<$00>[X]
+//
+//
+// current address: $AD2A2
+
+//POINTER #54 @ $AD155 - STRING #54 @ $AD154
+#W24($AD155)
+//ロぷLロ[TargetWin]MロさSロ<$EF>NロさSロさSロくMロさSロ[X]
+//
+//
+// current address: $AD16E
+
+//POINTER #55 @ $AD158 - STRING #55 @ $AD205
+#W24($AD158)
+//<$FF>グチヌミムつッヴ[A]ィ6ねは<$FF><$00>る九<$0D><$00>ヨ<$00>ゥち<$00>けコ[Scroll]<$00>けコ[A]<$00>けコ[A]<$00>ヨ[N]アッヴ[A]ィ6ひは<$FF><$00>D<$FF><$00><$F0>LD<$00><$00><$F0>こD[X]
+//
+//
+// current address: $AD242
+
+//POINTER #56 @ $AD15B - STRING #56 @ $AD81A
+#W24($AD15B)
+//きたのぉ[N]そなたの<$0A>グ<$09>りたいことを[N]<$0A>ダ<$09>ってしんぜよう[A][Clear]なにが<$0A>グ<$09>りたいのじゃ?[N][X]
+//
+//
+// current address: $AD848
+
+//POINTER #57 @ $AD15E - STRING #57 @ $AD3EF
+#W24($AD15E)
+//?[N][X]
+//
+//
+// current address: $AD3F2
+
+//POINTER #58 @ $AD161 - STRING #58 @ $AD81A
+#W24($AD161)
+//きたのぉ[N]そなたの<$0A>グ<$09>りたいことを[N]<$0A>ダ<$09>ってしんぜよう[A][Clear]なにが<$0A>グ<$09>りたいのじゃ?[N][X]
+//
+//
+// current address: $AD848
+
+//POINTER #59 @ $AD164 - STRING #59 @ $AD81A
+#W24($AD164)
+//きたのぉ[N]そなたの<$0A>グ<$09>りたいことを[N]<$0A>ダ<$09>ってしんぜよう[A][Clear]なにが<$0A>グ<$09>りたいのじゃ?[N][X]
+//
+//
+// current address: $AD848
+
+//POINTER #60 @ $AD167 - STRING #60 @ $AD217
+#W24($AD167)
+//<$0D><$00>ヨ<$00>ゥち<$00>けコ[Scroll]<$00>けコ[A]<$00>けコ[A]<$00>ヨ[N]アッヴ[A]ィ6ひは<$FF><$00>D<$FF><$00><$F0>LD<$00><$00><$F0>こD[X]
+//
+//
+// current address: $AD242
+
+//POINTER #61 @ $AD16A - STRING #61 @ $AD81A
+#W24($AD16A)
+//きたのぉ[N]そなたの<$0A>グ<$09>りたいことを[N]<$0A>ダ<$09>ってしんぜよう[A][Clear]なにが<$0A>グ<$09>りたいのじゃ?[N][X]
+//
+//
+// current address: $AD848
+
+//POINTER #62 @ $AD16D - STRING #62 @ $AD401
+#W24($AD16D)
+//い?[N][X]
+//
+//
+// current address: $AD405
+
+//POINTER #63 @ $AD170 - STRING #63 @ $AD81A
+#W24($AD170)
+//きたのぉ[N]そなたの<$0A>グ<$09>りたいことを[N]<$0A>ダ<$09>ってしんぜよう[A][Clear]なにが<$0A>グ<$09>りたいのじゃ?[N][X]
+//
+//
+// current address: $AD848
+
+//POINTER #64 @ $AD173 - STRING #64 @ $AD81A
+#W24($AD173)
+//きたのぉ[N]そなたの<$0A>グ<$09>りたいことを[N]<$0A>ダ<$09>ってしんぜよう[A][Clear]なにが<$0A>グ<$09>りたいのじゃ?[N][X]
+//
+//
+// current address: $AD848
+
+//POINTER #65 @ $AD176 - STRING #65 @ $AD224
+#W24($AD176)
+//[A]<$00>けコ[A]<$00>ヨ[N]アッヴ[A]ィ6ひは<$FF><$00>D<$FF><$00><$F0>LD<$00><$00><$F0>こD[X]
+//
+//
+// current address: $AD242
+
+//POINTER #66 @ $AD179 - STRING #66 @ $AD81A
+#W24($AD179)
+//きたのぉ[N]そなたの<$0A>グ<$09>りたいことを[N]<$0A>ダ<$09>ってしんぜよう[A][Clear]なにが<$0A>グ<$09>りたいのじゃ?[N][X]
+//
+//
+// current address: $AD848
+
+//POINTER #67 @ $AD17C - STRING #67 @ $AD40B
+#W24($AD17C)
+//ものを<$0C>こ<$09>るんだ?[N][X]
+//
+//
+// current address: $AD417
+
+//POINTER #68 @ $AD17F - STRING #68 @ $AD81A
+#W24($AD17F)
+//きたのぉ[N]そなたの<$0A>グ<$09>りたいことを[N]<$0A>ダ<$09>ってしんぜよう[A][Clear]なにが<$0A>グ<$09>りたいのじゃ?[N][X]
+//
+//
+// current address: $AD848
+
+//POINTER #69 @ $AD182 - STRING #69 @ $AD30A
+#W24($AD182)
+//うかい?[N][X]
+//
+//
+// current address: $AD310
+
+//POINTER #70 @ $AD185 - STRING #70 @ $AD30A
+#W24($AD185)
+//うかい?[N][X]
+//
+//
+// current address: $AD310
+
+//POINTER #71 @ $AD188 - STRING #71 @ $AD2F8
+#W24($AD188)
+//<$FC><$09>でいいか?[N][X]
+//
+//
+// current address: $AD301
+
+//POINTER #72 @ $AD18B - STRING #72 @ $AD30A
+#W24($AD18B)
+//うかい?[N][X]
+//
+//
+// current address: $AD310
+
+//POINTER #73 @ $AD18E - STRING #73 @ $AD81A
+#W24($AD18E)
+//きたのぉ[N]そなたの<$0A>グ<$09>りたいことを[N]<$0A>ダ<$09>ってしんぜよう[A][Clear]なにが<$0A>グ<$09>りたいのじゃ?[N][X]
+//
+//
+// current address: $AD848
+
+//POINTER #74 @ $AD191 - STRING #74 @ $AD31C
+#W24($AD191)
+//ぇぜ[N][A][X]
+//
+//
+// current address: $AD321
+
+//POINTER #75 @ $AD194 - STRING #75 @ $AD31C
+#W24($AD194)
+//ぇぜ[N][A][X]
+//
+//
+// current address: $AD321
+
+//POINTER #76 @ $AD197 - STRING #76 @ $AD31C
+#W24($AD197)
+//ぇぜ[N][A][X]
+//
+//
+// current address: $AD321
+
+//POINTER #77 @ $AD19A - STRING #77 @ $AD31C
+#W24($AD19A)
+//ぇぜ[N][A][X]
+//
+//
+// current address: $AD321
+
+//POINTER #78 @ $AD19D - STRING #78 @ $AD728
+#W24($AD19D)
+//ちょっとわけありでね[N][A][Clear]どうする?[N][X]
+//
+//
+// current address: $AD73C
+
+//POINTER #79 @ $AD1A0 - STRING #79 @ $AD351
+#W24($AD1A0)
+//?[N][X]
+//
+//
+// current address: $AD354
+
+//POINTER #80 @ $AD1A3 - STRING #80 @ $AD351
+#W24($AD1A3)
+//?[N][X]
+//
+//
+// current address: $AD354
+
+//POINTER #81 @ $AD1A6 - STRING #81 @ $AD351
+#W24($AD1A6)
+//?[N][X]
+//
+//
+// current address: $AD354
+
+//POINTER #82 @ $AD1A9 - STRING #82 @ $AD351
+#W24($AD1A9)
+//?[N][X]
+//
+//
+// current address: $AD354
+
+//POINTER #83 @ $AD1AC - STRING #83 @ $AD351
+#W24($AD1AC)
+//?[N][X]
+//
+//
+// current address: $AD354
+
+//POINTER #84 @ $AD1AF - STRING #84 @ $AD32E
+#W24($AD1AF)
+//[N][A][X]
+//
+//
+// current address: $AD331
+
+//POINTER #85 @ $AD1B2 - STRING #85 @ $AD32E
+#W24($AD1B2)
+//[N][A][X]
+//
+//
+// current address: $AD331
+
+//POINTER #86 @ $AD1B5 - STRING #86 @ $AD32E
+#W24($AD1B5)
+//[N][A][X]
+//
+//
+// current address: $AD331
+
+//POINTER #87 @ $AD1B8 - STRING #87 @ $AD32E
+#W24($AD1B8)
+//[N][A][X]
+//
+//
+// current address: $AD331
+
+//POINTER #88 @ $AD1BB - STRING #88 @ $AD728
+#W24($AD1BB)
+//ちょっとわけありでね[N][A][Clear]どうする?[N][X]
+//
+//
+// current address: $AD73C

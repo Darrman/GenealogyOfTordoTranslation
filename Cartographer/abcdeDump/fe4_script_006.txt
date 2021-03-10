@@ -2216,25 +2216,25 @@
 
 //POINTER #367 @ $39F37 - STRING #367 @ $3AA1B
 #W16($39F37)
-//<$92><$E9><$8D><$91>兵[X]
+//帝国兵[X]
 //
 // current address: $3AA23
 
 //POINTER #368 @ $39F39 - STRING #368 @ $3AA1B
 #W16($39F39)
-//<$92><$E9><$8D><$91>兵[X]
+//帝国兵[X]
 //
 // current address: $3AA23
 
 //POINTER #369 @ $39F3B - STRING #369 @ $3AA1B
 #W16($39F3B)
-//<$92><$E9><$8D><$91>兵[X]
+//帝国兵[X]
 //
 // current address: $3AA23
 
 //POINTER #370 @ $39F3D - STRING #370 @ $3AA1B
 #W16($39F3D)
-//<$92><$E9><$8D><$91>兵[X]
+//帝国兵[X]
 //
 // current address: $3AA23
 

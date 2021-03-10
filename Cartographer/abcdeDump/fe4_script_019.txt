@@ -6,85 +6,512 @@
 #VAR(Table_1, TABLE)
 #ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/menutext.tbl", Table_1)
 
-//BLOCK #019 NAME:		Main Menu
+//BLOCK #019 NAME:		Class Names (Dialogue)
 #ACTIVETBL(Table_0) // Activate this block's starting TABLE
 
-#JMP($D9D7B, $D9DF5) // Jump to insertion point
+#JMP($D9B22, $D9D64) // Jump to insertion point
 #HDR($D0200) // Difference between ROM and RAM addresses for pointer value calculations
 
-//POINTER #0 @ $D9D65 - STRING #0 @ $D9D7B
-#W16($D9D65)
-//<$0A><$AC><$0B><$7E><$09><$15>6<$0A><$BB><$09>18<$C5>[X]
+//POINTER #0 @ $D9A92 - STRING #0 @ $D9B22
+#W16($D9A92)
+//<$09>コマンドナイト[X]
 //
 //
-// current address: $D9D89
+// current address: $D9B2B
 
-//POINTER #1 @ $D9D67 - STRING #1 @ $D9D7B
-#W16($D9D67)
-//<$0A><$AC><$0B><$7E><$09><$15>6<$0A><$BB><$09>18<$C5>[X]
+//POINTER #1 @ $D9A94 - STRING #1 @ $D9B2B
+#W16($D9A94)
+//<$09>ランスナイト[X]
 //
 //
-// current address: $D9D89
+// current address: $D9B33
 
-//POINTER #2 @ $D9D69 - STRING #2 @ $D9D89
-#W16($D9D69)
-//<$09><$C5><$0B><$7F><$80><$09><$3C><$1C>8<$C5><$C5>[X]
+//POINTER #2 @ $D9A96 - STRING #2 @ $D9B33
+#W16($D9A96)
+//<$09>ボウナイト[X]
 //
 //
-// current address: $D9D95
+// current address: $D9B3A
 
-//POINTER #3 @ $D9D6B - STRING #3 @ $D9D95
-#W16($D9D6B)
-//<$0B><$7F><$80><$09><$15>6<$0A><$BB><$09>18<$C5>[X]
+//POINTER #3 @ $D9A98 - STRING #3 @ $D9B3B
+#W16($D9A98)
+//アクスナイト[X]
 //
 //
-// current address: $D9DA2
+// current address: $D9B42
 
-//POINTER #4 @ $D9D6D - STRING #4 @ $D9DA2
-#W16($D9D6D)
-//<$0A><$B5><$0B><$81><$09><$15>6<$0A><$BB><$09>18<$C5>[X]
+//POINTER #4 @ $D9A9A - STRING #4 @ $D9B43
+#W16($D9A9A)
+//ソードナイト[X]
 //
 //
-// current address: $D9DB0
+// current address: $D9B4A
 
-//POINTER #5 @ $D9D6F - STRING #5 @ $D9DB0
-#W16($D9D6F)
-//<$0B><$7F><$80><$09><$3C><$0B><$82><$09><$1C><$C5><$C5><$C5>[X]
+//POINTER #5 @ $D9A9C - STRING #5 @ $D9B4B
+#W16($D9A9C)
+//トルバドール[X]
 //
 //
-// current address: $D9DBD
+// current address: $D9B52
 
-//POINTER #6 @ $D9D71 - STRING #6 @ $D9DBD
-#W16($D9D71)
-//<$0B><$7F><$80><$09><$3C><$0B><$83><$09><$1C><$C5><$C5><$C5>[X]
+//POINTER #6 @ $D9A9E - STRING #6 @ $D9B53
+#W16($D9A9E)
+//ロードナイト[X]
 //
 //
-// current address: $D9DCA
+// current address: $D9B5A
 
-//POINTER #7 @ $D9D73 - STRING #7 @ $D9DCA
-#W16($D9D73)
-//<$0C>i7<$09><$C5><$C5>[X]
+//POINTER #7 @ $D9AA0 - STRING #7 @ $D9B5B
+#W16($D9AA0)
+//グローリーナイト[X]
 //
 //
-// current address: $D9DD1
+// current address: $D9B64
 
-//POINTER #8 @ $D9D75 - STRING #8 @ $D9DD1
-#W16($D9D75)
-//<$0B><$83><$09><$1C><$C5><$C5>[X]
+//POINTER #8 @ $D9AA2 - STRING #8 @ $D9B64
+#W16($D9AA2)
+//<$09>マスターナイト[X]
 //
 //
-// current address: $D9DD8
+// current address: $D9B6D
 
-//POINTER #9 @ $D9D77 - STRING #9 @ $D9DD8
-#W16($D9D77)
-//<$09>318<$C5>[X]
+//POINTER #9 @ $D9AA4 - STRING #9 @ $D9BB3
+#W16($D9AA4)
+//パラディン[X]
 //
 //
-// current address: $D9DDE
+// current address: $D9BB9
 
-//POINTER #10 @ $D9D79 - STRING #10 @ $D9DDE
-#W16($D9D79)
-//<$09><$C5><$C5><$C5><$C5><$C5><$0B><$7F><$80><$09><$3E><$10>7.<$1D><$3D><$C5><$C5><$C5><$C5><$C5><$C5><$C5>[X]
+//POINTER #10 @ $D9AA6 - STRING #10 @ $D9B6D
+#W16($D9AA6)
+//<$09>ヴァルキュリア[X]
 //
 //
-// current address: $D9DF6
+// current address: $D9B76
+
+//POINTER #11 @ $D9AA8 - STRING #11 @ $D9B76
+#W16($D9AA8)
+//<$09>アローナイト[X]
+//
+//
+// current address: $D9B7E
+
+//POINTER #12 @ $D9AAA - STRING #12 @ $D9B7E
+#W16($D9AAA)
+//<$09>フォレストナイト[X]
+//
+//
+// current address: $D9B88
+
+//POINTER #13 @ $D9AAC - STRING #13 @ $D9B88
+#W16($D9AAC)
+//<$09>マージナイト[X]
+//
+//
+// current address: $D9B90
+
+//POINTER #14 @ $D9AAE - STRING #14 @ $D9B90
+#W16($D9AAE)
+//<$09>グランドナイト[X]
+//
+//
+// current address: $D9B99
+
+//POINTER #15 @ $D9AB0 - STRING #15 @ $D9B99
+#W16($D9AB0)
+//<$09>アイウエオ[X]
+//
+//
+// current address: $D9BA0
+
+//POINTER #16 @ $D9AB2 - STRING #16 @ $D9BA0
+#W16($D9AB2)
+//<$09>ペガサスナイト[X]
+//
+//
+// current address: $D9BA9
+
+//POINTER #17 @ $D9AB4 - STRING #17 @ $D9BA9
+#W16($D9AB4)
+//<$09>エンリルナイト[X]
+//
+//
+// current address: $D9BB2
+
+//POINTER #18 @ $D9AB6 - STRING #18 @ $D9BB3
+#W16($D9AB6)
+//パラディン[X]
+//
+//
+// current address: $D9BB9
+
+//POINTER #19 @ $D9AB8 - STRING #19 @ $D9BBD
+#W16($D9AB8)
+//<$09>ドラゴンナイト[X]
+//
+//
+// current address: $D9BC6
+
+//POINTER #20 @ $D9ABA - STRING #20 @ $D9BC6
+#W16($D9ABA)
+//<$09>リンドブルム[X]
+//
+//
+// current address: $D9BCE
+
+//POINTER #21 @ $D9ABC - STRING #21 @ $D9BD0
+#W16($D9ABC)
+//ボウファイター[X]
+//
+//
+// current address: $D9BD8
+
+//POINTER #22 @ $D9ABE - STRING #22 @ $D9BD9
+#W16($D9ABE)
+//ブレイド[X]
+//
+//
+// current address: $D9BDE
+
+//POINTER #23 @ $D9AC0 - STRING #23 @ $D9BDF
+#W16($D9AC0)
+//ソードマスター[X]
+//
+//
+// current address: $D9BE7
+
+//POINTER #24 @ $D9AC2 - STRING #24 @ $D9BE8
+#W16($D9AC2)
+//サジタリー[X]
+//
+//
+// current address: $D9BEE
+
+//POINTER #25 @ $D9AC4 - STRING #25 @ $D9BEE
+#W16($D9AC4)
+//<$09>バスタード[X]
+//
+//
+// current address: $D9BF5
+
+//POINTER #26 @ $D9AC6 - STRING #26 @ $D9BF6
+#W16($D9AC6)
+//ジェネラル[X]
+//
+//
+// current address: $D9BFC
+
+//POINTER #27 @ $D9AC8 - STRING #27 @ $D9BFC
+#W16($D9AC8)
+//<$09>エンペラー[X]
+//
+//
+// current address: $D9C03
+
+//POINTER #28 @ $D9ACA - STRING #28 @ $D9C04
+#W16($D9ACA)
+//マーシッル[X]
+//
+//
+// current address: $D9C0A
+
+//POINTER #29 @ $D9ACC - STRING #29 @ $D9C0A
+#W16($D9ACC)
+//<$09>マーシナリー[X]
+//
+//
+// current address: $D9C12
+
+//POINTER #30 @ $D9ACE - STRING #30 @ $D9C15
+#W16($D9ACE)
+//ウスピアソルジッー[X]
+//
+//
+// current address: $D9C1F
+
+//POINTER #31 @ $D9AD0 - STRING #31 @ $D9C1F
+#W16($D9AD0)
+//<$09>アクスソルジッー[X]
+//
+//
+// current address: $D9C29
+
+//POINTER #32 @ $D9AD2 - STRING #32 @ $D9C29
+#W16($D9AD2)
+//<$09>シルメリー[X]
+//
+//
+// current address: $D9C30
+
+//POINTER #33 @ $D9AD4 - STRING #33 @ $D9C30
+#W16($D9AD4)
+//<$09>ソードソルジッー[X]
+//
+//
+// current address: $D9C3A
+
+//POINTER #34 @ $D9AD6 - STRING #34 @ $D9C3A
+#W16($D9AD6)
+//<$09>アーマー[X]
+//
+//
+// current address: $D9C40
+
+//POINTER #35 @ $D9AD8 - STRING #35 @ $D9C40
+#W16($D9AD8)
+//<$09>アクスアーマー[X]
+//
+//
+// current address: $D9C49
+
+//POINTER #36 @ $D9ADA - STRING #36 @ $D9C49
+#W16($D9ADA)
+//<$09>ボウアーマー[X]
+//
+//
+// current address: $D9C51
+
+//POINTER #37 @ $D9ADC - STRING #37 @ $D9C51
+#W16($D9ADC)
+//<$09>ソードアーマー[X]
+//
+//
+// current address: $D9C5A
+
+//POINTER #38 @ $D9ADE - STRING #38 @ $D9C5A
+#W16($D9ADE)
+//<$09>バーバリアン[X]
+//
+//
+// current address: $D9C62
+
+//POINTER #39 @ $D9AE0 - STRING #39 @ $D9C62
+#W16($D9AE0)
+//<$09>アクスファイター[X]
+//
+//
+// current address: $D9C6C
+
+//POINTER #40 @ $D9AE2 - STRING #40 @ $D9C6C
+#W16($D9AE2)
+//<$09>マウンテンシーフ[X]
+//
+//
+// current address: $D9C76
+
+//POINTER #41 @ $D9AE4 - STRING #41 @ $D9C76
+#W16($D9AE4)
+//<$09>ウォーリア[X]
+//
+//
+// current address: $D9C7D
+
+//POINTER #42 @ $D9AE6 - STRING #42 @ $D9C7D
+#W16($D9AE6)
+//<$09>ハンター[X]
+//
+//
+// current address: $D9C83
+
+//POINTER #43 @ $D9AE8 - STRING #43 @ $D9C83
+#W16($D9AE8)
+//<$09>パイレーツ[X]
+//
+//
+// current address: $D9C8A
+
+//POINTER #44 @ $D9AEA - STRING #44 @ $D9C8A
+#W16($D9AEA)
+//<$09>ロード[X]
+//
+//
+// current address: $D9C8F
+
+//POINTER #45 @ $D9AEC - STRING #45 @ $D9C90
+#W16($D9AEC)
+//アークマージ[X]
+//
+//
+// current address: $D9C97
+
+//POINTER #46 @ $D9AEE - STRING #46 @ $D9C98
+#W16($D9AEE)
+//ヴァンガード[X]
+//
+//
+// current address: $D9C9F
+
+//POINTER #47 @ $D9AF0 - STRING #47 @ $D9C9F
+#W16($D9AF0)
+//<$09>アポステル[X]
+//
+//
+// current address: $D9CA6
+
+//POINTER #48 @ $D9AF2 - STRING #48 @ $D9CA7
+#W16($D9AF2)
+//マージプリンセス[X]
+//
+//
+// current address: $D9CB0
+
+//POINTER #49 @ $D9AF4 - STRING #49 @ $D9CB0
+#W16($D9AF4)
+//<$09>クイーン[X]
+//
+//
+// current address: $D9CB6
+
+//POINTER #50 @ $D9AF6 - STRING #50 @ $D9CB7
+#W16($D9AF6)
+//ソードダンサ<$0A>け<$09>ー[X]
+//
+//
+// current address: $D9CC2
+
+//POINTER #51 @ $D9AF8 - STRING #51 @ $D9CC2
+#W16($D9AF8)
+//<$09>プリースト[X]
+//
+//
+// current address: $D9CC9
+
+//POINTER #52 @ $D9AFA - STRING #52 @ $D9CC9
+#W16($D9AFA)
+//<$09>マージ[X]
+//
+//
+// current address: $D9CCE
+
+//POINTER #53 @ $D9AFC - STRING #53 @ $D9CCE
+#W16($D9AFC)
+//<$09>ファイアマージ[X]
+//
+//
+// current address: $D9CD7
+
+//POINTER #54 @ $D9AFE - STRING #54 @ $D9CD7
+#W16($D9AFE)
+//<$09>レ<$0A>け<$09>ディマージ[X]
+//
+//
+// current address: $D9CE2
+
+//POINTER #55 @ $D9B00 - STRING #55 @ $D9CE2
+#W16($D9B00)
+//<$09>ウインドマージ[X]
+//
+//
+// current address: $D9CEB
+
+//POINTER #56 @ $D9B02 - STRING #56 @ $D9CEC
+#W16($D9B02)
+//セイント[X]
+//
+//
+// current address: $D9CF1
+
+//POINTER #57 @ $D9B04 - STRING #57 @ $D9CF1
+#W16($D9B04)
+//<$09>ビショャプ[X]
+//
+//
+// current address: $D9CF8
+
+//POINTER #58 @ $D9B06 - STRING #58 @ $D9CF8
+#W16($D9B06)
+//<$09>セイジ[X]
+//
+//
+// current address: $D9CFD
+
+//POINTER #59 @ $D9B08 - STRING #59 @ $D9CFE
+#W16($D9B08)
+//バード[X]
+//
+//
+// current address: $D9D02
+
+//POINTER #60 @ $D9B0A - STRING #60 @ $D9D03
+#W16($D9B0A)
+//ライトマージ[X]
+//
+//
+// current address: $D9D0A
+
+//POINTER #61 @ $D9B0C - STRING #61 @ $D9D0A
+#W16($D9B0C)
+//<$09>ダークマージ[X]
+//
+//
+// current address: $D9D12
+
+//POINTER #62 @ $D9B0E - STRING #62 @ $D9D12
+#W16($D9B0E)
+//<$09>ソーサラー[X]
+//
+//
+// current address: $D9D19
+
+//POINTER #63 @ $D9B10 - STRING #63 @ $D9D1A
+#W16($D9B10)
+//シーフ[X]
+//
+//
+// current address: $D9D1E
+
+//POINTER #64 @ $D9B12 - STRING #64 @ $D9D1F
+#W16($D9B12)
+//エスピオン[X]
+//
+//
+// current address: $D9D25
+
+//POINTER #65 @ $D9B14 - STRING #65 @ $D9D25
+#W16($D9B14)
+//<$09>アイウエオカキシビリアン[X]
+//
+//
+// current address: $D9D33
+
+//POINTER #66 @ $D9B16 - STRING #66 @ $D9D33
+#W16($D9B16)
+//<$09>シビリアン[X]
+//
+//
+// current address: $D9D3A
+
+//POINTER #67 @ $D9B18 - STRING #67 @ $D9D3A
+#W16($D9B18)
+//<$09>ロングアーチ[X]
+//
+//
+// current address: $D9D42
+
+//POINTER #68 @ $D9B1A - STRING #68 @ $D9D42
+#W16($D9B1A)
+//<$09>グラスランナー[X]
+//
+//
+// current address: $D9D4B
+
+//POINTER #69 @ $D9B1C - STRING #69 @ $D9D4B
+#W16($D9B1C)
+//<$09>キラーアーチ[X]
+//
+//
+// current address: $D9D53
+
+//POINTER #70 @ $D9B1E - STRING #70 @ $D9D53
+#W16($D9B1E)
+//<$09>グレートアーチ[X]
+//
+//
+// current address: $D9D5C
+
+//POINTER #71 @ $D9B20 - STRING #71 @ $D9D5C
+#W16($D9B20)
+//<$09>マージプリンス[X]
+//
+//
+// current address: $D9D65

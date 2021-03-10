@@ -3,7 +3,7 @@
 	@goto done
 )
 
-perl ..\abcde.pl -cm abcde::Cartographer "Tordo.sfc" fe4_commands.txt abcdeDump/fe4_script -s
+perl ..\abcde.pl -cm abcde::Cartographer "Tordo.sfc" fe4_commands.txt abcdeDump/fe4_script -m
 
 :done
 @pause

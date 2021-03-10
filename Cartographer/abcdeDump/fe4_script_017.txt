@@ -6,967 +6,449 @@
 #VAR(Table_1, TABLE)
 #ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/menutext.tbl", Table_1)
 
-//BLOCK #017 NAME:		Item Names (Dialogue)
+//BLOCK #017 NAME:		Character Names (Dialogue)
 #ACTIVETBL(Table_0) // Activate this block's starting TABLE
 
-#JMP($D9714, $D9A79) // Jump to insertion point
+#JMP($D948B, $D9601) // Jump to insertion point
 #HDR($D0200) // Difference between ROM and RAM addresses for pointer value calculations
 
-//POINTER #0 @ $D9602 - STRING #0 @ $D9714
-#W16($D9602)
-//<$09><$22>!(<$0A>i[X]
+//POINTER #0 @ $D940D - STRING #0 @ $D948B
+#W16($D940D)
+//<$09>ティルテュ[X]
 //
 //
-// current address: $D971B
+// current address: $D9492
 
-//POINTER #1 @ $D9604 - STRING #1 @ $D971B
-#W16($D9604)
-//<$09>)<$3E>'(<$0A>i[X]
+//POINTER #1 @ $D940F - STRING #1 @ $D9492
+#W16($D940F)
+//<$09>ラインハルト[X]
 //
 //
-// current address: $D9723
+// current address: $D949A
 
-//POINTER #2 @ $D9606 - STRING #2 @ $D9723
-#W16($D9606)
-//<$09>?<$3D>(<$0A>i[X]
+//POINTER #2 @ $D9411 - STRING #2 @ $D949A
+#W16($D9411)
+//<$09>オーヴォ[X]
 //
 //
-// current address: $D972A
+// current address: $D94A0
 
-//POINTER #3 @ $D9608 - STRING #3 @ $D972A
-#W16($D9608)
-//<$09><$86><$B0><$95>o<$B0><$88>[X]
+//POINTER #3 @ $D9413 - STRING #3 @ $D94A0
+#W16($D9413)
+//<$09>ムハマド[X]
 //
 //
-// current address: $D9732
+// current address: $D94A6
 
-//POINTER #4 @ $D960A - STRING #4 @ $D9732
-#W16($D960A)
-//<$09><$88>t(<$0A>i[X]
+//POINTER #4 @ $D9415 - STRING #4 @ $D94A6
+#W16($D9415)
+//<$09>アスベル[X]
 //
 //
-// current address: $D9739
+// current address: $D94AC
 
-//POINTER #5 @ $D960C - STRING #5 @ $D973A
-#W16($D960C)
-//<$86><$8F>t<$8A>g[X]
+//POINTER #5 @ $D9417 - STRING #5 @ $D94AC
+#W16($D9417)
+//<$09>レヴィン[X]
 //
 //
-// current address: $D9740
+// current address: $D94B2
 
-//POINTER #6 @ $D960E - STRING #6 @ $D9741
-#W16($D960E)
-//lr<$86>(<$0A>i[X]
+//POINTER #6 @ $D9419 - STRING #6 @ $D94B2
+#W16($D9419)
+//<$09>フィン[X]
 //
 //
-// current address: $D9748
+// current address: $D94B7
 
-//POINTER #7 @ $D9610 - STRING #7 @ $D9748
-#W16($D9610)
-//<$09>k<$B0><$7B>n<$B0><$9B>[X]
+//POINTER #7 @ $D941B - STRING #7 @ $D94B8
+#W16($D941B)
+//エルトシッン[X]
 //
 //
-// current address: $D9750
+// current address: $D94BF
 
-//POINTER #8 @ $D9612 - STRING #8 @ $D9751
-#W16($D9612)
-//<$7E>lo<$B0>n<$B0><$9B>[X]
+//POINTER #8 @ $D941D - STRING #8 @ $D94C0
+#W16($D941D)
+//オーシン[X]
 //
 //
-// current address: $D9759
+// current address: $D94C5
 
-//POINTER #9 @ $D9614 - STRING #9 @ $D9759
-#W16($D9614)
-//<$09>n<$B0><$88>er<$A8>[X]
+//POINTER #9 @ $D941F - STRING #9 @ $D94C6
+#W16($D941F)
+//ホメロス[X]
 //
 //
-// current address: $D9761
+// current address: $D94CB
 
-//POINTER #10 @ $D9616 - STRING #10 @ $D9762
-#W16($D9616)
-//4<$12><$1B><$5D>(<$0A>i[X]
+//POINTER #10 @ $D9421 - STRING #10 @ $D94CB
+#W16($D9421)
+//<$09>ロナン[X]
 //
 //
-// current address: $D976A
+// current address: $D94D0
 
-//POINTER #11 @ $D9618 - STRING #11 @ $D976B
-#W16($D9618)
-//f<$88>n<$B0><$9B>[X]
+//POINTER #11 @ $D9423 - STRING #11 @ $D94D1
+#W16($D9423)
+//キュアン[X]
 //
 //
-// current address: $D9771
+// current address: $D94D6
 
-//POINTER #12 @ $D961A - STRING #12 @ $D9772
-#W16($D961A)
-//<$1D><$11><$24>8<$0A>i[X]
+//POINTER #12 @ $D9425 - STRING #12 @ $D94D7
+#W16($D9425)
+//スコピオ[X]
 //
 //
-// current address: $D9779
+// current address: $D94DC
 
-//POINTER #13 @ $D961C - STRING #13 @ $D9779
-#W16($D961C)
-//<$09><$89>a<$A3><$60>[X]
+//POINTER #13 @ $D9427 - STRING #13 @ $D94DD
+#W16($D9427)
+//アリオーン[X]
 //
 //
-// current address: $D977F
+// current address: $D94E3
 
-//POINTER #14 @ $D961E - STRING #14 @ $D977F
-#W16($D961E)
-//<$09><$A1><$A7><$93><$AE><$86>[X]
+//POINTER #14 @ $D9429 - STRING #14 @ $D94E3
+#W16($D9429)
+//<$09>アーダン[X]
 //
 //
-// current address: $D9786
+// current address: $D94E9
 
-//POINTER #15 @ $D9620 - STRING #15 @ $D9786
-#W16($D9620)
-//<$09><$A1><$87>s<$86>[X]
+//POINTER #15 @ $D942B - STRING #15 @ $D94E9
+#W16($D942B)
+//<$09>アゼル[X]
 //
 //
-// current address: $D978C
+// current address: $D94EE
 
-//POINTER #16 @ $D9622 - STRING #16 @ $D978C
-#W16($D9622)
-//<$09><$87><$87>l(<$0A>i[X]
+//POINTER #16 @ $D942D - STRING #16 @ $D94EF
+#W16($D942D)
+//エスニッ[X]
 //
 //
-// current address: $D9794
+// current address: $D94F4
 
-//POINTER #17 @ $D9624 - STRING #17 @ $D9794
-#W16($D9624)
-//<$09><$8A><$AC>gy<$B0>s[X]
+//POINTER #17 @ $D942F - STRING #17 @ $D94F5
+#W16($D942F)
+//エーディン[X]
 //
 //
-// current address: $D979C
+// current address: $D94FB
 
-//POINTER #18 @ $D9626 - STRING #18 @ $D979C
-#W16($D9626)
-//<$09>ma<$9C><$B0>[X]
+//POINTER #18 @ $D9431 - STRING #18 @ $D94FB
+#W16($D9431)
+//<$09>エスリン[X]
 //
 //
-// current address: $D97A2
+// current address: $D9501
 
-//POINTER #19 @ $D9628 - STRING #19 @ $D97A2
-#W16($D9628)
-//<$09><$60><$7F><$B0>r[X]
+//POINTER #19 @ $D9433 - STRING #19 @ $D9502
+#W16($D9433)
+//ラケシス[X]
 //
 //
-// current address: $D97A8
+// current address: $D9507
 
-//POINTER #20 @ $D962A - STRING #20 @ $D97A8
-#W16($D962A)
-//<$09><$7F>ls<$88>r<$A8><$8C>[X]
+//POINTER #20 @ $D9435 - STRING #20 @ $D9507
+#W16($D9435)
+//<$09>サフィ[X]
 //
 //
-// current address: $D97B1
+// current address: $D950C
 
-//POINTER #21 @ $D962C - STRING #21 @ $D97B1
-#W16($D962C)
-//<$09>r<$A8><$88><$7B><$A8><$8C><$8F>[X]
+//POINTER #21 @ $D9437 - STRING #21 @ $D950D
+#W16($D9437)
+//ミーシッ[X]
 //
 //
-// current address: $D97BA
+// current address: $D9512
 
-//POINTER #22 @ $D962E - STRING #22 @ $D97BA
-#W16($D962E)
-//<$09><$9C><$88><$80><$8C>g[X]
+//POINTER #22 @ $D9439 - STRING #22 @ $D9513
+#W16($D9439)
+//レイリア[X]
 //
 //
-// current address: $D97C1
+// current address: $D9518
 
-//POINTER #23 @ $D9630 - STRING #23 @ $D97C1
-#W16($D9630)
-//<$09><$93><$B0>g<$87><$8C><$9A>[X]
+//POINTER #23 @ $D943B - STRING #23 @ $D9518
+#W16($D943B)
+//<$09>アイラ[X]
 //
 //
-// current address: $D97C9
+// current address: $D951D
 
-//POINTER #24 @ $D9632 - STRING #24 @ $D97C9
-#W16($D9632)
-//<$09><$7B><$8A><$89><$B0>s[X]
+//POINTER #24 @ $D943D - STRING #24 @ $D951E
+#W16($D943D)
+//イシュタル[X]
 //
 //
-// current address: $D97D0
+// current address: $D9524
 
-//POINTER #25 @ $D9634 - STRING #25 @ $D97D0
-#W16($D9634)
-//<$09><$93><$AE><$8B><$84><$B0>l[X]
+//POINTER #25 @ $D943F - STRING #25 @ $D9525
+#W16($D943F)
+//セリス[X]
 //
 //
-// current address: $D97D8
+// current address: $D9529
 
-//POINTER #26 @ $D9636 - STRING #26 @ $D97D0
-#W16($D9636)
-//<$09><$93><$AE><$8B><$84><$B0>l[X]
+//POINTER #26 @ $D9441 - STRING #26 @ $D952B
+#W16($D9441)
+//ドルバン[X]
 //
 //
-// current address: $D97D8
+// current address: $D9530
 
-//POINTER #27 @ $D9638 - STRING #27 @ $D97D0
-#W16($D9638)
-//<$09><$93><$AE><$8B><$84><$B0>l[X]
+//POINTER #27 @ $D9443 - STRING #27 @ $D9532
+#W16($D9443)
+//サエロ[X]
 //
 //
-// current address: $D97D8
+// current address: $D9536
 
-//POINTER #28 @ $D963A - STRING #28 @ $D97D8
-#W16($D963A)
-//<$09><$22>!(37[X]
+//POINTER #28 @ $D9445 - STRING #28 @ $D9537
+#W16($D9445)
+//アーサー[X]
 //
 //
-// current address: $D97DF
+// current address: $D953C
 
-//POINTER #29 @ $D963C - STRING #29 @ $D97DF
-#W16($D963C)
-//<$09>)<$3E>'(37[X]
+//POINTER #29 @ $D9447 - STRING #29 @ $D953D
+#W16($D9447)
+//パーン[X]
 //
 //
-// current address: $D97E7
+// current address: $D9541
 
-//POINTER #30 @ $D963E - STRING #30 @ $D97E7
-#W16($D963E)
-//<$09>?<$3D>(37[X]
+//POINTER #30 @ $D9449 - STRING #30 @ $D9542
+#W16($D9449)
+//シッルロー[X]
 //
 //
-// current address: $D97EE
+// current address: $D9548
 
-//POINTER #31 @ $D9640 - STRING #31 @ $D97EE
-#W16($D9640)
-//<$09><$A3><$86><$80>[X]
+//POINTER #31 @ $D944B - STRING #31 @ $D9549
+#W16($D944B)
+//ホーク[X]
 //
 //
-// current address: $D97F3
+// current address: $D954D
 
-//POINTER #32 @ $D9642 - STRING #32 @ $D97F3
-#W16($D9642)
-//<$09><$89><$8E><$8C><$89>a<$A1>[X]
+//POINTER #32 @ $D944D - STRING #32 @ $D954E
+#W16($D944D)
+//トリスタン[X]
 //
 //
-// current address: $D97FB
+// current address: $D9554
 
-//POINTER #33 @ $D9644 - STRING #33 @ $D97FB
-#W16($D9644)
-//<$09>4<$12><$1B><$5D>(37[X]
+//POINTER #33 @ $D944F - STRING #33 @ $D9555
+#W16($D944F)
+//アスベル[X]
 //
 //
-// current address: $D9804
+// current address: $D955A
 
-//POINTER #34 @ $D9646 - STRING #34 @ $D9804
-#W16($D9646)
-//<$09><$93><$B0>g<$80><$8C>s[X]
+//POINTER #34 @ $D9451 - STRING #34 @ $D955A
+#W16($D9451)
+//<$09>ディムナ[X]
 //
 //
-// current address: $D980C
+// current address: $D9560
 
-//POINTER #35 @ $D9648 - STRING #35 @ $D980C
-#W16($D9648)
-//<$09><$8F><$8C><$8F>u<$88>[X]
+//POINTER #35 @ $D9453 - STRING #35 @ $D9561
+#W16($D9453)
+//レイドリャク[X]
 //
 //
-// current address: $D9813
+// current address: $D9568
 
-//POINTER #36 @ $D964A - STRING #36 @ $D9813
-#W16($D964A)
-//<$09><$90>a<$A0><$88><$8F>[X]
+//POINTER #36 @ $D9455 - STRING #36 @ $D9568
+#W16($D9455)
+//<$09>パティ[X]
 //
 //
-// current address: $D981A
+// current address: $D956D
 
-//POINTER #37 @ $D964C - STRING #37 @ $D981A
-#W16($D964C)
-//<$09><$7E><$88>r[X]
+//POINTER #37 @ $D9457 - STRING #37 @ $D956C
+#W16($D9457)
+//[X]
 //
 //
-// current address: $D981F
+// current address: $D956D
 
-//POINTER #38 @ $D964E - STRING #38 @ $D981F
-#W16($D964E)
-//<$09><$A1><$A8><$9B><$7B>u<$88>[X]
+//POINTER #38 @ $D9459 - STRING #38 @ $D9576
+#W16($D9459)
+//<$09>オルエン[X]
 //
 //
-// current address: $D9827
+// current address: $D957C
 
-//POINTER #39 @ $D9650 - STRING #39 @ $D981F
-#W16($D9650)
-//<$09><$A1><$A8><$9B><$7B>u<$88>[X]
+//POINTER #39 @ $D945B - STRING #39 @ $D957B
+#W16($D945B)
+//[X]
 //
 //
-// current address: $D9827
+// current address: $D957C
 
-//POINTER #40 @ $D9652 - STRING #40 @ $D9827
-#W16($D9652)
-//<$09><$22>!(<$14>([X]
+//POINTER #40 @ $D945D - STRING #40 @ $D9581
+#W16($D945D)
+//[X]
 //
 //
-// current address: $D982E
+// current address: $D9582
 
-//POINTER #41 @ $D9654 - STRING #41 @ $D982E
-#W16($D9654)
-//<$09>)<$3E>'(<$14>([X]
+//POINTER #41 @ $D945F - STRING #41 @ $D9587
+#W16($D945F)
+//[X]
 //
 //
-// current address: $D9836
+// current address: $D9588
 
-//POINTER #42 @ $D9656 - STRING #42 @ $D9836
-#W16($D9656)
-//<$09>?<$3D>(<$14>([X]
+//POINTER #42 @ $D9461 - STRING #42 @ $D958C
+#W16($D9461)
+//<$09>ユリウス[X]
 //
 //
-// current address: $D983D
+// current address: $D9592
 
-//POINTER #43 @ $D9658 - STRING #43 @ $D983D
-#W16($D9658)
-//<$09>4<$12><$1B><$5D>(<$14>([X]
+//POINTER #43 @ $D9463 - STRING #43 @ $D9592
+#W16($D9463)
+//<$09>ティニー[X]
 //
 //
-// current address: $D9846
+// current address: $D9598
 
-//POINTER #44 @ $D965A - STRING #44 @ $D9846
-#W16($D965A)
-//<$09>l<$8B><$8C>pe[X]
+//POINTER #44 @ $D9465 - STRING #44 @ $D9596
+#W16($D9465)
+//ー[X]
 //
 //
-// current address: $D984D
+// current address: $D9598
 
-//POINTER #45 @ $D965C - STRING #45 @ $D984D
-#W16($D965C)
-//<$09><$A4><$B0><$93>[X]
+//POINTER #45 @ $D9467 - STRING #45 @ $D959C
+#W16($D9467)
+//ナ[X]
 //
 //
-// current address: $D9852
+// current address: $D959E
 
-//POINTER #46 @ $D965E - STRING #46 @ $D9852
-#W16($D965E)
-//<$09><$60><$88><$7E><$B0><$94>[X]
+//POINTER #46 @ $D9469 - STRING #46 @ $D95A1
+#W16($D9469)
+//ダ[X]
 //
 //
-// current address: $D9859
+// current address: $D95A3
 
-//POINTER #47 @ $D9660 - STRING #47 @ $D9859
-#W16($D9660)
-//<$09><$8D><$88><$80>[X]
+//POINTER #47 @ $D946B - STRING #47 @ $D95A7
+#W16($D946B)
+//ア[X]
 //
 //
-// current address: $D985E
+// current address: $D95A9
 
-//POINTER #48 @ $D9662 - STRING #48 @ $D985E
-#W16($D9662)
-//<$09><$7E>d<$92>b<$88><$7B>[X]
+//POINTER #48 @ $D946D - STRING #48 @ $D95AE
+#W16($D946D)
+//<$09>リフィス[X]
 //
 //
-// current address: $D9866
+// current address: $D95B4
 
-//POINTER #49 @ $D9664 - STRING #49 @ $D9866
-#W16($D9664)
-//<$09><$22>!(4<$2F>[X]
+//POINTER #49 @ $D946F - STRING #49 @ $D95B4
+#W16($D946F)
+//<$09>リーフ[X]
 //
 //
-// current address: $D986D
+// current address: $D95B9
 
-//POINTER #50 @ $D9666 - STRING #50 @ $D986D
-#W16($D9666)
-//<$09>)<$3E>'(4<$2F>[X]
+//POINTER #50 @ $D9471 - STRING #50 @ $D95BA
+#W16($D9471)
+//スカサハ[X]
 //
 //
-// current address: $D9875
+// current address: $D95BF
 
-//POINTER #51 @ $D9668 - STRING #51 @ $D9875
-#W16($D9668)
-//<$09>?<$3D>(4<$2F>[X]
+//POINTER #51 @ $D9473 - STRING #51 @ $D95C0
+#W16($D9473)
+//カリオン[X]
 //
 //
-// current address: $D987C
+// current address: $D95C5
 
-//POINTER #52 @ $D966A - STRING #52 @ $D987C
-#W16($D966A)
-//<$09>4<$12><$1B><$5D>(4<$2F>[X]
+//POINTER #52 @ $D9475 - STRING #52 @ $D95C6
+#W16($D9475)
+//アレス[X]
 //
 //
-// current address: $D9885
+// current address: $D95CA
 
-//POINTER #53 @ $D966C - STRING #53 @ $D9885
-#W16($D966C)
-//<$09>f<$86><$B0><$A0>b[X]
+//POINTER #53 @ $D9477 - STRING #53 @ $D95CB
+#W16($D9477)
+//レスター[X]
 //
 //
-// current address: $D988C
+// current address: $D95D0
 
-//POINTER #54 @ $D966E - STRING #54 @ $D988C
-#W16($D966E)
-//<$09>apa<$9C><$88>[X]
+//POINTER #54 @ $D9479 - STRING #54 @ $D95D1
+#W16($D9479)
+//ブライトン[X]
 //
 //
-// current address: $D9893
+// current address: $D95D7
 
-//POINTER #55 @ $D9670 - STRING #55 @ $D9893
-#W16($D9670)
-//<$09><$A2><$88>r<$A8><$60>[X]
+//POINTER #55 @ $D947B - STRING #55 @ $D95D8
+#W16($D947B)
+//ディーン[X]
 //
 //
-// current address: $D989A
+// current address: $D95DD
 
-//POINTER #56 @ $D9672 - STRING #56 @ $D989A
-#W16($D9672)
-//<$09><$7F><$AE><$88><$8F><$89>[X]
+//POINTER #56 @ $D947D - STRING #56 @ $D95DE
+#W16($D947D)
+//ラクチェ[X]
 //
 //
-// current address: $D98A1
+// current address: $D95E3
 
-//POINTER #57 @ $D9674 - STRING #57 @ $D98A1
-#W16($D9674)
-//<$09>a<$B0><$8F><$88><$60>a[X]
+//POINTER #57 @ $D947F - STRING #57 @ $D95E3
+#W16($D947F)
+//<$09>アルテナ[X]
 //
 //
-// current address: $D98A9
+// current address: $D95E9
 
-//POINTER #58 @ $D9676 - STRING #58 @ $D98A9
-#W16($D9676)
-//<$09>rs<$86><$60><$B0>p[X]
+//POINTER #58 @ $D9481 - STRING #58 @ $D95E9
+#W16($D9481)
+//<$09>ラーラ[X]
 //
 //
-// current address: $D98B1
+// current address: $D95EE
 
-//POINTER #59 @ $D9678 - STRING #59 @ $D98A9
-#W16($D9678)
-//<$09>rs<$86><$60><$B0>p[X]
+//POINTER #59 @ $D9483 - STRING #59 @ $D95EE
+#W16($D9483)
+//<$09>ナンナ[X]
 //
 //
-// current address: $D98B1
+// current address: $D95F3
 
-//POINTER #60 @ $D967A - STRING #60 @ $D98A9
-#W16($D967A)
-//<$09>rs<$86><$60><$B0>p[X]
+//POINTER #60 @ $D9485 - STRING #60 @ $D95F3
+#W16($D9485)
+//<$09>リノアン[X]
 //
 //
-// current address: $D98B1
+// current address: $D95F9
 
-//POINTER #61 @ $D967C - STRING #61 @ $D98B1
-#W16($D967C)
-//<$09><$7E>lo<$B0><$60><$B0>p[X]
+//POINTER #61 @ $D9487 - STRING #61 @ $D95F9
+#W16($D9487)
+//<$09>カリン[X]
 //
 //
-// current address: $D98BA
+// current address: $D95FE
 
-//POINTER #62 @ $D967E - STRING #62 @ $D98BA
-#W16($D967E)
-//<$09><$7B><$A7>a<$60><$B0>[X]
+//POINTER #62 @ $D9489 - STRING #62 @ $D95FE
+#W16($D9489)
+//<$09>ラナ[X]
 //
 //
-// current address: $D98C1
-
-//POINTER #63 @ $D9680 - STRING #63 @ $D98C1
-#W16($D9680)
-//<$09>j<$8C><$7B><$89>a<$80>[X]
-//
-//
-// current address: $D98C9
-
-//POINTER #64 @ $D9682 - STRING #64 @ $D98C9
-#W16($D9682)
-//<$09><$A2><$86>l<$89>a<$60>[X]
-//
-//
-// current address: $D98D1
-
-//POINTER #65 @ $D9684 - STRING #65 @ $D98D1
-#W16($D9684)
-//<$09><$7B><$A7><$86><$7B><$89>a<$80>[X]
-//
-//
-// current address: $D98DA
-
-//POINTER #66 @ $D9686 - STRING #66 @ $D98DA
-#W16($D9686)
-//<$09><$81>r<$A8>d[X]
-//
-//
-// current address: $D98E0
-
-//POINTER #67 @ $D9688 - STRING #67 @ $D98E0
-#W16($D9688)
-//<$09>j<$8C><$97><$B0>[X]
-//
-//
-// current address: $D98E6
-
-//POINTER #68 @ $D968A - STRING #68 @ $D98E6
-#W16($D968A)
-//<$09><$97>a<$80>j<$8C><$97>[X]
-//
-//
-// current address: $D98EE
-
-//POINTER #69 @ $D968C - STRING #69 @ $D98EE
-#W16($D968C)
-//<$09><$A2><$86>lm<$89>u<$60>[X]
-//
-//
-// current address: $D98F7
-
-//POINTER #70 @ $D968E - STRING #70 @ $D98F7
-#W16($D968E)
-//<$09>s<$B0><$88>y<$8C><$7E><$B0>[X]
-//
-//
-// current address: $D9900
-
-//POINTER #71 @ $D9690 - STRING #71 @ $D9900
-#W16($D9690)
-//<$09>j<$8C><$97>ls<$B0><$80>[X]
-//
-//
-// current address: $D9909
-
-//POINTER #72 @ $D9692 - STRING #72 @ $D9909
-#W16($D9692)
-//<$09>ba<$8C><$9B>[X]
-//
-//
-// current address: $D990F
-
-//POINTER #73 @ $D9694 - STRING #73 @ $D990F
-#W16($D9694)
-//<$09>k<$88><$7B><$A8><$B0><$9B>[X]
-//
-//
-// current address: $D9917
-
-//POINTER #74 @ $D9696 - STRING #74 @ $D9917
-#W16($D9696)
-//<$09><$A2><$86>l<$87><$60>t[X]
-//
-//
-// current address: $D991F
-
-//POINTER #75 @ $D9698 - STRING #75 @ $D991F
-#W16($D9698)
-//<$09><$7B><$AB><$88>mr<$A8>[X]
-//
-//
-// current address: $D9927
-
-//POINTER #76 @ $D969A - STRING #76 @ $D9927
-#W16($D969A)
-//<$09><$9E><$87><$92><$B0><$9B>[X]
-//
-//
-// current address: $D992E
-
-//POINTER #77 @ $D969C - STRING #77 @ $D992E
-#W16($D969C)
-//<$09>d<$B0><$86><$89>a<$8C>[X]
-//
-//
-// current address: $D9936
-
-//POINTER #78 @ $D969E - STRING #78 @ $D9936
-#W16($D969E)
-//<$09>k<$AD>a<$8C>[X]
-//
-//
-// current address: $D993C
-
-//POINTER #79 @ $D96A0 - STRING #79 @ $D993C
-#W16($D96A0)
-//<$09><$60><$B0><$87><$60><$88>[X]
-//
-//
-// current address: $D9943
-
-//POINTER #80 @ $D96A2 - STRING #80 @ $D9943
-#W16($D96A2)
-//<$09>t<$B0><$8D>[X]
-//
-//
-// current address: $D9948
-
-//POINTER #81 @ $D96A4 - STRING #81 @ $D9948
-#W16($D96A4)
-//<$09><$7F><$A8><$88>[X]
-//
-//
-// current address: $D994D
-
-//POINTER #82 @ $D96A6 - STRING #82 @ $D994D
-#W16($D96A6)
-//<$09><$7B><$AA><$8C><$87><$88>[X]
-//
-//
-// current address: $D9954
-
-//POINTER #83 @ $D96A8 - STRING #83 @ $D9954
-#W16($D96A8)
-//<$09>lo<$B0><$86>as[X]
-//
-//
-// current address: $D995C
-
-//POINTER #84 @ $D96AA - STRING #84 @ $D995C
-#W16($D96AA)
-//<$09><$8A><$A4>sbl[X]
-//
-//
-// current address: $D9963
-
-//POINTER #85 @ $D96AC - STRING #85 @ $D9963
-#W16($D96AC)
-//<$09><$7B><$AB><$88><$9E><$89>a<$94>[X]
-//
-//
-// current address: $D996C
-
-//POINTER #86 @ $D96AE - STRING #86 @ $D996C
-#W16($D96AE)
-//<$09><$89>gl<$A0><$88>s[X]
-//
-//
-// current address: $D9974
-
-//POINTER #87 @ $D96B0 - STRING #87 @ $D9974
-#W16($D96B0)
-//<$09><$8F><$86><$7B>e<$87><$9C><$B0>[X]
-//
-//
-// current address: $D997D
-
-//POINTER #88 @ $D96B2 - STRING #88 @ $D997D
-#W16($D96B2)
-//<$09><$86>a<$9E>[X]
-//
-//
-// current address: $D9982
-
-//POINTER #89 @ $D96B4 - STRING #89 @ $D9982
-#W16($D96B4)
-//<$09><$87><$86>a<$9E>[X]
-//
-//
-// current address: $D9988
-
-//POINTER #90 @ $D96B6 - STRING #90 @ $D9988
-#W16($D96B6)
-//<$09><$87>e<$9C><$B0>[X]
-//
-//
-// current address: $D998E
-
-//POINTER #91 @ $D96B8 - STRING #91 @ $D998E
-#W16($D96B8)
-//<$09><$87><$9E><$8A><$B0>[X]
-//
-//
-// current address: $D9994
-
-//POINTER #92 @ $D96BA - STRING #92 @ $D9994
-#W16($D96BA)
-//<$09><$87><$92><$B0><$9E>[X]
-//
-//
-// current address: $D999A
-
-//POINTER #93 @ $D96BC - STRING #93 @ $D999A
-#W16($D96BC)
-//<$09><$16><$13><$1F>.L<$12><$1B><$5F>[X]
-//
-//
-// current address: $D99A4
-
-//POINTER #94 @ $D96BE - STRING #94 @ $D99A4
-#W16($D96BE)
-//<$09><$8B><$B0><$A4>[X]
-//
-//
-// current address: $D99A9
-
-//POINTER #95 @ $D96C0 - STRING #95 @ $D99A9
-#W16($D96C0)
-//<$09><$16><$13><$1F>.L<$12><$1B><$5F>[X]
-//
-//
-// current address: $D99B3
-
-//POINTER #96 @ $D96C2 - STRING #96 @ $D99A9
-#W16($D96C2)
-//<$09><$16><$13><$1F>.L<$12><$1B><$5F>[X]
-//
-//
-// current address: $D99B3
-
-//POINTER #97 @ $D96C4 - STRING #97 @ $D99B3
-#W16($D96C4)
-//<$09><$89>ls[X]
-//
-//
-// current address: $D99B8
-
-//POINTER #98 @ $D96C6 - STRING #98 @ $D99B8
-#W16($D96C6)
-//<$09><$9C><$88>f<$87><$B0>[X]
-//
-//
-// current address: $D99BF
-
-//POINTER #99 @ $D96C8 - STRING #99 @ $D99C0
-#W16($D96C8)
-//ja<$89>l[X]
-//
-//
-// current address: $D99C5
-
-//POINTER #100 @ $D96CA - STRING #100 @ $D99C6
-#W16($D96CA)
-//l<$87><$B0><$A4>[X]
-//
-//
-// current address: $D99CB
-
-//POINTER #101 @ $D96CC - STRING #101 @ $D99CC
-#W16($D96CC)
-//<$93><$AD><$AC><$93><$81><$8C>s[X]
-//
-//
-// current address: $D99D4
-
-//POINTER #102 @ $D96CE - STRING #102 @ $D99D4
-#W16($D96CE)
-//<$09>mau<$B0>[X]
-//
-//
-// current address: $D99DA
-
-//POINTER #103 @ $D96D0 - STRING #103 @ $D99DA
-#W16($D96D0)
-//<$09><$3B>9<$1F>!<$13>[X]
-//
-//
-// current address: $D99E1
-
-//POINTER #104 @ $D96D2 - STRING #104 @ $D99DA
-#W16($D96D2)
-//<$09><$3B>9<$1F>!<$13>[X]
-//
-//
-// current address: $D99E1
-
-//POINTER #105 @ $D96D4 - STRING #105 @ $D99DA
-#W16($D96D4)
-//<$09><$3B>9<$1F>!<$13>[X]
-//
-//
-// current address: $D99E1
-
-//POINTER #106 @ $D96D6 - STRING #106 @ $D99E2
-#W16($D96D6)
-//<$86>a<$9E><$87><$8C><$8F>[X]
-//
-//
-// current address: $D99E9
-
-//POINTER #107 @ $D96D8 - STRING #107 @ $D99EA
-#W16($D96D8)
-//<$7E>lo<$B0><$87><$8C><$8F>[X]
-//
-//
-// current address: $D99F2
-
-//POINTER #108 @ $D96DA - STRING #108 @ $D99F2
-#W16($D96DA)
-//<$09>lo<$B0><$87><$8C><$8F>[X]
-//
-//
-// current address: $D99FA
-
-//POINTER #109 @ $D96DC - STRING #109 @ $D99FB
-#W16($D96DC)
-//<$87><$8C><$8F>d<$9E><$7E>a<$86>[X]
-//
-//
-// current address: $D9A04
-
-//POINTER #110 @ $D96DE - STRING #110 @ $D9A04
-#W16($D96DE)
-//<$09><$60>adr<$87><$8C><$8F>[X]
-//
-//
-// current address: $D9A0D
-
-//POINTER #111 @ $D96E0 - STRING #111 @ $D9A0D
-#W16($D96E0)
-//<$09><$80><$B0><$8C><$87><$8C><$8F>[X]
-//
-//
-// current address: $D9A15
-
-//POINTER #112 @ $D96E2 - STRING #112 @ $D9A16
-#W16($D96E2)
-//p<$AD><$B0><$80><$87><$8C><$8F>[X]
-//
-//
-// current address: $D9A1E
-
-//POINTER #113 @ $D96E4 - STRING #113 @ $D9A1E
-#W16($D96E4)
-//<$09>tas<$87><$8C><$8F>[X]
-//
-//
-// current address: $D9A26
-
-//POINTER #114 @ $D96E6 - STRING #114 @ $D9A26
-#W16($D96E6)
-//<$09>j<$8C><$87><$8C><$8F>[X]
-//
-//
-// current address: $D9A2D
-
-//POINTER #115 @ $D96E8 - STRING #115 @ $D9A2E
-#W16($D96E8)
-//l<$A3><$B0><$9B><$87><$8C><$8F>[X]
-//
-//
-// current address: $D9A36
-
-//POINTER #116 @ $D96EA - STRING #116 @ $D9A37
-#W16($D96EA)
-//<$7E><$93><$AC>g<$87><$8C><$8F>[X]
-//
-//
-// current address: $D9A3F
-
-//POINTER #117 @ $D96EC - STRING #117 @ $D9A3F
-#W16($D96EC)
-//<$09><$A2><$8B><$B0><$87><$8C><$8F>[X]
-//
-//
-// current address: $D9A47
-
-//POINTER #118 @ $D96EE - STRING #118 @ $D9A48
-#W16($D96EE)
-//k<$B0><$88><$9B><$87><$8C><$8F>[X]
-//
-//
-// current address: $D9A50
-
-//POINTER #119 @ $D96F0 - STRING #119 @ $D9A50
-#W16($D96F0)
-//<$09><$9C><$87><$60><$87><$8C><$8F>[X]
-//
-//
-// current address: $D9A58
-
-//POINTER #120 @ $D96F2 - STRING #120 @ $D9A58
-#W16($D96F2)
-//<$09><$89><$AC><$8F><$87><$8C><$8F>[X]
-//
-//
-// current address: $D9A60
-
-//POINTER #121 @ $D96F4 - STRING #121 @ $D9A60
-#W16($D96F4)
-//<$09>lf<$88><$87><$8C><$8F>[X]
-//
-//
-// current address: $D9A68
-
-//POINTER #122 @ $D96F6 - STRING #122 @ $D9A68
-#W16($D96F6)
-//<$09><$19><$3B>9<$1F>O<$16>[X]
-//
-//
-// current address: $D9A70
-
-//POINTER #123 @ $D96F8 - STRING #123 @ $D9A68
-#W16($D96F8)
-//<$09><$19><$3B>9<$1F>O<$16>[X]
-//
-//
-// current address: $D9A70
-
-//POINTER #124 @ $D96FA - STRING #124 @ $D9A68
-#W16($D96FA)
-//<$09><$19><$3B>9<$1F>O<$16>[X]
-//
-//
-// current address: $D9A70
-
-//POINTER #125 @ $D96FC - STRING #125 @ $D9A71
-#W16($D96FC)
-//<$16><$13><$1F>.L<$12><$1B><$5F>[X]
-//
-//
-// current address: $D9A7A
-
-//POINTER #126 @ $D96FE - STRING #126 @ $D9A71
-#W16($D96FE)
-//<$16><$13><$1F>.L<$12><$1B><$5F>[X]
-//
-//
-// current address: $D9A7A
-
-//POINTER #127 @ $D9700 - STRING #127 @ $D9A71
-#W16($D9700)
-//<$16><$13><$1F>.L<$12><$1B><$5F>[X]
-//
-//
-// current address: $D9A7A
-
-//POINTER #128 @ $D9702 - STRING #128 @ $D9A71
-#W16($D9702)
-//<$16><$13><$1F>.L<$12><$1B><$5F>[X]
-//
-//
-// current address: $D9A7A
-
-//POINTER #129 @ $D9704 - STRING #129 @ $D9A71
-#W16($D9704)
-//<$16><$13><$1F>.L<$12><$1B><$5F>[X]
-//
-//
-// current address: $D9A7A
-
-//POINTER #130 @ $D9706 - STRING #130 @ $D9A71
-#W16($D9706)
-//<$16><$13><$1F>.L<$12><$1B><$5F>[X]
-//
-//
-// current address: $D9A7A
-
-//POINTER #131 @ $D9708 - STRING #131 @ $D9A71
-#W16($D9708)
-//<$16><$13><$1F>.L<$12><$1B><$5F>[X]
-//
-//
-// current address: $D9A7A
-
-//POINTER #132 @ $D970A - STRING #132 @ $D9A71
-#W16($D970A)
-//<$16><$13><$1F>.L<$12><$1B><$5F>[X]
-//
-//
-// current address: $D9A7A
-
-//POINTER #133 @ $D970C - STRING #133 @ $D9A71
-#W16($D970C)
-//<$16><$13><$1F>.L<$12><$1B><$5F>[X]
-//
-//
-// current address: $D9A7A
-
-//POINTER #134 @ $D970E - STRING #134 @ $D9A71
-#W16($D970E)
-//<$16><$13><$1F>.L<$12><$1B><$5F>[X]
-//
-//
-// current address: $D9A7A
-
-//POINTER #135 @ $D9710 - STRING #135 @ $D9A71
-#W16($D9710)
-//<$16><$13><$1F>.L<$12><$1B><$5F>[X]
-//
-//
-// current address: $D9A7A
-
-//POINTER #136 @ $D9712 - STRING #136 @ $D9A71
-#W16($D9712)
-//<$16><$13><$1F>.L<$12><$1B><$5F>[X]
-//
-//
-// current address: $D9A7A
+// current address: $D9602

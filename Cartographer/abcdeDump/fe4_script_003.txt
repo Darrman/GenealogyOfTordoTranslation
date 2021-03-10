@@ -9,161 +9,161 @@
 //BLOCK #003 NAME:		Terrain Names
 #ACTIVETBL(Table_1) // Activate this block's starting TABLE
 
-#JMP($2DB00, $2DB01) // Jump to insertion point
-#HDR($2DB00) // Difference between ROM and RAM addresses for pointer value calculations
+#JMP($385AF, $3868C) // Jump to insertion point
+#HDR($3857B) // Difference between ROM and RAM addresses for pointer value calculations
 
-//POINTER #0 @ $2DB00 - STRING #0 @ $2DB00
-#W16($2DB00)
-//[X]
+//POINTER #0 @ $3857B - STRING #0 @ $385AF
+#W16($3857B)
+//たかいやま[X]
 //
-// current address: $2DB02
+// current address: $385BB
 
-//POINTER #1 @ $2DB02 - STRING #1 @ $2DB00
-#W16($2DB02)
-//[X]
+//POINTER #1 @ $3857D - STRING #1 @ $385BB
+#W16($3857D)
+//ふかいもり[X]
 //
-// current address: $2DB02
+// current address: $385C7
 
-//POINTER #2 @ $2DB04 - STRING #2 @ $2DB00
-#W16($2DB04)
-//[X]
+//POINTER #2 @ $3857F - STRING #2 @ $385C7
+#W16($3857F)
+//がけ[X]
 //
-// current address: $2DB02
+// current address: $385CD
 
-//POINTER #3 @ $2DB06 - STRING #3 @ $2DB00
-#W16($2DB06)
-//[X]
+//POINTER #3 @ $38581 - STRING #3 @ $385CD
+#W16($38581)
+//へいち[X]
 //
-// current address: $2DB02
+// current address: $385D5
 
-//POINTER #4 @ $2DB08 - STRING #4 @ $2DB00
-#W16($2DB08)
-//[X]
+//POINTER #4 @ $38583 - STRING #4 @ $385D5
+#W16($38583)
+//もり[X]
 //
-// current address: $2DB02
+// current address: $385DB
 
-//POINTER #5 @ $2DB0A - STRING #5 @ $2DB00
-#W16($2DB0A)
-//[X]
+//POINTER #5 @ $38585 - STRING #5 @ $385DB
+#W16($38585)
+//うみ[X]
 //
-// current address: $2DB02
+// current address: $385E1
 
-//POINTER #6 @ $2DB0C - STRING #6 @ $2DB00
-#W16($2DB0C)
-//[X]
+//POINTER #6 @ $38587 - STRING #6 @ $385E1
+#W16($38587)
+//かわ[X]
 //
-// current address: $2DB02
+// current address: $385E7
 
-//POINTER #7 @ $2DB0E - STRING #7 @ $2DB00
-#W16($2DB0E)
-//[X]
+//POINTER #7 @ $38589 - STRING #7 @ $385E7
+#W16($38589)
+//やま[X]
 //
-// current address: $2DB02
+// current address: $385ED
 
-//POINTER #8 @ $2DB10 - STRING #8 @ $2DB00
-#W16($2DB10)
-//[X]
+//POINTER #8 @ $3858B - STRING #8 @ $385ED
+#W16($3858B)
+//さばく[X]
 //
-// current address: $2DB02
+// current address: $385F5
 
-//POINTER #9 @ $2DB12 - STRING #9 @ $2DB00
-#W16($2DB12)
-//[X]
+//POINTER #9 @ $3858D - STRING #9 @ $385F5
+#W16($3858D)
+//しろ[X]
 //
-// current address: $2DB02
+// current address: $385FB
 
-//POINTER #10 @ $2DB14 - STRING #10 @ $2DB00
-#W16($2DB14)
-//[X]
+//POINTER #10 @ $3858F - STRING #10 @ $385FB
+#W16($3858F)
+//とりで[X]
 //
-// current address: $2DB02
+// current address: $38603
 
-//POINTER #11 @ $2DB16 - STRING #11 @ $2DB00
-#W16($2DB16)
-//[X]
+//POINTER #11 @ $38591 - STRING #11 @ $38603
+#W16($38591)
+//まち[X]
 //
-// current address: $2DB02
+// current address: $38609
 
-//POINTER #12 @ $2DB18 - STRING #12 @ $2DB00
-#W16($2DB18)
-//[X]
+//POINTER #12 @ $38593 - STRING #12 @ $38609
+#W16($38593)
+//じょうもん[X]
 //
-// current address: $2DB02
+// current address: $38615
 
-//POINTER #13 @ $2DB1A - STRING #13 @ $2DB00
-#W16($2DB1A)
-//[X]
+//POINTER #13 @ $38595 - STRING #13 @ $38615
+#W16($38595)
+//じょうへき[X]
 //
-// current address: $2DB02
+// current address: $38621
 
-//POINTER #14 @ $2DB1C - STRING #14 @ $2DB00
-#W16($2DB1C)
-//[X]
+//POINTER #14 @ $38597 - STRING #14 @ $38621
+#W16($38597)
+//すなち[X]
 //
-// current address: $2DB02
+// current address: $38629
 
-//POINTER #15 @ $2DB1E - STRING #15 @ $2DB00
-#W16($2DB1E)
-//[X]
+//POINTER #15 @ $38599 - STRING #15 @ $38629
+#W16($38599)
+//はし[X]
 //
-// current address: $2DB02
+// current address: $3862F
 
-//POINTER #16 @ $2DB20 - STRING #16 @ $2DB00
-#W16($2DB20)
-//[X]
+//POINTER #16 @ $3859B - STRING #16 @ $3862F
+#W16($3859B)
+//ぬま[X]
 //
-// current address: $2DB02
+// current address: $38635
 
-//POINTER #17 @ $2DB22 - STRING #17 @ $2DB00
-#W16($2DB22)
-//[X]
+//POINTER #17 @ $3859D - STRING #17 @ $38635
+#W16($3859D)
+//じょうもん[X]
 //
-// current address: $2DB02
+// current address: $38641
 
-//POINTER #18 @ $2DB24 - STRING #18 @ $2DB00
-#W16($2DB24)
-//[X]
+//POINTER #18 @ $3859F - STRING #18 @ $38641
+#W16($3859F)
+//むら[X]
 //
-// current address: $2DB02
+// current address: $38647
 
-//POINTER #19 @ $2DB26 - STRING #19 @ $2DB00
-#W16($2DB26)
-//[X]
+//POINTER #19 @ $385A1 - STRING #19 @ $38647
+#W16($385A1)
+//はいきょ[X]
 //
-// current address: $2DB02
+// current address: $38651
 
-//POINTER #20 @ $2DB28 - STRING #20 @ $2DB00
-#W16($2DB28)
-//[X]
+//POINTER #20 @ $385A3 - STRING #20 @ $38651
+#W16($385A3)
+//そうこ[X]
 //
-// current address: $2DB02
+// current address: $38659
 
-//POINTER #21 @ $2DB2A - STRING #21 @ $2DB00
-#W16($2DB2A)
-//[X]
+//POINTER #21 @ $385A5 - STRING #21 @ $38659
+#W16($385A5)
+//はいきょ[X]
 //
-// current address: $2DB02
+// current address: $38663
 
-//POINTER #22 @ $2DB2C - STRING #22 @ $2DB00
-#W16($2DB2C)
-//[X]
+//POINTER #22 @ $385A7 - STRING #22 @ $38663
+#W16($385A7)
+//きょうかい[X]
 //
-// current address: $2DB02
+// current address: $3866F
 
-//POINTER #23 @ $2DB2E - STRING #23 @ $2DB00
-#W16($2DB2E)
-//[X]
+//POINTER #23 @ $385A9 - STRING #23 @ $3866F
+#W16($385A9)
+//しんでん[X]
 //
-// current address: $2DB02
+// current address: $38679
 
-//POINTER #24 @ $2DB30 - STRING #24 @ $2DB00
-#W16($2DB30)
-//[X]
+//POINTER #24 @ $385AB - STRING #24 @ $38679
+#W16($385AB)
+//ノヴァのとう[X]
 //
-// current address: $2DB02
+// current address: $38687
 
-//POINTER #25 @ $2DB32 - STRING #25 @ $2DB00
-#W16($2DB32)
-//[X]
+//POINTER #25 @ $385AD - STRING #25 @ $38687
+#W16($385AD)
+//みち[X]
 //
-// current address: $2DB02
+// current address: $3868D

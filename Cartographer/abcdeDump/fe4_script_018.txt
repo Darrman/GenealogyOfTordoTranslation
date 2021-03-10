@@ -6,512 +6,967 @@
 #VAR(Table_1, TABLE)
 #ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/menutext.tbl", Table_1)
 
-//BLOCK #018 NAME:		Class Names (Dialogue)
+//BLOCK #018 NAME:		Item Names (Dialogue)
 #ACTIVETBL(Table_0) // Activate this block's starting TABLE
 
-#JMP($D9B22, $D9D64) // Jump to insertion point
+#JMP($D9714, $D9A79) // Jump to insertion point
 #HDR($D0200) // Difference between ROM and RAM addresses for pointer value calculations
 
-//POINTER #0 @ $D9A92 - STRING #0 @ $D9B22
-#W16($D9A92)
-//<$09>i<$7E><$8C><$9B>tas[X]
+//POINTER #0 @ $D9602 - STRING #0 @ $D9714
+#W16($D9602)
+//<$09>てつの<$0A>コ[X]
 //
 //
-// current address: $D9B2B
+// current address: $D971B
 
-//POINTER #1 @ $D9A94 - STRING #1 @ $D9B2B
-#W16($D9A94)
-//<$09><$86><$8C>ltas[X]
+//POINTER #1 @ $D9604 - STRING #1 @ $D971B
+#W16($D9604)
+//<$09>はがねの<$0A>コ[X]
 //
 //
-// current address: $D9B33
+// current address: $D9723
 
-//POINTER #2 @ $D9A96 - STRING #2 @ $D9B33
-#W16($D9A96)
-//<$09><$A0>btas[X]
+//POINTER #2 @ $D9606 - STRING #2 @ $D9723
+#W16($D9606)
+//<$09>ぎんの<$0A>コ[X]
 //
 //
-// current address: $D9B3A
+// current address: $D972A
 
-//POINTER #3 @ $D9A98 - STRING #3 @ $D9B3B
-#W16($D9A98)
-//<$60>gltas[X]
+//POINTER #3 @ $D9608 - STRING #3 @ $D972A
+#W16($D9608)
+//<$09>ラーゼタール[X]
 //
 //
-// current address: $D9B42
+// current address: $D9732
 
-//POINTER #4 @ $D9A9A - STRING #4 @ $D9B43
-#W16($D9A9A)
-//n<$B0><$9B>tas[X]
+//POINTER #4 @ $D960A - STRING #4 @ $D9732
+#W16($D960A)
+//<$09>ルナの<$0A>コ[X]
 //
 //
-// current address: $D9B4A
+// current address: $D9739
 
-//POINTER #5 @ $D9A9C - STRING #5 @ $D9B4B
-#W16($D9A9C)
-//s<$88><$9C><$9B><$B0><$88>[X]
+//POINTER #5 @ $D960C - STRING #5 @ $D973A
+#W16($D960C)
+//ラグナロク[X]
 //
 //
-// current address: $D9B52
+// current address: $D9740
 
-//POINTER #6 @ $D9A9E - STRING #6 @ $D9B53
-#W16($D9A9E)
-//<$8A><$B0><$9B>tas[X]
+//POINTER #6 @ $D960E - STRING #6 @ $D9741
+#W16($D960E)
+//ステラの<$0A>コ[X]
 //
 //
-// current address: $D9B5A
+// current address: $D9748
 
-//POINTER #7 @ $D9AA0 - STRING #7 @ $D9B5B
-#W16($D9AA0)
-//<$8F><$8A><$B0><$87><$B0>tas[X]
+//POINTER #7 @ $D9610 - STRING #7 @ $D9748
+#W16($D9610)
+//<$09>シーフソード[X]
 //
 //
-// current address: $D9B64
+// current address: $D9750
 
-//POINTER #8 @ $D9AA2 - STRING #8 @ $D9B64
-#W16($D9AA2)
-//<$09><$7E>lo<$B0>tas[X]
+//POINTER #8 @ $D9612 - STRING #8 @ $D9751
+#W16($D9612)
+//マスターソード[X]
 //
 //
-// current address: $D9B6D
+// current address: $D9759
 
-//POINTER #9 @ $D9AA4 - STRING #9 @ $D9BB3
-#W16($D9AA4)
-//<$A2><$86><$9A><$A8><$8C>[X]
+//POINTER #9 @ $D9614 - STRING #9 @ $D9759
+#W16($D9614)
+//<$09>ソールカティ[X]
 //
 //
-// current address: $D9BB9
+// current address: $D9761
 
-//POINTER #10 @ $D9AA6 - STRING #10 @ $D9B6D
-#W16($D9AA6)
-//<$09><$A1><$A7><$88>f<$AE><$87><$60>[X]
+//POINTER #10 @ $D9616 - STRING #10 @ $D9762
+#W16($D9616)
+//ゆうしゃの<$0A>コ[X]
 //
 //
-// current address: $D9B76
+// current address: $D976A
 
-//POINTER #11 @ $D9AA8 - STRING #11 @ $D9B76
-#W16($D9AA8)
-//<$09><$60><$8A><$B0>tas[X]
+//POINTER #11 @ $D9618 - STRING #11 @ $D976B
+#W16($D9618)
+//キルソード[X]
 //
 //
-// current address: $D9B7E
+// current address: $D9771
 
-//POINTER #12 @ $D9AAA - STRING #12 @ $D9B7E
-#W16($D9AAA)
-//<$09><$7B><$AB><$89>lstas[X]
+//POINTER #12 @ $D961A - STRING #12 @ $D9772
+#W16($D961A)
+//せいなる<$0A>コ[X]
 //
 //
-// current address: $D9B88
+// current address: $D9779
 
-//POINTER #13 @ $D9AAC - STRING #13 @ $D9B88
-#W16($D9AAC)
-//<$09><$7E><$B0><$93>tas[X]
+//POINTER #13 @ $D961C - STRING #13 @ $D9779
+#W16($D961C)
+//<$09>レイピア[X]
 //
 //
-// current address: $D9B90
+// current address: $D977F
 
-//POINTER #14 @ $D9AAE - STRING #14 @ $D9B90
-#W16($D9AAE)
-//<$09><$8F><$86><$8C><$9B>tas[X]
+//POINTER #14 @ $D961E - STRING #14 @ $D977F
+#W16($D961E)
+//<$09>ヴァジュラ[X]
 //
 //
-// current address: $D9B99
+// current address: $D9786
 
-//POINTER #15 @ $D9AB0 - STRING #15 @ $D9B99
-#W16($D9AB0)
-//<$09><$60>abcd[X]
+//POINTER #15 @ $D9620 - STRING #15 @ $D9786
+#W16($D9620)
+//<$09>ヴリトラ[X]
 //
 //
-// current address: $D9BA0
+// current address: $D978C
 
-//POINTER #16 @ $D9AB2 - STRING #16 @ $D9BA0
-#W16($D9AB2)
-//<$09><$A5><$8D>jltas[X]
+//POINTER #16 @ $D9622 - STRING #16 @ $D978C
+#W16($D9622)
+//<$09>リリスの<$0A>コ[X]
 //
 //
-// current address: $D9BA9
+// current address: $D9794
 
-//POINTER #17 @ $D9AB4 - STRING #17 @ $D9BA9
-#W16($D9AB4)
-//<$09>c<$8C><$87><$88>tas[X]
+//POINTER #17 @ $D9624 - STRING #17 @ $D9794
+#W16($D9624)
+//<$09>ロャクハート[X]
 //
 //
-// current address: $D9BB2
+// current address: $D979C
 
-//POINTER #18 @ $D9AB6 - STRING #18 @ $D9BB3
-#W16($D9AB6)
-//<$A2><$86><$9A><$A8><$8C>[X]
+//POINTER #18 @ $D9626 - STRING #18 @ $D979C
+#W16($D9626)
+//<$09>セイバー[X]
 //
 //
-// current address: $D9BB9
+// current address: $D97A2
 
-//POINTER #19 @ $D9AB8 - STRING #19 @ $D9BBD
-#W16($D9AB8)
-//<$09><$9B><$86><$91><$8C>tas[X]
+//POINTER #19 @ $D9628 - STRING #19 @ $D97A2
+#W16($D9628)
+//<$09>アミーテ[X]
 //
 //
-// current address: $D9BC6
+// current address: $D97A8
 
-//POINTER #20 @ $D9ABA - STRING #20 @ $D9BC6
-#W16($D9ABA)
-//<$09><$87><$8C><$9B><$9E><$88><$80>[X]
+//POINTER #20 @ $D962A - STRING #20 @ $D97A8
+#W16($D962A)
+//<$09>ミストルティン[X]
 //
 //
-// current address: $D9BCE
+// current address: $D97B1
 
-//POINTER #21 @ $D9ABC - STRING #21 @ $D9BD0
-#W16($D9ABC)
-//<$A0>b<$7B><$A7>ao<$B0>[X]
+//POINTER #21 @ $D962C - STRING #21 @ $D97B1
+#W16($D962C)
+//<$09>ティルフィング[X]
 //
 //
-// current address: $D9BD8
+// current address: $D97BA
 
-//POINTER #22 @ $D9ABE - STRING #22 @ $D9BD9
-#W16($D9ABE)
-//<$9E><$89>a<$9B>[X]
+//POINTER #22 @ $D962E - STRING #22 @ $D97BA
+#W16($D962E)
+//<$09>バルムンク[X]
 //
 //
-// current address: $D9BDE
+// current address: $D97C1
 
-//POINTER #23 @ $D9AC0 - STRING #23 @ $D9BDF
-#W16($D9AC0)
-//n<$B0><$9B><$7E>lo<$B0>[X]
+//POINTER #23 @ $D9630 - STRING #23 @ $D97C1
+#W16($D9630)
+//<$09>ジークリンデ[X]
 //
 //
-// current address: $D9BE7
+// current address: $D97C9
 
-//POINTER #24 @ $D9AC2 - STRING #24 @ $D9BE8
-#W16($D9AC2)
-//j<$93>o<$87><$B0>[X]
+//POINTER #24 @ $D9632 - STRING #24 @ $D97C9
+#W16($D9632)
+//<$09>フロレート[X]
 //
 //
-// current address: $D9BEE
+// current address: $D97D0
 
-//POINTER #25 @ $D9AC4 - STRING #25 @ $D9BEE
-#W16($D9AC4)
-//<$09><$9C>lo<$B0><$9B>[X]
+//POINTER #25 @ $D9634 - STRING #25 @ $D97D0
+#W16($D9634)
+//<$09>ジュワユース[X]
 //
 //
-// current address: $D9BF5
+// current address: $D97D8
 
-//POINTER #26 @ $D9AC6 - STRING #26 @ $D9BF6
-#W16($D9AC6)
-//<$93><$AA>w<$86><$88>[X]
+//POINTER #26 @ $D9636 - STRING #26 @ $D97D0
+#W16($D9636)
+//<$09>ジュワユース[X]
 //
 //
-// current address: $D9BFC
+// current address: $D97D8
 
-//POINTER #27 @ $D9AC8 - STRING #27 @ $D9BFC
-#W16($D9AC8)
-//<$09>c<$8C><$A5><$86><$B0>[X]
+//POINTER #27 @ $D9638 - STRING #27 @ $D97D0
+#W16($D9638)
+//<$09>ジュワユース[X]
 //
 //
-// current address: $D9C03
+// current address: $D97D8
 
-//POINTER #28 @ $D9ACA - STRING #28 @ $D9C04
-#W16($D9ACA)
-//<$7E><$B0>k<$AD><$88>[X]
+//POINTER #28 @ $D963A - STRING #28 @ $D97D8
+#W16($D963A)
+//<$09>てつのやり[X]
 //
 //
-// current address: $D9C0A
+// current address: $D97DF
 
-//POINTER #29 @ $D9ACC - STRING #29 @ $D9C0A
-#W16($D9ACC)
-//<$09><$7E><$B0>kt<$87><$B0>[X]
+//POINTER #29 @ $D963C - STRING #29 @ $D97DF
+#W16($D963C)
+//<$09>はがねのやり[X]
 //
 //
-// current address: $D9C12
+// current address: $D97E7
 
-//POINTER #30 @ $D9ACE - STRING #30 @ $D9C15
-#W16($D9ACE)
-//bl<$A3><$60>n<$88><$93><$AD><$B0>[X]
+//POINTER #30 @ $D963E - STRING #30 @ $D97E7
+#W16($D963E)
+//<$09>ぎんのやり[X]
 //
 //
-// current address: $D9C1F
+// current address: $D97EE
 
-//POINTER #31 @ $D9AD0 - STRING #31 @ $D9C1F
-#W16($D9AD0)
-//<$09><$60>gln<$88><$93><$AD><$B0>[X]
+//POINTER #31 @ $D9640 - STRING #31 @ $D97EE
+#W16($D9640)
+//<$09>ピラム[X]
 //
 //
-// current address: $D9C29
+// current address: $D97F3
 
-//POINTER #32 @ $D9AD2 - STRING #32 @ $D9C29
-#W16($D9AD2)
-//<$09>k<$88><$81><$87><$B0>[X]
+//POINTER #32 @ $D9642 - STRING #32 @ $D97F3
+#W16($D9642)
+//<$09>レギンレイヴ[X]
 //
 //
-// current address: $D9C30
+// current address: $D97FB
 
-//POINTER #33 @ $D9AD4 - STRING #33 @ $D9C30
-#W16($D9AD4)
-//<$09>n<$B0><$9B>n<$88><$93><$AD><$B0>[X]
+//POINTER #33 @ $D9644 - STRING #33 @ $D97FB
+#W16($D9644)
+//<$09>ゆうしゃのやり[X]
 //
 //
-// current address: $D9C3A
+// current address: $D9804
 
-//POINTER #34 @ $D9AD6 - STRING #34 @ $D9C3A
-#W16($D9AD6)
-//<$09><$60><$B0><$7E><$B0>[X]
+//POINTER #34 @ $D9646 - STRING #34 @ $D9804
+#W16($D9646)
+//<$09>ジークムント[X]
 //
 //
-// current address: $D9C40
+// current address: $D980C
 
-//POINTER #35 @ $D9AD8 - STRING #35 @ $D9C40
-#W16($D9AD8)
-//<$09><$60>gl<$60><$B0><$7E><$B0>[X]
+//POINTER #35 @ $D9648 - STRING #35 @ $D980C
+#W16($D9648)
+//<$09>グングニル[X]
 //
 //
-// current address: $D9C49
+// current address: $D9813
 
-//POINTER #36 @ $D9ADA - STRING #36 @ $D9C49
-#W16($D9ADA)
-//<$09><$A0>b<$60><$B0><$7E><$B0>[X]
+//POINTER #36 @ $D964A - STRING #36 @ $D9813
+#W16($D964A)
+//<$09>ゲイボルグ[X]
 //
 //
-// current address: $D9C51
+// current address: $D981A
 
-//POINTER #37 @ $D9ADC - STRING #37 @ $D9C51
-#W16($D9ADC)
-//<$09>n<$B0><$9B><$60><$B0><$7E><$B0>[X]
+//POINTER #37 @ $D964C - STRING #37 @ $D981A
+#W16($D964C)
+//<$09>マルテ[X]
 //
 //
-// current address: $D9C5A
+// current address: $D981F
 
-//POINTER #38 @ $D9ADE - STRING #38 @ $D9C5A
-#W16($D9ADE)
-//<$09><$9C><$B0><$9C><$87><$60><$8C>[X]
+//POINTER #38 @ $D964E - STRING #38 @ $D981F
+#W16($D964E)
+//<$09>ヴィドフニル[X]
 //
 //
-// current address: $D9C62
+// current address: $D9827
 
-//POINTER #39 @ $D9AE0 - STRING #39 @ $D9C62
-#W16($D9AE0)
-//<$09><$60>gl<$7B><$A7>ao<$B0>[X]
+//POINTER #39 @ $D9650 - STRING #39 @ $D981F
+#W16($D9650)
+//<$09>ヴィドフニル[X]
 //
 //
-// current address: $D9C6C
+// current address: $D9827
 
-//POINTER #40 @ $D9AE2 - STRING #40 @ $D9C6C
-#W16($D9AE2)
-//<$09><$7E>b<$8C>r<$8C>k<$B0><$7B>[X]
+//POINTER #40 @ $D9652 - STRING #40 @ $D9827
+#W16($D9652)
+//<$09>てつのおの[X]
 //
 //
-// current address: $D9C76
+// current address: $D982E
 
-//POINTER #41 @ $D9AE4 - STRING #41 @ $D9C76
-#W16($D9AE4)
-//<$09>b<$AB><$B0><$87><$60>[X]
+//POINTER #41 @ $D9654 - STRING #41 @ $D982E
+#W16($D9654)
+//<$09>はがねのおの[X]
 //
 //
-// current address: $D9C7D
+// current address: $D9836
 
-//POINTER #42 @ $D9AE6 - STRING #42 @ $D9C7D
-#W16($D9AE6)
-//<$09>y<$8C>o<$B0>[X]
+//POINTER #42 @ $D9656 - STRING #42 @ $D9836
+#W16($D9656)
+//<$09>ぎんのおの[X]
 //
 //
-// current address: $D9C83
+// current address: $D983D
 
-//POINTER #43 @ $D9AE8 - STRING #43 @ $D9C83
-#W16($D9AE8)
-//<$09><$A2>a<$89><$B0>q[X]
+//POINTER #43 @ $D9658 - STRING #43 @ $D983D
+#W16($D9658)
+//<$09>ゆうしゃのおの[X]
 //
 //
-// current address: $D9C8A
+// current address: $D9846
 
-//POINTER #44 @ $D9AEA - STRING #44 @ $D9C8A
-#W16($D9AEA)
-//<$09><$8A><$B0><$9B>[X]
+//POINTER #44 @ $D965A - STRING #44 @ $D9846
+#W16($D965A)
+//<$09>スワンチカ[X]
 //
 //
-// current address: $D9C8F
+// current address: $D984D
 
-//POINTER #45 @ $D9AEC - STRING #45 @ $D9C90
-#W16($D9AEC)
-//<$60><$B0>g<$7E><$B0><$93>[X]
+//POINTER #45 @ $D965C - STRING #45 @ $D984D
+#W16($D965C)
+//<$09>プージ[X]
 //
 //
-// current address: $D9C97
+// current address: $D9852
 
-//POINTER #46 @ $D9AEE - STRING #46 @ $D9C98
-#W16($D9AEE)
-//<$A1><$A7><$8C><$8D><$B0><$9B>[X]
+//POINTER #46 @ $D965E - STRING #46 @ $D9852
+#W16($D965E)
+//<$09>アルマーズ[X]
 //
 //
-// current address: $D9C9F
+// current address: $D9859
 
-//POINTER #47 @ $D9AF0 - STRING #47 @ $D9C9F
-#W16($D9AF0)
-//<$09><$60><$A6>lr<$88>[X]
+//POINTER #47 @ $D9660 - STRING #47 @ $D9859
+#W16($D9660)
+//<$09>ガルム[X]
 //
 //
-// current address: $D9CA6
+// current address: $D985E
 
-//POINTER #48 @ $D9AF2 - STRING #48 @ $D9CA7
-#W16($D9AF2)
-//<$7E><$B0><$93><$A4><$87><$8C>ml[X]
+//POINTER #48 @ $D9662 - STRING #48 @ $D985E
+#W16($D9662)
+//<$09>マオザウルフ[X]
 //
 //
-// current address: $D9CB0
+// current address: $D9866
 
-//POINTER #49 @ $D9AF4 - STRING #49 @ $D9CB0
-#W16($D9AF4)
-//<$09>ga<$B0><$8C>[X]
+//POINTER #49 @ $D9664 - STRING #49 @ $D9866
+#W16($D9664)
+//<$09>てつのゆみ[X]
 //
 //
-// current address: $D9CB6
+// current address: $D986D
 
-//POINTER #50 @ $D9AF6 - STRING #50 @ $D9CB7
-#W16($D9AF6)
-//n<$B0><$9B><$97><$8C>j<$0A><$18><$09><$B0>[X]
+//POINTER #50 @ $D9666 - STRING #50 @ $D986D
+#W16($D9666)
+//<$09>はがねのゆみ[X]
 //
 //
-// current address: $D9CC2
+// current address: $D9875
 
-//POINTER #51 @ $D9AF8 - STRING #51 @ $D9CC2
-#W16($D9AF8)
-//<$09><$A4><$87><$B0>ls[X]
+//POINTER #51 @ $D9668 - STRING #51 @ $D9875
+#W16($D9668)
+//<$09>ぎんのゆみ[X]
 //
 //
-// current address: $D9CC9
+// current address: $D987C
 
-//POINTER #52 @ $D9AFA - STRING #52 @ $D9CC9
-#W16($D9AFA)
-//<$09><$7E><$B0><$93>[X]
+//POINTER #52 @ $D966A - STRING #52 @ $D987C
+#W16($D966A)
+//<$09>ゆうしゃのゆみ[X]
 //
 //
-// current address: $D9CCE
+// current address: $D9885
 
-//POINTER #53 @ $D9AFC - STRING #53 @ $D9CCE
-#W16($D9AFC)
-//<$09><$7B><$A7>a<$60><$7E><$B0><$93>[X]
+//POINTER #53 @ $D966C - STRING #53 @ $D9885
+#W16($D966C)
+//<$09>キラーボウ[X]
 //
 //
-// current address: $D9CD7
+// current address: $D988C
 
-//POINTER #54 @ $D9AFE - STRING #54 @ $D9CD7
-#W16($D9AFE)
-//<$09><$89><$0A><$18><$09><$9A><$A8><$7E><$B0><$93>[X]
+//POINTER #54 @ $D966E - STRING #54 @ $D988C
+#W16($D966E)
+//<$09>イチイバル[X]
 //
 //
-// current address: $D9CE2
+// current address: $D9893
 
-//POINTER #55 @ $D9B00 - STRING #55 @ $D9CE2
-#W16($D9B00)
-//<$09>ba<$8C><$9B><$7E><$B0><$93>[X]
+//POINTER #55 @ $D9670 - STRING #55 @ $D9893
+#W16($D9670)
+//<$09>パルティア[X]
 //
 //
-// current address: $D9CEB
+// current address: $D989A
 
-//POINTER #56 @ $D9B02 - STRING #56 @ $D9CEC
-#W16($D9B02)
-//ma<$8C>s[X]
+//POINTER #56 @ $D9672 - STRING #56 @ $D989A
+#W16($D9672)
+//<$09>ミュルグレ[X]
 //
 //
-// current address: $D9CF1
+// current address: $D98A1
 
-//POINTER #57 @ $D9B04 - STRING #57 @ $D9CF1
-#W16($D9B04)
-//<$09><$9D>k<$AF><$AC><$A4>[X]
+//POINTER #57 @ $D9674 - STRING #57 @ $D98A1
+#W16($D9674)
+//<$09>イーグルアイ[X]
 //
 //
-// current address: $D9CF8
+// current address: $D98A9
 
-//POINTER #58 @ $D9B06 - STRING #58 @ $D9CF8
-#W16($D9B06)
-//<$09>ma<$93>[X]
+//POINTER #58 @ $D9676 - STRING #58 @ $D98A9
+#W16($D9676)
+//<$09>テトラアーチ[X]
 //
 //
-// current address: $D9CFD
+// current address: $D98B1
 
-//POINTER #59 @ $D9B08 - STRING #59 @ $D9CFE
-#W16($D9B08)
-//<$9C><$B0><$9B>[X]
+//POINTER #59 @ $D9678 - STRING #59 @ $D98A9
+#W16($D9678)
+//<$09>テトラアーチ[X]
 //
 //
-// current address: $D9D02
+// current address: $D98B1
 
-//POINTER #60 @ $D9B0A - STRING #60 @ $D9D03
-#W16($D9B0A)
-//<$86>as<$7E><$B0><$93>[X]
+//POINTER #60 @ $D967A - STRING #60 @ $D98A9
+#W16($D967A)
+//<$09>テトラアーチ[X]
 //
 //
-// current address: $D9D0A
+// current address: $D98B1
 
-//POINTER #61 @ $D9B0C - STRING #61 @ $D9D0A
-#W16($D9B0C)
-//<$09><$97><$B0>g<$7E><$B0><$93>[X]
+//POINTER #61 @ $D967C - STRING #61 @ $D98B1
+#W16($D967C)
+//<$09>マスターアーチ[X]
 //
 //
-// current address: $D9D12
+// current address: $D98BA
 
-//POINTER #62 @ $D9B0E - STRING #62 @ $D9D12
-#W16($D9B0E)
-//<$09>n<$B0>j<$86><$B0>[X]
+//POINTER #62 @ $D967E - STRING #62 @ $D98BA
+#W16($D967E)
+//<$09>ファイアー[X]
 //
 //
-// current address: $D9D19
+// current address: $D98C1
 
-//POINTER #63 @ $D9B10 - STRING #63 @ $D9D1A
-#W16($D9B10)
-//k<$B0><$7B>[X]
+//POINTER #63 @ $D9680 - STRING #63 @ $D98C1
+#W16($D9680)
+//<$09>サンフレイム[X]
 //
 //
-// current address: $D9D1E
+// current address: $D98C9
 
-//POINTER #64 @ $D9B12 - STRING #64 @ $D9D1F
-#W16($D9B12)
-//cl<$A3>d<$8C>[X]
+//POINTER #64 @ $D9682 - STRING #64 @ $D98C9
+#W16($D9682)
+//<$09>パラスレイア[X]
 //
 //
-// current address: $D9D25
+// current address: $D98D1
 
-//POINTER #65 @ $D9B14 - STRING #65 @ $D9D25
-#W16($D9B14)
-//<$09><$60>abcdefk<$9D><$87><$60><$8C>[X]
+//POINTER #65 @ $D9684 - STRING #65 @ $D98D1
+#W16($D9684)
+//<$09>ファラフレイム[X]
 //
 //
-// current address: $D9D33
+// current address: $D98DA
 
-//POINTER #66 @ $D9B16 - STRING #66 @ $D9D33
-#W16($D9B16)
-//<$09>k<$9D><$87><$60><$8C>[X]
+//POINTER #66 @ $D9686 - STRING #66 @ $D98DA
+#W16($D9686)
+//<$09>メティオ[X]
 //
 //
-// current address: $D9D3A
+// current address: $D98E0
 
-//POINTER #67 @ $D9B18 - STRING #67 @ $D9D3A
-#W16($D9B18)
-//<$09><$8A><$8C><$8F><$60><$B0>p[X]
+//POINTER #67 @ $D9688 - STRING #67 @ $D98E0
+#W16($D9688)
+//<$09>サンダー[X]
 //
 //
-// current address: $D9D42
+// current address: $D98E6
 
-//POINTER #68 @ $D9B1A - STRING #68 @ $D9D42
-#W16($D9B1A)
-//<$09><$8F><$86>l<$86><$8C>t<$B0>[X]
+//POINTER #68 @ $D968A - STRING #68 @ $D98E6
+#W16($D968A)
+//<$09>ダイムサンダ[X]
 //
 //
-// current address: $D9D4B
+// current address: $D98EE
 
-//POINTER #69 @ $D9B1C - STRING #69 @ $D9D4B
-#W16($D9B1C)
-//<$09>f<$86><$B0><$60><$B0>p[X]
+//POINTER #69 @ $D968C - STRING #69 @ $D98EE
+#W16($D968C)
+//<$09>パラスセレニア[X]
 //
 //
-// current address: $D9D53
+// current address: $D98F7
 
-//POINTER #70 @ $D9B1E - STRING #70 @ $D9D53
-#W16($D9B1E)
-//<$09><$8F><$89><$B0>s<$60><$B0>p[X]
+//POINTER #70 @ $D968E - STRING #70 @ $D98F7
+#W16($D968E)
+//<$09>トールハンマー[X]
 //
 //
-// current address: $D9D5C
+// current address: $D9900
 
-//POINTER #71 @ $D9B20 - STRING #71 @ $D9D5C
-#W16($D9B20)
-//<$09><$7E><$B0><$93><$A4><$87><$8C>l[X]
+//POINTER #71 @ $D9690 - STRING #71 @ $D9900
+#W16($D9690)
+//<$09>サンダストーム[X]
 //
 //
-// current address: $D9D65
+// current address: $D9909
+
+//POINTER #72 @ $D9692 - STRING #72 @ $D9909
+#W16($D9692)
+//<$09>ウインド[X]
+//
+//
+// current address: $D990F
+
+//POINTER #73 @ $D9694 - STRING #73 @ $D990F
+#W16($D9694)
+//<$09>シルフィード[X]
+//
+//
+// current address: $D9917
+
+//POINTER #74 @ $D9696 - STRING #74 @ $D9917
+#W16($D9696)
+//<$09>パラスリアナ[X]
+//
+//
+// current address: $D991F
+
+//POINTER #75 @ $D9698 - STRING #75 @ $D991F
+#W16($D9698)
+//<$09>フォルセティ[X]
+//
+//
+// current address: $D9927
+
+//POINTER #76 @ $D969A - STRING #76 @ $D9927
+#W16($D969A)
+//<$09>ブリザード[X]
+//
+//
+// current address: $D992E
+
+//POINTER #77 @ $D969C - STRING #77 @ $D992E
+#W16($D969C)
+//<$09>オーラレイン[X]
+//
+//
+// current address: $D9936
+
+//POINTER #78 @ $D969E - STRING #78 @ $D9936
+#W16($D969E)
+//<$09>シッイン[X]
+//
+//
+// current address: $D993C
+
+//POINTER #79 @ $D96A0 - STRING #79 @ $D993C
+#W16($D96A0)
+//<$09>アーリアル[X]
+//
+//
+// current address: $D9943
+
+//POINTER #80 @ $D96A2 - STRING #80 @ $D9943
+#W16($D96A2)
+//<$09>ナーガ[X]
+//
+//
+// current address: $D9948
+
+//POINTER #81 @ $D96A4 - STRING #81 @ $D9948
+#W16($D96A4)
+//<$09>ミィル[X]
+//
+//
+// current address: $D994D
+
+//POINTER #82 @ $D96A6 - STRING #82 @ $D994D
+#W16($D96A6)
+//<$09>フェンリル[X]
+//
+//
+// current address: $D9954
+
+//POINTER #83 @ $D96A8 - STRING #83 @ $D9954
+#W16($D96A8)
+//<$09>スターライト[X]
+//
+//
+// current address: $D995C
+
+//POINTER #84 @ $D96AA - STRING #84 @ $D995C
+#W16($D96AA)
+//<$09>ロプトウス[X]
+//
+//
+// current address: $D9963
+
+//POINTER #85 @ $D96AC - STRING #85 @ $D9963
+#W16($D96AC)
+//<$09>フォルブレイズ[X]
+//
+//
+// current address: $D996C
+
+//POINTER #86 @ $D96AE - STRING #86 @ $D996C
+#W16($D96AE)
+//<$09>レクスボルト[X]
+//
+//
+// current address: $D9974
+
+//POINTER #87 @ $D96B0 - STRING #87 @ $D9974
+#W16($D96B0)
+//<$09>グラフカリバー[X]
+//
+//
+// current address: $D997D
+
+//POINTER #88 @ $D96B2 - STRING #88 @ $D997D
+#W16($D96B2)
+//<$09>ライブ[X]
+//
+//
+// current address: $D9982
+
+//POINTER #89 @ $D96B4 - STRING #89 @ $D9982
+#W16($D96B4)
+//<$09>リライブ[X]
+//
+//
+// current address: $D9988
+
+//POINTER #90 @ $D96B6 - STRING #90 @ $D9988
+#W16($D96B6)
+//<$09>リカバー[X]
+//
+//
+// current address: $D998E
+
+//POINTER #91 @ $D96B8 - STRING #91 @ $D998E
+#W16($D96B8)
+//<$09>リブロー[X]
+//
+//
+// current address: $D9994
+
+//POINTER #92 @ $D96BA - STRING #92 @ $D9994
+#W16($D96BA)
+//<$09>リザーブ[X]
+//
+//
+// current address: $D999A
+
+//POINTER #93 @ $D96BC - STRING #93 @ $D999A
+#W16($D96BC)
+//<$09>きえたまどうしょ[X]
+//
+//
+// current address: $D99A4
+
+//POINTER #94 @ $D96BE - STRING #94 @ $D99A4
+#W16($D96BE)
+//<$09>ワープ[X]
+//
+//
+// current address: $D99A9
+
+//POINTER #95 @ $D96C0 - STRING #95 @ $D99A9
+#W16($D96C0)
+//<$09>きえたまどうしょ[X]
+//
+//
+// current address: $D99B3
+
+//POINTER #96 @ $D96C2 - STRING #96 @ $D99A9
+#W16($D96C2)
+//<$09>きえたまどうしょ[X]
+//
+//
+// current address: $D99B3
+
+//POINTER #97 @ $D96C4 - STRING #97 @ $D99B3
+#W16($D96C4)
+//<$09>レスト[X]
+//
+//
+// current address: $D99B8
+
+//POINTER #98 @ $D96C6 - STRING #98 @ $D99B8
+#W16($D96C6)
+//<$09>バルキリー[X]
+//
+//
+// current address: $D99BF
+
+//POINTER #99 @ $D96C8 - STRING #99 @ $D99C0
+#W16($D96C8)
+//サイレス[X]
+//
+//
+// current address: $D99C5
+
+//POINTER #100 @ $D96CA - STRING #100 @ $D99C6
+#W16($D96CA)
+//スリープ[X]
+//
+//
+// current address: $D99CB
+
+//POINTER #101 @ $D96CC - STRING #101 @ $D99CC
+#W16($D96CC)
+//ジッャジメント[X]
+//
+//
+// current address: $D99D4
+
+//POINTER #102 @ $D96CE - STRING #102 @ $D99D4
+#W16($D96CE)
+//<$09>セイニー[X]
+//
+//
+// current address: $D99DA
+
+//POINTER #103 @ $D96D0 - STRING #103 @ $D99DA
+#W16($D96D0)
+//<$09>われたつえ[X]
+//
+//
+// current address: $D99E1
+
+//POINTER #104 @ $D96D2 - STRING #104 @ $D99DA
+#W16($D96D2)
+//<$09>われたつえ[X]
+//
+//
+// current address: $D99E1
+
+//POINTER #105 @ $D96D4 - STRING #105 @ $D99DA
+#W16($D96D4)
+//<$09>われたつえ[X]
+//
+//
+// current address: $D99E1
+
+//POINTER #106 @ $D96D6 - STRING #106 @ $D99E2
+#W16($D96D6)
+//ライブリング[X]
+//
+//
+// current address: $D99E9
+
+//POINTER #107 @ $D96D8 - STRING #107 @ $D99EA
+#W16($D96D8)
+//マスターリング[X]
+//
+//
+// current address: $D99F2
+
+//POINTER #108 @ $D96DA - STRING #108 @ $D99F2
+#W16($D96DA)
+//<$09>スターリング[X]
+//
+//
+// current address: $D99FA
+
+//POINTER #109 @ $D96DC - STRING #109 @ $D99FB
+#W16($D96DC)
+//リングオブマイラ[X]
+//
+//
+// current address: $D9A04
+
+//POINTER #110 @ $D96DE - STRING #110 @ $D9A04
+#W16($D96DE)
+//<$09>アイオテリング[X]
+//
+//
+// current address: $D9A0D
+
+//POINTER #111 @ $D96E0 - STRING #111 @ $D9A0D
+#W16($D96E0)
+//<$09>ムーンリング[X]
+//
+//
+// current address: $D9A15
+
+//POINTER #112 @ $D96E2 - STRING #112 @ $D9A16
+#W16($D96E2)
+//チッームリング[X]
+//
+//
+// current address: $D9A1E
+
+//POINTER #113 @ $D96E4 - STRING #113 @ $D9A1E
+#W16($D96E4)
+//<$09>ナイトリング[X]
+//
+//
+// current address: $D9A26
+
+//POINTER #114 @ $D96E6 - STRING #114 @ $D9A26
+#W16($D96E6)
+//<$09>サンリング[X]
+//
+//
+// current address: $D9A2D
+
+//POINTER #115 @ $D96E8 - STRING #115 @ $D9A2E
+#W16($D96E8)
+//スピードリング[X]
+//
+//
+// current address: $D9A36
+
+//POINTER #116 @ $D96EA - STRING #116 @ $D9A37
+#W16($D96EA)
+//マジャクリング[X]
+//
+//
+// current address: $D9A3F
+
+//POINTER #117 @ $D96EC - STRING #117 @ $D9A3F
+#W16($D96EC)
+//<$09>パワーリング[X]
+//
+//
+// current address: $D9A47
+
+//POINTER #118 @ $D96EE - STRING #118 @ $D9A48
+#W16($D96EE)
+//シールドリング[X]
+//
+//
+// current address: $D9A50
+
+//POINTER #119 @ $D96F0 - STRING #119 @ $D9A50
+#W16($D96F0)
+//<$09>バリアリング[X]
+//
+//
+// current address: $D9A58
+
+//POINTER #120 @ $D96F2 - STRING #120 @ $D9A58
+#W16($D96F2)
+//<$09>レャグリング[X]
+//
+//
+// current address: $D9A60
+
+//POINTER #121 @ $D96F4 - STRING #121 @ $D9A60
+#W16($D96F4)
+//<$09>スキルリング[X]
+//
+//
+// current address: $D9A68
+
+//POINTER #122 @ $D96F6 - STRING #122 @ $D9A68
+#W16($D96F6)
+//<$09>こわれたぶき[X]
+//
+//
+// current address: $D9A70
+
+//POINTER #123 @ $D96F8 - STRING #123 @ $D9A68
+#W16($D96F8)
+//<$09>こわれたぶき[X]
+//
+//
+// current address: $D9A70
+
+//POINTER #124 @ $D96FA - STRING #124 @ $D9A68
+#W16($D96FA)
+//<$09>こわれたぶき[X]
+//
+//
+// current address: $D9A70
+
+//POINTER #125 @ $D96FC - STRING #125 @ $D9A71
+#W16($D96FC)
+//きえたまどうしょ[X]
+//
+//
+// current address: $D9A7A
+
+//POINTER #126 @ $D96FE - STRING #126 @ $D9A71
+#W16($D96FE)
+//きえたまどうしょ[X]
+//
+//
+// current address: $D9A7A
+
+//POINTER #127 @ $D9700 - STRING #127 @ $D9A71
+#W16($D9700)
+//きえたまどうしょ[X]
+//
+//
+// current address: $D9A7A
+
+//POINTER #128 @ $D9702 - STRING #128 @ $D9A71
+#W16($D9702)
+//きえたまどうしょ[X]
+//
+//
+// current address: $D9A7A
+
+//POINTER #129 @ $D9704 - STRING #129 @ $D9A71
+#W16($D9704)
+//きえたまどうしょ[X]
+//
+//
+// current address: $D9A7A
+
+//POINTER #130 @ $D9706 - STRING #130 @ $D9A71
+#W16($D9706)
+//きえたまどうしょ[X]
+//
+//
+// current address: $D9A7A
+
+//POINTER #131 @ $D9708 - STRING #131 @ $D9A71
+#W16($D9708)
+//きえたまどうしょ[X]
+//
+//
+// current address: $D9A7A
+
+//POINTER #132 @ $D970A - STRING #132 @ $D9A71
+#W16($D970A)
+//きえたまどうしょ[X]
+//
+//
+// current address: $D9A7A
+
+//POINTER #133 @ $D970C - STRING #133 @ $D9A71
+#W16($D970C)
+//きえたまどうしょ[X]
+//
+//
+// current address: $D9A7A
+
+//POINTER #134 @ $D970E - STRING #134 @ $D9A71
+#W16($D970E)
+//きえたまどうしょ[X]
+//
+//
+// current address: $D9A7A
+
+//POINTER #135 @ $D9710 - STRING #135 @ $D9A71
+#W16($D9710)
+//きえたまどうしょ[X]
+//
+//
+// current address: $D9A7A
+
+//POINTER #136 @ $D9712 - STRING #136 @ $D9A71
+#W16($D9712)
+//きえたまどうしょ[X]
+//
+//
+// current address: $D9A7A

@@ -6,92 +6,85 @@
 #VAR(Table_1, TABLE)
 #ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/menutext.tbl", Table_1)
 
-//BLOCK #020 NAME:		Chapter Names
+//BLOCK #020 NAME:		Main Menu
 #ACTIVETBL(Table_0) // Activate this block's starting TABLE
 
-#JMP($D9E0E, $D9E87) // Jump to insertion point
+#JMP($D9D7B, $D9DF5) // Jump to insertion point
 #HDR($D0200) // Difference between ROM and RAM addresses for pointer value calculations
 
-//POINTER #0 @ $D9DF6 - STRING #0 @ $D9E0E
-#W16($D9DF6)
-//<$0A>-<$5C>K<$0D>!<$0B>H[X]
+//POINTER #0 @ $D9D65 - STRING #0 @ $D9D7B
+#W16($D9D65)
+//<$0A>ャ<$0B>マ<$09>から<$0A>、<$09>める [X]
 //
 //
-// current address: $D9E17
+// current address: $D9D89
 
-//POINTER #1 @ $D9DF8 - STRING #1 @ $D9E17
-#W16($D9DF8)
-//<$0B><$D5><$0D>m<$09>(<$0C>'<$09>(<$0B><$E7><$0A><$7F>[X]
+//POINTER #1 @ $D9D67 - STRING #1 @ $D9D7B
+#W16($D9D67)
+//<$0A>ャ<$0B>マ<$09>から<$0A>、<$09>める [X]
 //
 //
-// current address: $D9E26
+// current address: $D9D89
 
-//POINTER #2 @ $D9DFA - STRING #2 @ $D9E26
-#W16($D9DFA)
-//<$09><$84><$8C><$8F><$A1><$A8>(<$0B>3W<$00>[X]
+//POINTER #2 @ $D9D69 - STRING #2 @ $D9D89
+#W16($D9D69)
+//<$09> <$0B>ミム<$09>をする  [X]
 //
 //
-// current address: $D9E32
+// current address: $D9D95
 
-//POINTER #3 @ $D9DFC - STRING #3 @ $D9E32
-#W16($D9DFC)
-//<$0A>-<$0B><$60><$09>(<$9E><$87><$8E><$AC><$9B><$C5>[X]
+//POINTER #3 @ $D9D6B - STRING #3 @ $D9D95
+#W16($D9D6B)
+//<$0B>ミム<$09>から<$0A>、<$09>める [X]
 //
 //
-// current address: $D9E3F
+// current address: $D9DA2
 
-//POINTER #4 @ $D9DFE - STRING #4 @ $D9E3F
-#W16($D9DFE)
-//<$0D><$7F><$0B><$87>W<$0D>i<$09>[X]
+//POINTER #4 @ $D9D6D - STRING #4 @ $D9DA2
+#W16($D9D6D)
+//<$0A>4<$0B>メ<$09>から<$0A>、<$09>める [X]
 //
 //
-// current address: $D9E48
+// current address: $D9DB0
 
-//POINTER #5 @ $D9E00 - STRING #5 @ $D9E48
-#W16($D9E00)
-//<$0A>N<$0B>A<$09>(<$0C><$EE>[X]
+//POINTER #5 @ $D9D6F - STRING #5 @ $D9DB0
+#W16($D9D6F)
+//<$0B>ミム<$09>を<$0B>モ<$09>す   [X]
 //
 //
-// current address: $D9E51
+// current address: $D9DBD
 
-//POINTER #6 @ $D9E02 - STRING #6 @ $D9E51
-#W16($D9E02)
-//<$0D><$D8><$0A> <$0B><$18><$0D><$DB>[X]
+//POINTER #6 @ $D9D71 - STRING #6 @ $D9DBD
+#W16($D9D71)
+//<$0B>ミム<$09>を<$0B>ヤ<$09>す   [X]
 //
 //
-// current address: $D9E5A
+// current address: $D9DCA
 
-//POINTER #7 @ $D9E04 - STRING #7 @ $D9E5A
-#W16($D9E04)
-//<$0B><$DE><$DF><$09><$3C><$19><$13><$22>[X]
+//POINTER #7 @ $D9D73 - STRING #7 @ $D9DCA
+#W16($D9D73)
+//<$0C>コり<$09>  [X]
 //
 //
-// current address: $D9E63
+// current address: $D9DD1
 
-//POINTER #8 @ $D9E06 - STRING #8 @ $D9E63
-#W16($D9E06)
-//<$0B>y<$0C>Y<$09>(<$9B><$94><$88>[X]
+//POINTER #8 @ $D9D75 - STRING #8 @ $D9DD1
+#W16($D9D75)
+//<$0B>ヤ<$09>す  [X]
 //
 //
-// current address: $D9E6D
+// current address: $D9DD8
 
-//POINTER #9 @ $D9E08 - STRING #9 @ $D9E6D
-#W16($D9E08)
-//<$09>498<$0C>p<$09><$11>[X]
+//POINTER #9 @ $D9D77 - STRING #9 @ $D9DD8
+#W16($D9D77)
+//<$09>やめる [X]
 //
 //
-// current address: $D9E76
+// current address: $D9DDE
 
-//POINTER #10 @ $D9E0A - STRING #10 @ $D9E76
-#W16($D9E0A)
-//<$09>a<$8C><$9B><$86>(<$0D><$DF>[X]
+//POINTER #10 @ $D9D79 - STRING #10 @ $D9DDE
+#W16($D9D79)
+//<$09>     <$0B>ミム<$09>がありません       [X]
 //
 //
-// current address: $D9E7F
-
-//POINTER #11 @ $D9E0C - STRING #11 @ $D9E7F
-#W16($D9E0C)
-//<$0A><$B5><$BC><$09>(<$0A>-d[X]
-//
-//
-// current address: $D9E88
+// current address: $D9DF6
