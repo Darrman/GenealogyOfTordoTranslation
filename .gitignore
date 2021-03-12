@@ -47,7 +47,8 @@ eg
 
 # Executables
 *.exe
-*.out
+#*.out
+#Commenting since the graphics decompressor outputs this sometimes and it beats no extension
 *.app
 *.i*86
 *.x86_64

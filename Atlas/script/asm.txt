@@ -66,6 +66,16 @@
 <$22><$21><$89><$87>
 <$80><$0F>
 
+// On map status
+#JMP($5CB88)
+//Silence
+<$EF><$F0><$F1><$F2><$00>
+//Sleep
+<$F3><$F4><$F5><$F6><$00>
+//Berserk
+<$EB><$EC><$ED><$EE><$00>
+
+
 //Status screen, adjusting X coordinates mainly
 //Could fiddle with some Ys, but generally unnecessary
 // Char Status Wep Accuracy
@@ -282,3 +292,4 @@
 // @@778385@@
 #JMP($BE091)
 <$E0><$BA><$AE>
+

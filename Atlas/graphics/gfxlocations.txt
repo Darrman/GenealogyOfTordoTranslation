@@ -3,6 +3,7 @@ Graphics Locations
 *Oh, and most of this is google translated, barring what I know for a fact to be true.
 Assume the graphics are compressed unless noted otherwise.
 $000C2B Menu font
+$001B7C Menu font 2
 $001E83 Level up screen characters?
 $0021BA Data menu?
 $002742 Command list?

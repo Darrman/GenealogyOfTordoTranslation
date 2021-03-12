@@ -5471,7 +5471,6 @@ No[X]
 #JMP($59090, $590C4)
 //Aside from level and HP, these don't use the standard menu encoding.
 //The raw bytes here will represent the letters commented.
-//TODO: Add a duplicate A top since that's tile 0. <$60> is the placeholder.
 
 #W16($5903A)
 //Crt[X]
@@ -5480,7 +5479,7 @@ No[X]
 
 #W16($5904C)
 //AS[X]
-<$60><$22><$00><$00>
+<$61><$22><$00><$00>
 <$10><$32><$00><$00>
 <$6B>
 #W16($58FD4)
@@ -5491,7 +5490,7 @@ HP[X]
 
 #W16($59004)
 //Atk[X]
-<$60><$A3><$8A><$00>
+<$61><$A3><$8A><$00>
 <$10><$B3><$9A><$00>
 
 #W16($59016)
