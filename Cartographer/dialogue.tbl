@@ -1,13 +1,13 @@
 @Kana
 !00=<[Control]>,1
 /01=[X]\n\n
-02=[N]
+02=[N]\n
 03=[Clear]
 04=[Scroll]
 !05=<[TargetWin]>,1
 06=[TargetTop]
 07=[TargetBottom]
-08=[A]
+08=[A]\n
 09=[Kana]
 !0A=<[Kanji1]>,<@Kanji>:0
 !0B=<[Kanji2]>,<@Kanji>:0
