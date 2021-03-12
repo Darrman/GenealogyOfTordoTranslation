@@ -4,10 +4,12 @@
 #VAR(Table_0, TABLE)
 #ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/dialogue.tbl", Table_0)
 #VAR(Table_1, TABLE)
-#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/menutext.tbl", Table_1)
+#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/kanji.tbl", Table_1)
+#VAR(Table_2, TABLE)
+#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/menutext.tbl", Table_2)
 
 //BLOCK #005 NAME:		Class Names
-#ACTIVETBL(Table_1) // Activate this block's starting TABLE
+#ACTIVETBL(Table_2) // Activate this block's starting TABLE
 
 #JMP($38D43, $39134) // Jump to insertion point
 #HDR($38CB3) // Difference between ROM and RAM addresses for pointer value calculations

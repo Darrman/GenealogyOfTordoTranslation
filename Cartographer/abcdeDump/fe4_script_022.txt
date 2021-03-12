@@ -4,7 +4,9 @@
 #VAR(Table_0, TABLE)
 #ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/dialogue.tbl", Table_0)
 #VAR(Table_1, TABLE)
-#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/menutext.tbl", Table_1)
+#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/kanji.tbl", Table_1)
+#VAR(Table_2, TABLE)
+#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/menutext.tbl", Table_2)
 
 //BLOCK #022 NAME:		Shop Text
 #ACTIVETBL(Table_0) // Activate this block's starting TABLE
@@ -14,7 +16,7 @@
 
 //POINTER #0 @ $AD0B3 - STRING #0 @ $AD0D4
 #W24($AD0B3)
-//<$0D>QロフLロ7MログNログOロさSロフLロワLロCMロベNロボOロさSロ<$F9>Pロ三KロMLロ三KロびOロさSロ<$F1>Kロ.Lロ<$F1>Kロ[X]
+//[Kanji4]<$D6><$8A><$7B><$D1><$8A><$B8><$D2><$8A><$8F><$D3><$8A><$8F><$D4><$8A><$1A><$D8><$8A><$7B><$D1><$8A><$8B><$D1><$8A><$C8><$D2><$8A><$9F><$D3><$8A><$A0><$D4><$8A><$1A><$D8><$8A><$F9><$D5><$8A><$E3><$D0><$8A><$D2><$D1><$8A><$E3><$D0><$8A><$4E><$D4><$8A><$1A><$D8><$8A><$F1><$D0><$8A><$E0><$D1><$8A><$F1><$D0><$8A>[X]
 //
 //
 // current address: $AD114
@@ -28,14 +30,14 @@
 
 //POINTER #2 @ $AD0B9 - STRING #2 @ $AD2D9
 #W24($AD0B9)
-//<$0A>じ<$0B><$FC>8<$09>だぜ[N][X]
+//[Kanji1]<$44>[Kanji2]<$FC><$B9>[Kana]だぜ[N][X]
 //
 //
 // current address: $AD2E3
 
 //POINTER #3 @ $AD0BC - STRING #3 @ $AD3D3
 #W24($AD0BC)
-//<$09>どれがほしいんだい?[N][X]
+//[Kana]どれがほしいんだい?[N][X]
 //
 //
 // current address: $AD3E0
@@ -98,7 +100,7 @@
 
 //POINTER #12 @ $AD0D7 - STRING #12 @ $AD17B
 #W24($AD0D7)
-//ロ<$0B>OロさSロ<$0A>Nロ<$0A>Nロ<$F8>Mロ<$0A>NロさSロすNロすNロすNロすNロのRロぼNロぼNロぼNロぼNロぼNロまNロまNロまNロまNロのRロる九[X]
+//ロ[Kanji2]<$D4><$8A><$1A><$D8><$8A>[Kanji1]<$D3><$8A>[Kanji1]<$D3><$8A><$F8><$D2><$8A>[Kanji1]<$D3><$8A><$1A><$D8><$8A><$1C><$D3><$8A><$1C><$D3><$8A><$1C><$D3><$8A><$1C><$D3><$8A><$28><$D7><$8A><$51><$D3><$8A><$51><$D3><$8A><$51><$D3><$8A><$51><$D3><$8A><$51><$D3><$8A><$2E><$D3><$8A><$2E><$D3><$8A><$2E><$D3><$8A><$2E><$D3><$8A><$28><$D7><$8A><$38><$E9>[X]
 //
 //
 // current address: $AD1C1
@@ -126,49 +128,49 @@
 
 //POINTER #16 @ $AD0E3 - STRING #16 @ $AD81A
 #W24($AD0E3)
-//きたのぉ[N]そなたの<$0A>グ<$09>りたいことを[N]<$0A>ダ<$09>ってしんぜよう[A][Clear]なにが<$0A>グ<$09>りたいのじゃ?[N][X]
+//きたのぉ[N]そなたの[Kanji1]<$8F>[Kana]りたいことを[N][Kanji1]<$97>[Kana]ってしんぜよう[A][Clear]なにが[Kanji1]<$8F>[Kana]りたいのじゃ?[N][X]
 //
 //
 // current address: $AD848
 
 //POINTER #17 @ $AD0E6 - STRING #17 @ $AD17B
 #W24($AD0E6)
-//ロ<$0B>OロさSロ<$0A>Nロ<$0A>Nロ<$F8>Mロ<$0A>NロさSロすNロすNロすNロすNロのRロぼNロぼNロぼNロぼNロぼNロまNロまNロまNロまNロのRロる九[X]
+//ロ[Kanji2]<$D4><$8A><$1A><$D8><$8A>[Kanji1]<$D3><$8A>[Kanji1]<$D3><$8A><$F8><$D2><$8A>[Kanji1]<$D3><$8A><$1A><$D8><$8A><$1C><$D3><$8A><$1C><$D3><$8A><$1C><$D3><$8A><$1C><$D3><$8A><$28><$D7><$8A><$51><$D3><$8A><$51><$D3><$8A><$51><$D3><$8A><$51><$D3><$8A><$51><$D3><$8A><$2E><$D3><$8A><$2E><$D3><$8A><$2E><$D3><$8A><$2E><$D3><$8A><$28><$D7><$8A><$38><$E9>[X]
 //
 //
 // current address: $AD1C1
 
 //POINTER #18 @ $AD0E9 - STRING #18 @ $AD18B
 #W24($AD0E9)
-//<$0A>NロさSロすNロすNロすNロすNロのRロぼNロぼNロぼNロぼNロぼNロまNロまNロまNロまNロのRロる九[X]
+//[Kanji1]<$D3><$8A><$1A><$D8><$8A><$1C><$D3><$8A><$1C><$D3><$8A><$1C><$D3><$8A><$1C><$D3><$8A><$28><$D7><$8A><$51><$D3><$8A><$51><$D3><$8A><$51><$D3><$8A><$51><$D3><$8A><$51><$D3><$8A><$2E><$D3><$8A><$2E><$D3><$8A><$2E><$D3><$8A><$2E><$D3><$8A><$28><$D7><$8A><$38><$E9>[X]
 //
 //
 // current address: $AD1C1
 
 //POINTER #19 @ $AD0EC - STRING #19 @ $AD2C8
 #W24($AD0EC)
-//ぐ<$00>けコ<$0B><$00>ェてぷジリア[Clear]<$09>ここは<$0A>じ<$0B><$FC>8<$09>だぜ[N][X]
+//ぐ<$00>けコ[Kanji2]<$00><$AA><$22><$54><$93><$87><$60>[Clear][Kana]ここは[Kanji1]<$44>[Kanji2]<$FC><$B9>[Kana]だぜ[N][X]
 //
 //
 // current address: $AD2E3
 
 //POINTER #20 @ $AD0EF - STRING #20 @ $AD39F
 #W24($AD0EF)
-//だぜ[N]いろいろ<$0C>こ<$09>り<$0C>さ<$09>いしてくれよ[N][X]
+//だぜ[N]いろいろ[Kanji3]<$19>[Kana]り[Kanji3]<$1A>[Kana]いしてくれよ[N][X]
 //
 //
 // current address: $AD3B5
 
 //POINTER #21 @ $AD0F2 - STRING #21 @ $AD4A0
 #W24($AD0F2)
-//<$09>わるいがその<$0D>ざ<$0A>二<$09>は[N]あつかえねぇな[N][A][X]
+//[Kana]わるいがその[Kanji4]<$43>[Kanji1]<$E2>[Kana]は[N]あつかえねぇな[N][A][X]
 //
 //
 // current address: $AD4B8
 
 //POINTER #22 @ $AD0F5 - STRING #22 @ $AD81A
 #W24($AD0F5)
-//きたのぉ[N]そなたの<$0A>グ<$09>りたいことを[N]<$0A>ダ<$09>ってしんぜよう[A][Clear]なにが<$0A>グ<$09>りたいのじゃ?[N][X]
+//きたのぉ[N]そなたの[Kanji1]<$8F>[Kana]りたいことを[N][Kanji1]<$97>[Kana]ってしんぜよう[A][Clear]なにが[Kanji1]<$8F>[Kana]りたいのじゃ?[N][X]
 //
 //
 // current address: $AD848
@@ -203,14 +205,14 @@
 
 //POINTER #27 @ $AD104 - STRING #27 @ $AD44E
 #W24($AD104)
-//<$09>があるのか?[N][X]
+//[Kana]があるのか?[N][X]
 //
 //
 // current address: $AD457
 
 //POINTER #28 @ $AD107 - STRING #28 @ $AD81A
 #W24($AD107)
-//きたのぉ[N]そなたの<$0A>グ<$09>りたいことを[N]<$0A>ダ<$09>ってしんぜよう[A][Clear]なにが<$0A>グ<$09>りたいのじゃ?[N][X]
+//きたのぉ[N]そなたの[Kanji1]<$8F>[Kana]りたいことを[N][Kanji1]<$97>[Kana]ってしんぜよう[A][Clear]なにが[Kanji1]<$8F>[Kana]りたいのじゃ?[N][X]
 //
 //
 // current address: $AD848
@@ -245,7 +247,7 @@
 
 //POINTER #33 @ $AD116 - STRING #33 @ $AD81A
 #W24($AD116)
-//きたのぉ[N]そなたの<$0A>グ<$09>りたいことを[N]<$0A>ダ<$09>ってしんぜよう[A][Clear]なにが<$0A>グ<$09>りたいのじゃ?[N][X]
+//きたのぉ[N]そなたの[Kanji1]<$8F>[Kana]りたいことを[N][Kanji1]<$97>[Kana]ってしんぜよう[A][Clear]なにが[Kanji1]<$8F>[Kana]りたいのじゃ?[N][X]
 //
 //
 // current address: $AD848
@@ -266,21 +268,21 @@
 
 //POINTER #36 @ $AD11F - STRING #36 @ $AD81A
 #W24($AD11F)
-//きたのぉ[N]そなたの<$0A>グ<$09>りたいことを[N]<$0A>ダ<$09>ってしんぜよう[A][Clear]なにが<$0A>グ<$09>りたいのじゃ?[N][X]
+//きたのぉ[N]そなたの[Kanji1]<$8F>[Kana]りたいことを[N][Kanji1]<$97>[Kana]ってしんぜよう[A][Clear]なにが[Kanji1]<$8F>[Kana]りたいのじゃ?[N][X]
 //
 //
 // current address: $AD848
 
 //POINTER #37 @ $AD122 - STRING #37 @ $AD45D
 #W24($AD122)
-//にももってねぇじゃないか[N][A][Clear]ほかにも<$0A>ば<$09>があるのか?[N][X]
+//にももってねぇじゃないか[N][A][Clear]ほかにも[Kanji1]<$4D>[Kana]があるのか?[N][X]
 //
 //
 // current address: $AD47B
 
 //POINTER #38 @ $AD125 - STRING #38 @ $AD81A
 #W24($AD125)
-//きたのぉ[N]そなたの<$0A>グ<$09>りたいことを[N]<$0A>ダ<$09>ってしんぜよう[A][Clear]なにが<$0A>グ<$09>りたいのじゃ?[N][X]
+//きたのぉ[N]そなたの[Kanji1]<$8F>[Kana]りたいことを[N][Kanji1]<$97>[Kana]ってしんぜよう[A][Clear]なにが[Kanji1]<$8F>[Kana]りたいのじゃ?[N][X]
 //
 //
 // current address: $AD848
@@ -301,7 +303,7 @@
 
 //POINTER #41 @ $AD12E - STRING #41 @ $AD363
 #W24($AD12E)
-//かみてねぇで[N]<$0A>げ<$09>の<$0B>ボ<$0D>ざ<$09>をみてくれよ[N][X]
+//かみてねぇで[N][Kanji1]<$41>[Kana]の[Kanji2]<$A0>[Kanji4]<$43>[Kana]をみてくれよ[N][X]
 //
 //
 // current address: $AD37B
@@ -343,7 +345,7 @@
 
 //POINTER #47 @ $AD140 - STRING #47 @ $AD43E
 #W24($AD140)
-//<$0C>こ<$09>りきれだ[N][A][Clear]ほかにも<$0A>ば<$09>があるのか?[N][X]
+//[Kanji3]<$19>[Kana]りきれだ[N][A][Clear]ほかにも[Kanji1]<$4D>[Kana]があるのか?[N][X]
 //
 //
 // current address: $AD457
@@ -399,14 +401,14 @@
 
 //POINTER #55 @ $AD158 - STRING #55 @ $AD205
 #W24($AD158)
-//<$FF>グチヌミムつッヴ[A]ィ6ねは<$FF><$00>る九<$0D><$00>ヨ<$00>ゥち<$00>けコ[Scroll]<$00>けコ[A]<$00>けコ[A]<$00>ヨ[N]アッヴ[A]ィ6ひは<$FF><$00>D<$FF><$00><$F0>LD<$00><$00><$F0>こD[X]
+//<$FF>グチヌミムつッヴ[A]ィ6ねは<$FF><$00>る九[Kanji4]<$00><$85><$00><$A9><$20><$00><$18><$69>[Scroll]<$00><$18><$69>[A]<$00><$18><$69>[A]<$00><$85>[N]<$60><$AD><$A1>[A]<$A8><$B7><$2A><$29><$FF><$00><$C9><$FF><$00><$F0><$D1><$C9><$00><$00><$F0><$19><$C9>[X]
 //
 //
 // current address: $AD242
 
 //POINTER #56 @ $AD15B - STRING #56 @ $AD81A
 #W24($AD15B)
-//きたのぉ[N]そなたの<$0A>グ<$09>りたいことを[N]<$0A>ダ<$09>ってしんぜよう[A][Clear]なにが<$0A>グ<$09>りたいのじゃ?[N][X]
+//きたのぉ[N]そなたの[Kanji1]<$8F>[Kana]りたいことを[N][Kanji1]<$97>[Kana]ってしんぜよう[A][Clear]なにが[Kanji1]<$8F>[Kana]りたいのじゃ?[N][X]
 //
 //
 // current address: $AD848
@@ -420,28 +422,28 @@
 
 //POINTER #58 @ $AD161 - STRING #58 @ $AD81A
 #W24($AD161)
-//きたのぉ[N]そなたの<$0A>グ<$09>りたいことを[N]<$0A>ダ<$09>ってしんぜよう[A][Clear]なにが<$0A>グ<$09>りたいのじゃ?[N][X]
+//きたのぉ[N]そなたの[Kanji1]<$8F>[Kana]りたいことを[N][Kanji1]<$97>[Kana]ってしんぜよう[A][Clear]なにが[Kanji1]<$8F>[Kana]りたいのじゃ?[N][X]
 //
 //
 // current address: $AD848
 
 //POINTER #59 @ $AD164 - STRING #59 @ $AD81A
 #W24($AD164)
-//きたのぉ[N]そなたの<$0A>グ<$09>りたいことを[N]<$0A>ダ<$09>ってしんぜよう[A][Clear]なにが<$0A>グ<$09>りたいのじゃ?[N][X]
+//きたのぉ[N]そなたの[Kanji1]<$8F>[Kana]りたいことを[N][Kanji1]<$97>[Kana]ってしんぜよう[A][Clear]なにが[Kanji1]<$8F>[Kana]りたいのじゃ?[N][X]
 //
 //
 // current address: $AD848
 
 //POINTER #60 @ $AD167 - STRING #60 @ $AD217
 #W24($AD167)
-//<$0D><$00>ヨ<$00>ゥち<$00>けコ[Scroll]<$00>けコ[A]<$00>けコ[A]<$00>ヨ[N]アッヴ[A]ィ6ひは<$FF><$00>D<$FF><$00><$F0>LD<$00><$00><$F0>こD[X]
+//[Kanji4]<$00><$85><$00><$A9><$20><$00><$18><$69>[Scroll]<$00><$18><$69>[A]<$00><$18><$69>[A]<$00><$85>[N]<$60><$AD><$A1>[A]<$A8><$B7><$2A><$29><$FF><$00><$C9><$FF><$00><$F0><$D1><$C9><$00><$00><$F0><$19><$C9>[X]
 //
 //
 // current address: $AD242
 
 //POINTER #61 @ $AD16A - STRING #61 @ $AD81A
 #W24($AD16A)
-//きたのぉ[N]そなたの<$0A>グ<$09>りたいことを[N]<$0A>ダ<$09>ってしんぜよう[A][Clear]なにが<$0A>グ<$09>りたいのじゃ?[N][X]
+//きたのぉ[N]そなたの[Kanji1]<$8F>[Kana]りたいことを[N][Kanji1]<$97>[Kana]ってしんぜよう[A][Clear]なにが[Kanji1]<$8F>[Kana]りたいのじゃ?[N][X]
 //
 //
 // current address: $AD848
@@ -455,14 +457,14 @@
 
 //POINTER #63 @ $AD170 - STRING #63 @ $AD81A
 #W24($AD170)
-//きたのぉ[N]そなたの<$0A>グ<$09>りたいことを[N]<$0A>ダ<$09>ってしんぜよう[A][Clear]なにが<$0A>グ<$09>りたいのじゃ?[N][X]
+//きたのぉ[N]そなたの[Kanji1]<$8F>[Kana]りたいことを[N][Kanji1]<$97>[Kana]ってしんぜよう[A][Clear]なにが[Kanji1]<$8F>[Kana]りたいのじゃ?[N][X]
 //
 //
 // current address: $AD848
 
 //POINTER #64 @ $AD173 - STRING #64 @ $AD81A
 #W24($AD173)
-//きたのぉ[N]そなたの<$0A>グ<$09>りたいことを[N]<$0A>ダ<$09>ってしんぜよう[A][Clear]なにが<$0A>グ<$09>りたいのじゃ?[N][X]
+//きたのぉ[N]そなたの[Kanji1]<$8F>[Kana]りたいことを[N][Kanji1]<$97>[Kana]ってしんぜよう[A][Clear]なにが[Kanji1]<$8F>[Kana]りたいのじゃ?[N][X]
 //
 //
 // current address: $AD848
@@ -476,21 +478,21 @@
 
 //POINTER #66 @ $AD179 - STRING #66 @ $AD81A
 #W24($AD179)
-//きたのぉ[N]そなたの<$0A>グ<$09>りたいことを[N]<$0A>ダ<$09>ってしんぜよう[A][Clear]なにが<$0A>グ<$09>りたいのじゃ?[N][X]
+//きたのぉ[N]そなたの[Kanji1]<$8F>[Kana]りたいことを[N][Kanji1]<$97>[Kana]ってしんぜよう[A][Clear]なにが[Kanji1]<$8F>[Kana]りたいのじゃ?[N][X]
 //
 //
 // current address: $AD848
 
 //POINTER #67 @ $AD17C - STRING #67 @ $AD40B
 #W24($AD17C)
-//ものを<$0C>こ<$09>るんだ?[N][X]
+//ものを[Kanji3]<$19>[Kana]るんだ?[N][X]
 //
 //
 // current address: $AD417
 
 //POINTER #68 @ $AD17F - STRING #68 @ $AD81A
 #W24($AD17F)
-//きたのぉ[N]そなたの<$0A>グ<$09>りたいことを[N]<$0A>ダ<$09>ってしんぜよう[A][Clear]なにが<$0A>グ<$09>りたいのじゃ?[N][X]
+//きたのぉ[N]そなたの[Kanji1]<$8F>[Kana]りたいことを[N][Kanji1]<$97>[Kana]ってしんぜよう[A][Clear]なにが[Kanji1]<$8F>[Kana]りたいのじゃ?[N][X]
 //
 //
 // current address: $AD848
@@ -511,7 +513,7 @@
 
 //POINTER #71 @ $AD188 - STRING #71 @ $AD2F8
 #W24($AD188)
-//<$FC><$09>でいいか?[N][X]
+//<$FC>[Kana]でいいか?[N][X]
 //
 //
 // current address: $AD301
@@ -525,7 +527,7 @@
 
 //POINTER #73 @ $AD18E - STRING #73 @ $AD81A
 #W24($AD18E)
-//きたのぉ[N]そなたの<$0A>グ<$09>りたいことを[N]<$0A>ダ<$09>ってしんぜよう[A][Clear]なにが<$0A>グ<$09>りたいのじゃ?[N][X]
+//きたのぉ[N]そなたの[Kanji1]<$8F>[Kana]りたいことを[N][Kanji1]<$97>[Kana]ってしんぜよう[A][Clear]なにが[Kanji1]<$8F>[Kana]りたいのじゃ?[N][X]
 //
 //
 // current address: $AD848

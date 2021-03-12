@@ -4,7 +4,9 @@
 #VAR(Table_0, TABLE)
 #ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/dialogue.tbl", Table_0)
 #VAR(Table_1, TABLE)
-#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/menutext.tbl", Table_1)
+#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/kanji.tbl", Table_1)
+#VAR(Table_2, TABLE)
+#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/menutext.tbl", Table_2)
 
 //BLOCK #019 NAME:		Class Names (Dialogue)
 #ACTIVETBL(Table_0) // Activate this block's starting TABLE
@@ -14,21 +16,21 @@
 
 //POINTER #0 @ $D9A92 - STRING #0 @ $D9B22
 #W16($D9A92)
-//<$09>コマンドナイト[X]
+//[Kana]コマンドナイト[X]
 //
 //
 // current address: $D9B2B
 
 //POINTER #1 @ $D9A94 - STRING #1 @ $D9B2B
 #W16($D9A94)
-//<$09>ランスナイト[X]
+//[Kana]ランスナイト[X]
 //
 //
 // current address: $D9B33
 
 //POINTER #2 @ $D9A96 - STRING #2 @ $D9B33
 #W16($D9A96)
-//<$09>ボウナイト[X]
+//[Kana]ボウナイト[X]
 //
 //
 // current address: $D9B3A
@@ -70,7 +72,7 @@
 
 //POINTER #8 @ $D9AA2 - STRING #8 @ $D9B64
 #W16($D9AA2)
-//<$09>マスターナイト[X]
+//[Kana]マスターナイト[X]
 //
 //
 // current address: $D9B6D
@@ -84,56 +86,56 @@
 
 //POINTER #10 @ $D9AA6 - STRING #10 @ $D9B6D
 #W16($D9AA6)
-//<$09>ヴァルキュリア[X]
+//[Kana]ヴァルキュリア[X]
 //
 //
 // current address: $D9B76
 
 //POINTER #11 @ $D9AA8 - STRING #11 @ $D9B76
 #W16($D9AA8)
-//<$09>アローナイト[X]
+//[Kana]アローナイト[X]
 //
 //
 // current address: $D9B7E
 
 //POINTER #12 @ $D9AAA - STRING #12 @ $D9B7E
 #W16($D9AAA)
-//<$09>フォレストナイト[X]
+//[Kana]フォレストナイト[X]
 //
 //
 // current address: $D9B88
 
 //POINTER #13 @ $D9AAC - STRING #13 @ $D9B88
 #W16($D9AAC)
-//<$09>マージナイト[X]
+//[Kana]マージナイト[X]
 //
 //
 // current address: $D9B90
 
 //POINTER #14 @ $D9AAE - STRING #14 @ $D9B90
 #W16($D9AAE)
-//<$09>グランドナイト[X]
+//[Kana]グランドナイト[X]
 //
 //
 // current address: $D9B99
 
 //POINTER #15 @ $D9AB0 - STRING #15 @ $D9B99
 #W16($D9AB0)
-//<$09>アイウエオ[X]
+//[Kana]アイウエオ[X]
 //
 //
 // current address: $D9BA0
 
 //POINTER #16 @ $D9AB2 - STRING #16 @ $D9BA0
 #W16($D9AB2)
-//<$09>ペガサスナイト[X]
+//[Kana]ペガサスナイト[X]
 //
 //
 // current address: $D9BA9
 
 //POINTER #17 @ $D9AB4 - STRING #17 @ $D9BA9
 #W16($D9AB4)
-//<$09>エンリルナイト[X]
+//[Kana]エンリルナイト[X]
 //
 //
 // current address: $D9BB2
@@ -147,14 +149,14 @@
 
 //POINTER #19 @ $D9AB8 - STRING #19 @ $D9BBD
 #W16($D9AB8)
-//<$09>ドラゴンナイト[X]
+//[Kana]ドラゴンナイト[X]
 //
 //
 // current address: $D9BC6
 
 //POINTER #20 @ $D9ABA - STRING #20 @ $D9BC6
 #W16($D9ABA)
-//<$09>リンドブルム[X]
+//[Kana]リンドブルム[X]
 //
 //
 // current address: $D9BCE
@@ -189,7 +191,7 @@
 
 //POINTER #25 @ $D9AC4 - STRING #25 @ $D9BEE
 #W16($D9AC4)
-//<$09>バスタード[X]
+//[Kana]バスタード[X]
 //
 //
 // current address: $D9BF5
@@ -203,7 +205,7 @@
 
 //POINTER #27 @ $D9AC8 - STRING #27 @ $D9BFC
 #W16($D9AC8)
-//<$09>エンペラー[X]
+//[Kana]エンペラー[X]
 //
 //
 // current address: $D9C03
@@ -217,7 +219,7 @@
 
 //POINTER #29 @ $D9ACC - STRING #29 @ $D9C0A
 #W16($D9ACC)
-//<$09>マーシナリー[X]
+//[Kana]マーシナリー[X]
 //
 //
 // current address: $D9C12
@@ -231,98 +233,98 @@
 
 //POINTER #31 @ $D9AD0 - STRING #31 @ $D9C1F
 #W16($D9AD0)
-//<$09>アクスソルジッー[X]
+//[Kana]アクスソルジッー[X]
 //
 //
 // current address: $D9C29
 
 //POINTER #32 @ $D9AD2 - STRING #32 @ $D9C29
 #W16($D9AD2)
-//<$09>シルメリー[X]
+//[Kana]シルメリー[X]
 //
 //
 // current address: $D9C30
 
 //POINTER #33 @ $D9AD4 - STRING #33 @ $D9C30
 #W16($D9AD4)
-//<$09>ソードソルジッー[X]
+//[Kana]ソードソルジッー[X]
 //
 //
 // current address: $D9C3A
 
 //POINTER #34 @ $D9AD6 - STRING #34 @ $D9C3A
 #W16($D9AD6)
-//<$09>アーマー[X]
+//[Kana]アーマー[X]
 //
 //
 // current address: $D9C40
 
 //POINTER #35 @ $D9AD8 - STRING #35 @ $D9C40
 #W16($D9AD8)
-//<$09>アクスアーマー[X]
+//[Kana]アクスアーマー[X]
 //
 //
 // current address: $D9C49
 
 //POINTER #36 @ $D9ADA - STRING #36 @ $D9C49
 #W16($D9ADA)
-//<$09>ボウアーマー[X]
+//[Kana]ボウアーマー[X]
 //
 //
 // current address: $D9C51
 
 //POINTER #37 @ $D9ADC - STRING #37 @ $D9C51
 #W16($D9ADC)
-//<$09>ソードアーマー[X]
+//[Kana]ソードアーマー[X]
 //
 //
 // current address: $D9C5A
 
 //POINTER #38 @ $D9ADE - STRING #38 @ $D9C5A
 #W16($D9ADE)
-//<$09>バーバリアン[X]
+//[Kana]バーバリアン[X]
 //
 //
 // current address: $D9C62
 
 //POINTER #39 @ $D9AE0 - STRING #39 @ $D9C62
 #W16($D9AE0)
-//<$09>アクスファイター[X]
+//[Kana]アクスファイター[X]
 //
 //
 // current address: $D9C6C
 
 //POINTER #40 @ $D9AE2 - STRING #40 @ $D9C6C
 #W16($D9AE2)
-//<$09>マウンテンシーフ[X]
+//[Kana]マウンテンシーフ[X]
 //
 //
 // current address: $D9C76
 
 //POINTER #41 @ $D9AE4 - STRING #41 @ $D9C76
 #W16($D9AE4)
-//<$09>ウォーリア[X]
+//[Kana]ウォーリア[X]
 //
 //
 // current address: $D9C7D
 
 //POINTER #42 @ $D9AE6 - STRING #42 @ $D9C7D
 #W16($D9AE6)
-//<$09>ハンター[X]
+//[Kana]ハンター[X]
 //
 //
 // current address: $D9C83
 
 //POINTER #43 @ $D9AE8 - STRING #43 @ $D9C83
 #W16($D9AE8)
-//<$09>パイレーツ[X]
+//[Kana]パイレーツ[X]
 //
 //
 // current address: $D9C8A
 
 //POINTER #44 @ $D9AEA - STRING #44 @ $D9C8A
 #W16($D9AEA)
-//<$09>ロード[X]
+//[Kana]ロード[X]
 //
 //
 // current address: $D9C8F
@@ -343,7 +345,7 @@
 
 //POINTER #47 @ $D9AF0 - STRING #47 @ $D9C9F
 #W16($D9AF0)
-//<$09>アポステル[X]
+//[Kana]アポステル[X]
 //
 //
 // current address: $D9CA6
@@ -357,49 +359,49 @@
 
 //POINTER #49 @ $D9AF4 - STRING #49 @ $D9CB0
 #W16($D9AF4)
-//<$09>クイーン[X]
+//[Kana]クイーン[X]
 //
 //
 // current address: $D9CB6
 
 //POINTER #50 @ $D9AF6 - STRING #50 @ $D9CB7
 #W16($D9AF6)
-//ソードダンサ<$0A>け<$09>ー[X]
+//ソードダンサ[Kanji1]<$18>[Kana]ー[X]
 //
 //
 // current address: $D9CC2
 
 //POINTER #51 @ $D9AF8 - STRING #51 @ $D9CC2
 #W16($D9AF8)
-//<$09>プリースト[X]
+//[Kana]プリースト[X]
 //
 //
 // current address: $D9CC9
 
 //POINTER #52 @ $D9AFA - STRING #52 @ $D9CC9
 #W16($D9AFA)
-//<$09>マージ[X]
+//[Kana]マージ[X]
 //
 //
 // current address: $D9CCE
 
 //POINTER #53 @ $D9AFC - STRING #53 @ $D9CCE
 #W16($D9AFC)
-//<$09>ファイアマージ[X]
+//[Kana]ファイアマージ[X]
 //
 //
 // current address: $D9CD7
 
 //POINTER #54 @ $D9AFE - STRING #54 @ $D9CD7
 #W16($D9AFE)
-//<$09>レ<$0A>け<$09>ディマージ[X]
+//[Kana]レ[Kanji1]<$18>[Kana]ディマージ[X]
 //
 //
 // current address: $D9CE2
 
 //POINTER #55 @ $D9B00 - STRING #55 @ $D9CE2
 #W16($D9B00)
-//<$09>ウインドマージ[X]
+//[Kana]ウインドマージ[X]
 //
 //
 // current address: $D9CEB
@@ -413,14 +415,14 @@
 
 //POINTER #57 @ $D9B04 - STRING #57 @ $D9CF1
 #W16($D9B04)
-//<$09>ビショャプ[X]
+//[Kana]ビショャプ[X]
 //
 //
 // current address: $D9CF8
 
 //POINTER #58 @ $D9B06 - STRING #58 @ $D9CF8
 #W16($D9B06)
-//<$09>セイジ[X]
+//[Kana]セイジ[X]
 //
 //
 // current address: $D9CFD
@@ -441,14 +443,14 @@
 
 //POINTER #61 @ $D9B0C - STRING #61 @ $D9D0A
 #W16($D9B0C)
-//<$09>ダークマージ[X]
+//[Kana]ダークマージ[X]
 //
 //
 // current address: $D9D12
 
 //POINTER #62 @ $D9B0E - STRING #62 @ $D9D12
 #W16($D9B0E)
-//<$09>ソーサラー[X]
+//[Kana]ソーサラー[X]
 //
 //
 // current address: $D9D19
@@ -469,49 +471,49 @@
 
 //POINTER #65 @ $D9B14 - STRING #65 @ $D9D25
 #W16($D9B14)
-//<$09>アイウエオカキシビリアン[X]
+//[Kana]アイウエオカキシビリアン[X]
 //
 //
 // current address: $D9D33
 
 //POINTER #66 @ $D9B16 - STRING #66 @ $D9D33
 #W16($D9B16)
-//<$09>シビリアン[X]
+//[Kana]シビリアン[X]
 //
 //
 // current address: $D9D3A
 
 //POINTER #67 @ $D9B18 - STRING #67 @ $D9D3A
 #W16($D9B18)
-//<$09>ロングアーチ[X]
+//[Kana]ロングアーチ[X]
 //
 //
 // current address: $D9D42
 
 //POINTER #68 @ $D9B1A - STRING #68 @ $D9D42
 #W16($D9B1A)
-//<$09>グラスランナー[X]
+//[Kana]グラスランナー[X]
 //
 //
 // current address: $D9D4B
 
 //POINTER #69 @ $D9B1C - STRING #69 @ $D9D4B
 #W16($D9B1C)
-//<$09>キラーアーチ[X]
+//[Kana]キラーアーチ[X]
 //
 //
 // current address: $D9D53
 
 //POINTER #70 @ $D9B1E - STRING #70 @ $D9D53
 #W16($D9B1E)
-//<$09>グレートアーチ[X]
+//[Kana]グレートアーチ[X]
 //
 //
 // current address: $D9D5C
 
 //POINTER #71 @ $D9B20 - STRING #71 @ $D9D5C
 #W16($D9B20)
-//<$09>マージプリンス[X]
+//[Kana]マージプリンス[X]
 //
 //
 // current address: $D9D65

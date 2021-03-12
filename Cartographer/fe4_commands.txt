@@ -1,5 +1,7 @@
 #GAME NAME: Fire Emblem: Genealogy of Tordo
 
+#SUB TABLE: kanji.tbl
+
 #BLOCK NAME: Chapter Objectives
 #TYPE:			NORMAL
 #METHOD:		POINTER_RELATIVE

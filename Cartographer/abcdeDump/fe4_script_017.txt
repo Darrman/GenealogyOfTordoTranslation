@@ -4,7 +4,9 @@
 #VAR(Table_0, TABLE)
 #ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/dialogue.tbl", Table_0)
 #VAR(Table_1, TABLE)
-#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/menutext.tbl", Table_1)
+#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/kanji.tbl", Table_1)
+#VAR(Table_2, TABLE)
+#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/menutext.tbl", Table_2)
 
 //BLOCK #017 NAME:		Character Names (Dialogue)
 #ACTIVETBL(Table_0) // Activate this block's starting TABLE
@@ -14,49 +16,49 @@
 
 //POINTER #0 @ $D940D - STRING #0 @ $D948B
 #W16($D940D)
-//<$09>ティルテュ[X]
+//[Kana]ティルテュ[X]
 //
 //
 // current address: $D9492
 
 //POINTER #1 @ $D940F - STRING #1 @ $D9492
 #W16($D940F)
-//<$09>ラインハルト[X]
+//[Kana]ラインハルト[X]
 //
 //
 // current address: $D949A
 
 //POINTER #2 @ $D9411 - STRING #2 @ $D949A
 #W16($D9411)
-//<$09>オーヴォ[X]
+//[Kana]オーヴォ[X]
 //
 //
 // current address: $D94A0
 
 //POINTER #3 @ $D9413 - STRING #3 @ $D94A0
 #W16($D9413)
-//<$09>ムハマド[X]
+//[Kana]ムハマド[X]
 //
 //
 // current address: $D94A6
 
 //POINTER #4 @ $D9415 - STRING #4 @ $D94A6
 #W16($D9415)
-//<$09>アスベル[X]
+//[Kana]アスベル[X]
 //
 //
 // current address: $D94AC
 
 //POINTER #5 @ $D9417 - STRING #5 @ $D94AC
 #W16($D9417)
-//<$09>レヴィン[X]
+//[Kana]レヴィン[X]
 //
 //
 // current address: $D94B2
 
 //POINTER #6 @ $D9419 - STRING #6 @ $D94B2
 #W16($D9419)
-//<$09>フィン[X]
+//[Kana]フィン[X]
 //
 //
 // current address: $D94B7
@@ -84,7 +86,7 @@
 
 //POINTER #10 @ $D9421 - STRING #10 @ $D94CB
 #W16($D9421)
-//<$09>ロナン[X]
+//[Kana]ロナン[X]
 //
 //
 // current address: $D94D0
@@ -112,14 +114,14 @@
 
 //POINTER #14 @ $D9429 - STRING #14 @ $D94E3
 #W16($D9429)
-//<$09>アーダン[X]
+//[Kana]アーダン[X]
 //
 //
 // current address: $D94E9
 
 //POINTER #15 @ $D942B - STRING #15 @ $D94E9
 #W16($D942B)
-//<$09>アゼル[X]
+//[Kana]アゼル[X]
 //
 //
 // current address: $D94EE
@@ -140,7 +142,7 @@
 
 //POINTER #18 @ $D9431 - STRING #18 @ $D94FB
 #W16($D9431)
-//<$09>エスリン[X]
+//[Kana]エスリン[X]
 //
 //
 // current address: $D9501
@@ -154,7 +156,7 @@
 
 //POINTER #20 @ $D9435 - STRING #20 @ $D9507
 #W16($D9435)
-//<$09>サフィ[X]
+//[Kana]サフィ[X]
 //
 //
 // current address: $D950C
@@ -175,7 +177,7 @@
 
 //POINTER #23 @ $D943B - STRING #23 @ $D9518
 #W16($D943B)
-//<$09>アイラ[X]
+//[Kana]アイラ[X]
 //
 //
 // current address: $D951D
@@ -252,7 +254,7 @@
 
 //POINTER #34 @ $D9451 - STRING #34 @ $D955A
 #W16($D9451)
-//<$09>ディムナ[X]
+//[Kana]ディムナ[X]
 //
 //
 // current address: $D9560
@@ -266,7 +268,7 @@
 
 //POINTER #36 @ $D9455 - STRING #36 @ $D9568
 #W16($D9455)
-//<$09>パティ[X]
+//[Kana]パティ[X]
 //
 //
 // current address: $D956D
@@ -280,7 +282,7 @@
 
 //POINTER #38 @ $D9459 - STRING #38 @ $D9576
 #W16($D9459)
-//<$09>オルエン[X]
+//[Kana]オルエン[X]
 //
 //
 // current address: $D957C
@@ -308,14 +310,14 @@
 
 //POINTER #42 @ $D9461 - STRING #42 @ $D958C
 #W16($D9461)
-//<$09>ユリウス[X]
+//[Kana]ユリウス[X]
 //
 //
 // current address: $D9592
 
 //POINTER #43 @ $D9463 - STRING #43 @ $D9592
 #W16($D9463)
-//<$09>ティニー[X]
+//[Kana]ティニー[X]
 //
 //
 // current address: $D9598
@@ -350,14 +352,14 @@
 
 //POINTER #48 @ $D946D - STRING #48 @ $D95AE
 #W16($D946D)
-//<$09>リフィス[X]
+//[Kana]リフィス[X]
 //
 //
 // current address: $D95B4
 
 //POINTER #49 @ $D946F - STRING #49 @ $D95B4
 #W16($D946F)
-//<$09>リーフ[X]
+//[Kana]リーフ[X]
 //
 //
 // current address: $D95B9
@@ -413,42 +415,42 @@
 
 //POINTER #57 @ $D947F - STRING #57 @ $D95E3
 #W16($D947F)
-//<$09>アルテナ[X]
+//[Kana]アルテナ[X]
 //
 //
 // current address: $D95E9
 
 //POINTER #58 @ $D9481 - STRING #58 @ $D95E9
 #W16($D9481)
-//<$09>ラーラ[X]
+//[Kana]ラーラ[X]
 //
 //
 // current address: $D95EE
 
 //POINTER #59 @ $D9483 - STRING #59 @ $D95EE
 #W16($D9483)
-//<$09>ナンナ[X]
+//[Kana]ナンナ[X]
 //
 //
 // current address: $D95F3
 
 //POINTER #60 @ $D9485 - STRING #60 @ $D95F3
 #W16($D9485)
-//<$09>リノアン[X]
+//[Kana]リノアン[X]
 //
 //
 // current address: $D95F9
 
 //POINTER #61 @ $D9487 - STRING #61 @ $D95F9
 #W16($D9487)
-//<$09>カリン[X]
+//[Kana]カリン[X]
 //
 //
 // current address: $D95FE
 
 //POINTER #62 @ $D9489 - STRING #62 @ $D95FE
 #W16($D9489)
-//<$09>ラナ[X]
+//[Kana]ラナ[X]
 //
 //
 // current address: $D9602

@@ -4,7 +4,9 @@
 #VAR(Table_0, TABLE)
 #ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/dialogue.tbl", Table_0)
 #VAR(Table_1, TABLE)
-#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/menutext.tbl", Table_1)
+#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/kanji.tbl", Table_1)
+#VAR(Table_2, TABLE)
+#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/menutext.tbl", Table_2)
 
 //BLOCK #020 NAME:		Main Menu
 #ACTIVETBL(Table_0) // Activate this block's starting TABLE
@@ -14,77 +16,77 @@
 
 //POINTER #0 @ $D9D65 - STRING #0 @ $D9D7B
 #W16($D9D65)
-//<$0A>ャ<$0B>マ<$09>から<$0A>、<$09>める [X]
+//[Kanji1]<$AC>[Kanji2]<$7E>[Kana]から[Kanji1]<$BB>[Kana]める [X]
 //
 //
 // current address: $D9D89
 
 //POINTER #1 @ $D9D67 - STRING #1 @ $D9D7B
 #W16($D9D67)
-//<$0A>ャ<$0B>マ<$09>から<$0A>、<$09>める [X]
+//[Kanji1]<$AC>[Kanji2]<$7E>[Kana]から[Kanji1]<$BB>[Kana]める [X]
 //
 //
 // current address: $D9D89
 
 //POINTER #2 @ $D9D69 - STRING #2 @ $D9D89
 #W16($D9D69)
-//<$09> <$0B>ミム<$09>をする  [X]
+//[Kana] [Kanji2]<$7F><$80>[Kana]をする  [X]
 //
 //
 // current address: $D9D95
 
 //POINTER #3 @ $D9D6B - STRING #3 @ $D9D95
 #W16($D9D6B)
-//<$0B>ミム<$09>から<$0A>、<$09>める [X]
+//[Kanji2]<$7F><$80>[Kana]から[Kanji1]<$BB>[Kana]める [X]
 //
 //
 // current address: $D9DA2
 
 //POINTER #4 @ $D9D6D - STRING #4 @ $D9DA2
 #W16($D9D6D)
-//<$0A>4<$0B>メ<$09>から<$0A>、<$09>める [X]
+//[Kanji1]<$B5>[Kanji2]<$81>[Kana]から[Kanji1]<$BB>[Kana]める [X]
 //
 //
 // current address: $D9DB0
 
 //POINTER #5 @ $D9D6F - STRING #5 @ $D9DB0
 #W16($D9D6F)
-//<$0B>ミム<$09>を<$0B>モ<$09>す   [X]
+//[Kanji2]<$7F><$80>[Kana]を[Kanji2]<$82>[Kana]す   [X]
 //
 //
 // current address: $D9DBD
 
 //POINTER #6 @ $D9D71 - STRING #6 @ $D9DBD
 #W16($D9D71)
-//<$0B>ミム<$09>を<$0B>ヤ<$09>す   [X]
+//[Kanji2]<$7F><$80>[Kana]を[Kanji2]<$83>[Kana]す   [X]
 //
 //
 // current address: $D9DCA
 
 //POINTER #7 @ $D9D73 - STRING #7 @ $D9DCA
 #W16($D9D73)
-//<$0C>コり<$09>  [X]
+//[Kanji3]<$69><$37>[Kana]  [X]
 //
 //
 // current address: $D9DD1
 
 //POINTER #8 @ $D9D75 - STRING #8 @ $D9DD1
 #W16($D9D75)
-//<$0B>ヤ<$09>す  [X]
+//[Kanji2]<$83>[Kana]す  [X]
 //
 //
 // current address: $D9DD8
 
 //POINTER #9 @ $D9D77 - STRING #9 @ $D9DD8
 #W16($D9D77)
-//<$09>やめる [X]
+//[Kana]やめる [X]
 //
 //
 // current address: $D9DDE
 
 //POINTER #10 @ $D9D79 - STRING #10 @ $D9DDE
 #W16($D9D79)
-//<$09>     <$0B>ミム<$09>がありません       [X]
+//[Kana]     [Kanji2]<$7F><$80>[Kana]がありません       [X]
 //
 //
 // current address: $D9DF6
