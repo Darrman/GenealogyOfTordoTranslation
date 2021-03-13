@@ -2,11 +2,9 @@
 
 // Define required TABLE variables and load the corresponding tables
 #VAR(Table_0, TABLE)
-#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/dialogue.tbl", Table_0)
-#VAR(Table_1, TABLE)
-#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/kanji.tbl", Table_1)
+#ADDTBL("dialogueEN.tbl", Table_0)
 #VAR(Table_2, TABLE)
-#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/menutext.tbl", Table_2)
+#ADDTBL("menutext.tbl", Table_2)
 
 
 //BLOCK #017 NAME:		Character Names (Dialogue)
@@ -523,7 +521,7 @@ Gungnir[X]
 //POINTER #36 @ $D964A - STRING #36 @ $D9813
 #W16($D964A)
 //[Kana]ゲイボルグ[X]
-Gae Bolg[X}
+Gae Bolg[X]
 
 //POINTER #37 @ $D964C - STRING #37 @ $D981A
 #W16($D964C)
@@ -748,12 +746,12 @@ Narga[X]
 //POINTER #81 @ $D96A4 - STRING #81 @ $D9948
 #W16($D96A4)
 //[Kana]ミィル[X]
-Flux[X]
+//Flux[X]
 
 //POINTER #82 @ $D96A6 - STRING #82 @ $D994D
 #W16($D96A6)
 //[Kana]フェンリル[X]
-Fenrir[X]
+//Fenrir[X]
 
 //POINTER #83 @ $D96A8 - STRING #83 @ $D9954
 #W16($D96A8)
@@ -909,7 +907,7 @@ Charm Ring[X]
 //POINTER #114 @ $D96E6 - STRING #114 @ $D9A26
 #W16($D96E6)
 //[Kana]サンリング[X]
-Sun Ring[X]
+//Sun Ring[X]
 
 //POINTER #115 @ $D96E8 - STRING #115 @ $D9A2E
 #W16($D96E8)
@@ -1374,17 +1372,12 @@ Mage Prince[X]
 
 //POINTER #0 @ $D9D65 - STRING #0 @ $D9D7B
 #W16($D9D65)
-//[Kanji1]<$AC>[Kanji2]<$7E>[Kana]から[Kanji1]<$BB>[Kana]める [X]
-//
-//
-// current address: $D9D89
-
-//POINTER #1 @ $D9D67 - STRING #1 @ $D9D7B
 #W16($D9D67)
 //[Kanji1]<$AC>[Kanji2]<$7E>[Kana]から[Kanji1]<$BB>[Kana]める [X]
 //
 //
 // current address: $D9D89
+//Quick Save, unused
 
 //POINTER #2 @ $D9D69 - STRING #2 @ $D9D89
 #W16($D9D69)
@@ -1392,6 +1385,7 @@ Mage Prince[X]
 //
 //
 // current address: $D9D95
+ Save Game<$C5><$C5><$C5><$C5>[X]
 
 //POINTER #3 @ $D9D6B - STRING #3 @ $D9D95
 #W16($D9D6B)
@@ -1399,6 +1393,7 @@ Mage Prince[X]
 //
 //
 // current address: $D9DA2
+ Continue<$C5><$C5><$C5><$C5>[X]
 
 //POINTER #4 @ $D9D6D - STRING #4 @ $D9DA2
 #W16($D9D6D)
@@ -1406,13 +1401,15 @@ Mage Prince[X]
 //
 //
 // current address: $D9DB0
-
+ New Game<$C5><$C5><$C5><$C5><$C5>[X]
+ 
 //POINTER #5 @ $D9D6F - STRING #5 @ $D9DB0
 #W16($D9D6F)
 //[Kanji2]<$7F><$80>[Kana]を[Kanji2]<$82>[Kana]す   [X]
 //
 //
 // current address: $D9DBD
+//Copy Data, unused
 
 //POINTER #6 @ $D9D71 - STRING #6 @ $D9DBD
 #W16($D9D71)
@@ -1420,6 +1417,7 @@ Mage Prince[X]
 //
 //
 // current address: $D9DCA
+ Delete<$C5><$C5><$C5><$C5><$C5><$C5>[X]
 
 //POINTER #7 @ $D9D73 - STRING #7 @ $D9DCA
 #W16($D9D73)
@@ -1427,6 +1425,7 @@ Mage Prince[X]
 //
 //
 // current address: $D9DD1
+Yes<$C5><$C5><$C5>[X]
 
 //POINTER #8 @ $D9D75 - STRING #8 @ $D9DD1
 #W16($D9D75)
@@ -1434,6 +1433,7 @@ Mage Prince[X]
 //
 //
 // current address: $D9DD8
+Yes<$C5><$C5><$C5>[X]
 
 //POINTER #9 @ $D9D77 - STRING #9 @ $D9DD8
 #W16($D9D77)
@@ -1441,6 +1441,7 @@ Mage Prince[X]
 //
 //
 // current address: $D9DDE
+No<$C5><$C5><$C5>[X]
 
 //POINTER #10 @ $D9D79 - STRING #10 @ $D9DDE
 #W16($D9D79)
@@ -1448,6 +1449,7 @@ Mage Prince[X]
 //
 //
 // current address: $D9DF6
+<$C5><$C5><$C5><$C5><$C5><$C5><$C5><$C5><$C5>No Data<$C5><$C5><$C5><$C5><$C5><$C5><$C5>[X]
 
 //BLOCK #021 NAME:		Chapter Names
 #ACTIVETBL(Table_0) // Activate this block's starting TABLE
@@ -1461,83 +1463,100 @@ Mage Prince[X]
 //
 //
 // current address: $D9E17
+//Birth of the Holy Knight
+//"Birth of the Holy Mage"?
+//So all the chapter names are different. Often significantly so.
+//I'll take Reparation's approach of use location name for now.
+//Vanilla name and any hypothetical tweaks will be in comments.
+S.Grandbell[X]
 
 //POINTER #1 @ $D9DF8 - STRING #1 @ $D9E17
 #W16($D9DF8)
 //[Kanji2]<$D5>[Kanji4]<$6D>[Kana]の[Kanji3]<$27>[Kana]の[Kanji2]<$E7>[Kanji1]<$7F>[X]
-//
-//
+//Girl of the Spirit Forest
+//"Boy of the Spirit Forest"?
 // current address: $D9E26
+Verdane[X]
 
 //POINTER #2 @ $D9DFA - STRING #2 @ $D9E26
 #W16($D9DFA)
 //[Kana]ユングヴィの[Kanji2]<$33><$57><$00>[X]
-//
-//
+//Disturbance in Agustria
+//"Disturbance in Jungby"?
 // current address: $D9E32
+S.Agustria[X]
 
 //POINTER #3 @ $D9DFC - STRING #3 @ $D9E32
 #W16($D9DFC)
 //[Kanji1]<$2D>[Kanji2]<$60>[Kana]のブリギャド [X]
-//
-//
+//Lion King Eltshan
+//"Lion Queen Brigid"?
 // current address: $D9E3F
+N.Agustria[X]
 
 //POINTER #4 @ $D9DFE - STRING #4 @ $D9E3F
 #W16($D9DFE)
 //[Kanji4]<$7F>[Kanji2]<$87><$57>[Kanji4]<$69>[Kana][X]
-//
+//Dance in the Skies
 //
 // current address: $D9E48
+Silesia[X]
 
 //POINTER #5 @ $D9E00 - STRING #5 @ $D9E48
 #W16($D9E00)
 //[Kanji1]<$4E>[Kanji2]<$41>[Kana]の[Kanji3]<$EE>[X]
-//
+//Doors of Destiny
 //
 // current address: $D9E51
+WestYied[X]
 
 //POINTER #6 @ $D9E02 - STRING #6 @ $D9E51
 #W16($D9E02)
 //[Kanji4]<$D8>[Kanji1]<$20>[Kanji2]<$18>[Kanji4]<$DB>[X]
-//
+//Light Inheritors
 //
 // current address: $D9E5A
+Isaac[X]
 
 //POINTER #7 @ $D9E04 - STRING #7 @ $D9E5A
 #W16($D9E04)
 //[Kanji2]<$DE><$DF>[Kana]をこえて[X]
-//
+//Crossing the Desert
 //
 // current address: $D9E63
+EastYied[X]
 
 //POINTER #8 @ $D9E06 - STRING #8 @ $D9E63
 #W16($D9E06)
 //[Kanji2]<$79>[Kanji3]<$59>[Kana]のドズル[X]
-//
-//
+//Dragon Knights of Thracia
+//"Axe Knights of Dozel"?
 // current address: $D9E6D
+Manster[X]
 
 //POINTER #9 @ $D9E08 - STRING #9 @ $D9E6D
 #W16($D9E08)
 //[Kana]ゆれる[Kanji3]<$70>[Kana]い[X]
-//
+//For Whose Sake
 //
 // current address: $D9E76
+Thracia[X]
 
 //POINTER #10 @ $D9E0A - STRING #10 @ $D9E76
 #W16($D9E0A)
 //[Kana]インドラの[Kanji4]<$DF>[X]
-//
-//
+//Light and Dark
+//Kana mention an Indra
 // current address: $D9E7F
+Miletos[X]
 
 //POINTER #11 @ $D9E0C - STRING #11 @ $D9E7F
 #W16($D9E0C)
 //[Kanji1]<$B5><$BC>[Kana]の[Kanji1]<$2D><$64>[X]
-//
+//The Final Holy War
 //
 // current address: $D9E88
+Grandbell[X]
 
 //BLOCK #022 NAME:		Shop Text
 #ACTIVETBL(Table_0) // Activate this block's starting TABLE
