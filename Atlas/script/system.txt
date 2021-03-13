@@ -1,0 +1,2695 @@
+//GAME NAME:		Fire Emblem: Genealogy of Tordo
+
+// Define required TABLE variables and load the corresponding tables
+#VAR(Table_0, TABLE)
+#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/dialogue.tbl", Table_0)
+#VAR(Table_1, TABLE)
+#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/kanji.tbl", Table_1)
+#VAR(Table_2, TABLE)
+#ADDTBL("/home/darrm/Documents/Emulation/SNES/Roms/FE4 BACKUP/Fire Emblem 4/Genealogy of Tordo/GenealogyOfTordoTranslation/Cartographer/menutext.tbl", Table_2)
+
+
+//BLOCK #017 NAME:		Character Names (Dialogue)
+#ACTIVETBL(Table_0) // Activate this block's starting TABLE
+
+#JMP($D948B, $D9601) // Jump to insertion point
+#HDR($D0200) // Difference between ROM and RAM addresses for pointer value calculations
+
+//POINTER #0 @ $D940D - STRING #0 @ $D948B
+#W16($D940D)
+//[Kana]ティルテュ[X]
+Tiltyu[X]
+
+//POINTER #1 @ $D940F - STRING #1 @ $D9492
+#W16($D940F)
+//[Kana]ラインハルト[X]
+Reinhardt[X]
+
+//POINTER #2 @ $D9411 - STRING #2 @ $D949A
+#W16($D9411)
+//[Kana]オーヴォ[X]
+Ovo[X]
+
+//POINTER #3 @ $D9413 - STRING #3 @ $D94A0
+#W16($D9413)
+//[Kana]ムハマド[X]
+Muhammed[X]
+
+//POINTER #4 @ $D9415 - STRING #4 @ $D94A6
+#W16($D9415)
+#W16($D944F)
+//[Kana]アスベル[X]
+Asvel[X]
+
+//POINTER #5 @ $D9417 - STRING #5 @ $D94AC
+#W16($D9417)
+//[Kana]レヴィン[X]
+Levin[X]
+
+//POINTER #6 @ $D9419 - STRING #6 @ $D94B2
+#W16($D9419)
+//[Kana]フィン[X]
+Fin[X]
+
+//POINTER #7 @ $D941B - STRING #7 @ $D94B8
+#W16($D941B)
+//エルトシッン[X]
+Eltshan[X]
+
+//POINTER #8 @ $D941D - STRING #8 @ $D94C0
+#W16($D941D)
+//オーシン[X]
+Othin[X]
+
+//POINTER #9 @ $D941F - STRING #9 @ $D94C6
+#W16($D941F)
+//ホメロス[X]
+Homer[X]
+
+//POINTER #10 @ $D9421 - STRING #10 @ $D94CB
+#W16($D9421)
+//[Kana]ロナン[X]
+Ronan[X]
+
+//POINTER #11 @ $D9423 - STRING #11 @ $D94D1
+#W16($D9423)
+//キュアン[X]
+Cuan[X]
+
+//POINTER #12 @ $D9425 - STRING #12 @ $D94D7
+#W16($D9425)
+//スコピオ[X]
+Scorpio[X]
+
+//POINTER #13 @ $D9427 - STRING #13 @ $D94DD
+#W16($D9427)
+//アリオーン[X]
+Arion[X]
+
+//POINTER #14 @ $D9429 - STRING #14 @ $D94E3
+#W16($D9429)
+//[Kana]アーダン[X]
+Arden[X]
+
+//POINTER #15 @ $D942B - STRING #15 @ $D94E9
+#W16($D942B)
+//[Kana]アゼル[X]
+Azel[X]
+
+//POINTER #16 @ $D942D - STRING #16 @ $D94EF
+#W16($D942D)
+//エスニッ[X]
+Ethnia[X]
+
+//POINTER #17 @ $D942F - STRING #17 @ $D94F5
+#W16($D942F)
+//エーディン[X]
+Aideen[X]
+
+//POINTER #18 @ $D9431 - STRING #18 @ $D94FB
+#W16($D9431)
+//[Kana]エスリン[X]
+Ethlin[X]
+
+//POINTER #19 @ $D9433 - STRING #19 @ $D9502
+#W16($D9433)
+//ラケシス[X]
+Lachesis[X]
+
+//POINTER #20 @ $D9435 - STRING #20 @ $D9507
+#W16($D9435)
+//[Kana]サフィ[X]
+Safy[X]
+
+//POINTER #21 @ $D9437 - STRING #21 @ $D950D
+#W16($D9437)
+//ミーシッ[X]
+Misha[X]
+
+//POINTER #22 @ $D9439 - STRING #22 @ $D9513
+#W16($D9439)
+//レイリア[X]
+Laylea[X]
+
+//POINTER #23 @ $D943B - STRING #23 @ $D9518
+#W16($D943B)
+//[Kana]アイラ[X]
+Aira[X]
+
+//POINTER #24 @ $D943D - STRING #24 @ $D951E
+#W16($D943D)
+//イシュタル[X]
+Ishtar[X]
+
+//POINTER #25 @ $D943F - STRING #25 @ $D9525
+#W16($D943F)
+//セリス[X]
+Celice[X]
+
+//POINTER #26 @ $D9441 - STRING #26 @ $D952B
+#W16($D9441)
+//ドルバン[X]
+//Roddleban
+
+//POINTER #27 @ $D9443 - STRING #27 @ $D9532
+#W16($D9443)
+//サエロ[X]
+//Asaello
+
+//POINTER #28 @ $D9445 - STRING #28 @ $D9537
+#W16($D9445)
+//アーサー[X]
+Arthur[X]
+
+//POINTER #29 @ $D9447 - STRING #29 @ $D953D
+#W16($D9447)
+//パーン[X]
+Pahn[X]
+
+//POINTER #30 @ $D9449 - STRING #30 @ $D9542
+#W16($D9449)
+//シッルロー[X]
+//Sharlow
+
+//POINTER #31 @ $D944B - STRING #31 @ $D9549
+#W16($D944B)
+//ホーク[X]
+//Hawk
+
+//POINTER #32 @ $D944D - STRING #32 @ $D954E
+#W16($D944D)
+//トリスタン[X]
+//Tristan
+
+//POINTER #34 @ $D9451 - STRING #34 @ $D955A
+#W16($D9451)
+//[Kana]ディムナ[X]
+//Dimna
+
+//POINTER #35 @ $D9453 - STRING #35 @ $D9561
+#W16($D9453)
+//レイドリャク[X]
+Reidrick[X]
+
+//POINTER #36 @ $D9455 - STRING #36 @ $D9568
+#W16($D9455)
+//[Kana]パティ[X]
+Patty[X]
+
+//POINTER #37 @ $D9457 - STRING #37 @ $D956C
+#W16($D9457)
+//[X]
+//Amid
+
+//POINTER #38 @ $D9459 - STRING #38 @ $D9576
+#W16($D9459)
+//[Kana]オルエン[X]
+Olwen[X]
+
+//POINTER #39 @ $D945B - STRING #39 @ $D957B
+#W16($D945B)
+//[X]
+//Daisy
+
+//POINTER #40 @ $D945D - STRING #40 @ $D9581
+#W16($D945D)
+//[X]
+//Radney
+
+//POINTER #41 @ $D945F - STRING #41 @ $D9587
+#W16($D945F)
+//[X]
+//Mana
+
+//POINTER #42 @ $D9461 - STRING #42 @ $D958C
+#W16($D9461)
+//[Kana]ユリウス[X]
+Julius[X]
+
+//POINTER #43 @ $D9463 - STRING #43 @ $D9592
+#W16($D9463)
+//[Kana]ティニー[X]
+Tinny[X]
+
+//POINTER #44 @ $D9465 - STRING #44 @ $D9596
+#W16($D9465)
+//ー[X]
+//Femina
+
+//POINTER #45 @ $D9467 - STRING #45 @ $D959C
+#W16($D9467)
+//ナ[X]
+//Linda
+
+//POINTER #46 @ $D9469 - STRING #46 @ $D95A1
+#W16($D9469)
+//ダ[X]
+//Laylea
+
+//POINTER #47 @ $D946B - STRING #47 @ $D95A7
+#W16($D946B)
+//ア[X]
+//Janne
+
+//POINTER #48 @ $D946D - STRING #48 @ $D95AE
+#W16($D946D)
+//[Kana]リフィス[X]
+Lifis[X]
+
+//POINTER #49 @ $D946F - STRING #49 @ $D95B4
+#W16($D946F)
+//[Kana]リーフ[X]
+Leaf[X]
+
+//POINTER #50 @ $D9471 - STRING #50 @ $D95BA
+#W16($D9471)
+//スカサハ[X]
+Skasaha[X]
+
+//POINTER #51 @ $D9473 - STRING #51 @ $D95C0
+#W16($D9473)
+//カリオン[X]
+Carrion[X]
+
+//POINTER #52 @ $D9475 - STRING #52 @ $D95C6
+#W16($D9475)
+//アレス[X]
+Aless[X]
+
+//POINTER #53 @ $D9477 - STRING #53 @ $D95CB
+#W16($D9477)
+//レスター[X]
+Lester[X]
+
+//POINTER #54 @ $D9479 - STRING #54 @ $D95D1
+#W16($D9479)
+//ブライトン[X]
+Brighton[X]
+
+//POINTER #55 @ $D947B - STRING #55 @ $D95D8
+#W16($D947B)
+//ディーン[X]
+Dean[X]
+
+//POINTER #56 @ $D947D - STRING #56 @ $D95DE
+#W16($D947D)
+//ラクチェ[X]
+Lakche[X]
+
+//POINTER #57 @ $D947F - STRING #57 @ $D95E3
+#W16($D947F)
+//[Kana]アルテナ[X]
+Altenna[X]
+
+//POINTER #58 @ $D9481 - STRING #58 @ $D95E9
+#W16($D9481)
+//[Kana]ラーラ[X]
+Lara[X]
+
+//POINTER #59 @ $D9483 - STRING #59 @ $D95EE
+#W16($D9483)
+//[Kana]ナンナ[X]
+Nanna[X]
+
+//POINTER #60 @ $D9485 - STRING #60 @ $D95F3
+#W16($D9485)
+//[Kana]リノアン[X]
+Linoan[X]
+
+//POINTER #61 @ $D9487 - STRING #61 @ $D95F9
+#W16($D9487)
+//[Kana]カリン[X]
+Karin[X]
+
+//POINTER #62 @ $D9489 - STRING #62 @ $D95FE
+#W16($D9489)
+//[Kana]ラナ[X]
+Lana[X]
+
+//BLOCK #018 NAME:		Item Names (Dialogue)
+#ACTIVETBL(Table_0) // Activate this block's starting TABLE
+
+#JMP($D9714, $D9A79) // Jump to insertion point
+#HDR($D0200) // Difference between ROM and RAM addresses for pointer value calculations
+
+//POINTER #0 @ $D9602 - STRING #0 @ $D9714
+#W16($D9602)
+//[Kana]てつの[Kanji1]<$69>[X]
+//Iron Sword
+Iron Sword[X]
+
+//POINTER #1 @ $D9604 - STRING #1 @ $D971B
+#W16($D9604)
+//[Kana]はがねの[Kanji1]<$69>[X]
+//Steel Sword
+SteelSword[X]
+
+//POINTER #2 @ $D9606 - STRING #2 @ $D9723
+#W16($D9606)
+//[Kana]ぎんの[Kanji1]<$69>[X]
+//Silver Sword
+SilverSwd[X]
+
+//POINTER #3 @ $D9608 - STRING #3 @ $D972A
+#W16($D9608)
+//[Kana]ラーゼタール[X]
+//Raze Tar
+Raze Tar[X]
+
+//POINTER #4 @ $D960A - STRING #4 @ $D9732
+#W16($D960A)
+//[Kana]ルナの[Kanji1]<$69>[X]
+//Luna Sword
+Luna Sword[X]
+
+//POINTER #5 @ $D960C - STRING #5 @ $D973A
+#W16($D960C)
+//ラグナロク[X]
+Ragnarok[X]
+
+//POINTER #6 @ $D960E - STRING #6 @ $D9741
+#W16($D960E)
+//ステラの[Kanji1]<$69>[X]
+//Stellar Sword
+StellarSwd[X]
+
+//POINTER #7 @ $D9610 - STRING #7 @ $D9748
+#W16($D9610)
+//[Kana]シーフソード[X]
+ThiefSword[X]
+
+//POINTER #8 @ $D9612 - STRING #8 @ $D9751
+#W16($D9612)
+//マスターソード[X]
+//Master Sword
+MasterSwd[X]
+
+//POINTER #9 @ $D9614 - STRING #9 @ $D9759
+#W16($D9614)
+//[Kana]ソールカティ[X]
+Sol Katti[X]
+
+//POINTER #10 @ $D9616 - STRING #10 @ $D9762
+#W16($D9616)
+//ゆうしゃの[Kanji1]<$69>[X]
+BraveSword[X]
+
+//POINTER #11 @ $D9618 - STRING #11 @ $D976B
+#W16($D9618)
+//キルソード[X]
+//Killing Edge
+KillEdge[X]
+
+//POINTER #12 @ $D961A - STRING #12 @ $D9772
+#W16($D961A)
+//せいなる[Kanji1]<$69>[X]
+Holy Sword[X]
+
+//POINTER #13 @ $D961C - STRING #13 @ $D9779
+#W16($D961C)
+//[Kana]レイピア[X]
+Rapier[X]
+
+//POINTER #14 @ $D961E - STRING #14 @ $D977F
+#W16($D961E)
+//[Kana]ヴァジュラ[X]
+Vajra[X]
+
+//POINTER #15 @ $D9620 - STRING #15 @ $D9786
+#W16($D9620)
+//[Kana]ヴリトラ[X]
+Vritra[X]
+
+//POINTER #16 @ $D9622 - STRING #16 @ $D978C
+#W16($D9622)
+//[Kana]リリスの[Kanji1]<$69>[X]
+LilithSwd[X]
+
+//POINTER #17 @ $D9624 - STRING #17 @ $D9794
+#W16($D9624)
+//[Kana]ロャクハート[X]
+Lockhart[X]
+
+//POINTER #18 @ $D9626 - STRING #18 @ $D979C
+#W16($D9626)
+//[Kana]セイバー[X]
+Sabre[X]
+
+//POINTER #19 @ $D9628 - STRING #19 @ $D97A2
+#W16($D9628)
+//[Kana]アミーテ[X]
+Amiti[X]
+
+//POINTER #20 @ $D962A - STRING #20 @ $D97A8
+#W16($D962A)
+//[Kana]ミストルティン[X]
+Mistoltin[X]
+
+//POINTER #21 @ $D962C - STRING #21 @ $D97B1
+#W16($D962C)
+//[Kana]ティルフィング[X]
+Tyrfing[X]
+
+//POINTER #22 @ $D962E - STRING #22 @ $D97BA
+#W16($D962E)
+//[Kana]バルムンク[X]
+Balmung
+
+//POINTER #23 @ $D9630 - STRING #23 @ $D97C1
+#W16($D9630)
+//[Kana]ジークリンデ[X]
+Sieglinde[X]
+
+//POINTER #24 @ $D9632 - STRING #24 @ $D97C9
+#W16($D9632)
+//[Kana]フロレート[X]
+Florete[X]
+
+//POINTER #25 @ $D9634 - STRING #25 @ $D97D0
+#W16($D9634)
+//[Kana]ジュワユース[X]
+//Arectaris
+
+//POINTER #26 @ $D9636 - STRING #26 @ $D97D0
+#W16($D9636)
+//[Kana]ジュワユース[X]
+//Falchion
+
+//POINTER #27 @ $D9638 - STRING #27 @ $D97D0
+#W16($D9638)
+//[Kana]ジュワユース[X]
+Joyeuse[X]
+
+//POINTER #28 @ $D963A - STRING #28 @ $D97D8
+#W16($D963A)
+//[Kana]てつのやり[X]
+Iron Lance[X]
+
+//POINTER #29 @ $D963C - STRING #29 @ $D97DF
+#W16($D963C)
+//[Kana]はがねのやり[X]
+SteelLance[X]
+
+//POINTER #30 @ $D963E - STRING #30 @ $D97E7
+#W16($D963E)
+//[Kana]ぎんのやり[X]
+SilverLnc[X]
+
+//POINTER #31 @ $D9640 - STRING #31 @ $D97EE
+#W16($D9640)
+//[Kana]ピラム[X]
+Pilum[X]
+
+//POINTER #32 @ $D9642 - STRING #32 @ $D97F3
+#W16($D9642)
+//[Kana]レギンレイヴ[X]
+Reginleif[X]
+
+//POINTER #33 @ $D9644 - STRING #33 @ $D97FB
+#W16($D9644)
+//[Kana]ゆうしゃのやり[X]
+BraveLance[X]
+
+//POINTER #34 @ $D9646 - STRING #34 @ $D9804
+#W16($D9646)
+//[Kana]ジークムント[X]
+Siegmund[X]
+
+//POINTER #35 @ $D9648 - STRING #35 @ $D980C
+#W16($D9648)
+//[Kana]グングニル[X]
+Gungnir[X]
+
+//POINTER #36 @ $D964A - STRING #36 @ $D9813
+#W16($D964A)
+//[Kana]ゲイボルグ[X]
+Gae Bolg[X}
+
+//POINTER #37 @ $D964C - STRING #37 @ $D981A
+#W16($D964C)
+//[Kana]マルテ[X]
+Maltet[X]
+
+//POINTER #38 @ $D964E - STRING #38 @ $D981F
+#W16($D964E)
+//[Kana]ヴィドフニル[X]
+//Longinus
+
+//POINTER #39 @ $D9650 - STRING #39 @ $D981F
+#W16($D9650)
+//[Kana]ヴィドフニル[X]
+Vidofnir[X]
+
+//POINTER #40 @ $D9652 - STRING #40 @ $D9827
+#W16($D9652)
+//[Kana]てつのおの[X]
+Iron Axe[X]
+
+//POINTER #41 @ $D9654 - STRING #41 @ $D982E
+#W16($D9654)
+//[Kana]はがねのおの[X]
+Steel Axe[X]
+
+//POINTER #42 @ $D9656 - STRING #42 @ $D9836
+#W16($D9656)
+//[Kana]ぎんのおの[X]
+Silver Axe[X]
+
+//POINTER #43 @ $D9658 - STRING #43 @ $D983D
+#W16($D9658)
+//[Kana]ゆうしゃのおの[X]
+Brave Axe[X]
+
+//POINTER #44 @ $D965A - STRING #44 @ $D9846
+#W16($D965A)
+//[Kana]スワンチカ[X]
+Swanchika[X]
+
+//POINTER #45 @ $D965C - STRING #45 @ $D984D
+#W16($D965C)
+//[Kana]プージ[X]
+Pugi[X]
+
+//POINTER #46 @ $D965E - STRING #46 @ $D9852
+#W16($D965E)
+//[Kana]アルマーズ[X]
+Armads[X]
+
+//POINTER #47 @ $D9660 - STRING #47 @ $D9859
+#W16($D9660)
+//[Kana]ガルム[X]
+Garm[X]
+
+//POINTER #48 @ $D9662 - STRING #48 @ $D985E
+#W16($D9662)
+//[Kana]マオザウルフ[X]
+Maoza Wolf[X]
+
+//POINTER #49 @ $D9664 - STRING #49 @ $D9866
+#W16($D9664)
+//[Kana]てつのゆみ[X]
+Iron Bow[X]
+
+//POINTER #50 @ $D9666 - STRING #50 @ $D986D
+#W16($D9666)
+//[Kana]はがねのゆみ[X]
+Steel Bow[X]
+
+//POINTER #51 @ $D9668 - STRING #51 @ $D9875
+#W16($D9668)
+//[Kana]ぎんのゆみ[X]
+Silver Bow[X]
+
+//POINTER #52 @ $D966A - STRING #52 @ $D987C
+#W16($D966A)
+//[Kana]ゆうしゃのゆみ[X]
+Brave Bow[X]
+
+//POINTER #53 @ $D966C - STRING #53 @ $D9885
+#W16($D966C)
+//[Kana]キラーボウ[X]
+Killer Bow[X]
+
+//POINTER #54 @ $D966E - STRING #54 @ $D988C
+#W16($D966E)
+//[Kana]イチイバル[X]
+Ichival[X]
+
+//POINTER #55 @ $D9670 - STRING #55 @ $D9893
+#W16($D9670)
+//[Kana]パルティア[X]
+Partia[X]
+
+//POINTER #56 @ $D9672 - STRING #56 @ $D989A
+#W16($D9672)
+//[Kana]ミュルグレ[X]
+Murgleis[X]
+
+//POINTER #57 @ $D9674 - STRING #57 @ $D98A1
+#W16($D9674)
+//[Kana]イーグルアイ[X]
+Eagle Eye[X]
+
+//POINTER #58 @ $D9676 - STRING #58 @ $D98A9
+#W16($D9676)
+//[Kana]テトラアーチ[X]
+//Iron Arch
+
+//POINTER #59 @ $D9678 - STRING #59 @ $D98A9
+#W16($D9678)
+//[Kana]テトラアーチ[X]
+//Great Arch 
+
+//POINTER #60 @ $D967A - STRING #60 @ $D98A9
+#W16($D967A)
+//[Kana]テトラアーチ[X]
+//Killer Arch
+
+//POINTER #61 @ $D967C - STRING #61 @ $D98B1
+#W16($D967C)
+//[Kana]マスターアーチ[X]
+//Master Arch
+
+//POINTER #62 @ $D967E - STRING #62 @ $D98BA
+#W16($D967E)
+//[Kana]ファイアー[X]
+Fire[X]
+
+//POINTER #63 @ $D9680 - STRING #63 @ $D98C1
+#W16($D9680)
+//[Kana]サンフレイム[X]
+Sunflame[X]
+
+//POINTER #64 @ $D9682 - STRING #64 @ $D98C9
+#W16($D9682)
+//[Kana]パラスレイア[X]
+Palas Leia[X]
+
+//POINTER #65 @ $D9684 - STRING #65 @ $D98D1
+#W16($D9684)
+//[Kana]ファラフレイム[X]
+Falaflame[X]
+
+//POINTER #66 @ $D9686 - STRING #66 @ $D98DA
+#W16($D9686)
+//[Kana]メティオ[X]
+//Meteor[X]
+
+//POINTER #67 @ $D9688 - STRING #67 @ $D98E0
+#W16($D9688)
+//[Kana]サンダー[X]
+Thunder[X]
+
+//POINTER #68 @ $D968A - STRING #68 @ $D98E6
+#W16($D968A)
+//[Kana]ダイムサンダ[X]
+DimeThundr[X]
+
+//POINTER #69 @ $D968C - STRING #69 @ $D98EE
+#W16($D968C)
+//[Kana]パラスセレニア[X]
+PalSelenia[X]
+
+//POINTER #70 @ $D968E - STRING #70 @ $D98F7
+#W16($D968E)
+//[Kana]トールハンマー[X]
+Torhammer[X]
+
+//POINTER #71 @ $D9690 - STRING #71 @ $D9900
+#W16($D9690)
+//[Kana]サンダストーム[X]
+Bolting[X]
+
+//POINTER #72 @ $D9692 - STRING #72 @ $D9909
+#W16($D9692)
+//[Kana]ウインド[X]
+Wind[X]
+
+//POINTER #73 @ $D9694 - STRING #73 @ $D990F
+#W16($D9694)
+//[Kana]シルフィード[X]
+Sylpheed[X]
+
+//POINTER #74 @ $D9696 - STRING #74 @ $D9917
+#W16($D9696)
+//[Kana]パラスリアナ[X]
+PalasLiana[X]
+
+//POINTER #75 @ $D9698 - STRING #75 @ $D991F
+#W16($D9698)
+//[Kana]フォルセティ[X]
+Holsety[X]
+
+//POINTER #76 @ $D969A - STRING #76 @ $D9927
+#W16($D969A)
+//[Kana]ブリザード[X]
+//Blizzard[X]
+
+//POINTER #77 @ $D969C - STRING #77 @ $D992E
+#W16($D969C)
+//[Kana]オーラレイン[X]
+Aura Rain[X]
+
+//POINTER #78 @ $D969E - STRING #78 @ $D9936
+#W16($D969E)
+//[Kana]シッイン[X]
+Shine[X]
+
+//POINTER #79 @ $D96A0 - STRING #79 @ $D993C
+#W16($D96A0)
+//[Kana]アーリアル[X]
+Aureola[X]
+
+//POINTER #80 @ $D96A2 - STRING #80 @ $D9943
+#W16($D96A2)
+//[Kana]ナーガ[X]
+Narga[X]
+
+//POINTER #81 @ $D96A4 - STRING #81 @ $D9948
+#W16($D96A4)
+//[Kana]ミィル[X]
+Flux[X]
+
+//POINTER #82 @ $D96A6 - STRING #82 @ $D994D
+#W16($D96A6)
+//[Kana]フェンリル[X]
+Fenrir[X]
+
+//POINTER #83 @ $D96A8 - STRING #83 @ $D9954
+#W16($D96A8)
+//[Kana]スターライト[X]
+//Starlight[X]
+
+//POINTER #84 @ $D96AA - STRING #84 @ $D995C
+#W16($D96AA)
+//[Kana]ロプトウス[X]
+//Lopt
+
+//POINTER #85 @ $D96AC - STRING #85 @ $D9963
+#W16($D96AC)
+//[Kana]フォルブレイズ[X]
+Forblaze[X]
+
+//POINTER #86 @ $D96AE - STRING #86 @ $D996C
+#W16($D96AE)
+//[Kana]レクスボルト[X]
+Rexbolt[X]
+
+//POINTER #87 @ $D96B0 - STRING #87 @ $D9974
+#W16($D96B0)
+//[Kana]グラフカリバー[X]
+Grafcalbur[X]
+
+//POINTER #88 @ $D96B2 - STRING #88 @ $D997D
+#W16($D96B2)
+//[Kana]ライブ[X]
+Heal[X]
+
+//POINTER #89 @ $D96B4 - STRING #89 @ $D9982
+#W16($D96B4)
+//[Kana]リライブ[X]
+Mend[X]
+
+//POINTER #90 @ $D96B6 - STRING #90 @ $D9988
+#W16($D96B6)
+//[Kana]リカバー[X]
+Recover[X]
+
+//POINTER #91 @ $D96B8 - STRING #91 @ $D998E
+#W16($D96B8)
+//[Kana]リブロー[X]
+Physic[X]
+
+//POINTER #92 @ $D96BA - STRING #92 @ $D9994
+#W16($D96BA)
+//[Kana]リザーブ[X]
+Fortify[X]
+
+//POINTER #93 @ $D96BC - STRING #93 @ $D999A
+#W16($D96BC)
+//[Kana]きえたまどうしょ[X]
+
+//POINTER #94 @ $D96BE - STRING #94 @ $D99A4
+#W16($D96BE)
+//[Kana]ワープ[X]
+Warp[X]
+
+//POINTER #95 @ $D96C0 - STRING #95 @ $D99A9
+#W16($D96C0)
+//[Kana]きえたまどうしょ[X]
+
+//POINTER #96 @ $D96C2 - STRING #96 @ $D99A9
+#W16($D96C2)
+//[Kana]きえたまどうしょ[X]
+
+//POINTER #97 @ $D96C4 - STRING #97 @ $D99B3
+#W16($D96C4)
+//[Kana]レスト[X]
+Restore[X]
+
+//POINTER #98 @ $D96C6 - STRING #98 @ $D99B8
+#W16($D96C6)
+//[Kana]バルキリー[X]
+//This still says Valkyrie, but Luna got shuffled here.
+//Enemy only regardless.
+
+//POINTER #99 @ $D96C8 - STRING #99 @ $D99C0
+#W16($D96C8)
+//サイレス[X]
+Silence[X]
+
+//POINTER #100 @ $D96CA - STRING #100 @ $D99C6
+#W16($D96CA)
+//スリープ[X]
+Sleep[X]
+
+//POINTER #101 @ $D96CC - STRING #101 @ $D99CC
+#W16($D96CC)
+//ジッャジメント[X]
+Judgement[X]
+
+//POINTER #102 @ $D96CE - STRING #102 @ $D99D4
+#W16($D96CE)
+//[Kana]セイニー[X]
+Thani[X]
+
+//POINTER #103 @ $D96D0 - STRING #103 @ $D99DA
+#W16($D96D0)
+//[Kana]われたつえ[X]
+
+//POINTER #104 @ $D96D2 - STRING #104 @ $D99DA
+#W16($D96D2)
+//[Kana]われたつえ[X]
+//Galle's Staff
+
+//POINTER #105 @ $D96D4 - STRING #105 @ $D99DA
+#W16($D96D4)
+//[Kana]われたつえ[X]
+
+//POINTER #106 @ $D96D6 - STRING #106 @ $D99E2
+#W16($D96D6)
+//ライブリング[X]
+Life Ring[X]
+
+//POINTER #107 @ $D96D8 - STRING #107 @ $D99EA
+#W16($D96D8)
+//マスターリング[X]
+MasterRing[X]
+
+//POINTER #108 @ $D96DA - STRING #108 @ $D99F2
+#W16($D96DA)
+//[Kana]スターリング[X]
+//Star Ring
+
+//POINTER #109 @ $D96DC - STRING #109 @ $D99FB
+#W16($D96DC)
+//リングオブマイラ[X]
+//Ring of Myra
+
+//POINTER #110 @ $D96DE - STRING #110 @ $D9A04
+#W16($D96DE)
+//[Kana]アイオテリング[X]
+Iote'sRing[X]
+
+//POINTER #111 @ $D96E0 - STRING #111 @ $D9A0D
+#W16($D96E0)
+//[Kana]ムーンリング[X]
+Moon Ring[X]
+
+//POINTER #112 @ $D96E2 - STRING #112 @ $D9A16
+#W16($D96E2)
+//チッームリング[X]
+Charm Ring[X]
+
+//POINTER #113 @ $D96E4 - STRING #113 @ $D9A1E
+#W16($D96E4)
+//[Kana]ナイトリング[X]
+//Knight Ring
+
+//POINTER #114 @ $D96E6 - STRING #114 @ $D9A26
+#W16($D96E6)
+//[Kana]サンリング[X]
+Sun Ring[X]
+
+//POINTER #115 @ $D96E8 - STRING #115 @ $D9A2E
+#W16($D96E8)
+//スピードリング[X]
+//Speed Ring
+
+//POINTER #116 @ $D96EA - STRING #116 @ $D9A37
+#W16($D96EA)
+//マジャクリング[X]
+Magic Ring[X]
+
+//POINTER #117 @ $D96EC - STRING #117 @ $D9A3F
+#W16($D96EC)
+//[Kana]パワーリング[X]
+Power Ring[X]
+
+//POINTER #118 @ $D96EE - STRING #118 @ $D9A48
+#W16($D96EE)
+//シールドリング[X]
+ShieldRing[X]
+
+//POINTER #119 @ $D96F0 - STRING #119 @ $D9A50
+#W16($D96F0)
+//[Kana]バリアリング[X]
+BarierRing[X]
+
+//POINTER #120 @ $D96F2 - STRING #120 @ $D9A58
+#W16($D96F2)
+//[Kana]レャグリング[X]
+Leg Ring[X]
+
+//POINTER #121 @ $D96F4 - STRING #121 @ $D9A60
+#W16($D96F4)
+//[Kana]スキルリング[X]
+Skill Ring[X]
+
+//POINTER #122 @ $D96F6 - STRING #122 @ $D9A68
+#W16($D96F6)
+//[Kana]こわれたぶき[X]
+//Apocalypse
+
+//POINTER #123 @ $D96F8 - STRING #123 @ $D9A68
+#W16($D96F8)
+//[Kana]こわれたぶき[X]
+//Urvan
+
+//POINTER #124 @ $D96FA - STRING #124 @ $D9A68
+#W16($D96FA)
+//[Kana]こわれたぶき[X]
+//Double Bow
+
+//POINTER #125 @ $D96FC - STRING #125 @ $D9A71
+#W16($D96FC)
+//きえたまどうしょ[X]
+
+//POINTER #126 @ $D96FE - STRING #126 @ $D9A71
+#W16($D96FE)
+//きえたまどうしょ[X]
+
+//POINTER #127 @ $D9700 - STRING #127 @ $D9A71
+#W16($D9700)
+//きえたまどうしょ[X]
+
+//POINTER #128 @ $D9702 - STRING #128 @ $D9A71
+#W16($D9702)
+//きえたまどうしょ[X]
+
+//POINTER #129 @ $D9704 - STRING #129 @ $D9A71
+#W16($D9704)
+//きえたまどうしょ[X]
+
+//POINTER #130 @ $D9706 - STRING #130 @ $D9A71
+#W16($D9706)
+//きえたまどうしょ[X]
+
+//POINTER #131 @ $D9708 - STRING #131 @ $D9A71
+#W16($D9708)
+//きえたまどうしょ[X]
+
+//POINTER #132 @ $D970A - STRING #132 @ $D9A71
+#W16($D970A)
+//きえたまどうしょ[X]
+
+//POINTER #133 @ $D970C - STRING #133 @ $D9A71
+#W16($D970C)
+//きえたまどうしょ[X]
+
+//POINTER #134 @ $D970E - STRING #134 @ $D9A71
+#W16($D970E)
+//きえたまどうしょ[X]
+
+//POINTER #135 @ $D9710 - STRING #135 @ $D9A71
+#W16($D9710)
+//きえたまどうしょ[X]
+
+//POINTER #136 @ $D9712 - STRING #136 @ $D9A71
+#W16($D9712)
+//きえたまどうしょ[X]
+
+//BLOCK #019 NAME:		Class Names (Dialogue)
+#ACTIVETBL(Table_0) // Activate this block's starting TABLE
+
+#JMP($D9B22, $D9D64) // Jump to insertion point
+#HDR($D0200) // Difference between ROM and RAM addresses for pointer value calculations
+
+//POINTER #0 @ $D9A92 - STRING #0 @ $D9B22
+#W16($D9A92)
+//[Kana]コマンドナイト[X]
+//Command Knight
+
+//POINTER #1 @ $D9A94 - STRING #1 @ $D9B2B
+#W16($D9A94)
+//[Kana]ランスナイト[X]
+//Lance Knight
+
+//POINTER #2 @ $D9A96 - STRING #2 @ $D9B33
+#W16($D9A96)
+//[Kana]ボウナイト[X]
+//Bow Knight
+
+//POINTER #3 @ $D9A98 - STRING #3 @ $D9B3B
+#W16($D9A98)
+//アクスナイト[X]
+//Axe Knight
+
+//POINTER #4 @ $D9A9A - STRING #4 @ $D9B43
+#W16($D9A9A)
+//ソードナイト[X]
+//Sword Knight
+
+//POINTER #5 @ $D9A9C - STRING #5 @ $D9B4B
+#W16($D9A9C)
+//トルバドール[X]
+//Troubadour
+
+//POINTER #6 @ $D9A9E - STRING #6 @ $D9B53
+#W16($D9A9E)
+//ロードナイト[X]
+Lord Knight[X]
+
+//POINTER #7 @ $D9AA0 - STRING #7 @ $D9B5B
+#W16($D9AA0)
+//グローリーナイト[X]
+Glory Knight[X]
+
+//POINTER #8 @ $D9AA2 - STRING #8 @ $D9B64
+#W16($D9AA2)
+//[Kana]マスターナイト[X]
+Master Knight[X]
+
+//POINTER #9 @ $D9AA4 - STRING #9 @ $D9BB3
+#W16($D9AA4)
+//パラディン[X]
+Paladin[X]
+
+//POINTER #10 @ $D9AA6 - STRING #10 @ $D9B6D
+#W16($D9AA6)
+//[Kana]ヴァルキュリア[X]
+Valkyrie[X]
+
+//POINTER #11 @ $D9AA8 - STRING #11 @ $D9B76
+#W16($D9AA8)
+//[Kana]アローナイト[X]
+Arrow Knight[X]
+
+//POINTER #12 @ $D9AAA - STRING #12 @ $D9B7E
+#W16($D9AAA)
+//[Kana]フォレストナイト[X]
+Forrest Knight[X]
+
+//POINTER #13 @ $D9AAC - STRING #13 @ $D9B88
+#W16($D9AAC)
+//[Kana]マージナイト[X]
+Mage Knight[X]
+
+//POINTER #14 @ $D9AAE - STRING #14 @ $D9B90
+#W16($D9AAE)
+//[Kana]グランドナイト[X]
+Grand Knight[X]
+
+//POINTER #15 @ $D9AB0 - STRING #15 @ $D9B99
+#W16($D9AB0)
+//[Kana]アイウエオ[X]
+//Dummy, placeholder, AEIOU, and so on.
+
+//POINTER #16 @ $D9AB2 - STRING #16 @ $D9BA0
+#W16($D9AB2)
+//[Kana]ペガサスナイト[X]
+//Pegasus Knight
+
+//POINTER #17 @ $D9AB4 - STRING #17 @ $D9BA9
+#W16($D9AB4)
+//[Kana]エンリルナイト[X]
+Enlil Knight[X]
+
+//POINTER #18 @ $D9AB6 - STRING #18 @ $D9BB3
+#W16($D9AB6)
+//パラディン[X]
+
+//POINTER #19 @ $D9AB8 - STRING #19 @ $D9BBD
+#W16($D9AB8)
+//[Kana]ドラゴンナイト[X]
+//Dragon Knight
+
+//POINTER #20 @ $D9ABA - STRING #20 @ $D9BC6
+#W16($D9ABA)
+//[Kana]リンドブルム[X]
+Lindwurm[X]
+
+//POINTER #21 @ $D9ABC - STRING #21 @ $D9BD0
+#W16($D9ABC)
+//ボウファイター[X]
+//Archer
+
+//POINTER #22 @ $D9ABE - STRING #22 @ $D9BD9
+#W16($D9ABE)
+//ブレイド[X]
+//Blade
+
+//POINTER #23 @ $D9AC0 - STRING #23 @ $D9BDF
+#W16($D9AC0)
+//ソードマスター[X]
+Swordmaster[X]
+
+//POINTER #24 @ $D9AC2 - STRING #24 @ $D9BE8
+#W16($D9AC2)
+//サジタリー[X]
+Sagittary[X]
+
+//POINTER #25 @ $D9AC4 - STRING #25 @ $D9BEE
+#W16($D9AC4)
+//[Kana]バスタード[X]
+Bastard[X]
+
+//POINTER #26 @ $D9AC6 - STRING #26 @ $D9BF6
+#W16($D9AC6)
+//ジェネラル[X]
+General[X]
+
+//POINTER #27 @ $D9AC8 - STRING #27 @ $D9BFC
+#W16($D9AC8)
+//[Kana]エンペラー[X]
+//Emperor
+
+//POINTER #28 @ $D9ACA - STRING #28 @ $D9C04
+#W16($D9ACA)
+//マーシッル[X]
+Marshall[X]
+
+//POINTER #29 @ $D9ACC - STRING #29 @ $D9C0A
+#W16($D9ACC)
+//[Kana]マーシナリー[X]
+Mercenary[X]
+
+//POINTER #30 @ $D9ACE - STRING #30 @ $D9C15
+#W16($D9ACE)
+//ウスピアソルジッー[X]
+
+//POINTER #31 @ $D9AD0 - STRING #31 @ $D9C1F
+#W16($D9AD0)
+//[Kana]アクスソルジッー[X]
+
+//POINTER #32 @ $D9AD2 - STRING #32 @ $D9C29
+#W16($D9AD2)
+//[Kana]シルメリー[X]
+Silmerie[X]
+
+//POINTER #33 @ $D9AD4 - STRING #33 @ $D9C30
+#W16($D9AD4)
+//[Kana]ソードソルジッー[X]
+
+//POINTER #34 @ $D9AD6 - STRING #34 @ $D9C3A
+#W16($D9AD6)
+//[Kana]アーマー[X]
+//Armour Knight
+
+//POINTER #35 @ $D9AD8 - STRING #35 @ $D9C40
+#W16($D9AD8)
+//[Kana]アクスアーマー[X]
+//Axe Armour
+
+//POINTER #36 @ $D9ADA - STRING #36 @ $D9C49
+#W16($D9ADA)
+//[Kana]ボウアーマー[X]
+//Bow Armour
+
+//POINTER #37 @ $D9ADC - STRING #37 @ $D9C51
+#W16($D9ADC)
+//[Kana]ソードアーマー[X]
+//Sword Armour
+
+//POINTER #38 @ $D9ADE - STRING #38 @ $D9C5A
+#W16($D9ADE)
+//[Kana]バーバリアン[X]
+//Barbarian
+
+//POINTER #39 @ $D9AE0 - STRING #39 @ $D9C62
+#W16($D9AE0)
+//[Kana]アクスファイター[X]
+//Fighter
+
+//POINTER #40 @ $D9AE2 - STRING #40 @ $D9C6C
+#W16($D9AE2)
+//[Kana]マウンテンシーフ[X]
+//Mountain Thief
+
+//POINTER #41 @ $D9AE4 - STRING #41 @ $D9C76
+#W16($D9AE4)
+//[Kana]ウォーリア[X]
+Warrior[X]
+
+//POINTER #42 @ $D9AE6 - STRING #42 @ $D9C7D
+#W16($D9AE6)
+//[Kana]ハンター[X]
+//Hunter
+
+//POINTER #43 @ $D9AE8 - STRING #43 @ $D9C83
+#W16($D9AE8)
+//[Kana]パイレーツ[X]
+//Pirate
+
+//POINTER #44 @ $D9AEA - STRING #44 @ $D9C8A
+#W16($D9AEA)
+//[Kana]ロード[X]
+//Lord
+
+//POINTER #45 @ $D9AEC - STRING #45 @ $D9C90
+#W16($D9AEC)
+//アークマージ[X]
+Archmage[X]
+
+//POINTER #46 @ $D9AEE - STRING #46 @ $D9C98
+#W16($D9AEE)
+//ヴァンガード[X]
+Vanguard[X]
+
+//POINTER #47 @ $D9AF0 - STRING #47 @ $D9C9F
+#W16($D9AF0)
+//[Kana]アポステル[X]
+Apostle[X]
+
+//POINTER #48 @ $D9AF2 - STRING #48 @ $D9CA7
+#W16($D9AF2)
+//マージプリンセス[X]
+Mage Princess[X]
+
+//POINTER #49 @ $D9AF4 - STRING #49 @ $D9CB0
+#W16($D9AF4)
+//[Kana]クイーン[X]
+//Queen
+
+//POINTER #50 @ $D9AF6 - STRING #50 @ $D9CB7
+#W16($D9AF6)
+//ソードダンサ[Kanji1]<$18>[Kana]ー[X]
+//Sword Dancer
+
+//POINTER #51 @ $D9AF8 - STRING #51 @ $D9CC2
+#W16($D9AF8)
+//[Kana]プリースト[X]
+//Priest
+
+//POINTER #52 @ $D9AFA - STRING #52 @ $D9CC9
+#W16($D9AFA)
+//[Kana]マージ[X]
+//Mage
+
+//POINTER #53 @ $D9AFC - STRING #53 @ $D9CCE
+#W16($D9AFC)
+//[Kana]ファイアマージ[X]
+//Fire Mage
+
+//POINTER #54 @ $D9AFE - STRING #54 @ $D9CD7
+#W16($D9AFE)
+//[Kana]レ[Kanji1]<$18>[Kana]ディマージ[X]
+//Lady Mage
+
+//POINTER #55 @ $D9B00 - STRING #55 @ $D9CE2
+#W16($D9B00)
+//[Kana]ウインドマージ[X]
+//Wind Mage
+
+//POINTER #56 @ $D9B02 - STRING #56 @ $D9CEC
+#W16($D9B02)
+//セイント[X]
+Saint[X]
+
+//POINTER #57 @ $D9B04 - STRING #57 @ $D9CF1
+#W16($D9B04)
+//[Kana]ビショャプ[X]
+//Lady Knight
+
+//POINTER #58 @ $D9B06 - STRING #58 @ $D9CF8
+#W16($D9B06)
+//[Kana]セイジ[X]
+Sage[X]
+
+//POINTER #59 @ $D9B08 - STRING #59 @ $D9CFE
+#W16($D9B08)
+//バード[X]
+//Bard
+
+//POINTER #60 @ $D9B0A - STRING #60 @ $D9D03
+#W16($D9B0A)
+//ライトマージ[X]
+//Light Mage
+
+//POINTER #61 @ $D9B0C - STRING #61 @ $D9D0A
+#W16($D9B0C)
+//[Kana]ダークマージ[X]
+//Dark Mage
+
+//POINTER #62 @ $D9B0E - STRING #62 @ $D9D12
+#W16($D9B0E)
+//[Kana]ソーサラー[X]
+//Dark Bishop
+
+//POINTER #63 @ $D9B10 - STRING #63 @ $D9D1A
+#W16($D9B10)
+//シーフ[X]
+//Thief
+
+//POINTER #64 @ $D9B12 - STRING #64 @ $D9D1F
+#W16($D9B12)
+//エスピオン[X]
+Espion[X]
+
+//POINTER #65 @ $D9B14 - STRING #65 @ $D9D25
+#W16($D9B14)
+//[Kana]アイウエオカキシビリアン[X]
+
+//POINTER #66 @ $D9B16 - STRING #66 @ $D9D33
+#W16($D9B16)
+//[Kana]シビリアン[X]
+
+//POINTER #67 @ $D9B18 - STRING #67 @ $D9D3A
+#W16($D9B18)
+//[Kana]ロングアーチ[X]
+
+//POINTER #68 @ $D9B1A - STRING #68 @ $D9D42
+#W16($D9B1A)
+//[Kana]グラスランナー[X]
+Grassrunner[X]
+
+//POINTER #69 @ $D9B1C - STRING #69 @ $D9D4B
+#W16($D9B1C)
+//[Kana]キラーアーチ[X]
+
+//POINTER #70 @ $D9B1E - STRING #70 @ $D9D53
+#W16($D9B1E)
+//[Kana]グレートアーチ[X]
+
+//POINTER #71 @ $D9B20 - STRING #71 @ $D9D5C
+#W16($D9B20)
+//[Kana]マージプリンス[X]
+Mage Prince[X]
+
+//BLOCK #020 NAME:		Main Menu
+#ACTIVETBL(Table_0) // Activate this block's starting TABLE
+
+#JMP($D9D7B, $D9DF5) // Jump to insertion point
+#HDR($D0200) // Difference between ROM and RAM addresses for pointer value calculations
+
+//POINTER #0 @ $D9D65 - STRING #0 @ $D9D7B
+#W16($D9D65)
+//[Kanji1]<$AC>[Kanji2]<$7E>[Kana]から[Kanji1]<$BB>[Kana]める [X]
+//
+//
+// current address: $D9D89
+
+//POINTER #1 @ $D9D67 - STRING #1 @ $D9D7B
+#W16($D9D67)
+//[Kanji1]<$AC>[Kanji2]<$7E>[Kana]から[Kanji1]<$BB>[Kana]める [X]
+//
+//
+// current address: $D9D89
+
+//POINTER #2 @ $D9D69 - STRING #2 @ $D9D89
+#W16($D9D69)
+//[Kana] [Kanji2]<$7F><$80>[Kana]をする  [X]
+//
+//
+// current address: $D9D95
+
+//POINTER #3 @ $D9D6B - STRING #3 @ $D9D95
+#W16($D9D6B)
+//[Kanji2]<$7F><$80>[Kana]から[Kanji1]<$BB>[Kana]める [X]
+//
+//
+// current address: $D9DA2
+
+//POINTER #4 @ $D9D6D - STRING #4 @ $D9DA2
+#W16($D9D6D)
+//[Kanji1]<$B5>[Kanji2]<$81>[Kana]から[Kanji1]<$BB>[Kana]める [X]
+//
+//
+// current address: $D9DB0
+
+//POINTER #5 @ $D9D6F - STRING #5 @ $D9DB0
+#W16($D9D6F)
+//[Kanji2]<$7F><$80>[Kana]を[Kanji2]<$82>[Kana]す   [X]
+//
+//
+// current address: $D9DBD
+
+//POINTER #6 @ $D9D71 - STRING #6 @ $D9DBD
+#W16($D9D71)
+//[Kanji2]<$7F><$80>[Kana]を[Kanji2]<$83>[Kana]す   [X]
+//
+//
+// current address: $D9DCA
+
+//POINTER #7 @ $D9D73 - STRING #7 @ $D9DCA
+#W16($D9D73)
+//[Kanji3]<$69><$37>[Kana]  [X]
+//
+//
+// current address: $D9DD1
+
+//POINTER #8 @ $D9D75 - STRING #8 @ $D9DD1
+#W16($D9D75)
+//[Kanji2]<$83>[Kana]す  [X]
+//
+//
+// current address: $D9DD8
+
+//POINTER #9 @ $D9D77 - STRING #9 @ $D9DD8
+#W16($D9D77)
+//[Kana]やめる [X]
+//
+//
+// current address: $D9DDE
+
+//POINTER #10 @ $D9D79 - STRING #10 @ $D9DDE
+#W16($D9D79)
+//[Kana]     [Kanji2]<$7F><$80>[Kana]がありません       [X]
+//
+//
+// current address: $D9DF6
+
+//BLOCK #021 NAME:		Chapter Names
+#ACTIVETBL(Table_0) // Activate this block's starting TABLE
+
+#JMP($D9E0E, $D9E87) // Jump to insertion point
+#HDR($D0200) // Difference between ROM and RAM addresses for pointer value calculations
+
+//POINTER #0 @ $D9DF6 - STRING #0 @ $D9E0E
+#W16($D9DF6)
+//[Kanji1]<$2D><$5C><$4B>[Kanji4]<$21>[Kanji2]<$48>[X]
+//
+//
+// current address: $D9E17
+
+//POINTER #1 @ $D9DF8 - STRING #1 @ $D9E17
+#W16($D9DF8)
+//[Kanji2]<$D5>[Kanji4]<$6D>[Kana]の[Kanji3]<$27>[Kana]の[Kanji2]<$E7>[Kanji1]<$7F>[X]
+//
+//
+// current address: $D9E26
+
+//POINTER #2 @ $D9DFA - STRING #2 @ $D9E26
+#W16($D9DFA)
+//[Kana]ユングヴィの[Kanji2]<$33><$57><$00>[X]
+//
+//
+// current address: $D9E32
+
+//POINTER #3 @ $D9DFC - STRING #3 @ $D9E32
+#W16($D9DFC)
+//[Kanji1]<$2D>[Kanji2]<$60>[Kana]のブリギャド [X]
+//
+//
+// current address: $D9E3F
+
+//POINTER #4 @ $D9DFE - STRING #4 @ $D9E3F
+#W16($D9DFE)
+//[Kanji4]<$7F>[Kanji2]<$87><$57>[Kanji4]<$69>[Kana][X]
+//
+//
+// current address: $D9E48
+
+//POINTER #5 @ $D9E00 - STRING #5 @ $D9E48
+#W16($D9E00)
+//[Kanji1]<$4E>[Kanji2]<$41>[Kana]の[Kanji3]<$EE>[X]
+//
+//
+// current address: $D9E51
+
+//POINTER #6 @ $D9E02 - STRING #6 @ $D9E51
+#W16($D9E02)
+//[Kanji4]<$D8>[Kanji1]<$20>[Kanji2]<$18>[Kanji4]<$DB>[X]
+//
+//
+// current address: $D9E5A
+
+//POINTER #7 @ $D9E04 - STRING #7 @ $D9E5A
+#W16($D9E04)
+//[Kanji2]<$DE><$DF>[Kana]をこえて[X]
+//
+//
+// current address: $D9E63
+
+//POINTER #8 @ $D9E06 - STRING #8 @ $D9E63
+#W16($D9E06)
+//[Kanji2]<$79>[Kanji3]<$59>[Kana]のドズル[X]
+//
+//
+// current address: $D9E6D
+
+//POINTER #9 @ $D9E08 - STRING #9 @ $D9E6D
+#W16($D9E08)
+//[Kana]ゆれる[Kanji3]<$70>[Kana]い[X]
+//
+//
+// current address: $D9E76
+
+//POINTER #10 @ $D9E0A - STRING #10 @ $D9E76
+#W16($D9E0A)
+//[Kana]インドラの[Kanji4]<$DF>[X]
+//
+//
+// current address: $D9E7F
+
+//POINTER #11 @ $D9E0C - STRING #11 @ $D9E7F
+#W16($D9E0C)
+//[Kanji1]<$B5><$BC>[Kana]の[Kanji1]<$2D><$64>[X]
+//
+//
+// current address: $D9E88
+
+//BLOCK #022 NAME:		Shop Text
+#ACTIVETBL(Table_0) // Activate this block's starting TABLE
+
+#JMP($AD2D4, $ADA1A) // Jump to insertion point
+#HDR($-7FFE00) // Difference between ROM and RAM addresses for pointer value calculations
+
+//POINTER #0 @ $AD0B3 - STRING #0 @ $AD2D4
+#W24($AD0B3)
+//[Clear][Kana]ここは[Kanji1]<$44>[Kanji2]<$FC><$B9>[Kana]だぜ[N]
+//[X]
+//
+//
+// current address: $AD2E3
+
+//POINTER #1 @ $AD0B6 - STRING #1 @ $AD395
+#W24($AD0B6)
+//[Kana]ここは[Kanji1]<$AC>[Kanji2]<$2F><$B9>[Kana]だぜ[N]
+//いろいろ[Kanji3]<$19>[Kana]り[Kanji3]<$1A>[Kana]いしてくれよ[N]
+//[X]
+//
+//
+// current address: $AD3B5
+
+//POINTER #2 @ $AD0B9 - STRING #2 @ $AD4D9
+#W24($AD0B9)
+//[Kana]よお、ここは[Kanji3]<$20>[Kanji2]<$EA><$B9>[Kana]だ[N]
+//どれを[Kanji3]<$20>[Kanji2]<$EA>[Kana]するんだい?[N]
+//[X]
+//
+//
+// current address: $AD4F8
+
+//POINTER #3 @ $AD0BC - STRING #3 @ $AD5D3
+#W24($AD0BC)
+//[Kana]ここは[Kanji4]<$50>[Kana]かり[Kanji2]<$3C>[Kana]よ[N]
+//ご[Kanji1]<$4D>[Kana]は[Kanji1]<$21>[Kana]かしら?[N]
+//[X]
+//
+//
+// current address: $AD5EF
+
+//POINTER #4 @ $AD0BF - STRING #4 @ $AD927
+#W24($AD0BF)
+//[X]
+//
+//
+// current address: $AD928
+
+//POINTER #5 @ $AD0C2 - STRING #5 @ $AD6B0
+#W24($AD0C2)
+//[Kana]ここは[Kanji1]<$3E><$3F><$40>[Kana]だ[N]
+//[X]
+//
+//
+// current address: $AD6BC
+
+//POINTER #6 @ $AD0C5 - STRING #6 @ $AD80D
+#W24($AD0C5)
+//[Clear][Kana]どうする?[N]
+//[X]
+//
+//
+// current address: $AD816
+
+//POINTER #7 @ $AD0C8 - STRING #7 @ $AD80D
+#W24($AD0C8)
+//[Clear][Kana]どうする?[N]
+//[X]
+//
+//
+// current address: $AD816
+
+//POINTER #8 @ $AD0CB - STRING #8 @ $AD80D
+#W24($AD0CB)
+//[Clear][Kana]どうする?[N]
+//[X]
+//
+//
+// current address: $AD816
+
+//POINTER #9 @ $AD0CE - STRING #9 @ $AD80D
+#W24($AD0CE)
+//[Clear][Kana]どうする?[N]
+//[X]
+//
+//
+// current address: $AD816
+
+//POINTER #10 @ $AD0D1 - STRING #10 @ $AD80D
+#W24($AD0D1)
+//[Clear][Kana]どうする?[N]
+//[X]
+//
+//
+// current address: $AD816
+
+//POINTER #11 @ $AD0D4 - STRING #11 @ $AD80D
+#W24($AD0D4)
+//[Clear][Kana]どうする?[N]
+//[X]
+//
+//
+// current address: $AD816
+
+//POINTER #12 @ $AD0D7 - STRING #12 @ $AD37B
+#W24($AD0D7)
+//[Clear][Kana]ほかに[Kanji1]<$4D>[Kana]はあるかい?[N]
+//[X]
+//
+//
+// current address: $AD38B
+
+//POINTER #13 @ $AD0DA - STRING #13 @ $AD4B8
+#W24($AD0DA)
+//[Clear][Kana]ほかに[Kanji1]<$4D>[Kana]があるのか?[N]
+//[X]
+//
+//
+// current address: $AD4C8
+
+//POINTER #14 @ $AD0DD - STRING #14 @ $AD58F
+#W24($AD0DD)
+//[Clear][Kana]ほかに[Kanji1]<$4D>[Kana]はあるかい?[N]
+//[X]
+//
+//
+// current address: $AD59F
+
+//POINTER #15 @ $AD0E0 - STRING #15 @ $AD68F
+#W24($AD0E0)
+//[Clear][Kana]ほかに[Kanji1]<$4D>[Kana]はあるかしら?[N]
+//[X]
+//
+//
+// current address: $AD6A0
+
+//POINTER #16 @ $AD0E3 - STRING #16 @ $ADA1A
+#W24($AD0E3)
+//[X]
+//
+//
+// current address: $ADA1B
+
+//POINTER #17 @ $AD0E6 - STRING #17 @ $AD37B
+#W24($AD0E6)
+//[Clear][Kana]ほかに[Kanji1]<$4D>[Kana]はあるかい?[N]
+//[X]
+//
+//
+// current address: $AD38B
+
+//POINTER #18 @ $AD0E9 - STRING #18 @ $AD38B
+#W24($AD0E9)
+//[Clear][Kana]ありがとよ[N]
+//[A]
+//[X]
+//
+//
+// current address: $AD395
+
+//POINTER #19 @ $AD0EC - STRING #19 @ $AD4C8
+#W24($AD0EC)
+//[Clear][Kana]ありがとよ[N]
+//またきてくれ[N]
+//[A]
+//[X]
+//
+//
+// current address: $AD4D9
+
+//POINTER #20 @ $AD0EF - STRING #20 @ $AD59F
+#W24($AD0EF)
+//[Clear][Kana]じゃ、またな[N]
+//[A]
+//[X]
+//
+//
+// current address: $AD5AA
+
+//POINTER #21 @ $AD0F2 - STRING #21 @ $AD6A0
+#W24($AD0F2)
+//[Clear][Kana]じゃあまたね[N]
+//ばいばい[N]
+//[A]
+//[X]
+//
+//
+// current address: $AD6B0
+
+//POINTER #22 @ $AD0F5 - STRING #22 @ $ADA1A
+#W24($AD0F5)
+//[X]
+//
+//
+// current address: $ADA1B
+
+//POINTER #23 @ $AD0F8 - STRING #23 @ $AD7F9
+#W24($AD0F8)
+//[Clear][Kana]あばよ[N]
+//いきていたらまたこいよ[N]
+//[A]
+//[X]
+//
+//
+// current address: $AD80D
+
+//POINTER #24 @ $AD0FB - STRING #24 @ $AD2E3
+#W24($AD0FB)
+//[Clear][Kana]なにがほしいんだい?[N]
+//[X]
+//
+//
+// current address: $AD2F1
+
+//POINTER #25 @ $AD0FE - STRING #25 @ $AD3D2
+#W24($AD0FE)
+//[Clear][Kana]どれがほしいんだい?[N]
+//[X]
+//
+//
+// current address: $AD3E0
+
+//POINTER #26 @ $AD101 - STRING #26 @ $AD2E3
+#W24($AD101)
+//[Clear][Kana]なにがほしいんだい?[N]
+//[X]
+//
+//
+// current address: $AD2F1
+
+//POINTER #27 @ $AD104 - STRING #27 @ $AD64E
+#W24($AD104)
+//[Clear][Kana]どれをひき[Kanji2]<$15>[Kana]るの?[N]
+//[X]
+//
+//
+// current address: $AD65D
+
+//POINTER #28 @ $AD107 - STRING #28 @ $ADA1A
+#W24($AD107)
+//[X]
+//
+//
+// current address: $ADA1B
+
+//POINTER #29 @ $AD10A - STRING #29 @ $AD2F1
+#W24($AD10A)
+//[Clear][Kana]その[Kanji1]<$44>[Kanji2]<$FC>[Kana]でいいか?[N]
+//[X]
+//
+//
+// current address: $AD301
+
+//POINTER #30 @ $AD10D - STRING #30 @ $AD3E0
+#W24($AD10D)
+//[Clear][Kana]その[Kanji4]<$43>[Kanji1]<$E2>[Kana]でいいのかい?[N]
+//[X]
+//
+//
+// current address: $AD3F2
+
+//POINTER #31 @ $AD110 - STRING #31 @ $AD2F1
+#W24($AD110)
+//[Clear][Kana]その[Kanji1]<$44>[Kanji2]<$FC>[Kana]でいいか?[N]
+//[X]
+//
+//
+// current address: $AD301
+
+//POINTER #32 @ $AD113 - STRING #32 @ $AD601
+#W24($AD113)
+//[Clear][Kana]それでいい?[N]
+//[X]
+//
+//
+// current address: $AD60B
+
+//POINTER #33 @ $AD116 - STRING #33 @ $ADA1A
+#W24($AD116)
+//[X]
+//
+//
+// current address: $ADA1B
+
+//POINTER #34 @ $AD119 - STRING #34 @ $AD301
+#W24($AD119)
+//[Clear][Kana]ほかにも[Kanji3]<$1A>[Kana]うかい?[N]
+//[X]
+//
+//
+// current address: $AD310
+
+//POINTER #35 @ $AD11C - STRING #35 @ $AD3F2
+#W24($AD11C)
+//[Clear][Kana]ほかにもほしいものはあるかい?[N]
+//[X]
+//
+//
+// current address: $AD405
+
+//POINTER #36 @ $AD11F - STRING #36 @ $ADA1A
+#W24($AD11F)
+//[X]
+//
+//
+// current address: $ADA1B
+
+//POINTER #37 @ $AD122 - STRING #37 @ $AD65D
+#W24($AD122)
+//[Clear][Kana]ほかにもひき[Kanji1]<$28>[Kana]しますか?[N]
+//[X]
+//
+//
+// current address: $AD66F
+
+//POINTER #38 @ $AD125 - STRING #38 @ $ADA1A
+#W24($AD125)
+//[X]
+//
+//
+// current address: $ADA1B
+
+//POINTER #39 @ $AD128 - STRING #39 @ $AD310
+#W24($AD128)
+//[Clear][Kana]よお、[Kanji1]<$C2>[Kana]がたりねぇぜ[N]
+//[A]
+//[X]
+//
+//
+// current address: $AD321
+
+//POINTER #40 @ $AD12B - STRING #40 @ $AD47B
+#W24($AD12B)
+//[Clear][Kana]お[Kanji1]<$C2>[Kana]がたりねえぜ[N]
+//[A]
+//[X]
+//
+//
+// current address: $AD48A
+
+//POINTER #41 @ $AD12E - STRING #41 @ $AD563
+#W24($AD12E)
+//[Clear][Kana]お[Kanji1]<$C2>[Kana]がたりないぜ?[N]
+//[A]
+//[X]
+//
+//
+// current address: $AD573
+
+//POINTER #42 @ $AD131 - STRING #42 @ $AD310
+#W24($AD131)
+//[Clear][Kana]よお、[Kanji1]<$C2>[Kana]がたりねぇぜ[N]
+//[A]
+//[X]
+//
+//
+// current address: $AD321
+
+//POINTER #43 @ $AD134 - STRING #43 @ $AD310
+#W24($AD134)
+//[Clear][Kana]よお、[Kanji1]<$C2>[Kana]がたりねぇぜ[N]
+//[A]
+//[X]
+//
+//
+// current address: $AD321
+
+//POINTER #44 @ $AD137 - STRING #44 @ $AD321
+#W24($AD137)
+//[Clear][Kana]もちものがいっぱいだぜ[N]
+//[A]
+//[X]
+//
+//
+// current address: $AD331
+
+//POINTER #45 @ $AD13A - STRING #45 @ $AD48A
+#W24($AD13A)
+//[Clear][Kana]おいおい[N]
+//もちものがいっぱいだぜ[N]
+//[A]
+//[X]
+//
+//
+// current address: $AD49F
+
+//POINTER #46 @ $AD13D - STRING #46 @ $AD321
+#W24($AD13D)
+//[Clear][Kana]もちものがいっぱいだぜ[N]
+//[A]
+//[X]
+//
+//
+// current address: $AD331
+
+//POINTER #47 @ $AD140 - STRING #47 @ $AD63E
+#W24($AD140)
+//[Clear][Kana]そんなにもてないでしょ[N]
+//[A]
+//[X]
+//
+//
+// current address: $AD64E
+
+//POINTER #48 @ $AD143 - STRING #48 @ $AD321
+#W24($AD143)
+//[Clear][Kana]もちものがいっぱいだぜ[N]
+//[A]
+//[X]
+//
+//
+// current address: $AD331
+
+//POINTER #49 @ $AD146 - STRING #49 @ $AD49F
+#W24($AD146)
+//[Clear][Kana]わるいがその[Kanji4]<$43>[Kanji1]<$E2>[Kana]は[N]
+//あつかえねぇな[N]
+//[A]
+//[X]
+//
+//
+// current address: $AD4B8
+
+//POINTER #50 @ $AD149 - STRING #50 @ $AD49F
+#W24($AD149)
+//[Clear][Kana]わるいがその[Kanji4]<$43>[Kanji1]<$E2>[Kana]は[N]
+//あつかえねぇな[N]
+//[A]
+//[X]
+//
+//
+// current address: $AD4B8
+
+//POINTER #51 @ $AD14C - STRING #51 @ $AD573
+#W24($AD14C)
+//[Clear][Kana]わるいがそのアイテムは[N]
+//うちではあつかえないよ[N]
+//[A]
+//[X]
+//
+//
+// current address: $AD58F
+
+//POINTER #52 @ $AD14F - STRING #52 @ $AD49F
+#W24($AD14F)
+//[Clear][Kana]わるいがその[Kanji4]<$43>[Kanji1]<$E2>[Kana]は[N]
+//あつかえねぇな[N]
+//[A]
+//[X]
+//
+//
+// current address: $AD4B8
+
+//POINTER #53 @ $AD152 - STRING #53 @ $AD49F
+#W24($AD152)
+//[Clear][Kana]わるいがその[Kanji4]<$43>[Kanji1]<$E2>[Kana]は[N]
+//あつかえねぇな[N]
+//[A]
+//[X]
+//
+//
+// current address: $AD4B8
+
+//POINTER #54 @ $AD155 - STRING #54 @ $AD354
+#W24($AD155)
+//[Clear][Kanji1]<$C3><$DB>[Kana]の[Kanji1]<$CB>[Kana]ち[Kanji1]<$E2>[Kana]なんかみてねぇで[N]
+//[Kanji1]<$41>[Kana]の[Kanji2]<$A0>[Kanji4]<$43>[Kana]をみてくれよ[N]
+//[X]
+//
+//
+// current address: $AD37B
+
+//POINTER #55 @ $AD158 - STRING #55 @ $AD405
+#W24($AD158)
+//[Clear][Kana]どのもちものを[Kanji3]<$19>[Kana]るんだ?[N]
+//[X]
+//
+//
+// current address: $AD417
+
+//POINTER #56 @ $AD15B - STRING #56 @ $ADA1A
+#W24($AD15B)
+//[X]
+//
+//
+// current address: $ADA1B
+
+//POINTER #57 @ $AD15E - STRING #57 @ $AD5EF
+#W24($AD15E)
+//[Clear][Kana]どれを[Kanji4]<$50>[Kana]かってほしいの?[N]
+//[X]
+//
+//
+// current address: $AD601
+
+//POINTER #58 @ $AD161 - STRING #58 @ $ADA1A
+#W24($AD161)
+//[X]
+//
+//
+// current address: $ADA1B
+
+//POINTER #59 @ $AD164 - STRING #59 @ $ADA1A
+#W24($AD164)
+//[X]
+//
+//
+// current address: $ADA1B
+
+//POINTER #60 @ $AD167 - STRING #60 @ $AD417
+#W24($AD167)
+//[Clear][Kana]それでいいのかい?[N]
+//[X]
+//
+//
+// current address: $AD424
+
+//POINTER #61 @ $AD16A - STRING #61 @ $ADA1A
+#W24($AD16A)
+//[X]
+//
+//
+// current address: $ADA1B
+
+//POINTER #62 @ $AD16D - STRING #62 @ $AD601
+#W24($AD16D)
+//[Clear][Kana]それでいい?[N]
+//[X]
+//
+//
+// current address: $AD60B
+
+//POINTER #63 @ $AD170 - STRING #63 @ $ADA1A
+#W24($AD170)
+//[X]
+//
+//
+// current address: $ADA1B
+
+//POINTER #64 @ $AD173 - STRING #64 @ $ADA1A
+#W24($AD173)
+//[X]
+//
+//
+// current address: $ADA1B
+
+//POINTER #65 @ $AD176 - STRING #65 @ $AD424
+#W24($AD176)
+//[Clear][Kana]ほかにも[Kanji3]<$19>[Kana]るのか?[N]
+//[X]
+//
+//
+// current address: $AD433
+
+//POINTER #66 @ $AD179 - STRING #66 @ $ADA1A
+#W24($AD179)
+//[X]
+//
+//
+// current address: $ADA1B
+
+//POINTER #67 @ $AD17C - STRING #67 @ $AD60B
+#W24($AD17C)
+//[Clear][Kana]ほかにもあずける?[N]
+//[X]
+//
+//
+// current address: $AD618
+
+//POINTER #68 @ $AD17F - STRING #68 @ $ADA1A
+#W24($AD17F)
+//[X]
+//
+//
+// current address: $ADA1B
+
+//POINTER #69 @ $AD182 - STRING #69 @ $AD50A
+#W24($AD182)
+//[Clear][Kana]どれを[Kanji3]<$20>[Kanji2]<$EA>[Kana]するんだい?[N]
+//[X]
+//
+//
+// current address: $AD51C
+
+//POINTER #70 @ $AD185 - STRING #70 @ $AD50A
+#W24($AD185)
+//[Clear][Kana]どれを[Kanji3]<$20>[Kanji2]<$EA>[Kana]するんだい?[N]
+//[X]
+//
+//
+// current address: $AD51C
+
+//POINTER #71 @ $AD188 - STRING #71 @ $AD4F8
+#W24($AD188)
+//[Clear][Kana]なにを[Kanji3]<$20>[Kanji2]<$EA>[Kana]するんだい?[N]
+//[X]
+//
+//
+// current address: $AD50A
+
+//POINTER #72 @ $AD18B - STRING #72 @ $AD50A
+#W24($AD18B)
+//[Clear][Kana]どれを[Kanji3]<$20>[Kanji2]<$EA>[Kana]するんだい?[N]
+//[X]
+//
+//
+// current address: $AD51C
+
+//POINTER #73 @ $AD18E - STRING #73 @ $ADA1A
+#W24($AD18E)
+//[X]
+//
+//
+// current address: $ADA1B
+
+//POINTER #74 @ $AD191 - STRING #74 @ $AD51C
+#W24($AD191)
+//[Clear][Kana]それを[Kanji3]<$20>[Kanji2]<$EA>[Kana]するのかい?[N]
+//[X]
+//
+//
+// current address: $AD52E
+
+//POINTER #75 @ $AD194 - STRING #75 @ $AD51C
+#W24($AD194)
+//[Clear][Kana]それを[Kanji3]<$20>[Kanji2]<$EA>[Kana]するのかい?[N]
+//[X]
+//
+//
+// current address: $AD52E
+
+//POINTER #76 @ $AD197 - STRING #76 @ $AD51C
+#W24($AD197)
+//[Clear][Kana]それを[Kanji3]<$20>[Kanji2]<$EA>[Kana]するのかい?[N]
+//[X]
+//
+//
+// current address: $AD52E
+
+//POINTER #77 @ $AD19A - STRING #77 @ $AD51C
+#W24($AD19A)
+//[Clear][Kana]それを[Kanji3]<$20>[Kanji2]<$EA>[Kana]するのかい?[N]
+//[X]
+//
+//
+// current address: $AD52E
+
+//POINTER #78 @ $AD19D - STRING #78 @ $AD928
+#W24($AD19D)
+//[Clear][Kana]よくがんばったね[N]
+//あなたは[Class]に[N]
+//クラスチェンジできるよ[A]
+//[Clear]クラスチェンジしちゃう?[N]
+//[X]
+//
+//
+// current address: $AD956
+
+//POINTER #79 @ $AD1A0 - STRING #79 @ $AD551
+#W24($AD1A0)
+//[Clear][Kana]ほかにも[Kanji3]<$20>[Kanji2]<$EA>[Kana]するかい?[N]
+//[X]
+//
+//
+// current address: $AD563
+
+//POINTER #80 @ $AD1A3 - STRING #80 @ $AD551
+#W24($AD1A3)
+//[Clear][Kana]ほかにも[Kanji3]<$20>[Kanji2]<$EA>[Kana]するかい?[N]
+//[X]
+//
+//
+// current address: $AD563
+
+//POINTER #81 @ $AD1A6 - STRING #81 @ $AD551
+#W24($AD1A6)
+//[Clear][Kana]ほかにも[Kanji3]<$20>[Kanji2]<$EA>[Kana]するかい?[N]
+//[X]
+//
+//
+// current address: $AD563
+
+//POINTER #82 @ $AD1A9 - STRING #82 @ $AD551
+#W24($AD1A9)
+//[Clear][Kana]ほかにも[Kanji3]<$20>[Kanji2]<$EA>[Kana]するかい?[N]
+//[X]
+//
+//
+// current address: $AD563
+
+//POINTER #83 @ $AD1AC - STRING #83 @ $AD551
+#W24($AD1AC)
+//[Clear][Kana]ほかにも[Kanji3]<$20>[Kanji2]<$EA>[Kana]するかい?[N]
+//[X]
+//
+//
+// current address: $AD563
+
+//POINTER #84 @ $AD1AF - STRING #84 @ $AD52E
+#W24($AD1AF)
+//[Clear][Kana]それを[Kanji3]<$20>[Kanji2]<$EA>[Kana]するのかい?[N]
+//いい[Kanji4]<$43>[Kana]だな、[Kanji1]<$24><$EA>[Kana]にしろよ[N]
+//[X]
+//
+//
+// current address: $AD551
+
+//POINTER #85 @ $AD1B2 - STRING #85 @ $AD52E
+#W24($AD1B2)
+//[Clear][Kana]それを[Kanji3]<$20>[Kanji2]<$EA>[Kana]するのかい?[N]
+//いい[Kanji4]<$43>[Kana]だな、[Kanji1]<$24><$EA>[Kana]にしろよ[N]
+//[X]
+//
+//
+// current address: $AD551
+
+//POINTER #86 @ $AD1B5 - STRING #86 @ $AD52E
+#W24($AD1B5)
+//[Clear][Kana]それを[Kanji3]<$20>[Kanji2]<$EA>[Kana]するのかい?[N]
+//いい[Kanji4]<$43>[Kana]だな、[Kanji1]<$24><$EA>[Kana]にしろよ[N]
+//[X]
+//
+//
+// current address: $AD551
+
+//POINTER #87 @ $AD1B8 - STRING #87 @ $AD52E
+#W24($AD1B8)
+//[Clear][Kana]それを[Kanji3]<$20>[Kanji2]<$EA>[Kana]するのかい?[N]
+//いい[Kanji4]<$43>[Kana]だな、[Kanji1]<$24><$EA>[Kana]にしろよ[N]
+//[X]
+//
+//
+// current address: $AD551
+
+//POINTER #88 @ $AD1BB - STRING #88 @ $AD928
+#W24($AD1BB)
+//[Clear][Kana]よくがんばったね[N]
+//あなたは[Class]に[N]
+//クラスチェンジできるよ[A]
+//[Clear]クラスチェンジしちゃう?[N]
+//[X]
+//
+//
+// current address: $AD956
+
+//BLOCK #023 NAME:		Intermission Names 1
+#ACTIVETBL(Table_0) // Activate this block's starting TABLE
+
+#JMP($8EE34, $8F03B) // Jump to insertion point
+#HDR($80200) // Difference between ROM and RAM addresses for pointer value calculations
+
+//POINTER #0 @ $8E92F - STRING #0 @ $8EE34
+#W16($8E92F)
+//[Kana]フリージの[Kanji1]<$5C><$4B>[Kana]、ラインハルト[N]
+//[Control]<$82>[N]
+//[N]
+//[Control]<$02>[N]
+//[Control]<$84>[N]
+//[X]
+//
+//
+// current address: $8EE51
+
+//POINTER #1 @ $8E955 - STRING #1 @ $8EE51
+#W16($8E955)
+//[Kana]フリージの[Kanji1]<$5C><$4B>[Kana]、オーヴォ[N]
+//[Control]<$82>[N]
+//[Clear][Control]<$02>[N]
+//[Control]<$84>[N]
+//[X]
+//
+//
+// current address: $8EE6C
+
+//POINTER #2 @ $8E97B - STRING #2 @ $8EE6C
+#W16($8E97B)
+//[Kana]フリージの[Kanji2]<$CD>[Kanji1]<$5C><$4B>[Kana]、ムハマド [N]
+//[Control]<$82>[N]
+//[Scroll][Control]<$02>[N]
+//[Control]<$84>[N]
+//[X]
+//
+//
+// current address: $8EE8A
+
+//POINTER #3 @ $8E9A1 - STRING #3 @ $8EE8A
+#W16($8E9A1)
+//[Kana][Kanji1]<$3B><$5C><$4B>[Kana]、アリオーン  [N]
+//[Control]<$82>[N]
+//[Kanji5]<$00>[N][N]<$00><$84>[N][X]
+//
+//
+// current address: $8EEA4
+
+//POINTER #4 @ $8E9C7 - STRING #4 @ $8EEA4
+#W16($8E9C7)
+//[Kana]バーハラの[Kanji1]<$9D><$5F>[Kana]、ホメロス [N]
+//[Control]<$82>[N]
+//[Kanji1]<$00>[N][N]<$00><$84>[N][X]
+//
+//
+// current address: $8EEC0
+
+//POINTER #5 @ $8E9ED - STRING #5 @ $8EEC0
+#W16($8E9ED)
+//[Kana][Kanji1]<$5E><$60><$69><$4B>[Kana]、エスリン  [N]
+//[Control]<$82>[N]
+//え[Control]<$02>[N]
+//[Control]<$84>[N]
+//[X]
+//
+//
+// current address: $8EEDA
+
+//POINTER #6 @ $8EA13 - STRING #6 @ $8EEDA
+#W16($8EA13)
+//[Kana]イザークの[Kanji1]<$9D><$60>[Kana]、レイリア  [N]
+//[Control]<$82>[N]
+//く[Control]<$02>[N]
+//[Control]<$84>[N]
+//[X]
+//
+//
+// current address: $8EEF7
+
+//POINTER #7 @ $8EA39 - STRING #7 @ $8EEF7
+#W16($8EA39)
+//[Kana]イザークの[Kanji1]<$8B>[Kanji3]<$79>[Kanji1]<$5C><$4B>[Kana]、フィン [N]
+//[Control]<$82>[N]
+//[TargetBottom][Control]<$02>[N]
+//[Control]<$84>[N]
+//[X]
+//
+//
+// current address: $8EF16
+
+//POINTER #8 @ $8EA5F - STRING #8 @ $8EF16
+#W16($8EA5F)
+//[Kana]ヴェルダンの[Kanji1]<$5E><$5F>[Kana]、ロナン [N]
+//[Control]<$82>[N]
+//[Kanji2]<$00>[N][N]<$00><$84>[N][X]
+//
+//
+// current address: $8EF32
+
+//POINTER #9 @ $8EA85 - STRING #9 @ $8EF32
+#W16($8EA85)
+//[Kana]ユングヴィ[Kanji1]<$5E><$60>[Kana]、エーディン[N]
+//[Control]<$82>[N]
+//う[Control]<$02>[N]
+//[Control]<$84>[N]
+//[X]
+//
+//
+// current address: $8EF4E
+
+//POINTER #10 @ $8EAAB - STRING #10 @ $8EF4E
+#W16($8EAAB)
+//[Kanji2]<$60>[Kanji1]<$5C><$4B>[Kana]、スコピオ   [N]
+//[Control]<$82>[N]
+//[Kanji4]<$00>[N][N]<$00><$84>[N][X]
+//
+//
+// current address: $8EF68
+
+//POINTER #11 @ $8EAD1 - STRING #11 @ $8EF68
+#W16($8EAD1)
+//[Kanji1]<$3E><$4B>[Kana]、オーシン[N]
+//[Control]<$82>[N]
+//[Kana][Control]<$02>[N]
+//[Control]<$84>[N]
+//[X]
+//
+//
+// current address: $8EF7D
+
+//POINTER #12 @ $8EAF7 - STRING #12 @ $8EF7D
+#W16($8EAF7)
+//ケダモノ、アーダン[N]
+//[Control]<$82>[N]
+//[Kanji6]<$00>[N][N]<$00><$84>[N][X]
+//
+//
+// current address: $8EF92
+
+//POINTER #13 @ $8EB1D - STRING #13 @ $8EF92
+#W16($8EB1D)
+//[Kana][Kanji1]<$57><$5C><$4B>[Kana]、エルトシッン  [N]
+//[Control]<$82>[N]
+//[A]
+//[Control]<$02>[N]
+//[Control]<$84>[N]
+//[X]
+//
+//
+// current address: $8EFAD
+
+//POINTER #14 @ $8EB43 - STRING #14 @ $8EFAD
+#W16($8EB43)
+//[Kana]アグストリアの[Kanji1]<$5C><$4B>[Kana]、ラケシス  [N]
+//[Control]<$82>[N]
+//お[Control]<$02>[N]
+//[Control]<$84>[N]
+//[X]
+//
+//
+// current address: $8EFCC
+
+//POINTER #15 @ $8EB69 - STRING #15 @ $8EFCC
+#W16($8EB69)
+//[Kanji1]<$8D>[Kana]の[Kanji2]<$87>[Kanji3]<$25>[Kanji1]<$5C><$4B>[Kana]、ミーシッ[N]
+//[Control]<$82>[N]
+//き[Control]<$02>[N]
+//[Control]<$84>[N]
+//[X]
+//
+//
+// current address: $8EFE9
+
+//POINTER #16 @ $8EB8F - STRING #16 @ $8EFE9
+#W16($8EB8F)
+//[Kana][Kanji1]<$55>[Kanji2]<$5F>[Kanji1]<$5C><$4B>[Kana]、キュアン[N]
+//[Control]<$82>[N]
+//[Kanji3]<$00>[N][N]<$00><$84>[N][X]
+//
+//
+// current address: $8F003
+
+//POINTER #17 @ $8EBB5 - STRING #17 @ $8F003
+#W16($8EBB5)
+//[Kana]エャダの[Kanji1]<$9D><$60>[Kana]、サフィ   [N]
+//[Control]<$82>[N]
+//か[Control]<$02>[N]
+//[Control]<$84>[N]
+//[X]
+//
+//
+// current address: $8F01F
+
+//POINTER #18 @ $8EBDB - STRING #18 @ $8F01F
+#W16($8EBDB)
+//[Kana]イザークの[Kanji1]<$9D><$60>[Kana]、アイラ   [N]
+//[Control]<$82>[N]
+//け[Control]<$02>[N]
+//[Control]<$84>[N]
+//[X]
+//
+//
+// current address: $8F03C
+
+//BLOCK #024 NAME:		Intermission Names 2
+#ACTIVETBL(Table_0) // Activate this block's starting TABLE
+
+#JMP($8EE34, $8F03B) // Jump to insertion point
+#HDR($80200) // Difference between ROM and RAM addresses for pointer value calculations
+
+//POINTER #0 @ $8E65D - STRING #0 @ $8EE34
+#W16($8E65D)
+//[Kana]フリージの[Kanji1]<$5C><$4B>[Kana]、ラインハルト[N]
+//[Control]<$82>[N]
+//[N]
+//[Control]<$02>[N]
+//[Control]<$84>[N]
+//[X]
+//
+//
+// current address: $8EE51
+
+//POINTER #1 @ $8E683 - STRING #1 @ $8EE51
+#W16($8E683)
+//[Kana]フリージの[Kanji1]<$5C><$4B>[Kana]、オーヴォ[N]
+//[Control]<$82>[N]
+//[Clear][Control]<$02>[N]
+//[Control]<$84>[N]
+//[X]
+//
+//
+// current address: $8EE6C
+
+//POINTER #2 @ $8E6A9 - STRING #2 @ $8EE6C
+#W16($8E6A9)
+//[Kana]フリージの[Kanji2]<$CD>[Kanji1]<$5C><$4B>[Kana]、ムハマド [N]
+//[Control]<$82>[N]
+//[Scroll][Control]<$02>[N]
+//[Control]<$84>[N]
+//[X]
+//
+//
+// current address: $8EE8A
+
+//POINTER #3 @ $8E6CF - STRING #3 @ $8EE8A
+#W16($8E6CF)
+//[Kana][Kanji1]<$3B><$5C><$4B>[Kana]、アリオーン  [N]
+//[Control]<$82>[N]
+//[Kanji5]<$00>[N][N]<$00><$84>[N][X]
+//
+//
+// current address: $8EEA4
+
+//POINTER #4 @ $8E6F5 - STRING #4 @ $8EEA4
+#W16($8E6F5)
+//[Kana]バーハラの[Kanji1]<$9D><$5F>[Kana]、ホメロス [N]
+//[Control]<$82>[N]
+//[Kanji1]<$00>[N][N]<$00><$84>[N][X]
+//
+//
+// current address: $8EEC0
+
+//POINTER #5 @ $8E71B - STRING #5 @ $8EEC0
+#W16($8E71B)
+//[Kana][Kanji1]<$5E><$60><$69><$4B>[Kana]、エスリン  [N]
+//[Control]<$82>[N]
+//え[Control]<$02>[N]
+//[Control]<$84>[N]
+//[X]
+//
+//
+// current address: $8EEDA
+
+//POINTER #6 @ $8E741 - STRING #6 @ $8EEDA
+#W16($8E741)
+//[Kana]イザークの[Kanji1]<$9D><$60>[Kana]、レイリア  [N]
+//[Control]<$82>[N]
+//く[Control]<$02>[N]
+//[Control]<$84>[N]
+//[X]
+//
+//
+// current address: $8EEF7
+
+//POINTER #7 @ $8E767 - STRING #7 @ $8EEF7
+#W16($8E767)
+//[Kana]イザークの[Kanji1]<$8B>[Kanji3]<$79>[Kanji1]<$5C><$4B>[Kana]、フィン [N]
+//[Control]<$82>[N]
+//[TargetBottom][Control]<$02>[N]
+//[Control]<$84>[N]
+//[X]
+//
+//
+// current address: $8EF16
+
+//POINTER #8 @ $8E78D - STRING #8 @ $8EF16
+#W16($8E78D)
+//[Kana]ヴェルダンの[Kanji1]<$5E><$5F>[Kana]、ロナン [N]
+//[Control]<$82>[N]
+//[Kanji2]<$00>[N][N]<$00><$84>[N][X]
+//
+//
+// current address: $8EF32
+
+//POINTER #9 @ $8E7B3 - STRING #9 @ $8EF32
+#W16($8E7B3)
+//[Kana]ユングヴィ[Kanji1]<$5E><$60>[Kana]、エーディン[N]
+//[Control]<$82>[N]
+//う[Control]<$02>[N]
+//[Control]<$84>[N]
+//[X]
+//
+//
+// current address: $8EF4E
+
+//POINTER #10 @ $8E7D9 - STRING #10 @ $8EF4E
+#W16($8E7D9)
+//[Kanji2]<$60>[Kanji1]<$5C><$4B>[Kana]、スコピオ   [N]
+//[Control]<$82>[N]
+//[Kanji4]<$00>[N][N]<$00><$84>[N][X]
+//
+//
+// current address: $8EF68
+
+//POINTER #11 @ $8E7FF - STRING #11 @ $8EF68
+#W16($8E7FF)
+//[Kanji1]<$3E><$4B>[Kana]、オーシン[N]
+//[Control]<$82>[N]
+//[Kana][Control]<$02>[N]
+//[Control]<$84>[N]
+//[X]
+//
+//
+// current address: $8EF7D
+
+//POINTER #12 @ $8E825 - STRING #12 @ $8EF7D
+#W16($8E825)
+//ケダモノ、アーダン[N]
+//[Control]<$82>[N]
+//[Kanji6]<$00>[N][N]<$00><$84>[N][X]
+//
+//
+// current address: $8EF92
+
+//POINTER #13 @ $8E84B - STRING #13 @ $8EF92
+#W16($8E84B)
+//[Kana][Kanji1]<$57><$5C><$4B>[Kana]、エルトシッン  [N]
+//[Control]<$82>[N]
+//[A]
+//[Control]<$02>[N]
+//[Control]<$84>[N]
+//[X]
+//
+//
+// current address: $8EFAD
+
+//POINTER #14 @ $8E871 - STRING #14 @ $8EFAD
+#W16($8E871)
+//[Kana]アグストリアの[Kanji1]<$5C><$4B>[Kana]、ラケシス  [N]
+//[Control]<$82>[N]
+//お[Control]<$02>[N]
+//[Control]<$84>[N]
+//[X]
+//
+//
+// current address: $8EFCC
+
+//POINTER #15 @ $8E897 - STRING #15 @ $8EFCC
+#W16($8E897)
+//[Kanji1]<$8D>[Kana]の[Kanji2]<$87>[Kanji3]<$25>[Kanji1]<$5C><$4B>[Kana]、ミーシッ[N]
+//[Control]<$82>[N]
+//き[Control]<$02>[N]
+//[Control]<$84>[N]
+//[X]
+//
+//
+// current address: $8EFE9
+
+//POINTER #16 @ $8E8BD - STRING #16 @ $8EFE9
+#W16($8E8BD)
+//[Kana][Kanji1]<$55>[Kanji2]<$5F>[Kanji1]<$5C><$4B>[Kana]、キュアン[N]
+//[Control]<$82>[N]
+//[Kanji3]<$00>[N][N]<$00><$84>[N][X]
+//
+//
+// current address: $8F003
+
+//POINTER #17 @ $8E8E3 - STRING #17 @ $8F003
+#W16($8E8E3)
+//[Kana]エャダの[Kanji1]<$9D><$60>[Kana]、サフィ   [N]
+//[Control]<$82>[N]
+//か[Control]<$02>[N]
+//[Control]<$84>[N]
+//[X]
+//
+//
+// current address: $8F01F
+
+//POINTER #18 @ $8E909 - STRING #18 @ $8F01F
+#W16($8E909)
+//[Kana]イザークの[Kanji1]<$9D><$60>[Kana]、アイラ   [N]
+//[Control]<$82>[N]
+//け[Control]<$02>[N]
+//[Control]<$84>[N]
+//[X]
+//
+//
+// current address: $8F03C

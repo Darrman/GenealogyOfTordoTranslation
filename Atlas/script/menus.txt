@@ -1106,7 +1106,8 @@ Apostle[X]
 #WRITE(Class, $38D13)
 //マージプリンセス[X]
 //Mage Princess, character limit is too tight for a reasonable abbreviation of "princess"
-MageLady[X]
+//Can't call it mage lady if lady mage is the demoted form...
+MgPrnces[X]
 
 //POINTER #49 @ $38D15 - STRING #49 @ $38EDD
 
@@ -1145,8 +1146,8 @@ FireMage[X]
 
 #WRITE(Class, $38D1F)
 //レディマージ[X]
-//Thunder Mage
-ThunMage[X]
+//Lady Mage
+LadyMage[X]
 
 //POINTER #55 @ $38D21 - STRING #55 @ $3904F
 
@@ -4293,10 +4294,6 @@ Galle[X]
 //ライブリング[X]
 //Life Ring
 Life[X]
-
-//POINTER #107 @ $3DEE8 - STRING #107 @ $3E3F4
-
-Master[X]
 
 //POINTER #108 @ $3DEEA - STRING #108 @ $3E404
 
