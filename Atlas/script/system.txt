@@ -451,7 +451,7 @@ Tyrfing[X]
 //POINTER #22 @ $D962E - STRING #22 @ $D97BA
 #W16($D962E)
 //[Kana]バルムンク[X]
-Balmung
+Balmung[X]
 
 //POINTER #23 @ $D9630 - STRING #23 @ $D97C1
 #W16($D9630)
@@ -1393,7 +1393,7 @@ Mage Prince[X]
 //
 //
 // current address: $D9DA2
- Continue<$C5><$C5><$C5><$C5>[X]
+ Continue<$C5><$C5><$C5><$C5><$C5>[X]
 
 //POINTER #4 @ $D9D6D - STRING #4 @ $D9DA2
 #W16($D9D6D)

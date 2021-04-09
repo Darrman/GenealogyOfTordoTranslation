@@ -2331,7 +2331,7 @@ Mana[X]
 
 #WRITE(Unit, $39EA9)
 //リルケ[X]
-//Kana = Riruke. Likely a Thracia boss I don't remember.
+//Kana = Riruke. He's Kempf, apparently.
 //Gonna make something up for now.
 Riluke[X]
 
@@ -2455,6 +2455,7 @@ Guard[X]
 //POINTER #351 @ $39F17 - STRING #351 @ $3AA81
 
 #WRITE(Unit, $39F17)
+#WRITE(Unit, $3A049)
 //エリンシア[X]
 //Ah, the inexplicable cameo.
 Elincia[X]
@@ -2557,9 +2558,6 @@ Veld[X]
 //ユリア[X]
 Julia[X]
 
-//POINTER #398 @ $39F75 - STRING #398 @ $3A319
-//リーン[X]
-Leen[X]
 
 //POINTER #399 @ $39F77 - STRING #399 @ $3A15F
 
@@ -2768,6 +2766,9 @@ Bleg[X]
 //Here lie the arena enemies. 
 //Lots of these guys are FE references. But not all.
 //I'm probably going to mangle a lot of TRS names.
+//I'm going to trust FE Wiki listings. This may not
+//match the latest translation patch.
+//And since they don't have a Berwick list...
 
 #WRITE(Unit, $3A015)
 //シーダ[X]
@@ -2783,22 +2784,22 @@ Barts[X]
 
 #WRITE(Unit, $3A019)
 //ルゥ[X]
-//Not an FE reference, probably mangled TRS. Henceforth //TRS?
+//Not an FE reference, probably mangled TRS. Henceforth //Berwick?
 Roo[X]
 
 //POINTER #481 @ $3A01B - STRING #481 @ $3AC93
 
 #WRITE(Unit, $3A01B)
 //アデル[X]
-//TRS?
+//Berwick?
 Adele[X]
 
 //POINTER #482 @ $3A01D - STRING #482 @ $3AC9B
 
 #WRITE(Unit, $3A01D)
 //ゼノ[X]
-//TRS?
-Zeno[X]
+//TRS
+Xeno[X]
 
 //POINTER #483 @ $3A01F - STRING #483 @ $3ACA1
 
@@ -2810,7 +2811,7 @@ Kashim[X]
 
 #WRITE(Unit, $3A021)
 //ダウド[X]
-//TRS?
+//Berwick?
 Daud[X]
 
 //POINTER #485 @ $3A023 - STRING #485 @ $3ACB3
@@ -2841,8 +2842,8 @@ Erk[X]
 
 #WRITE(Unit, $3A02B)
 //クライス[X]
-//TRS?
-Kreis[X]
+//TRS
+Kreiss[X]
 
 //POINTER #490 @ $3A02D - STRING #490 @ $3ACE1
 
@@ -2872,14 +2873,14 @@ May[X]
 
 #WRITE(Unit, $3A035)
 //クレイマー[X]
-//TRS?
+//Berwick?
 Kramer[X]
 
 //POINTER #495 @ $3A037 - STRING #495 @ $3AD13
 
 #WRITE(Unit, $3A037)
 //シルウィス[X]
-//TRS?
+//Berwick?
 Sylvis[X]
 
 //POINTER #496 @ $3A039 - STRING #496 @ $3AD71
@@ -2904,14 +2905,14 @@ Robin[X]
 
 #WRITE(Unit, $3A03F)
 //ツイハーク[X]
-//TRS?
+//Berwick?
 Psyhawk[X]
 
 //POINTER #500 @ $3A041 - STRING #500 @ $3AD45
 
 #WRITE(Unit, $3A041)
 //ヨファ[X]
-//TRS?
+//Berwick?
 Yofa[X]
 
 //POINTER #501 @ $3A043 - STRING #501 @ $3AD4D
@@ -2930,14 +2931,8 @@ Nino[X]
 
 #WRITE(Unit, $3A047)
 //ルヴィ[X]
-//TRS?
+//Berwick?
 Ruby[X]
-
-//POINTER #504 @ $3A049 - STRING #504 @ $3AD65
-
-#WRITE(Unit, $3A049)
-//エリンシア[X]
-Elincia[X]
 
 //POINTER #505 @ $3A04B - STRING #505 @ $3AD1F
 
@@ -2962,7 +2957,7 @@ Percival[X]
 #WRITE(Unit, $3A051)
 //シロウ[X]
 //There's a Shiro in Fates, but this long preceded it.
-//TRS?
+//TRS
 Shirou[X]
 
 //POINTER #509 @ $3A053 - STRING #509 @ $3AD95
@@ -2988,7 +2983,7 @@ Leo[X]
 
 #WRITE(Unit, $3A059)
 //エニード[X]
-//TRS?
+//Berwick?
 Enid[X]
 
 //POINTER #513 @ $3A05B - STRING #513 @ $3ADB9
@@ -3046,14 +3041,14 @@ Jill[X]
 
 #WRITE(Unit, $3A06B)
 //レニー[X]
-//TRS?
+//TRS
 Rennie[X]
 
 //POINTER #522 @ $3A06D - STRING #522 @ $3AE11
 
 #WRITE(Unit, $3A06D)
 //リネット[X]
-//TRS?
+//Berwick?
 Lynette[X]
 
 //POINTER #523 @ $3A06F - STRING #523 @ $3ADFB
@@ -3078,7 +3073,7 @@ Lute[X]
 
 #WRITE(Unit, $3A075)
 //ラフィン[X]
-//TRS?
+//TRS
 Raffin[X]
 
 //POINTER #527 @ $3A077 - STRING #527 @ $3AE45
@@ -3097,7 +3092,7 @@ Ryan[X]
 
 #WRITE(Unit, $3A07B)
 //マーセル[X]
-//TRS?
+//Berwick?
 Marcel[X]
 
 //POINTER #530 @ $3A07D - STRING #530 @ $3AE65
@@ -3128,21 +3123,21 @@ Hugh[X]
 
 #WRITE(Unit, $3A085)
 //アルヴィナ[X]
-//TRS?
+//Berwick?
 Alvina[X]
 
 //POINTER #535 @ $3A087 - STRING #535 @ $3AE9D
 
 #WRITE(Unit, $3A087)
 //ヴェガ[X]
-//TRS?
+//TRS
 Vega[X]
 
 //POINTER #536 @ $3A089 - STRING #536 @ $3AEA5
 
 #WRITE(Unit, $3A089)
 //ラケル[X]
-//TRS?
+//TRS
 Raquel[X]
 
 //POINTER #537 @ $3A08B - STRING #537 @ $3AEAD
@@ -3155,8 +3150,8 @@ Sheema[X]
 
 #WRITE(Unit, $3A08D)
 //ティーエ[X]
-//TRS?
-Tye[X]
+//TRS
+Tia[X]
 
 //POINTER #539 @ $3A08F - STRING #539 @ $3AEC1
 
@@ -3174,7 +3169,7 @@ Celica[X]
 
 #WRITE(Unit, $3A093)
 //レオン[X]
-//TRS? No Fates yet.
+//Berwick? No Fates yet.
 Leon[X]
 
 //POINTER #542 @ $3A095 - STRING #542 @ $3AEDF
@@ -3188,7 +3183,7 @@ Chris[X]
 
 #WRITE(Unit, $3A097)
 //ケビン[X]
-//TRS?
+//Berwick?
 Kevin[X]
 
 //POINTER #544 @ $3A099 - STRING #544 @ $3AEF5
@@ -3251,15 +3246,15 @@ George[X]
 
 #WRITE(Unit, $3A0AB)
 //フェイ[X]
-//TRS?
+//Berwick?
 Faye[X]
 
 //POINTER #554 @ $3A0AD - STRING #554 @ $3AF5B
 
 #WRITE(Unit, $3A0AD)
 //メリエル[X]
-//TRS?
-Meriel[X]
+//TRS
+Meriah[X]
 
 //POINTER #555 @ $3A0AF - STRING #555 @ $3AF65
 
@@ -3272,7 +3267,7 @@ Hector[X]
 
 #WRITE(Unit, $3A0B3)
 //ネイファ[X]
-//TRS?
+//Berwick?
 Nayfa[X]
 
 //POINTER #558 @ $3A0B5 - STRING #558 @ $3AF79
@@ -3286,7 +3281,7 @@ Guinvere[X]
 
 #WRITE(Unit, $3A0B7)
 //サザ[X]
-//TRS?
+//Berwick?
 Saza[X]
 
 //POINTER #560 @ $3A0B9 - STRING #560 @ $3AF91
@@ -3305,14 +3300,14 @@ Klein[X]
 
 #WRITE(Unit, $3A0BD)
 //シゲン[X]
-//TRS?
+//TRS
 Shigen[X]
 
 //POINTER #563 @ $3A0BF - STRING #563 @ $3AFAD
 
 #WRITE(Unit, $3A0BF)
 //イストバル[X]
-//TRS?
+//Berwick?
 Estobar[X]
 
 //POINTER #564 @ $3A0C1 - STRING #564 @ $3AFB9
@@ -3326,7 +3321,7 @@ Eliwood[X]
 
 #WRITE(Unit, $3A0C5)
 //デリック[X]
-//TRS?
+//Berwick?
 Derek[X]
 
 //POINTER #567 @ $3A0C7 - STRING #567 @ $3AFDF
@@ -3339,8 +3334,9 @@ Ike[X]
 
 #WRITE(Unit, $3A0C9)
 //サフィア[X]
-//TRS?
-Safia[X]
+//Berwick?
+//Safia[X]
+Sapphire[X]
 
 //POINTER #569 @ $3A0CB - STRING #569 @ $3AFE7
 
