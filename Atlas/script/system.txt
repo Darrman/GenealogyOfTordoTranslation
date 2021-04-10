@@ -2215,406 +2215,244 @@ Anything else?
 #JMP($8EE34, $8F03B) // Jump to insertion point
 #HDR($80200) // Difference between ROM and RAM addresses for pointer value calculations
 
+//So I dumped this stuff. Then I broke the pointers because they were
+//uncommented. So if I'm gonna fix them, better translate too. Loosely.
+//It's just going to be "Reinhardt", not "Knight of Freege: Reinhardt".
+
 //POINTER #0 @ $8E92F - STRING #0 @ $8EE34
 #W16($8E92F)
+#W16($8E65D)
 //[Kana]フリージの[Kanji1]<$5C><$4B>[Kana]、ラインハルト[N]
-//[Control]<$82>[N]
-//[N]
-//[Control]<$02>[N]
-//[Control]<$84>[N]
-//[X]
+[Kana]Reinhardt[N]
+[Control]<$82>[N]
+[N]
+[Control]<$02>[N]
+[Control]<$84>[N]
+[X]
 //
 //
 // current address: $8EE51
 
 //POINTER #1 @ $8E955 - STRING #1 @ $8EE51
 #W16($8E955)
+#W16($8E683)
 //[Kana]フリージの[Kanji1]<$5C><$4B>[Kana]、オーヴォ[N]
-//[Control]<$82>[N]
-//[Clear][Control]<$02>[N]
-//[Control]<$84>[N]
-//[X]
+[Kana]Ovo[N]
+[Control]<$82>[N]
+[Clear][Control]<$02>[N]
+[Control]<$84>[N]
+[X]
 //
 //
 // current address: $8EE6C
 
 //POINTER #2 @ $8E97B - STRING #2 @ $8EE6C
 #W16($8E97B)
+#W16($8E6A9)
 //[Kana]フリージの[Kanji2]<$CD>[Kanji1]<$5C><$4B>[Kana]、ムハマド [N]
-//[Control]<$82>[N]
-//[Scroll][Control]<$02>[N]
-//[Control]<$84>[N]
-//[X]
+[Kana]Muhammed[N]
+[Control]<$82>[N]
+[Scroll][Control]<$02>[N]
+[Control]<$84>[N]
+[X]
 //
 //
 // current address: $8EE8A
 
 //POINTER #3 @ $8E9A1 - STRING #3 @ $8EE8A
 #W16($8E9A1)
+#W16($8E6CF)
 //[Kana][Kanji1]<$3B><$5C><$4B>[Kana]、アリオーン  [N]
-//[Control]<$82>[N]
-//[Kanji5]<$00>[N][N]<$00><$84>[N][X]
+[Kana]Arion[N]
+[Control]<$82>[N]
+[Kanji5]<$00>[N][N]<$00><$84>[N][X]
 //
 //
 // current address: $8EEA4
 
 //POINTER #4 @ $8E9C7 - STRING #4 @ $8EEA4
 #W16($8E9C7)
+#W16($8E6F5)
 //[Kana]バーハラの[Kanji1]<$9D><$5F>[Kana]、ホメロス [N]
-//[Control]<$82>[N]
-//[Kanji1]<$00>[N][N]<$00><$84>[N][X]
+[Kana]Homer[N]
+[Control]<$82>[N]
+[Kanji1]<$00>[N][N]<$00><$84>[N][X]
 //
 //
 // current address: $8EEC0
 
 //POINTER #5 @ $8E9ED - STRING #5 @ $8EEC0
 #W16($8E9ED)
+#W16($8E71B)
 //[Kana][Kanji1]<$5E><$60><$69><$4B>[Kana]、エスリン  [N]
-//[Control]<$82>[N]
-//え[Control]<$02>[N]
-//[Control]<$84>[N]
-//[X]
+[Kana]Ethlin[N]
+[Control]<$82>[N]
+<$13>[Control]<$02>[N]
+[Control]<$84>[N]
+[X]
 //
 //
 // current address: $8EEDA
 
 //POINTER #6 @ $8EA13 - STRING #6 @ $8EEDA
 #W16($8EA13)
+#W16($8E741)
 //[Kana]イザークの[Kanji1]<$9D><$60>[Kana]、レイリア  [N]
-//[Control]<$82>[N]
-//く[Control]<$02>[N]
-//[Control]<$84>[N]
-//[X]
+[Kana]Laylea[N]
+[Control]<$82>[N]
+<$17>[Control]<$02>[N]
+[Control]<$84>[N]
+[X]
 //
 //
 // current address: $8EEF7
 
 //POINTER #7 @ $8EA39 - STRING #7 @ $8EEF7
 #W16($8EA39)
+#W16($8E767)
 //[Kana]イザークの[Kanji1]<$8B>[Kanji3]<$79>[Kanji1]<$5C><$4B>[Kana]、フィン [N]
-//[Control]<$82>[N]
-//[TargetBottom][Control]<$02>[N]
-//[Control]<$84>[N]
-//[X]
+[Kana]Fin[N]
+[Control]<$82>[N]
+[TargetBottom][Control]<$02>[N]
+[Control]<$84>[N]
+[X]
 //
 //
 // current address: $8EF16
 
 //POINTER #8 @ $8EA5F - STRING #8 @ $8EF16
 #W16($8EA5F)
+#W16($8E78D)
 //[Kana]ヴェルダンの[Kanji1]<$5E><$5F>[Kana]、ロナン [N]
-//[Control]<$82>[N]
-//[Kanji2]<$00>[N][N]<$00><$84>[N][X]
+[Kana]Ronan[N]
+[Control]<$82>[N]
+[Kanji2]<$00>[N][N]<$00><$84>[N][X]
 //
 //
 // current address: $8EF32
 
 //POINTER #9 @ $8EA85 - STRING #9 @ $8EF32
 #W16($8EA85)
+#W16($8E7B3)
 //[Kana]ユングヴィ[Kanji1]<$5E><$60>[Kana]、エーディン[N]
-//[Control]<$82>[N]
-//う[Control]<$02>[N]
-//[Control]<$84>[N]
-//[X]
+[Kana]Aideen[N]
+[Control]<$82>[N]
+<$12>[Control]<$02>[N]
+[Control]<$84>[N]
+[X]
 //
 //
 // current address: $8EF4E
 
 //POINTER #10 @ $8EAAB - STRING #10 @ $8EF4E
 #W16($8EAAB)
+#W16($8E7D9)
 //[Kanji2]<$60>[Kanji1]<$5C><$4B>[Kana]、スコピオ   [N]
-//[Control]<$82>[N]
-//[Kanji4]<$00>[N][N]<$00><$84>[N][X]
+[Kana]Scorpio[N]
+[Control]<$82>[N]
+[Kanji4]<$00>[N][N]<$00><$84>[N][X]
 //
 //
 // current address: $8EF68
 
 //POINTER #11 @ $8EAD1 - STRING #11 @ $8EF68
 #W16($8EAD1)
+#W16($8E7FF)
 //[Kanji1]<$3E><$4B>[Kana]、オーシン[N]
-//[Control]<$82>[N]
-//[Kana][Control]<$02>[N]
-//[Control]<$84>[N]
-//[X]
+[Kana]Othin[N]
+[Control]<$82>[N]
+[Kana][Control]<$02>[N]
+[Control]<$84>[N]
+[X]
 //
 //
 // current address: $8EF7D
 
 //POINTER #12 @ $8EAF7 - STRING #12 @ $8EF7D
 #W16($8EAF7)
+#W16($8E825)
 //ケダモノ、アーダン[N]
-//[Control]<$82>[N]
-//[Kanji6]<$00>[N][N]<$00><$84>[N][X]
+[Kana]Arden[N]
+[Control]<$82>[N]
+[Kanji6]<$00>[N][N]<$00><$84>[N][X]
 //
 //
 // current address: $8EF92
 
 //POINTER #13 @ $8EB1D - STRING #13 @ $8EF92
 #W16($8EB1D)
+#W16($8E84B)
 //[Kana][Kanji1]<$57><$5C><$4B>[Kana]、エルトシッン  [N]
-//[Control]<$82>[N]
-//[A]
-//[Control]<$02>[N]
-//[Control]<$84>[N]
-//[X]
+[Kana]Eltshan[N]
+[Control]<$82>[N]
+[A]
+[Control]<$02>[N]
+[Control]<$84>[N]
+[X]
 //
 //
 // current address: $8EFAD
 
 //POINTER #14 @ $8EB43 - STRING #14 @ $8EFAD
 #W16($8EB43)
+#W16($8E871)
 //[Kana]アグストリアの[Kanji1]<$5C><$4B>[Kana]、ラケシス  [N]
-//[Control]<$82>[N]
-//お[Control]<$02>[N]
-//[Control]<$84>[N]
-//[X]
+[Kana]Lachesis[N]
+[Control]<$82>[N]
+<$14>[Control]<$02>[N]
+[Control]<$84>[N]
+[X]
 //
 //
 // current address: $8EFCC
 
 //POINTER #15 @ $8EB69 - STRING #15 @ $8EFCC
 #W16($8EB69)
+#W16($8E897)
 //[Kanji1]<$8D>[Kana]の[Kanji2]<$87>[Kanji3]<$25>[Kanji1]<$5C><$4B>[Kana]、ミーシッ[N]
-//[Control]<$82>[N]
-//き[Control]<$02>[N]
-//[Control]<$84>[N]
-//[X]
+[Kana]Misha[N]
+[Control]<$82>[N]
+<$16>[Control]<$02>[N]
+[Control]<$84>[N]
+[X]
 //
 //
 // current address: $8EFE9
 
 //POINTER #16 @ $8EB8F - STRING #16 @ $8EFE9
 #W16($8EB8F)
+#W16($8E8BD)
 //[Kana][Kanji1]<$55>[Kanji2]<$5F>[Kanji1]<$5C><$4B>[Kana]、キュアン[N]
-//[Control]<$82>[N]
-//[Kanji3]<$00>[N][N]<$00><$84>[N][X]
+[Kana]Cuan[N]
+[Control]<$82>[N]
+[Kanji3]<$00>[N][N]<$00><$84>[N][X]
 //
 //
 // current address: $8F003
 
 //POINTER #17 @ $8EBB5 - STRING #17 @ $8F003
 #W16($8EBB5)
+#W16($8E8E3)
 //[Kana]エャダの[Kanji1]<$9D><$60>[Kana]、サフィ   [N]
-//[Control]<$82>[N]
-//か[Control]<$02>[N]
-//[Control]<$84>[N]
-//[X]
+[Kana]Safy[N]
+[Control]<$82>[N]
+<$15>[Control]<$02>[N]
+[Control]<$84>[N]
+[X]
 //
 //
 // current address: $8F01F
 
 //POINTER #18 @ $8EBDB - STRING #18 @ $8F01F
 #W16($8EBDB)
-//[Kana]イザークの[Kanji1]<$9D><$60>[Kana]、アイラ   [N]
-//[Control]<$82>[N]
-//け[Control]<$02>[N]
-//[Control]<$84>[N]
-//[X]
-//
-//
-// current address: $8F03C
-
-//BLOCK #024 NAME:		Intermission Names 2
-#ACTIVETBL(Table_0) // Activate this block's starting TABLE
-
-#JMP($8EE34, $8F03B) // Jump to insertion point
-#HDR($80200) // Difference between ROM and RAM addresses for pointer value calculations
-
-//POINTER #0 @ $8E65D - STRING #0 @ $8EE34
-#W16($8E65D)
-//[Kana]フリージの[Kanji1]<$5C><$4B>[Kana]、ラインハルト[N]
-//[Control]<$82>[N]
-//[N]
-//[Control]<$02>[N]
-//[Control]<$84>[N]
-//[X]
-//
-//
-// current address: $8EE51
-
-//POINTER #1 @ $8E683 - STRING #1 @ $8EE51
-#W16($8E683)
-//[Kana]フリージの[Kanji1]<$5C><$4B>[Kana]、オーヴォ[N]
-//[Control]<$82>[N]
-//[Clear][Control]<$02>[N]
-//[Control]<$84>[N]
-//[X]
-//
-//
-// current address: $8EE6C
-
-//POINTER #2 @ $8E6A9 - STRING #2 @ $8EE6C
-#W16($8E6A9)
-//[Kana]フリージの[Kanji2]<$CD>[Kanji1]<$5C><$4B>[Kana]、ムハマド [N]
-//[Control]<$82>[N]
-//[Scroll][Control]<$02>[N]
-//[Control]<$84>[N]
-//[X]
-//
-//
-// current address: $8EE8A
-
-//POINTER #3 @ $8E6CF - STRING #3 @ $8EE8A
-#W16($8E6CF)
-//[Kana][Kanji1]<$3B><$5C><$4B>[Kana]、アリオーン  [N]
-//[Control]<$82>[N]
-//[Kanji5]<$00>[N][N]<$00><$84>[N][X]
-//
-//
-// current address: $8EEA4
-
-//POINTER #4 @ $8E6F5 - STRING #4 @ $8EEA4
-#W16($8E6F5)
-//[Kana]バーハラの[Kanji1]<$9D><$5F>[Kana]、ホメロス [N]
-//[Control]<$82>[N]
-//[Kanji1]<$00>[N][N]<$00><$84>[N][X]
-//
-//
-// current address: $8EEC0
-
-//POINTER #5 @ $8E71B - STRING #5 @ $8EEC0
-#W16($8E71B)
-//[Kana][Kanji1]<$5E><$60><$69><$4B>[Kana]、エスリン  [N]
-//[Control]<$82>[N]
-//え[Control]<$02>[N]
-//[Control]<$84>[N]
-//[X]
-//
-//
-// current address: $8EEDA
-
-//POINTER #6 @ $8E741 - STRING #6 @ $8EEDA
-#W16($8E741)
-//[Kana]イザークの[Kanji1]<$9D><$60>[Kana]、レイリア  [N]
-//[Control]<$82>[N]
-//く[Control]<$02>[N]
-//[Control]<$84>[N]
-//[X]
-//
-//
-// current address: $8EEF7
-
-//POINTER #7 @ $8E767 - STRING #7 @ $8EEF7
-#W16($8E767)
-//[Kana]イザークの[Kanji1]<$8B>[Kanji3]<$79>[Kanji1]<$5C><$4B>[Kana]、フィン [N]
-//[Control]<$82>[N]
-//[TargetBottom][Control]<$02>[N]
-//[Control]<$84>[N]
-//[X]
-//
-//
-// current address: $8EF16
-
-//POINTER #8 @ $8E78D - STRING #8 @ $8EF16
-#W16($8E78D)
-//[Kana]ヴェルダンの[Kanji1]<$5E><$5F>[Kana]、ロナン [N]
-//[Control]<$82>[N]
-//[Kanji2]<$00>[N][N]<$00><$84>[N][X]
-//
-//
-// current address: $8EF32
-
-//POINTER #9 @ $8E7B3 - STRING #9 @ $8EF32
-#W16($8E7B3)
-//[Kana]ユングヴィ[Kanji1]<$5E><$60>[Kana]、エーディン[N]
-//[Control]<$82>[N]
-//う[Control]<$02>[N]
-//[Control]<$84>[N]
-//[X]
-//
-//
-// current address: $8EF4E
-
-//POINTER #10 @ $8E7D9 - STRING #10 @ $8EF4E
-#W16($8E7D9)
-//[Kanji2]<$60>[Kanji1]<$5C><$4B>[Kana]、スコピオ   [N]
-//[Control]<$82>[N]
-//[Kanji4]<$00>[N][N]<$00><$84>[N][X]
-//
-//
-// current address: $8EF68
-
-//POINTER #11 @ $8E7FF - STRING #11 @ $8EF68
-#W16($8E7FF)
-//[Kanji1]<$3E><$4B>[Kana]、オーシン[N]
-//[Control]<$82>[N]
-//[Kana][Control]<$02>[N]
-//[Control]<$84>[N]
-//[X]
-//
-//
-// current address: $8EF7D
-
-//POINTER #12 @ $8E825 - STRING #12 @ $8EF7D
-#W16($8E825)
-//ケダモノ、アーダン[N]
-//[Control]<$82>[N]
-//[Kanji6]<$00>[N][N]<$00><$84>[N][X]
-//
-//
-// current address: $8EF92
-
-//POINTER #13 @ $8E84B - STRING #13 @ $8EF92
-#W16($8E84B)
-//[Kana][Kanji1]<$57><$5C><$4B>[Kana]、エルトシッン  [N]
-//[Control]<$82>[N]
-//[A]
-//[Control]<$02>[N]
-//[Control]<$84>[N]
-//[X]
-//
-//
-// current address: $8EFAD
-
-//POINTER #14 @ $8E871 - STRING #14 @ $8EFAD
-#W16($8E871)
-//[Kana]アグストリアの[Kanji1]<$5C><$4B>[Kana]、ラケシス  [N]
-//[Control]<$82>[N]
-//お[Control]<$02>[N]
-//[Control]<$84>[N]
-//[X]
-//
-//
-// current address: $8EFCC
-
-//POINTER #15 @ $8E897 - STRING #15 @ $8EFCC
-#W16($8E897)
-//[Kanji1]<$8D>[Kana]の[Kanji2]<$87>[Kanji3]<$25>[Kanji1]<$5C><$4B>[Kana]、ミーシッ[N]
-//[Control]<$82>[N]
-//き[Control]<$02>[N]
-//[Control]<$84>[N]
-//[X]
-//
-//
-// current address: $8EFE9
-
-//POINTER #16 @ $8E8BD - STRING #16 @ $8EFE9
-#W16($8E8BD)
-//[Kana][Kanji1]<$55>[Kanji2]<$5F>[Kanji1]<$5C><$4B>[Kana]、キュアン[N]
-//[Control]<$82>[N]
-//[Kanji3]<$00>[N][N]<$00><$84>[N][X]
-//
-//
-// current address: $8F003
-
-//POINTER #17 @ $8E8E3 - STRING #17 @ $8F003
-#W16($8E8E3)
-//[Kana]エャダの[Kanji1]<$9D><$60>[Kana]、サフィ   [N]
-//[Control]<$82>[N]
-//か[Control]<$02>[N]
-//[Control]<$84>[N]
-//[X]
-//
-//
-// current address: $8F01F
-
-//POINTER #18 @ $8E909 - STRING #18 @ $8F01F
 #W16($8E909)
 //[Kana]イザークの[Kanji1]<$9D><$60>[Kana]、アイラ   [N]
-//[Control]<$82>[N]
-//け[Control]<$02>[N]
-//[Control]<$84>[N]
-//[X]
+[Kana]Aira[N]
+[Control]<$82>[N]
+<$18>[Control]<$02>[N]
+[Control]<$84>[N]
+[X]
 //
 //
 // current address: $8F03C
+

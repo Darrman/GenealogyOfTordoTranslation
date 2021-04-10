@@ -1,3 +1,4 @@
+00=[Control]
 /01=[X]\n\n
 02=[N]
 03=[Clear]
@@ -6,6 +7,13 @@
 06=[TargetTop]
 07=[TargetBottom]
 08=[A]
+09=[Kana]
+0A=[Kanji1]
+0B=[Kanji2]
+0C=[Kanji3]
+0D=[Kanji4]
+0E=[Kanji5]
+0F=[Kanji6]
 0012=[SetSpeed]
 0013=[ChangeMusic]
 0014=[TextSFX]
