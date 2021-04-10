@@ -2188,6 +2188,27 @@ Anything else?
 
 [X]
 
+//In-combat messages
+#JMP($190187, $1901C8)
+#HDR($190200)
+
+//Whatever pointers Twilkitri is giving in the source don't seem to make sense.
+//Still, they seem decently close, and the source can figure out ASMPTR3.
+//This can't, so I'm going in.
+#W16($15EB0E)
+<$00><$27> obtained![N][X]
+
+#W16($15EB3F)
+<$00><$25>G obtained![N][X]
+
+#W16($15EB70)
+<$00><$25>G stolen.[N][X]
+
+#W16($15EBA1)
+<$00><$27> broke.[X]
+//An inexplicable ellipsis appears with the ellipsis.
+//A full stop doesn't have it appear, so that's to be used.
+
 //BLOCK #023 NAME:		Intermission Names 1
 #ACTIVETBL(Table_0) // Activate this block's starting TABLE
 
