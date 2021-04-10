@@ -1449,7 +1449,7 @@ No<$C5><$C5><$C5>[X]
 //
 //
 // current address: $D9DF6
-<$C5><$C5><$C5><$C5><$C5><$C5><$C5><$C5><$C5>No Data<$C5><$C5><$C5><$C5><$C5><$C5><$C5>[X]
+<$C5><$C5><$C5><$C5><$C5><$C5><$C5><$C5>- No Data -<$C5><$C5><$C5><$C5><$C5><$C5><$C5><$C5>[X]
 
 //BLOCK #021 NAME:		Chapter Names
 #ACTIVETBL(Table_0) // Activate this block's starting TABLE
@@ -1468,7 +1468,8 @@ No<$C5><$C5><$C5>[X]
 //So all the chapter names are different. Often significantly so.
 //I'll take Reparation's approach of use location name for now.
 //Vanilla name and any hypothetical tweaks will be in comments.
-S.Grandbell[X]
+//Force kana, otherwise the data screen will bug
+<$09>S.Grandbell[X]
 
 //POINTER #1 @ $D9DF8 - STRING #1 @ $D9E17
 #W16($D9DF8)
@@ -1476,7 +1477,7 @@ S.Grandbell[X]
 //Girl of the Spirit Forest
 //"Boy of the Spirit Forest"?
 // current address: $D9E26
-Verdane[X]
+<$09>Verdane[X]
 
 //POINTER #2 @ $D9DFA - STRING #2 @ $D9E26
 #W16($D9DFA)
@@ -1484,7 +1485,7 @@ Verdane[X]
 //Disturbance in Agustria
 //"Disturbance in Jungby"?
 // current address: $D9E32
-S.Agustria[X]
+<$09>S.Agustria[X]
 
 //POINTER #3 @ $D9DFC - STRING #3 @ $D9E32
 #W16($D9DFC)
@@ -1492,7 +1493,7 @@ S.Agustria[X]
 //Lion King Eltshan
 //"Lion Queen Brigid"?
 // current address: $D9E3F
-N.Agustria[X]
+<$09>N.Agustria[X]
 
 //POINTER #4 @ $D9DFE - STRING #4 @ $D9E3F
 #W16($D9DFE)
@@ -1500,7 +1501,7 @@ N.Agustria[X]
 //Dance in the Skies
 //
 // current address: $D9E48
-Silesia[X]
+<$09>Silesia[X]
 
 //POINTER #5 @ $D9E00 - STRING #5 @ $D9E48
 #W16($D9E00)
@@ -1508,7 +1509,7 @@ Silesia[X]
 //Doors of Destiny
 //
 // current address: $D9E51
-WestYied[X]
+<$09>WestYied[X]
 
 //POINTER #6 @ $D9E02 - STRING #6 @ $D9E51
 #W16($D9E02)
@@ -1516,7 +1517,7 @@ WestYied[X]
 //Light Inheritors
 //
 // current address: $D9E5A
-Isaac[X]
+<$09>Isaac[X]
 
 //POINTER #7 @ $D9E04 - STRING #7 @ $D9E5A
 #W16($D9E04)
@@ -1524,7 +1525,7 @@ Isaac[X]
 //Crossing the Desert
 //
 // current address: $D9E63
-EastYied[X]
+<$09>EastYied[X]
 
 //POINTER #8 @ $D9E06 - STRING #8 @ $D9E63
 #W16($D9E06)
@@ -1532,7 +1533,7 @@ EastYied[X]
 //Dragon Knights of Thracia
 //"Axe Knights of Dozel"?
 // current address: $D9E6D
-Manster[X]
+<$09>Manster[X]
 
 //POINTER #9 @ $D9E08 - STRING #9 @ $D9E6D
 #W16($D9E08)
@@ -1540,7 +1541,7 @@ Manster[X]
 //For Whose Sake
 //
 // current address: $D9E76
-Thracia[X]
+<$09>Thracia[X]
 
 //POINTER #10 @ $D9E0A - STRING #10 @ $D9E76
 #W16($D9E0A)
@@ -1548,7 +1549,7 @@ Thracia[X]
 //Light and Dark
 //Kana mention an Indra
 // current address: $D9E7F
-Miletos[X]
+<$09>Miletos[X]
 
 //POINTER #11 @ $D9E0C - STRING #11 @ $D9E7F
 #W16($D9E0C)
@@ -1556,7 +1557,27 @@ Miletos[X]
 //The Final Holy War
 //
 // current address: $D9E88
-Grandbell[X]
+<$09>Grandbell[X]
+
+//Chapter numbers
+
+#JMP($D9E88, $D9EAB)
+
+#W16($11AEAB)
+Pro   [X]
+
+#W16($11AEB7)
+Ch<$09><$30>  [X]
+
+#W16($11AEC3)
+Ch10  [X]
+
+//No idea what this stuff is
+//Probably some string I've overlooked
+<$0B><$84><$09><$EA><$E1><$0B><$77><$01>
+
+#W16($11AECF)
+Final [X]
 
 //BLOCK #022 NAME:		Shop Text
 #ACTIVETBL(Table_0) // Activate this block's starting TABLE
