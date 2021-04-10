@@ -1364,6 +1364,62 @@ Grassrunner[X]
 //[Kana]マージプリンス[X]
 Mage Prince[X]
 
+//Moving some chapter names due to space limits
+
+//POINTER #6 @ $D9E02 - STRING #6 @ $D9E51
+#W16($D9E02)
+//[Kanji4]<$D8>[Kanji1]<$20>[Kanji2]<$18>[Kanji4]<$DB>[X]
+//Light Inheritors
+//lightning-god-light-flash - the literal kanji - Alusq
+//Ishtar's the Goddess of Thunder, so...
+//The Goddess of Thunder Strikes
+// current address: $D9E5A
+<$09>The Goddess Strikes[X]
+
+//POINTER #7 @ $D9E04 - STRING #7 @ $D9E5A
+#W16($D9E04)
+//[Kanji2]<$DE><$DF>[Kana]をこえて[X]
+//Crossing the Desert
+//
+// current address: $D9E63
+<$09>Crossing the Desert[X]
+
+//POINTER #8 @ $D9E06 - STRING #8 @ $D9E63
+#W16($D9E06)
+//[Kanji2]<$79>[Kanji3]<$59>[Kana]のドズル[X]
+//Dragon Knights of Thracia
+//"Axe Knights of Dozel"?
+//"Treasonous Dozel" - Alusq
+// current address: $D9E6D
+<$09>Treasonous Dozel[X]
+
+//POINTER #9 @ $D9E08 - STRING #9 @ $D9E6D
+#W16($D9E08)
+//[Kana]ゆれる[Kanji3]<$70>[Kana]い[X]
+//For Whose Sake
+//"Wavering Memories" - Alusq
+// current address: $D9E76
+<$09>Wavering Memories[X]
+
+//POINTER #10 @ $D9E0A - STRING #10 @ $D9E76
+#W16($D9E0A)
+//[Kana]インドラの[Kanji4]<$DF>[X]
+//Light and Dark
+//Kana mention an Indra
+//Arrow of Indra, matches the 3H weapon name
+//IntSys are stealing from hacks again... /s
+// current address: $D9E7F
+<$09>Indra's Arrow[X]
+
+//POINTER #11 @ $D9E0C - STRING #11 @ $D9E7F
+#W16($D9E0C)
+//[Kanji1]<$B5><$BC>[Kana]の[Kanji1]<$2D><$64>[X]
+//The Final Holy War
+//
+// current address: $D9E88
+<$09>The Final Holy War[X]
+
+
 //BLOCK #020 NAME:		Main Menu
 #ACTIVETBL(Table_0) // Activate this block's starting TABLE
 
@@ -1454,7 +1510,7 @@ No<$C5><$C5><$C5>[X]
 //BLOCK #021 NAME:		Chapter Names
 #ACTIVETBL(Table_0) // Activate this block's starting TABLE
 
-#JMP($D9E0E, $D9E87) // Jump to insertion point
+#JMP($D9E0E, $D9EAB) // Jump to insertion point
 #HDR($D0200) // Difference between ROM and RAM addresses for pointer value calculations
 
 //POINTER #0 @ $D9DF6 - STRING #0 @ $D9E0E
@@ -1465,11 +1521,12 @@ No<$C5><$C5><$C5>[X]
 // current address: $D9E17
 //Birth of the Holy Knight
 //"Birth of the Holy Mage"?
-//So all the chapter names are different. Often significantly so.
-//I'll take Reparation's approach of use location name for now.
+//Some of the chapter names are quite different.
+//Thanks to Alusq for giving some translations.
+//As it so happens, the prologue is identical.
 //Vanilla name and any hypothetical tweaks will be in comments.
 //Force kana, otherwise the data screen will bug
-<$09>S.Grandbell[X]
+<$09>Holy Knight's Birth[X]
 
 //POINTER #1 @ $D9DF8 - STRING #1 @ $D9E17
 #W16($D9DF8)
@@ -1477,7 +1534,7 @@ No<$C5><$C5><$C5>[X]
 //Girl of the Spirit Forest
 //"Boy of the Spirit Forest"?
 // current address: $D9E26
-<$09>Verdane[X]
+<$09>Spirit Forest's Boy[X]
 
 //POINTER #2 @ $D9DFA - STRING #2 @ $D9E26
 #W16($D9DFA)
@@ -1485,23 +1542,25 @@ No<$C5><$C5><$C5>[X]
 //Disturbance in Agustria
 //"Disturbance in Jungby"?
 // current address: $D9E32
-<$09>S.Agustria[X]
+<$09>Disturb. in Jungby[X]
 
 //POINTER #3 @ $D9DFC - STRING #3 @ $D9E32
 #W16($D9DFC)
 //[Kanji1]<$2D>[Kanji2]<$60>[Kana]のブリギャド [X]
 //Lion King Eltshan
 //"Lion Queen Brigid"?
+//"Brigid of the Holy Bow" - Alusq
+//A bit awkward, let's go for a name drop
 // current address: $D9E3F
-<$09>N.Agustria[X]
+<$09>Brigid of Ichival[X]
 
 //POINTER #4 @ $D9DFE - STRING #4 @ $D9E3F
 #W16($D9DFE)
 //[Kanji4]<$7F>[Kanji2]<$87><$57>[Kanji4]<$69>[Kana][X]
 //Dance in the Skies
-//
+//Different kanji but it didn't change at all - Alusq
 // current address: $D9E48
-<$09>Silesia[X]
+<$09>Dance in the Skies[X]
 
 //POINTER #5 @ $D9E00 - STRING #5 @ $D9E48
 #W16($D9E00)
@@ -1509,72 +1568,23 @@ No<$C5><$C5><$C5>[X]
 //Doors of Destiny
 //
 // current address: $D9E51
-<$09>WestYied[X]
-
-//POINTER #6 @ $D9E02 - STRING #6 @ $D9E51
-#W16($D9E02)
-//[Kanji4]<$D8>[Kanji1]<$20>[Kanji2]<$18>[Kanji4]<$DB>[X]
-//Light Inheritors
-//
-// current address: $D9E5A
-<$09>Isaac[X]
-
-//POINTER #7 @ $D9E04 - STRING #7 @ $D9E5A
-#W16($D9E04)
-//[Kanji2]<$DE><$DF>[Kana]をこえて[X]
-//Crossing the Desert
-//
-// current address: $D9E63
-<$09>EastYied[X]
-
-//POINTER #8 @ $D9E06 - STRING #8 @ $D9E63
-#W16($D9E06)
-//[Kanji2]<$79>[Kanji3]<$59>[Kana]のドズル[X]
-//Dragon Knights of Thracia
-//"Axe Knights of Dozel"?
-// current address: $D9E6D
-<$09>Manster[X]
-
-//POINTER #9 @ $D9E08 - STRING #9 @ $D9E6D
-#W16($D9E08)
-//[Kana]ゆれる[Kanji3]<$70>[Kana]い[X]
-//For Whose Sake
-//
-// current address: $D9E76
-<$09>Thracia[X]
-
-//POINTER #10 @ $D9E0A - STRING #10 @ $D9E76
-#W16($D9E0A)
-//[Kana]インドラの[Kanji4]<$DF>[X]
-//Light and Dark
-//Kana mention an Indra
-// current address: $D9E7F
-<$09>Miletos[X]
-
-//POINTER #11 @ $D9E0C - STRING #11 @ $D9E7F
-#W16($D9E0C)
-//[Kanji1]<$B5><$BC>[Kana]の[Kanji1]<$2D><$64>[X]
-//The Final Holy War
-//
-// current address: $D9E88
-<$09>Grandbell[X]
+<$09>Doors of Destiny[X]
 
 //Chapter numbers
 
-#JMP($D9E88, $D9EAB)
-
 #W16($11AEAB)
-Pro   [X]
+Pro<$C5>[X]
 
 #W16($11AEB7)
-Ch<$09><$30>  [X]
+Ch<$09><$30><$C5>[X]
 
 #W16($11AEC3)
-Ch10  [X]
+Ch10<$C5>[X]
 
 //No idea what this stuff is
 //Probably some string I've overlooked
-<$0B><$84><$09><$EA><$E1><$0B><$77><$01>
+//Doesn't seem to be used?
+//<$0B><$84><$09><$EA><$E1><$0B><$77><$01>
 
 #W16($11AECF)
 Final [X]
