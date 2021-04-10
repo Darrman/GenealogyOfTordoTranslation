@@ -65,23 +65,23 @@ $2F441A (Return)
 $2F4524 (Restore)
 $2F4E33 (Sleep)
 $2F5939 (Berserk)
-$2F6971 H
-$2F6B8D H
+$2F6971 ?
+$2F6B8D ?
 $2F7142 (Fire/Elfire)
 $30033D (Bolganone)
-$301560 H
+$301560 ?
 $301BF4 (Falaflame)
 $302466 (Meteor 1)
-$3031C1 H
+$3031C1 ?
 $303C1C (Meteor 2)
 $3048BF (Meteor 3)
 $307AE5 Resire
 $311486 Aura
 $312B72 Holsety
-$314BC5 Wind ‚Q
+$314BC5 Wind 2
 $315310 Elwind
 $3161DD Tornado
-$316E14 Sleep ‚Q
+$316E14 Sleep 2
 $317276 Blizzard
 $31738D Falaflame
 $31791D Meteor 4
@@ -89,11 +89,11 @@ $320283 Elthunder
 $321281 Elthunder 2
 $321A30 Thoron
 $322B2F Thunder
-$323080 Thunder ‚Q
-$3234C0 Thoron‚Q
-$323D79 Thoron‚R
-$324A7B Thoron‚S
-$325489 Elthunder‚S
+$323080 Thunder 2
+$3234C0 Thoron 2
+$323D79 Thoron 3
+$324A7B Thoron 4
+$325489 Elthunder 4
 $3264AC Lightning
 $3278E0 Holsety (map)
 $328072 Lightning 2
@@ -131,6 +131,8 @@ $17F56A:_Ší‚ª‰ñ“]‚µ‚Ä‚¢‚é‚Ì”g‘Å‚Â”wŒiH
 $17F58E:_Ší‚ª‰ñ“]‚µ‚Ä‚¢‚é‚Ì^‚ñ’†‚Ì‘ä
 $17F5C2:ƒ^ƒCƒgƒ‹
 $17F5CD:ƒ^ƒCƒgƒ‹”w–ÊiŠø‚ÆŒ•j
+
+$2028FF: Palette for "Genealogy of the Holy War" - title
 
 I'm just going to tack any title card rambling here.
 Ch1's tile arrangement uses 0x67 and 0x87 for the 1.

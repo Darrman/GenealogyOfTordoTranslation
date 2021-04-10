@@ -681,7 +681,7 @@ Thunder[X]
 //POINTER #68 @ $D968A - STRING #68 @ $D98E6
 #W16($D968A)
 //[Kana]ダイムサンダ[X]
-DimeThundr[X]
+DimeThunder[X]
 
 //POINTER #69 @ $D968C - STRING #69 @ $D98EE
 #W16($D968C)
@@ -776,7 +776,7 @@ Rexbolt[X]
 //POINTER #87 @ $D96B0 - STRING #87 @ $D9974
 #W16($D96B0)
 //[Kana]グラフカリバー[X]
-Grafcalbur[X]
+Grafcalibur[X]
 
 //POINTER #88 @ $D96B2 - STRING #88 @ $D997D
 #W16($D96B2)
